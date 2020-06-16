@@ -36,7 +36,7 @@ mv_pages = []
 start_time = time()
 nb_requests = 0
 years_url = scrap.years_loop(3)
-pages = scrap.nb_page(5)
+pages = scrap.nb_page(3)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -59,13 +59,13 @@ for year_url in years_url:
         # Pause the loop
         # sleep(randint(8,15))
         
-        nb_requests += 1
+        #nb_requests += 1
         
         # Monitor the requests :    
-        scrap.monitor_request(nb_requests)
+        #scrap.monitor_request(nb_requests)
 
         # Throw a warning for non-200 status codes
-        scrap.warning_request(response, nb_requests)
+        #scrap.warning_request(response, nb_requests)
 
         # Break the loop if the number of requests is greater than expected
         #if nb_requests > 2:
@@ -97,9 +97,12 @@ import pandas as pd
 
 movie_ratings.to_csv('movie_ratings3.csv')
 
-test = movie_ratings.drop(["mv_pages"],axis=1)
+movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+movie_ratings = movie_ratings.drop(["category"],axis=1)
+movie_ratings = movie_ratings.set_index('movie')
 
-test = movie_ratings.set_index('movie')
+print(movie_ratings.info())
+print(movie_ratings.describe())
 
 #scikit-learn
 import sklearn
@@ -108,7 +111,7 @@ from sklearn.preprocessing import StandardScaler
 #instanciation
 sc = StandardScaler()
 #transformation – centrage-réduction
-Z = sc.fit_transform(test)
+Z = sc.fit_transform(movie_ratings)
 print(Z)
 
 

@@ -31,10 +31,6 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
         'mv_page':mv_pages
     })
     
-    print(movie_ratings.info())
-    
-    movie_ratings.head(10)
-    
     movie_ratings.loc[:, 'year'] = movie_ratings['year'].str[-5:-1].astype(int)
     
     movie_ratings['n_imdb'] = movie_ratings['imdb_ratings'] * 10
