@@ -4,34 +4,78 @@ Created on Sun Jun 14 15:49:34 2020
 @author: Jules
 """
 
+from warnings import warn
 import bs4
-from time import sleep
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from bs4 import BeautifulSoup
 import requests
+import seaborn as sns; sns.set(style="ticks", color_codes=True)
+def extraction_movie_data_from_link(link):
+    '''
+    Get some information from a movie link
+
+    :param link http url: http url that point to the movie
+    :return String list genres: list of the given movie genre
+    :return int runtime: the given movie runtime in minutes
+    :return int budget: the given movie budget
+    :return int gross: the given movie worldwilde Gross
+
+    '''
+
+    genres = []
+
+    page_link = "f'"+str(link)+"'"
+    response = requests.get(page_link)
+    html = bs4.BeautifulSoup(response.text, 'html.parser')
+
+    #fin the movie title and the released date
+    title = html.find('div', class_='title_wrapper')
+    film_titre_date = title.h1.text
+    #return(film_titre_date)
+
+    if html.find('div', id='titleAwardsRanks') is not None:
+        inline = html.find('h4', class_='inline').text
+
+    #find the movie genres
+    sub = html.find('div', class_="subtext")
+    for balise in sub.find_all('a'):
+        href = balise.get('href')
+        if href != "/title/tt7286456/releaseinfo":
+            genres.append(balise.text)
+
+    for div in html.find_all('div', class_="txt-block"):
+        if div.find('h4', class_='inline') is not None:
+            inline = div.find('h4', class_='inline').text
+
+            #find the runtime in minutes
+            if inline == "Runtime:":
+                runtime = div.text[9:]
+                runtime = int(runtime[:-5])
+
+            # find the movie budget
+            if inline == "Budget:":
+                budget = div.text[9:]
+                if div.find('span', class_="attribute") is not None:
+                    budget = budget[:11]
+                budget = int(budget.replace(',', ''))
+
+            # find the movie worldwide gross
+            if inline == "Cumulative Worldwide Gross:":
+                gross = div.text[30:]
+                if div.find('span', class_="attribute") is not None:
+                    gross = gross[:10]
+                gross = int(gross.replace(',', ''))
+
+    return genres, runtime, budget, gross
 
 
-#wd = webdriver.Chrome(r"C:\Users\Alex\Documents\chromedriver_win32\chromedriver")
 
-#driver = wd.get(f"http://www.allocine.fr/film/meilleurs/boxoffice/")
-#sleep(3)
-#response = requests.get(driver)
-#print(response)
-#html = BeautifulSoup(response.text, 'html.parser')
+def warning_request(response, nb_requests):
+    '''
+    Throw a warning for any status codes different than 200
 
-page_link = f'http://www.allocine.fr/film/meilleurs/boxoffice/'
-response = requests.get(page_link)
-html = bs4.BeautifulSoup(response.text, 'html.parser')
+    :param string response:
+    :return: void
+    :rtype: None
 
-tab = []
-liens = []
-tab = html.find_all('a', attrs={'class': 'meta-title-link'})
-for titre in tab:
-    liens.append(titre.get('href'))
-print(liens)
-#link = driver.find_element_by_link_text("Titanic")
-#link.click()
-
-
-#wd.close()
+    '''
+    if response.status_code != 200:
+        warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
