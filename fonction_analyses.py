@@ -39,8 +39,6 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
     
     movie_ratings['n_imdb'] = movie_ratings['imdb'] * 10
     
-    3
-    
     print(movie_ratings.head(10))
     
     return movie_ratings
