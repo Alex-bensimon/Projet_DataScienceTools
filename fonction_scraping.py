@@ -30,35 +30,50 @@ def extraction_data(mv_containers):
     years = []
     imdb_ratings = []
     metascores = []
-    votes = []    
+    votes = [] 
+    categories = []
          
 # For every movie of these 50
     for container in mv_containers:
         # If the movie has a Metascore, then:
         if container.find('div', class_ = 'ratings-metascore') is not None:
-    
-            # Scrape the name
-            name = container.h3.a.text
-            names.append(name)
-    
-            # Scrape the year
-            year = container.h3.find('span', class_ = 'lister-item-year').text
-            years.append(year)
-    
-            # Scrape the IMDB rating
-            imdb = float(container.strong.text)
-            imdb_ratings.append(imdb)
-    
-            # Scrape the Metascore
-            m_score = container.find('span', class_ = 'metascore').text
-            metascores.append(int(m_score))
-    
-            # Scrape the number of votes
-            vote = container.find('span', attrs = {'name':'nv'})['data-value']
-            votes.append(int(vote))
+            
+            #Scrape the category and verify if it's a movie
+            category = container.p.find('span', class_='certificate').text
+            if category == 'R':
+                categories.append(category)
+                
+                # Scrape the name
+                name = container.h3.a.text
+                names.append(name)
+        
+                # Scrape the year
+                year = container.h3.find('span', class_ = 'lister-item-year').text
+                years.append(year)
+        
+                # Scrape the IMDB rating
+                imdb = float(container.strong.text)
+                imdb_ratings.append(imdb)
+        
+                # Scrape the Metascore
+                m_score = container.find('span', class_ = 'metascore').text
+                metascores.append(int(m_score))
+        
+                # Scrape the number of votes
+                vote = container.find('span', attrs = {'name':'nv'})['data-value']
+                votes.append(int(vote))
+                
+            else :
+                pass
+            
+            # category = container.p.find('span', class_='certificate').text
+            # categories.append(category)
+            
+
+        
 
 
-    return names, years, imdb_ratings, metascores, votes
+    return names, years, imdb_ratings, metascores, votes, categories
 
 
 def monitor_request(nb_requests):
