@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jun 14 15:49:34 2020
-@author: Alex
+@author: Jules
 """
 
 import bs4
