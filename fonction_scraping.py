@@ -11,7 +11,7 @@ from warnings import warn
 from time import time
 start_time = time()
 
-def extraction_data(mv_containers): 
+def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages): 
         
     '''
     Cleaning of the data contained in the container and then upload in their respective list
@@ -25,16 +25,8 @@ def extraction_data(mv_containers):
     :rtype: listes
     
     '''
-
-    names = []
-    years = []
-    imdb_ratings = []
-    metascores = []
-    votes = [] 
-    categories = []
-    mv_pages = []
     
-    category_film = ['R','PG','PG13']
+    category_film = ['R','PG','PG-13']
 
          
 # For every movie of these 50
@@ -77,6 +69,7 @@ def extraction_data(mv_containers):
     return names, years, imdb_ratings, metascores, votes, categories, mv_pages
 
 
+
 def monitor_request(nb_requests):
     '''
     Monitor of the request time for debugging and control
@@ -102,4 +95,38 @@ def warning_request(response,nb_requests):
     if response.status_code != 200:
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
 
-  
+def years_loop(nb_years):
+    """
+    Return the period that we want to get the films
+
+    :param int nb_years:
+    :return list period: the period with all years
+    :rtype: list of int
+    """
+    year = 2020
+    i = 0
+    period = []
+    for i in range(nb_years):
+        period.append(year)
+        year = year - 1
+
+    return period
+
+
+def nb_page(number):
+    """
+    Return the number of page.s to get
+
+    :param int number:
+    :return list nb_page: a list of numbers
+    :rtype: list of int
+    """
+    i = 0
+    page = 1
+    nb_page = []
+    for i in range(number):
+        nb_page.append(page)
+        page += 1
+
+    return nb_page
+
