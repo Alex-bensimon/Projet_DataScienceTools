@@ -7,6 +7,19 @@ Created on Tue Jun 16 11:45:39 2020
 import pandas as pd
 
 def data_frame_netoyage(names,years,imdb_ratings,metascores,votes):
+    '''
+    Create a new dataFrame with all the inforamtion about the movie from the scraping
+    
+    :param1 list names: list of the name film
+    :param2 list years: list of the year film
+    :param3 list imdb_ratings: list of score given by imdb for the movie
+    :param4 list metascores: liste of metascores of the given film
+    :param5 list votes : list of number of votes by movie 
+    :return: A pandas Dataframe 
+    :rtype: listes
+    
+    '''
+    
     
     movie_ratings = pd.DataFrame({
         'movie': names,
