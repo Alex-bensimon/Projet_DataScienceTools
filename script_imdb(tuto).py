@@ -85,8 +85,7 @@ for year_url in years_url:
         # Create Data Frame :
         
 movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages)
-test = movie_ratings.drop(["mv_pages"],axis=1)
-print(test.describe())
+
   
 
 #%%
@@ -96,10 +95,21 @@ print(test.describe())
 import numpy as np 
 import pandas as pd
 
-
-movie_ratings.drop(["mv_pages"],axis=1)
-
 movie_ratings.to_csv('movie_ratings3.csv')
+
+test = movie_ratings.drop(["mv_pages"],axis=1)
+
+test = movie_ratings.set_index('movie')
+
+#scikit-learn
+import sklearn
+#classe pour standardisation
+from sklearn.preprocessing import StandardScaler
+#instanciation
+sc = StandardScaler()
+#transformation – centrage-réduction
+Z = sc.fit_transform(test)
+print(Z)
 
 
 

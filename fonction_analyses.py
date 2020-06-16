@@ -41,5 +41,7 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
     
     print(movie_ratings.head(10))
     
+    
+    
     return movie_ratings
 
