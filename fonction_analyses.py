@@ -15,8 +15,8 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes):
     :param3 list imdb_ratings: list of score given by imdb for the movie
     :param4 list metascores: liste of metascores of the given film
     :param5 list votes : list of number of votes by movie 
-    :return: A pandas Dataframe 
-    :rtype: listes
+    :return: A pandas Dataframe with all the informations about the movies
+    :rtype: pandas.dataframe
     
     '''
     
