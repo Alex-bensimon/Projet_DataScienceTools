@@ -23,7 +23,6 @@ import matplotlib.pyplot as plt
 #%%
 
 # Tabs 
-
 names = []
 years = []
 imdb_ratings = []
@@ -31,6 +30,7 @@ metascores = []
 votes = [] 
 categories = []
 mv_pages = []
+    
     
 # Preparing the monitoring of the loop
 start_time = time()

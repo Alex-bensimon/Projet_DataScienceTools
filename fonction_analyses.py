@@ -24,11 +24,11 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
     movie_ratings = pd.DataFrame({
         'movie': names,
         'year': years,
-        'imdb': imdb_ratings,
+        'imdb_ratings': imdb_ratings,
         'metascore': metascores,
         'votes': votes,
-        'categories':categories,
-        'mv_pages':mv_pages
+        'category':categories,
+        'mv_page':mv_pages
     })
     
     print(movie_ratings.info())
@@ -37,7 +37,7 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
     
     movie_ratings.loc[:, 'year'] = movie_ratings['year'].str[-5:-1].astype(int)
     
-    movie_ratings['n_imdb'] = movie_ratings['imdb'] * 10
+    movie_ratings['n_imdb'] = movie_ratings['imdb_ratings'] * 10
     
     print(movie_ratings.head(10))
     
