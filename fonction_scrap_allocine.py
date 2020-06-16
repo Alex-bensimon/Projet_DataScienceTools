@@ -1,7 +1,6 @@
-
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 16 09:34:46 2020
+Created on Tue Jun 16 18:34:46 2020
 
 @author: Victor HENRIO
 """
@@ -25,26 +24,34 @@ def extraction_data(mv_containers):
     :rtype: listes
     
     '''
+####################################################
+####################################################
 
-    names = []
-    years = []
-    imdb_ratings = []
-    metascores = []
-    votes = [] 
-    categories = []
-    mv_pages = []
-    
-    category_film = ['R','PG','PG13']
+#VERSION IMDB A CHANGER POUR ALLOCINE 
 
+####################################################
+####################################################    
+      
+    titre = []
+    nb_entrees = []
+    date_sortie = []
+    genre = []
+    duree = []
+    note_spect = []
+    note_presse = []
+    realisateur = []
+    acteurs_principaux = []
+    classement = []
+    n = []
          
 # For every movie of these 50
     for container in mv_containers:
         # If the movie has a Metascore, then:
         if container.find('div', class_ = 'ratings-metascore') is not None:
             
-            #Scrape the category and verify if it's a movie (movie type and parental guidancee: R, PG, PG13)
+            #Scrape the category and verify if it's a movie
             category = container.p.find('span', class_='certificate').text
-            if category_film.count(category)>0 :
+            if category == 'R':
                 categories.append(category)
                 
                 # Scrape the name
@@ -67,14 +74,17 @@ def extraction_data(mv_containers):
                 vote = container.find('span', attrs = {'name':'nv'})['data-value']
                 votes.append(int(vote))
                 
-                # Scrap the URL of the movie page
-                mv_page = container.h3.find('a').get('href')
-                url = "https://imdb.com" + str(mv_page)
-                mv_pages.append(url)
-                
             else :
-                pass      
-    return names, years, imdb_ratings, metascores, votes, categories, mv_pages
+                pass
+            
+            # category = container.p.find('span', class_='certificate').text
+            # categories.append(category)
+            
+
+        
+
+
+    return names, years, imdb_ratings, metascores, votes, categories
 
 
 def monitor_request(nb_requests):

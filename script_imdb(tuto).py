@@ -71,13 +71,13 @@ for _ in range(5):
             mv_containers = page_html.find_all('div', class_ = 'lister-item mode-advanced')
     
             #Take the information from the containers
-            names, years, imdb_ratings, metascores, votes, categories = scrap.extraction_data(mv_containers)
+            names, years, imdb_ratings, metascores, votes, categories, mv_pages = scrap.extraction_data(mv_containers)
             
                 
 
         # Create Data Frame :
         
-movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories)
+movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages)
 
   
 
@@ -87,6 +87,12 @@ movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,vo
 
 import numpy as np 
 import pandas as pd
+
+
+movie_ratings.drop(["mv_pages"],axis=1)
+
+movie_ratings.to_csv('movie_ratings3.csv')
+
 
 
 
