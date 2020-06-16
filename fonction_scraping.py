@@ -63,7 +63,7 @@ def extraction_data(mv_containers):
 
 def monitor_request(nb_requests):
     '''
-    monitor of the request time for debugging and control
+    Monitor of the request time for debugging and control
     
     :param int requests: number of request which be put in the message
     :return: void
