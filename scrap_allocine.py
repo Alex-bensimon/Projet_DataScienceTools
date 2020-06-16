@@ -69,7 +69,7 @@ for i in range(10):
 df = pd.DataFrame({'Titre ':titre,'Date de sortie':date,
                         'Nombre entrées':nb_e,'Note presse':np,
                         'Note spect':ns})
-print(note)
+print(note.text)
 #print(df)
 print(df.describe())
 

@@ -16,8 +16,7 @@ import pandas as pd
 
 page_link = f'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
 response = requests.get(page_link)
-#html = BeautifulSoup(response.text, 'html.parser')
-html = BeautifulSoup(response.text, 'lxml')
+html = BeautifulSoup(response.text, 'html.parser')
 
 rows = [] 
 rows.append(['Null', 'Lien','Note', 'Note2','Null2'])
