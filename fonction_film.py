@@ -14,16 +14,12 @@ import fonction_scraping as scrap
 def extraction_movie_data_from_link(link, mv_attributs):
     '''
     Get some information from a movie link
-    :param link http url: http url that point to the movie
-    :return String list genres: list of the given movie genre
-    :return String list stars: list of the given movie stars
-    :return int rank: the given movie rank in IMDB
-    :return int nb_oscar: the number of oscars won by the movie
-    :return int win: the number of nomination wins
-    :return int nom: the number of nominations
-    :return int runtime: the given movie runtime in minutes
-    :return int budget: the given movie budget
-    :return int gross: the given movie worldwilde Gross
+    
+    :param1 String link: http url that point to the movie
+    :param2 tupe mv_attributs : tupe of all the data frome movies
+    :return tupe mv_attributs: tupe of all the data frome movies
+    :rtype: tupe of list
+
     '''
 
 

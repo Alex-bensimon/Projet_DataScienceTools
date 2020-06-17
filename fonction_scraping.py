@@ -18,13 +18,10 @@ def extraction_data(mv_containers , mv_attributs):
     '''
     Cleaning of the data contained in the container and then upload in their respective list
 
-    :param mv_container string: contains all the informations of a film present in the container
-    :return list names: list of the name film
-    :return list years: list of the year film
-    :return list imdb_ratings: list of score given by imdb for the movie
-    :return list metascores: liste of metascores of the given film
-    :return list votes : list of number of votes by movie
-    :rtype: listes
+    :param string mv_container : contains all the informations of a film present in the container
+    :param tupe mv_attributs : contains all the informations of a film present in the container
+    :return tupe mv_attributs: tupe of all the data frome movies
+    :rtype: tupe of list
 
     '''
     

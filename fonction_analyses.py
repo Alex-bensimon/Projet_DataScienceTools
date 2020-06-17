@@ -12,11 +12,7 @@ def data_frame_netoyage(mv_attributs):
     '''
     Create a new dataFrame with all the inforamtion about the movie from the scraping
 
-    :param1 list names: list of the name film
-    :param2 list years: list of the year film
-    :param3 list imdb_ratings: list of score given by imdb for the movie
-    :param4 list metascores: liste of metascores of the given film
-    :param5 list votes : list of number of votes by movie
+    :param tupe mv_attributs: tupe of all the data frome movies
     :return: A pandas Dataframe with all the informations about the movies
     :rtype: pandas.dataframe
 
@@ -48,6 +44,9 @@ def data_frame_netoyage(mv_attributs):
 
 
 def delete_nan(movie_ratings):
+    '''
+    '''
+
     i = 0
     for note in movie_ratings.itertuples():
         test = math.isnan(float(note.n_imdb))
@@ -59,6 +58,8 @@ def delete_nan(movie_ratings):
 
 
 def replace_metascore(movie_ratings):
+    '''
+    '''
     i = 0
     for note in movie_ratings.itertuples():
         test = math.isnan(float(note.metascore))
@@ -71,6 +72,8 @@ def replace_metascore(movie_ratings):
 
 
 def clean_dataframe(movie_ratings):
+    '''
+    '''
     
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["imdb_ratings"],axis=1)
