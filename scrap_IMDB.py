@@ -1,6 +1,5 @@
 """
 Created on Sun Jun 14 14:43:49 2020
-
 @author: Alex
 """
 import bs4
@@ -18,7 +17,7 @@ page_link = f'https://www.imdb.com/chart/top/?ref_=nv_mv_250'
 response = requests.get(page_link)
 html = BeautifulSoup(response.text, 'html.parser')
 
-rows = [] 
+rows = []
 rows.append(['Null', 'Lien','Note', 'Note2','Null2'])
 print(rows)
 
@@ -60,12 +59,10 @@ print(df2.describe())
 
 '''
     Extract book links from URL_BOOK_LISTE
-
     :param root_html: BeautifulSoup Element that contains all books links
     :type book_html: bs4.BeautifulSoup
     :return: List of all book links in the page
     :rtype: list(str)
-
 # TODO Append to books_links all the links refering to Books you may find on this page.
 films_links = []
 # First find all links
@@ -74,8 +71,6 @@ for element in html.find_all('a'):
     ref = html.find('a').get('href')
     if "/title/" in ref:
         films_links.append(ref)
-
-
 url = html.find('a').get('href')
 page = urllib.request.urlopen(url)
 print(url)

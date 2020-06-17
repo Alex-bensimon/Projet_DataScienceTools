@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jun 14 15:49:34 2020
-
 @author: Alex
 """
 
@@ -17,6 +16,14 @@ page_link = f'http://www.allocine.fr/film/meilleurs/boxoffice/'
 response = requests.get(page_link)
 html = bs4.BeautifulSoup(response.text, 'html.parser')
 
+<<<<<<< HEAD
+tab = []
+liens = []
+tab = html.find_all('a', attrs={'class': 'meta-title-link'})
+for titre in tab:
+    liens.append(titre.get('href'))
+print(liens)
+=======
 tab = [] 
 liens = []
 tab = html.find_all('a', attrs={'class': 'meta-title-link'})
@@ -24,3 +31,4 @@ for titre in tab:
     liens.append(titre.get('href'))
 print(liens)
 
+>>>>>>> master

@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jun 16 08:19:10 2020
-
 @author: Victor HENRIO
 """
-#%%
+# %%
 
 import fonction_scraping as scrap
 import fonction_analyses as analy
@@ -19,8 +18,11 @@ from random import randint
 from warnings import warn
 from time import time
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 import requests
+=======
 
+<<<<<<< HEAD
 # Tabs 
 names = []
 years = []
@@ -104,6 +106,7 @@ print(y.shape)
 chi2(X, y)
 print(chi2(X,y))
 
+<<<<<<< HEAD
 selector = SelectKBest(f_classif, k=2)
 selector.fit_transform(X, y)
 
@@ -114,3 +117,5 @@ selector.fit(X, y)
 print(selector.ranking_)
 print(selector.grid_scores_)
 """
+=======
+>>>>>>> master
