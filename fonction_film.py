@@ -24,46 +24,85 @@ def extraction_movie_data_from_link(link):
     response = requests.get(page_link)
     html = bs4.BeautifulSoup(response.text, 'html.parser')
 
-    #fin the movie title and the released date
-    title = html.find('div', class_='title_wrapper')
-    film_titre_date = title.h1.text
-    #return(film_titre_date)
+    # find the movie genres
+    div = html.find('div', class_="subtext")
+    for a in div.find_all('a'):
+        title = a.get('title')
+        #there is a balise title which we do not want
+        if title is None:
+            genres.append(a.text)
 
-    if html.find('div', id='titleAwardsRanks') is not None:
-        inline = html.find('h4', class_='inline').text
+    award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
+    if award is not None:
 
-    #find the movie genres
-    sub = html.find('div', class_="subtext")
-    for balise in sub.find_all('a'):
-        href = balise.get('href')
-        if href != "/title/tt7286456/releaseinfo":
-            genres.append(balise.text)
+        # movie rank
+        if award.find('strong') is not None:
+            strong = award.find('strong')
+            rank = strong.text.translate(
+                {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+            rank = int(rank)
+
+        # oscars, wins and nominations
+        if award.find_all('span', class_="awards-blurb") is not None:
+
+            for span in award.find_all('span', class_="awards-blurb"):
+
+                osc_bool = False
+                # if there is/are oscar/s
+                if span.find('b') is not None:
+                    nb_oscar = span.find('b').text.translate(
+                        {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+                    nb_oscar = int(nb_oscar)
+                    osc_bool = True
+
+                # if there is/are oscar/s
+                elif osc_bool == True:
+                    length = len(span.text)
+                    win = span.text[:length - 24]
+                    win = int(win.translate(
+                        {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+
+                    nom = span.text[32:]
+                    nom = int(nom.translate(
+                        {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+
+                # if not
+                else:
+                    length = len(span.text)
+                    win = span.text[:length - 24]
+                    win = int(win.translate(
+                        {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+
+                    nom = span.text[15:]
+                    nom = int(nom.translate(
+                        {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+
 
     for div in html.find_all('div', class_="txt-block"):
         if div.find('h4', class_='inline') is not None:
             inline = div.find('h4', class_='inline').text
-
-            #find the runtime in minutes
+            # find the runtime in minutes
             if inline == "Runtime:":
-                runtime = div.text[9:]
-                runtime = int(runtime[:-5])
+                runtime = div.find('time')
+                runtime = runtime.text.translate(
+                    {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+                runtime = int(runtime)
 
             # find the movie budget
             if inline == "Budget:":
-                budget = div.text[9:]
-                if div.find('span', class_="attribute") is not None:
-                    budget = budget[:11]
-                budget = int(budget.replace(',', ''))
+                budget = div.text
+                budget = budget.translate(
+                    {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+                budget = int(budget)
 
             # find the movie worldwide gross
             if inline == "Cumulative Worldwide Gross:":
-                gross = div.text[30:]
-                if div.find('span', class_="attribute") is not None:
-                    gross = gross[:10]
-                gross = int(gross.replace(',', ''))
+                gross = div.text
+                gross = gross.translate(
+                    {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+                gross = int(gross)
 
-    return genres, runtime, budget, gross
-
+    return genres,rank,nb_oscar,win,nom,runtime,budget,gross
 
 
 def warning_request(response, nb_requests):

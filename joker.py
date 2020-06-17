@@ -7,7 +7,7 @@ import seaborn as sns; sns.set(style="ticks", color_codes=True)
 
 genres = []
 
-page_link = f'https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1'
+page_link = f'https://www.imdb.com/title/tt0468569/?ref_=hm_fanfav_tt_17_pd_fp1'
 response = requests.get(page_link)
 html = bs4.BeautifulSoup(response.text, 'html.parser')
 
@@ -18,70 +18,101 @@ print(film_titre_date)
 
 
 #find the movie genres
-sub = html.find('div', class_="subtext")
-for balise in sub.find_all('a'):
-    href = balise.get('href')
-    if href != "/title/tt7286456/releaseinfo":
+div = html.find('div', class_="subtext")
+for balise in div.find_all('a'):
+    title = balise.get('title')
+    if title is None:
         genres.append(balise.text)
+
 print(genres)
 
 award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
 if award is not None:
-    print("1")
-    if award.find('a', href="/chart/top?ref_=tt_awd") is not None:
-        print("2")
-        rank = html.find('a', href="/chart/top?ref_=tt_awd").text[18:]
+
+    #movie rank
+    if award.find('strong') is not None:
+        strong = award.find('strong')
+        rank = strong.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+        rank = int(rank)
+        print("rank")
+        print(rank)
+    #oscars, wins and nominations
     if award.find_all('span', class_="awards-blurb") is not None:
-        print("3")
-        nb_span = 1
+
         for span in award.find_all('span', class_="awards-blurb"):
-            if nb_span == 1:
-                nb_oscar = span.text.translate({ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ."})
+
+            nwspan = span.text.translate({ord(c): "" for c in "./\ "})
+            length = len(nwspan)
+            print(length)
+            first_word = nwspan[:length-11]
+            first_word = first_word[2:]
+            print(first_word)
+            osc_bool = False
+
+            #if there is/are oscar/s
+            if span.find('b') is not None:
+                nb_oscar = span.find('b').text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 nb_oscar = int(nb_oscar)
-                nb_span+=1
+                print("nb oscar int")
+                print(nb_oscar)
+                osc_bool = True
+
+            #if there is/are oscar/s
+            elif osc_bool == True:
+                print("Win & Nomination")
+                length = len(span.text)
+                win = span.text[:length-24]
+                print("win")
+                print(win)
+                win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+                print("win int")
+                print(win)
+                nom = span.text[32:]
+                print("nom")
+                print(nom)
+                nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+                print("nom int")
+                print(nom)
+            #if not
             else:
-                print("5")
-                win_nom = span.text.translate(
-                    {ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&."})
-                for i in range(0,len(win_nom)-1):
-
-                    nb_span += 1
-
-
+                length = len(span.text)
+                win = span.text[:length-24]
+                win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+                print("win")
+                print(win)
+                nom = span.text[15:]
+                nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+                print("nom")
+                print(nom)
 #print(rank)
-print(nb_oscar)
-print(win_nom)
-"""
+
+
+
+
 for div in html.find_all('div', class_="txt-block"):
     if div.find('h4', class_='inline') is not None:
         inline = div.find('h4', class_='inline').text
         #find the runtime in minutes
         if inline == "Runtime:":
-            runtime = div.text[9:]
-            runtime = int(runtime[:-5])
+            runtime = div.find('time')
+            runtime = runtime.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+            runtime = int(runtime)
+            print("runtime")
+            print(runtime)
         #find the movie budget
         if inline == "Budget:":
-            budget = div.text[9:]
-            if div.find('span', class_="attribute") is not None:
-                budget = budget[:11]
-            budget = int(budget.replace(',', ''))
+            budget = div.text
+            budget = budget.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+            budget = int(budget)
+            print("Budget")
+            print(budget)
         #find the movie worldwide gross
         if inline == "Cumulative Worldwide Gross:":
-            gross = div.text[30:]
-            if div.find('span', class_="attribute") is not None:
-                gross = gross[:10]
-            gross = int(gross.replace(',',''))
-print(runtime)
-print(budget)
-print(gross)
-replace('\n','').replace('a','').replace('A','').replace('b','').\
-                    replace('B','').replace('c','').replace('C','').replace('d','').\
-                    replace('D','').replace('e','').replace('E','').replace('f','').\
-                    replace('F','').replace('g','').replace('G','').replace('h','').\
-                    replace('H','').replace('i','').replace('I','').replace('j','').\
-                    replace('J','').replace('k','').replace('K','').replace('l','').\
-                    replace('L','').replace('m','').replace('M','').replace('n','').\
-                    replace('N','').replace('o','').replace('O','').replace('N','').\
-                    replace('o','').replace('O','').replace('(','').\
-                    replace(')','').replace('.','')
-"""
+            gross = div.text
+            gross = gross.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+            gross = int(gross)
+            print("Gross")
+            print(gross)
+
+
+
