@@ -4,13 +4,16 @@ Created on Tue Jun 16 09:34:46 2020
 @author: Victor HENRIO
 """
 
+import fonction_film as fctmv
+
 from IPython.core.display import clear_output
 from warnings import warn
 from time import time
 
 start_time = time()
 
-def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages): 
+#def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages): 
+def extraction_data(mv_containers , mv_attributs): 
         
     '''
     Cleaning of the data contained in the container and then upload in their respective list
@@ -32,17 +35,19 @@ def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes,
     for container in mv_containers:
             
         if container.p.find('span', class_='certificate') is not None:
+            
             #Scrape the category and verify if it's a movie (movie type and parental guidancee: R, PG, PG13)
             category = container.p.find('span', class_='certificate').text
             if category_film.count(category)>0 :
-                categories.append(category)
+                mv_attributs[5].append(category)
                 
                 # Scrape the name
                 if container.h3.a is not None:
                     name = container.h3.a.text
-                    names.append(name)
+                    mv_attributs[0].append(str(name))
+
                 else:
-                    names.append(None)
+                    mv_attributs[0].append(None)
                     
         
                 # Scrape the year
@@ -50,42 +55,45 @@ def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes,
                 if container.h3.find('span', class_ = 'lister-item-year') is not None:
                     year = container.h3.find('span', class_ = 'lister-item-year').text
                     year = year.translate({ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ."})
-                    years.append(year.replace('(','').replace(')','').strip())
+                    mv_attributs[1].append(year.replace('(','').replace(')','').strip())
                 else:
-                    years.append(None) 
-        
+                    mv_attributs[1].append(None) 
+                    
                 # Scrape the IMDB rating
                 if container.strong is not None:
                     imdb = float(container.strong.text)
-                    imdb_ratings.append(imdb)
+                    mv_attributs[2].append(imdb)
                 else:
-                    imdb_ratings.append(None)
-        
+                    mv_attributs[2].append(None)
+                    
                 # Scrape the Metascore
                 if container.find('span', class_ = 'metascore') is not None:
                     m_score = container.find('span', class_ = 'metascore').text
-                    metascores.append(int(m_score))
+                    mv_attributs[3].append(int(m_score))
                 else:
-                    metascores.append(None)
+                    mv_attributs[3].append(None)
                     
         
                 # Scrape the number of votes
                 if container.find('span', attrs = {'name':'nv'}) is not None:
                     vote = container.find('span', attrs = {'name':'nv'})['data-value']
-                    votes.append(int(vote))
+                    mv_attributs[4].append(int(vote))
                 else:
-                    votes.append(None)
+                    mv_attributs[4].append(None)
                     
                 
                 # Scrap the URL of the movie 
                 if container.h3.find('a') is not None:
                     mv_page = container.h3.find('a').get('href')
                     url = "https://imdb.com" + str(mv_page)
-                    mv_pages.append(url)
+                    mv_attributs[5].append(url)
                 else:
-                    mv_pages.append(None)
+                    mv_attributs[5].append(None)                
+                
+                
+                    mv_attributs = fctmv.extraction_movie_data_from_link(url, mv_attributs)
                          
-    return names, years, imdb_ratings, metascores, votes, categories, mv_pages
+    return mv_attributs
 
 
 

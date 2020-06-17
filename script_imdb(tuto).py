@@ -21,21 +21,30 @@ import matplotlib.pyplot as plt
 import requests
 
 # Tabs 
-names = []
-years = []
-imdb_ratings = []
-metascores = []
-votes = [] 
-categories = []
-mv_pages = []
+names = []          #0
+years = []          #1
+imdb_ratings = []   #2
+metascores = []     #3
+votes = []          #4
+categories = []     #5
+mv_pages = []       #6
+genres = []         #7
+stars = []          #8
+rank = []           #9
+nb_oscar = []       #10
+win = []            #11
+nom = []            #12
+runtime = []        #13
+budget = []         #14
+gross = []          #15
     
-mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages
+mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
     
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(5)
-pages = scrap.nb_page(5)
+years_url = scrap.years_loop(2)
+pages = scrap.nb_page(2)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -63,11 +72,12 @@ for year_url in years_url:
         mv_containers = page_html.find_all('div', class_ = 'lister-item mode-advanced')
 
         #Take the information from the containers
-        names, years, imdb_ratings, metascores, votes, categories, mv_pages = scrap.extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages)
+        mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
+        
         
 
 # Create Data Frame : 
-movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages)
+#movie_ratings = analy.data_frame_netoyage(mv_attributs)
 
   
 
@@ -75,48 +85,14 @@ movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,vo
 
 #Partie Analyse 
 
-import numpy as np 
-import pandas as pd
-
-movie_ratings.to_csv('movie_ratings3.csv')
-
-movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
-
-movie_ratings = movie_ratings.drop(["imdb_ratings"],axis=1)
-
-movie_ratings = movie_ratings.set_index('movie')
-
-movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
-
-movie_ratings = analy.delete_nan(movie_ratings)
+"""
+Call the function which cleans the dataframe by deleting rows if rating is NaN
+and get a metascore based on the imdb rating.
+"""
+movie_ratings = analy.clean_dataframe(movie_ratings)
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
 print(movie_ratings.head(10))
 
-
-"""
-from sklearn.feature_selection import SelectKBest, chi2, f_classif
-from sklearn.feature_selection import RFECV
-from sklearn.linear_model import SGDClassifier
-
-X = movie_ratings.drop(["n_imdb"],axis=1).values
-y = movie_ratings['n_imdb'].values
-
-print(X.shape)
-print(y.shape)
-
-chi2(X, y)
-print(chi2(X,y))
-
-<<<<<<< HEAD
-selector = SelectKBest(f_classif, k=2)
-selector.fit_transform(X, y)
-
-print(selector.get_support())
-
-selector = RFECV(SGDClassifier(random_state=0), step=1, min_features_to_select=2, cv=5)
-selector.fit(X, y)
-print(selector.ranking_)
-print(selector.grid_scores_)
-"""
+movie_ratings.to_csv('movie_ratings.csv')

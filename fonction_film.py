@@ -10,7 +10,8 @@ import requests
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
 import fonction_scraping as scrap
 
-def extraction_movie_data_from_link(link):
+#def extraction_movie_data_from_link(link):
+def extraction_movie_data_from_link(link, mv_attributs):
     '''
     Get some information from a movie link
     :param link http url: http url that point to the movie
@@ -25,20 +26,19 @@ def extraction_movie_data_from_link(link):
     :return int gross: the given movie worldwilde Gross
     '''
 
-
+    print("############################""1""#####################################")
 
     page_link = link
     response = requests.get(page_link)
     html = bs4.BeautifulSoup(response.text, 'html.parser')
 
     #get the movie genres
-    genres = []
     div = html.find('div', class_="subtext")
     for a in div.find_all('a'):
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
-            genres.append(a.text)
+            mv_attributs[7].append(a.text)
 
     #get the stars acting in the movie
     stars = []
@@ -48,7 +48,7 @@ def extraction_movie_data_from_link(link):
             for a in credit.find_all('a'):
                 href = a.get('href')
                 if href != "fullcredits/":
-                    stars.append(a.text)
+                    mv_attributs[8].append(a.text)
 
     award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
     if award is not None:
@@ -57,7 +57,8 @@ def extraction_movie_data_from_link(link):
         if award.find('strong') is not None:
             strong = award.find('strong').strong.text
             #rank = strong.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
-            rank = scrap.clean_chars(rank)
+            rank = scrap.clean_chars(strong)
+            mv_attributs[9].append(rank)
             #rank = int(rank)
 
         # oscars, wins and nominations
@@ -71,6 +72,7 @@ def extraction_movie_data_from_link(link):
                     #nb_oscar = span.find('b').text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                     nb_oscar = span.find('b').text
                     nb_oscar = scrap.clean_chars(nb_oscar)
+                    mv_attributs[9].append(rank)
                     #nb_oscar = int(nb_oscar)
                     osc_bool = True
 
@@ -80,20 +82,24 @@ def extraction_movie_data_from_link(link):
                     win = span.text[:length - 24]
                     #win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     win = scrap.clean_chars(win)
+                    mv_attributs[11].append(win)
 
                     nom = span.text[32:]
                     #nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     nom = scrap.clean_chars(nom)
+                    mv_attributs[12].append(nom)
                 # if not
                 else:
                     length = len(span.text)
                     win = span.text[:length - 24]
                     #win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     win = scrap.clean_chars(win)
+                    mv_attributs[11].append(win)
 
                     nom = span.text[15:]
                     #nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     nom = scrap.clean_chars(nom)
+                    mv_attributs[12].append(nom)
 
     for div in html.find_all('div', class_="txt-block"):
         if div.find('h4', class_='inline') is not None:
@@ -103,6 +109,7 @@ def extraction_movie_data_from_link(link):
                 runtime = div.find('time').text
                 #runtime = runtime.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 runtime = scrap.clean_chars(runtime)
+                mv_attributs[13].append(runtime)
                 #runtime = int(runtime)
 
             # find the movie budget
@@ -110,6 +117,7 @@ def extraction_movie_data_from_link(link):
                 budget = div.text
                 #budget = budget.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 budget = scrap.clean_chars(budget)
+                mv_attributs[14].append(budget)
                 #budget = int(budget)
 
             # find the movie worldwide gross
@@ -117,10 +125,13 @@ def extraction_movie_data_from_link(link):
                 gross = div.text
                 #gross = gross.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 gross = scrap.clean_chars(gross)
+                mv_attributs[15].append(gross)
                 #gross = int(gross)
                 
-    return genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
+    return mv_attributs
 
+def caca():
+    print(1)
 
 def warning_request(response, nb_requests):
     '''
@@ -133,4 +144,4 @@ def warning_request(response, nb_requests):
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
 
 
-extraction_movie_data_from_link(f"https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1")
+#extraction_movie_data_from_link(f"https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1")
