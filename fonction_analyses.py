@@ -4,6 +4,7 @@ Created on Tue Jun 16 11:45:39 2020
 @author: Victor HENRIO
 """
 import pandas as pd
+import math
 
 def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages):
     '''
@@ -34,3 +35,12 @@ def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_
     
     return movie_ratings
 
+def delete_nan(movie_ratings):
+    i = 0
+    for note in movie_ratings.itertuples():
+        test = math.isnan(float(note.n_imdb))
+        if test is True:
+            movie_ratings = movie_ratings.drop(movie_ratings.index[i])
+            i -= 1
+        i += 1
+    return movie_ratings
