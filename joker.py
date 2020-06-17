@@ -7,7 +7,7 @@ import seaborn as sns; sns.set(style="ticks", color_codes=True)
 
 genres = []
 
-page_link = f'https://www.imdb.com/title/tt0468569/?ref_=hm_fanfav_tt_17_pd_fp1'
+page_link = f'https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1'
 response = requests.get(page_link)
 html = bs4.BeautifulSoup(response.text, 'html.parser')
 
@@ -15,6 +15,17 @@ html = bs4.BeautifulSoup(response.text, 'html.parser')
 title = html.find('div', class_='title_wrapper')
 film_titre_date = title.h1.text
 print(film_titre_date)
+
+stars = []
+for credit in html.find_all('div', class_='credit_summary_item'):
+    inline = credit.h4.text
+    if inline == "Stars:":
+        for a in credit.find_all('a'):
+            href = a.get('href')
+            if href != "fullcredits/":
+                stars.append(a.text)
+
+print(stars)
 
 
 #find the movie genres

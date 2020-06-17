@@ -13,24 +13,40 @@ def extraction_movie_data_from_link(link):
     Get some information from a movie link
     :param link http url: http url that point to the movie
     :return String list genres: list of the given movie genre
+    :return String list stars: list of the given movie stars
+    :return int rank: the given movie rank in IMDB
+    :return int nb_oscar: the number of oscars won by the movie
+    :return int win: the number of nomination wins
+    :return int nom: the number of nominations
     :return int runtime: the given movie runtime in minutes
     :return int budget: the given movie budget
     :return int gross: the given movie worldwilde Gross
     '''
 
-    genres = []
+
 
     page_link = "f'"+str(link)+"'"
     response = requests.get(page_link)
     html = bs4.BeautifulSoup(response.text, 'html.parser')
 
-    # find the movie genres
+    #get the movie genres
+    genres = []
     div = html.find('div', class_="subtext")
     for a in div.find_all('a'):
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
             genres.append(a.text)
+
+    #get the stars acting in the movie
+    stars = []
+    for credit in html.find_all('div', class_='credit_summary_item'):
+        inline = credit.h4.text
+        if inline == "Stars:":
+            for a in credit.find_all('a'):
+                href = a.get('href')
+                if href != "fullcredits/":
+                    stars.append(a.text)
 
     award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
     if award is not None:
@@ -102,7 +118,7 @@ def extraction_movie_data_from_link(link):
                     {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 gross = int(gross)
 
-    return genres,rank,nb_oscar,win,nom,runtime,budget,gross
+    return genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
 
 
 def warning_request(response, nb_requests):
