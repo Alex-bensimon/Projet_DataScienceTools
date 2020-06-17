@@ -41,7 +41,7 @@ def data_frame_netoyage(mv_attributs):
         'gross' : mv_attributs[15]
     })
     
-    movie_ratings.loc[:, 'year'] = movie_ratings['year'].str[-5:-1].astype(int)
+    movie_ratings.loc[:, 'year'] = movie_ratings['year'].astype(int)
     movie_ratings['n_imdb'] = movie_ratings['imdb_ratings'] * 10   
     
     return movie_ratings

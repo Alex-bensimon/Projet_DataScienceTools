@@ -43,8 +43,8 @@ mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,ge
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(2)
-pages = scrap.nb_page(2)
+years_url = scrap.years_loop(1)
+pages = scrap.nb_page(1)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :

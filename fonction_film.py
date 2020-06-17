@@ -26,7 +26,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
     :return int gross: the given movie worldwilde Gross
     '''
 
-    print("############################""1""#####################################")
 
     page_link = link
     response = requests.get(page_link)
@@ -56,10 +55,8 @@ def extraction_movie_data_from_link(link, mv_attributs):
         # movie rank
         if award.find('strong') is not None:
             strong = award.find('strong').strong.text
-            #rank = strong.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
             rank = scrap.clean_chars(strong)
             mv_attributs[9].append(rank)
-            #rank = int(rank)
 
         # oscars, wins and nominations
         if award.find_all('span', class_="awards-blurb") is not None:
@@ -69,37 +66,44 @@ def extraction_movie_data_from_link(link, mv_attributs):
                 osc_bool = False
                 # if there is/are oscar/s
                 if span.find('b') is not None:
-                    #nb_oscar = span.find('b').text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+                    print("1####")
                     nb_oscar = span.find('b').text
                     nb_oscar = scrap.clean_chars(nb_oscar)
                     mv_attributs[9].append(rank)
-                    #nb_oscar = int(nb_oscar)
                     osc_bool = True
 
                 # if there is/are oscar/s
                 elif osc_bool == True:
+                    print("2####")
                     length = len(span.text)
                     win = span.text[:length - 24]
-                    #win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     win = scrap.clean_chars(win)
                     mv_attributs[11].append(win)
 
                     nom = span.text[32:]
-                    #nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
                     nom = scrap.clean_chars(nom)
                     mv_attributs[12].append(nom)
                 # if not
                 else:
+                    print("3####")
                     length = len(span.text)
-                    win = span.text[:length - 24]
-                    #win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
-                    win = scrap.clean_chars(win)
-                    mv_attributs[11].append(win)
-
-                    nom = span.text[15:]
-                    #nom = int(nom.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
-                    nom = scrap.clean_chars(nom)
-                    mv_attributs[12].append(nom)
+                    
+                    if length > 30 :
+                    
+                        win = span.text[:length - 24]
+                        win = scrap.clean_chars(win)
+                        mv_attributs[11].append(win)
+    
+                        nom = span.text[15:]
+                        nom = scrap.clean_chars(nom)
+                        mv_attributs[12].append(nom)
+                        
+                    else :
+                        win = None
+                            
+                        nom = span.text
+                        nom = scrap.clean_chars(nom)
+                        mv_attributs[12].append(nom)
 
     for div in html.find_all('div', class_="txt-block"):
         if div.find('h4', class_='inline') is not None:
@@ -107,26 +111,20 @@ def extraction_movie_data_from_link(link, mv_attributs):
             # find the runtime in minutes
             if inline == "Runtime:":
                 runtime = div.find('time').text
-                #runtime = runtime.text.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 runtime = scrap.clean_chars(runtime)
                 mv_attributs[13].append(runtime)
-                #runtime = int(runtime)
 
             # find the movie budget
             if inline == "Budget:":
                 budget = div.text
-                #budget = budget.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 budget = scrap.clean_chars(budget)
                 mv_attributs[14].append(budget)
-                #budget = int(budget)
 
             # find the movie worldwide gross
             if inline == "Cumulative Worldwide Gross:":
                 gross = div.text
-                #gross = gross.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 gross = scrap.clean_chars(gross)
                 mv_attributs[15].append(gross)
-                #gross = int(gross)
                 
     return mv_attributs
 

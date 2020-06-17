@@ -86,12 +86,12 @@ def extraction_data(mv_containers , mv_attributs):
                 if container.h3.find('a') is not None:
                     mv_page = container.h3.find('a').get('href')
                     url = "https://imdb.com" + str(mv_page)
-                    mv_attributs[5].append(url)
+                    mv_attributs[6].append(url)
                 else:
-                    mv_attributs[5].append(None)                
+                    mv_attributs[6].append(None)                
                 
-                
-                    mv_attributs = fctmv.extraction_movie_data_from_link(url, mv_attributs)
+                print("URL:",url)
+                mv_attributs = fctmv.extraction_movie_data_from_link(url, mv_attributs)
                          
     return mv_attributs
 
