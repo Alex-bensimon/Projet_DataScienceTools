@@ -19,8 +19,7 @@ from random import randint
 from warnings import warn
 from time import time
 import matplotlib.pyplot as plt
-
-#%%
+import requests
 
 # Tabs 
 names = []
@@ -36,7 +35,7 @@ mv_pages = []
 start_time = time()
 nb_requests = 0
 years_url = scrap.years_loop(3)
-pages = scrap.nb_page(3)
+pages = scrap.nb_page(2)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -53,8 +52,10 @@ for year_url in years_url:
     for page in pages:
 
         # Make a get request
-        response = get('http://www.imdb.com/search/title?release_date=' + str(year_url) +
-        '&sort=num_votes,desc&page=' + str(page), headers = headers)
+
+        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&start='+ str(page)+'&ref_=adv_nxt'      
+        print(url)
+        response = get(url, headers = headers)
 
         # Pause the loop
         # sleep(randint(8,15))
@@ -69,7 +70,7 @@ for year_url in years_url:
 
         # Break the loop if the number of requests is greater than expected
         #if nb_requests > 2:
-            #   warn('Number of requests was greater than expected.')
+            #  warn('Number of requests was greater than expected.')
             #  break
 
         # Parse the content of the request with BeautifulSoup
@@ -98,22 +99,36 @@ import pandas as pd
 movie_ratings.to_csv('movie_ratings3.csv')
 
 movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+movie_ratings = movie_ratings.drop(["imdb_ratings"],axis=1)
 movie_ratings = movie_ratings.drop(["category"],axis=1)
 movie_ratings = movie_ratings.set_index('movie')
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
-
-#scikit-learn
-import sklearn
-#classe pour standardisation
-from sklearn.preprocessing import StandardScaler
-#instanciation
-sc = StandardScaler()
-#transformation – centrage-réduction
-Z = sc.fit_transform(movie_ratings)
-print(Z)
+print(movie_ratings.head(10))
 
 
+"""
+from sklearn.feature_selection import SelectKBest, chi2, f_classif
+from sklearn.feature_selection import RFECV
+from sklearn.linear_model import SGDClassifier
 
+X = movie_ratings.drop(["n_imdb"],axis=1).values
+y = movie_ratings['n_imdb'].values
 
+print(X.shape)
+print(y.shape)
+
+chi2(X, y)
+print(chi2(X,y))
+
+selector = SelectKBest(f_classif, k=2)
+selector.fit_transform(X, y)
+
+print(selector.get_support())
+
+selector = RFECV(SGDClassifier(random_state=0), step=1, min_features_to_select=2, cv=5)
+selector.fit(X, y)
+print(selector.ranking_)
+print(selector.grid_scores_)
+"""
