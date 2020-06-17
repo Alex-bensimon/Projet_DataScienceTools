@@ -29,6 +29,7 @@ votes = []
 categories = []
 mv_pages = []
     
+mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages
     
 # Preparing the monitoring of the loop
 start_time = time()
@@ -80,9 +81,14 @@ import pandas as pd
 movie_ratings.to_csv('movie_ratings3.csv')
 
 movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+
 movie_ratings = movie_ratings.drop(["imdb_ratings"],axis=1)
-movie_ratings = movie_ratings.drop(["category"],axis=1)
+
 movie_ratings = movie_ratings.set_index('movie')
+
+movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
+
+movie_ratings = analy.delete_nan(movie_ratings)
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
