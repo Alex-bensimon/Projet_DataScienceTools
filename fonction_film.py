@@ -25,7 +25,7 @@ def extraction_movie_data_from_link(link):
 
 
 
-    page_link = "f'"+str(link)+"'"
+    page_link = link
     response = requests.get(page_link)
     html = bs4.BeautifulSoup(response.text, 'html.parser')
 
@@ -117,7 +117,7 @@ def extraction_movie_data_from_link(link):
                 gross = gross.translate(
                     {ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
                 gross = int(gross)
-
+                
     return genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
 
 
@@ -130,3 +130,6 @@ def warning_request(response, nb_requests):
     '''
     if response.status_code != 200:
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
+
+
+extraction_movie_data_from_link(f"https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1")

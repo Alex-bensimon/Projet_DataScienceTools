@@ -42,15 +42,6 @@ print(genres)
 
 award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
 if award is not None:
-<<<<<<< HEAD
-    #print("1")
-    if award.find('a', href="/chart/top?ref_=tt_awd") is not None:
-        #print("2")
-        rank = html.find('a', href="/chart/top?ref_=tt_awd").text[18:]
-    if award.find_all('span', class_="awards-blurb") is not None:
-        #print("3")
-        nb_span = 1
-=======
 
     #movie rank
     if award.find('strong') is not None:
@@ -62,7 +53,6 @@ if award is not None:
     #oscars, wins and nominations
     if award.find_all('span', class_="awards-blurb") is not None:
 
->>>>>>> feature/je
         for span in award.find_all('span', class_="awards-blurb"):
 
             nwspan = span.text.translate({ord(c): "" for c in "./\ "})
@@ -99,12 +89,6 @@ if award is not None:
                 print(nom)
             #if not
             else:
-<<<<<<< HEAD
-                #print("5")
-                win_nom = span.text.translate(
-                    {ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&."})
-                for i in range(0,len(win_nom)-1):
-=======
                 length = len(span.text)
                 win = span.text[:length-24]
                 win = int(win.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
@@ -116,17 +100,9 @@ if award is not None:
                 print(nom)
 #print(rank)
 
->>>>>>> feature/je
 
 
 
-<<<<<<< HEAD
-#print(rank)
-print(nb_oscar)
-print(win_nom)
-
-=======
->>>>>>> feature/je
 for div in html.find_all('div', class_="txt-block"):
     if div.find('h4', class_='inline') is not None:
         inline = div.find('h4', class_='inline').text
@@ -146,15 +122,6 @@ for div in html.find_all('div', class_="txt-block"):
             print(budget)
         #find the movie worldwide gross
         if inline == "Cumulative Worldwide Gross:":
-<<<<<<< HEAD
-            gross = div.text[30:]
-            if div.find('span', class_="attribute") is not None:
-                gross = gross[:10]
-            gross = int(gross.replace(',',''))
-print(runtime)
-print(budget)
-print(gross)
-=======
             gross = div.text
             gross = gross.translate({ord(c): "" for c in "#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
             gross = int(gross)
@@ -163,4 +130,3 @@ print(gross)
 
 
 
->>>>>>> feature/je

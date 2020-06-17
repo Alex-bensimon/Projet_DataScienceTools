@@ -10,13 +10,8 @@ from time import time
 
 start_time = time()
 
-<<<<<<< HEAD
-
-def extraction_data(mv_containers):
-=======
 def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages): 
         
->>>>>>> master
     '''
     Cleaning of the data contained in the container and then upload in their respective list
 
