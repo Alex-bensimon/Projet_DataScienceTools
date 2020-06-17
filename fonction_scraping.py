@@ -152,3 +152,6 @@ def nb_page(number):
 
     return nb_page
 
+def clean_chars(chain_to_clean):
+     chain_to_clean = int(chain_to_clean.translate({ord(c): "" for c in r"#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+     return chain_to_clean
