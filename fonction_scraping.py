@@ -50,7 +50,8 @@ def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes,
                     
                 if container.h3.find('span', class_ = 'lister-item-year') is not None:
                     year = container.h3.find('span', class_ = 'lister-item-year').text
-                    years.append(year)
+                    year = year.translate({ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ."})
+                    years.append(year.replace('(','').replace(')','').strip())
                 else:
                     years.append(None) 
         

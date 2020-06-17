@@ -1,157 +1,605 @@
 ,movie,year,imdb_ratings,metascore,votes,category,mv_page,n_imdb
-0,Artemis Fowl,2020,4.0,31.0,7466.0,PG,https://imdb.com/title/tt3089630/,40.0
-1,The King of Staten Island,2020,7.2,68.0,5979.0,R,https://imdb.com/title/tt9686708/,72.0
-2,Da 5 Bloods,2020,6.8,81.0,12663.0,R,https://imdb.com/title/tt9777644/,68.0
-3,You Should Have Left,2020,,,,R,https://imdb.com/title/tt8201852/,
-4,Becky,2020,5.7,53.0,2823.0,R,https://imdb.com/title/tt10314450/,57.0
-5,The Hunt,2020,6.4,50.0,39901.0,R,https://imdb.com/title/tt8244784/,64.0
-6,Shirley,2020,6.1,77.0,2052.0,R,https://imdb.com/title/tt8430598/,61.0
-7,The Invisible Man,2020,7.1,72.0,107973.0,R,https://imdb.com/title/tt1051906/,71.0
-8,The Night Clerk,2020,5.3,44.0,4008.0,R,https://imdb.com/title/tt7979142/,53.0
-9,Extraction,2020,6.8,56.0,122752.0,R,https://imdb.com/title/tt8936646/,68.0
-10,Eurovision Song Contest: The Story of Fire Saga,2020,,,,PG-13,https://imdb.com/title/tt8580274/,
-11,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60.0,119912.0,R,https://imdb.com/title/tt7713068/,61.0
-12,Bad Boys for Life,2020,6.7,59.0,99196.0,R,https://imdb.com/title/tt1502397/,67.0
-13,No Time to Die,2020,,,,PG-13,https://imdb.com/title/tt2382320/,
-14,Wonder Woman 1984,2020,,,,PG-13,https://imdb.com/title/tt7126948/,
-15,Scoob!,2020,5.8,43.0,9140.0,PG,https://imdb.com/title/tt3152592/,58.0
-16,Mulan,2020,,,,PG-13,https://imdb.com/title/tt4566758/,
-17,The Lovebirds,2020,6.0,59.0,13375.0,R,https://imdb.com/title/tt8851668/,60.0
-18,Capone,2020,4.8,46.0,8744.0,R,https://imdb.com/title/tt6199572/,48.0
-19,Onward,2020,7.5,61.0,64910.0,PG,https://imdb.com/title/tt7146812/,75.0
-20,Greyhound,2020,,,,PG-13,https://imdb.com/title/tt6048922/,
-21,Fantasy Island,2020,4.8,22.0,22106.0,PG-13,https://imdb.com/title/tt0983946/,48.0
-22,Sonic the Hedgehog,2020,6.6,47.0,66702.0,PG,https://imdb.com/title/tt3794354/,66.0
-23,Bloodshot,2020,5.7,44.0,42066.0,PG-13,https://imdb.com/title/tt1634106/,57.0
-24,Emma.,2020,6.8,71.0,16193.0,PG,https://imdb.com/title/tt9214832/,68.0
-25,Unhinged,2020,,,,R,https://imdb.com/title/tt10059518/,
-26,Dolittle,2020,5.6,26.0,35339.0,PG,https://imdb.com/title/tt6673612/,56.0
-27,Underwater,2020,5.8,48.0,42470.0,PG-13,https://imdb.com/title/tt5774060/,58.0
-28,The Half of It,2020,7.0,74.0,18727.0,PG-13,https://imdb.com/title/tt9683478/,70.0
-29,The High Note,2020,6.0,58.0,1484.0,PG-13,https://imdb.com/title/tt9308382/,60.0
-30,Trolls World Tour,2020,6.1,51.0,8637.0,PG,https://imdb.com/title/tt6587640/,61.0
-31,The Call of the Wild,2020,6.8,47.0,24705.0,PG,https://imdb.com/title/tt7504726/,68.0
-32,Monster Hunter,2020,,,,PG-13,https://imdb.com/title/tt6475714/,
-33,The Outpost,2020,,,,R,https://imdb.com/title/tt3833480/,
-34,Think Like a Dog,2020,4.8,,192.0,PG,https://imdb.com/title/tt5929654/,48.0
-35,Spenser Confidential,2020,6.2,49.0,56174.0,R,https://imdb.com/title/tt8629748/,62.0
-36,A Quiet Place Part II,2020,,,,PG-13,https://imdb.com/title/tt8332922/,
-37,The Way Back,2020,6.8,68.0,19122.0,R,https://imdb.com/title/tt8544498/,68.0
-38,Knives Out,2019,7.9,82.0,324379.0,PG-13,https://imdb.com/title/tt8946378/,79.0
-39,Uncut Gems,2019,7.5,90.0,179939.0,R,https://imdb.com/title/tt5727208/,75.0
-40,Just Mercy,2019,7.6,68.0,31226.0,PG-13,https://imdb.com/title/tt4916630/,76.0
-41,Parasite,2019,8.6,96.0,429319.0,R,https://imdb.com/title/tt6751668/,86.0
-42,Joker,2019,8.5,59.0,810715.0,R,https://imdb.com/title/tt7286456/,85.0
-43,Ad Astra,2019,6.6,80.0,170333.0,PG-13,https://imdb.com/title/tt2935510/,66.0
-44,Once Upon a Time... in Hollywood,2019,7.7,83.0,479639.0,R,https://imdb.com/title/tt7131622/,77.0
-45,The Vast of Night,2019,6.7,84.0,9513.0,PG-13,https://imdb.com/title/tt6803046/,67.0
-46,The Gentlemen,2019,7.9,51.0,148820.0,R,https://imdb.com/title/tt8367814/,79.0
-47,1917,2019,8.3,78.0,328999.0,R,https://imdb.com/title/tt8579674/,83.0
-48,Avengers: Endgame,2019,8.4,78.0,729349.0,PG-13,https://imdb.com/title/tt4154796/,84.0
-49,7500,2019,5.8,57.0,1801.0,R,https://imdb.com/title/tt6436726/,58.0
-50,Maleficent: Mistress of Evil,2019,6.6,43.0,71084.0,PG,https://imdb.com/title/tt4777008/,66.0
-51,Jojo Rabbit,2019,7.9,58.0,227391.0,PG-13,https://imdb.com/title/tt2584384/,79.0
-52,Rocketman,2019,7.3,69.0,117733.0,R,https://imdb.com/title/tt2066051/,73.0
-53,Ready or Not,2019,6.8,64.0,85520.0,R,https://imdb.com/title/tt7798634/,68.0
-54,Midsommar,2019,7.1,72.0,160399.0,R,https://imdb.com/title/tt8772262/,71.0
-55,Star Wars: Episode IX - The Rise of Skywalker,2019,6.7,53.0,333008.0,PG-13,https://imdb.com/title/tt2527338/,67.0
-56,Little Women,2019,7.9,91.0,110045.0,PG,https://imdb.com/title/tt3281548/,79.0
-57,The Lodge,2019,6.1,64.0,18927.0,R,https://imdb.com/title/tt7347846/,61.0
-58,I See You,2019,6.8,65.0,14327.0,R,https://imdb.com/title/tt6079516/,68.0
-59,The Lighthouse,2019,7.6,83.0,108763.0,R,https://imdb.com/title/tt7984734/,76.0
-60,Bombshell,2019,6.8,64.0,62313.0,R,https://imdb.com/title/tt6394270/,68.0
-61,Jumanji: The Next Level,2019,6.7,58.0,151798.0,PG-13,https://imdb.com/title/tt7975244/,67.0
-62,It Chapter Two,2019,6.6,58.0,181002.0,R,https://imdb.com/title/tt7349950/,66.0
-63,The Dead Don't Die,2019,5.5,53.0,43532.0,R,https://imdb.com/title/tt8695030/,55.0
-64,A Beautiful Day in the Neighborhood,2019,7.3,80.0,44058.0,PG,https://imdb.com/title/tt3224458/,73.0
-65,The Irishman,2019,7.9,94.0,294614.0,R,https://imdb.com/title/tt1302006/,79.0
-66,Ford v Ferrari,2019,8.1,81.0,223926.0,PG-13,https://imdb.com/title/tt1950186/,81.0
-67,Alita: Battle Angel,2019,7.3,53.0,210978.0,PG-13,https://imdb.com/title/tt0437086/,73.0
-68,Doctor Sleep,2019,7.4,59.0,106370.0,R,https://imdb.com/title/tt5606664/,74.0
-69,Hustlers,2019,6.3,79.0,71224.0,R,https://imdb.com/title/tt5503686/,63.0
-70,Guns Akimbo,2019,6.3,42.0,23689.0,R,https://imdb.com/title/tt6902676/,63.0
-71,Midway,2019,6.7,47.0,48553.0,PG-13,https://imdb.com/title/tt6924650/,67.0
-72,We Summon the Darkness,2019,5.1,55.0,2439.0,R,https://imdb.com/title/tt8058874/,51.0
-73,The Lion King,2019,6.9,55.0,193741.0,PG,https://imdb.com/title/tt6105098/,69.0
-74,Fast & Furious Presents: Hobbs & Shaw,2019,6.4,60.0,153138.0,PG-13,https://imdb.com/title/tt6806448/,64.0
-75,Spider-Man: Far from Home,2019,7.5,69.0,295064.0,PG-13,https://imdb.com/title/tt6320628/,75.0
-76,Aladdin,2019,7.0,53.0,208606.0,PG,https://imdb.com/title/tt6139732/,70.0
-77,Booksmart,2019,7.2,84.0,79524.0,R,https://imdb.com/title/tt1489887/,72.0
-78,Frozen II,2019,6.9,64.0,112166.0,PG,https://imdb.com/title/tt4520988/,69.0
-79,6 Underground,2019,6.1,41.0,123612.0,R,https://imdb.com/title/tt8106534/,61.0
-80,Portrait of a Lady on Fire,2019,8.1,95.0,41270.0,R,https://imdb.com/title/tt8613070/,81.0
-81,After,2019,5.4,30.0,28259.0,PG-13,https://imdb.com/title/tt4126476/,54.0
-82,Captain Marvel,2019,6.9,64.0,415067.0,PG-13,https://imdb.com/title/tt4154664/,69.0
-83,Outback,2019,4.9,,361.0,R,https://imdb.com/title/tt7336182/,49.0
-84,Yesterday,2019,6.8,55.0,99218.0,PG-13,https://imdb.com/title/tt8079248/,68.0
-85,Charlie's Angels,2019,4.7,52.0,42469.0,PG-13,https://imdb.com/title/tt5033998/,47.0
-86,John Wick: Chapter 3 - Parabellum,2019,7.5,73.0,249537.0,R,https://imdb.com/title/tt6146586/,75.0
-87,Cats,2019,2.7,32.0,33983.0,PG,https://imdb.com/title/tt5697572/,27.0
-88,Anna,2019,6.6,40.0,51015.0,R,https://imdb.com/title/tt7456310/,66.0
-89,Lucy in the Sky,2019,4.7,36.0,3975.0,R,https://imdb.com/title/tt4682804/,47.0
-90,Shazam!,2019,7.1,71.0,233771.0,PG-13,https://imdb.com/title/tt0448115/,71.0
-91,Us,2019,6.9,81.0,202355.0,R,https://imdb.com/title/tt6857112/,69.0
-92,A Rainy Day in New York,2019,6.6,44.0,22257.0,PG-13,https://imdb.com/title/tt7139936/,66.0
-93,Terminator: Dark Fate,2019,6.3,54.0,122929.0,R,https://imdb.com/title/tt6450804/,63.0
-94,Downton Abbey,2019,7.4,64.0,33190.0,PG,https://imdb.com/title/tt6398184/,74.0
-95,The King,2019,7.2,62.0,75105.0,R,https://imdb.com/title/tt7984766/,72.0
-96,Official Secrets,2019,7.3,63.0,21654.0,R,https://imdb.com/title/tt5431890/,73.0
-97,The Addams Family,2019,5.8,46.0,21180.0,PG,https://imdb.com/title/tt1620981/,58.0
-98,Angel Has Fallen,2019,6.4,45.0,68714.0,R,https://imdb.com/title/tt6189022/,64.0
-99,Marriage Story,2019,8.0,94.0,217007.0,R,https://imdb.com/title/tt7653254/,80.0
-100,Crawl,2019,6.2,60.0,55577.0,R,https://imdb.com/title/tt8364368/,62.0
-101,The Peanut Butter Falcon,2019,7.6,70.0,41720.0,PG-13,https://imdb.com/title/tt4364194/,76.0
-102,Vivarium,2019,5.8,64.0,20610.0,R,https://imdb.com/title/tt8368406/,58.0
-103,X-Men: Dark Phoenix,2019,5.8,43.0,140786.0,PG-13,https://imdb.com/title/tt6565702/,58.0
-104,Zombieland: Double Tap,2019,6.7,55.0,112950.0,R,https://imdb.com/title/tt1560220/,67.0
-105,Jurassic World: Fallen Kingdom,2018,6.2,51.0,250732.0,PG-13,https://imdb.com/title/tt4881806/,62.0
-106,BlacKkKlansman,2018,7.5,83.0,195440.0,R,https://imdb.com/title/tt7349662/,75.0
-107,Ready Player One,2018,7.5,64.0,346049.0,PG-13,https://imdb.com/title/tt1677720/,75.0
-108,Black Panther,2018,7.3,88.0,584788.0,PG-13,https://imdb.com/title/tt1825683/,73.0
-109,Avengers: Infinity War,2018,8.5,68.0,780903.0,PG-13,https://imdb.com/title/tt4154756/,85.0
-110,Spider-Man: Into the Spider-Verse,2018,8.4,87.0,322712.0,PG,https://imdb.com/title/tt4633694/,84.0
-111,Green Book,2018,8.2,69.0,328409.0,PG-13,https://imdb.com/title/tt6966692/,82.0
-112,Hereditary,2018,7.3,87.0,211737.0,R,https://imdb.com/title/tt7784604/,73.0
-113,Our House,2018,5.3,45.0,5675.0,PG-13,https://imdb.com/title/tt2018069/,53.0
-114,The Hate U Give,2018,7.4,81.0,26890.0,PG-13,https://imdb.com/title/tt5580266/,74.0
-115,Aquaman,2018,7.0,55.0,340172.0,PG-13,https://imdb.com/title/tt1477834/,70.0
-116,A Star Is Born,2018,7.7,88.0,311228.0,R,https://imdb.com/title/tt1517451/,77.0
-117,Mission: Impossible - Fallout,2018,7.7,86.0,274633.0,PG-13,https://imdb.com/title/tt4912910/,77.0
-118,Crazy Rich Asians,2018,6.9,74.0,127958.0,PG-13,https://imdb.com/title/tt3104988/,69.0
-119,Bohemian Rhapsody,2018,8.0,49.0,426417.0,PG-13,https://imdb.com/title/tt1727824/,80.0
-120,Blockers,2018,6.2,69.0,67485.0,R,https://imdb.com/title/tt2531344/,62.0
-121,Deadpool 2,2018,7.7,66.0,453526.0,R,https://imdb.com/title/tt5463162/,77.0
-122,Annihilation,2018,6.9,79.0,266066.0,R,https://imdb.com/title/tt2798920/,69.0
-123,A Quiet Place,2018,7.5,82.0,383686.0,PG-13,https://imdb.com/title/tt6644200/,75.0
-124,Solo: A Star Wars Story,2018,6.9,62.0,272477.0,PG-13,https://imdb.com/title/tt3778644/,69.0
-125,Fantastic Beasts: The Crimes of Grindelwald,2018,6.6,52.0,204380.0,PG-13,https://imdb.com/title/tt4123430/,66.0
-126,The Favourite,2018,7.5,91.0,159681.0,R,https://imdb.com/title/tt5083738/,75.0
-127,The Meg,2018,5.7,46.0,137155.0,PG-13,https://imdb.com/title/tt4779682/,57.0
-128,Red Sparrow,2018,6.6,53.0,156785.0,R,https://imdb.com/title/tt2873282/,66.0
-129,Game Night,2018,6.9,66.0,192818.0,R,https://imdb.com/title/tt2704998/,69.0
-130,Den of Thieves,2018,7.0,49.0,86460.0,R,https://imdb.com/title/tt1259528/,70.0
-131,Venom,2018,6.7,35.0,334683.0,PG-13,https://imdb.com/title/tt1270797/,67.0
-132,A Simple Favor,2018,6.8,67.0,114566.0,R,https://imdb.com/title/tt7040874/,68.0
-133,Burden,2018,6.0,57.0,530.0,R,https://imdb.com/title/tt5314450/,60.0
-134,Hotel Artemis,2018,6.1,58.0,40275.0,R,https://imdb.com/title/tt5834262/,61.0
-135,Night Hunter,2018,5.9,31.0,11576.0,R,https://imdb.com/title/tt6533240/,59.0
-136,Ocean's 8,2018,6.2,61.0,171362.0,PG-13,https://imdb.com/title/tt5164214/,62.0
-137,First Man,2018,7.3,84.0,154555.0,PG-13,https://imdb.com/title/tt1213641/,73.0
-138,Suspiria,2018,6.8,64.0,54927.0,R,https://imdb.com/title/tt1034415/,68.0
-139,Mamma Mia! Here We Go Again,2018,6.7,60.0,73064.0,PG-13,https://imdb.com/title/tt6911608/,67.0
-140,High Strung Free Dance,2018,6.5,43.0,742.0,PG,https://imdb.com/title/tt6428150/,65.0
-141,Climax,2018,7.1,67.0,44578.0,R,https://imdb.com/title/tt8359848/,71.0
-142,Upgrade,2018,7.5,67.0,138879.0,R,https://imdb.com/title/tt6499752/,75.0
-143,The Ballad of Buster Scruggs,2018,7.3,79.0,111513.0,R,https://imdb.com/title/tt6412452/,73.0
-144,Fifty Shades Freed,2018,4.5,31.0,51871.0,R,https://imdb.com/title/tt4477536/,45.0
-145,Rampage,2018,6.1,45.0,134997.0,PG-13,https://imdb.com/title/tt2231461/,61.0
-146,Bird Box,2018,6.6,51.0,260842.0,R,https://imdb.com/title/tt2737304/,66.0
-147,Bad Times at the El Royale,2018,7.1,60.0,120338.0,R,https://imdb.com/title/tt6628394/,71.0
-148,Leave No Trace,2018,7.2,88.0,45282.0,PG,https://imdb.com/title/tt3892172/,72.0
-149,The Spy Who Dumped Me,2018,6.0,52.0,63877.0,R,https://imdb.com/title/tt6663582/,60.0
-150,Vice,2018,7.2,61.0,109388.0,R,https://imdb.com/title/tt6266538/,72.0
-151,"Love, Simon",2018,7.6,72.0,92310.0,PG-13,https://imdb.com/title/tt5164432/,76.0
-152,Capernaum,2018,8.4,75.0,49121.0,R,https://imdb.com/title/tt8267604/,84.0
-153,Bumblebee,2018,6.8,66.0,126832.0,PG-13,https://imdb.com/title/tt4701182/,68.0
-154,The Predator,2018,5.4,48.0,110678.0,R,https://imdb.com/title/tt3829266/,54.0
-155,Mid90s,2018,7.4,66.0,41605.0,R,https://imdb.com/title/tt5613484/,74.0
+0,Artemis Fowl,202,4.0,31.0,7466.0,PG,https://imdb.com/title/tt3089630/,40.0
+1,The King of Staten Island,202,7.2,68.0,5979.0,R,https://imdb.com/title/tt9686708/,72.0
+2,Da 5 Bloods,202,6.8,81.0,12663.0,R,https://imdb.com/title/tt9777644/,68.0
+3,You Should Have Left,202,,,,R,https://imdb.com/title/tt8201852/,
+4,Becky,202,5.7,53.0,2823.0,R,https://imdb.com/title/tt10314450/,57.0
+5,The Hunt,202,6.4,50.0,39901.0,R,https://imdb.com/title/tt8244784/,64.0
+6,Shirley,202,6.1,77.0,2052.0,R,https://imdb.com/title/tt8430598/,61.0
+7,The Invisible Man,202,7.1,72.0,107973.0,R,https://imdb.com/title/tt1051906/,71.0
+8,The Night Clerk,202,5.3,44.0,4008.0,R,https://imdb.com/title/tt7979142/,53.0
+9,Extraction,202,6.8,56.0,122752.0,R,https://imdb.com/title/tt8936646/,68.0
+10,Eurovision Song Contest: The Story of Fire Saga,202,,,,PG-13,https://imdb.com/title/tt8580274/,
+11,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,202,6.1,60.0,119912.0,R,https://imdb.com/title/tt7713068/,61.0
+12,Bad Boys for Life,202,6.7,59.0,99196.0,R,https://imdb.com/title/tt1502397/,67.0
+13,No Time to Die,202,,,,PG-13,https://imdb.com/title/tt2382320/,
+14,Wonder Woman 1984,202,,,,PG-13,https://imdb.com/title/tt7126948/,
+15,Scoob!,202,5.8,43.0,9140.0,PG,https://imdb.com/title/tt3152592/,58.0
+16,Mulan,202,,,,PG-13,https://imdb.com/title/tt4566758/,
+17,The Lovebirds,202,6.0,59.0,13375.0,R,https://imdb.com/title/tt8851668/,60.0
+18,Capone,202,4.8,46.0,8744.0,R,https://imdb.com/title/tt6199572/,48.0
+19,Onward,202,7.5,61.0,64910.0,PG,https://imdb.com/title/tt7146812/,75.0
+20,Greyhound,202,,,,PG-13,https://imdb.com/title/tt6048922/,
+21,Fantasy Island,202,4.8,22.0,22106.0,PG-13,https://imdb.com/title/tt0983946/,48.0
+22,Sonic the Hedgehog,202,6.6,47.0,66702.0,PG,https://imdb.com/title/tt3794354/,66.0
+23,Bloodshot,202,5.7,44.0,42066.0,PG-13,https://imdb.com/title/tt1634106/,57.0
+24,Emma.,202,6.8,71.0,16193.0,PG,https://imdb.com/title/tt9214832/,68.0
+25,Unhinged,202,,,,R,https://imdb.com/title/tt10059518/,
+26,Dolittle,202,5.6,26.0,35339.0,PG,https://imdb.com/title/tt6673612/,56.0
+27,Underwater,202,5.8,48.0,42470.0,PG-13,https://imdb.com/title/tt5774060/,58.0
+28,The Half of It,202,7.0,74.0,18727.0,PG-13,https://imdb.com/title/tt9683478/,70.0
+29,The High Note,202,6.0,58.0,1484.0,PG-13,https://imdb.com/title/tt9308382/,60.0
+30,Trolls World Tour,202,6.1,51.0,8637.0,PG,https://imdb.com/title/tt6587640/,61.0
+31,The Call of the Wild,202,6.8,47.0,24705.0,PG,https://imdb.com/title/tt7504726/,68.0
+32,Monster Hunter,202,,,,PG-13,https://imdb.com/title/tt6475714/,
+33,The Outpost,202,,,,R,https://imdb.com/title/tt3833480/,
+34,Think Like a Dog,202,4.8,,192.0,PG,https://imdb.com/title/tt5929654/,48.0
+35,Spenser Confidential,202,6.2,49.0,56174.0,R,https://imdb.com/title/tt8629748/,62.0
+36,A Quiet Place Part II,202,,,,PG-13,https://imdb.com/title/tt8332922/,
+37,The Way Back,202,6.8,68.0,19122.0,R,https://imdb.com/title/tt8544498/,68.0
+38,I Still Believe,202,6.6,41.0,4658.0,PG,https://imdb.com/title/tt9779516/,66.0
+39,The SpongeBob Movie: Sponge On The Run,202,,,,PG,https://imdb.com/title/tt4823776/,
+40,Survive the Night,202,4.8,26.0,2961.0,R,https://imdb.com/title/tt10303324/,48.0
+41,Justice League Dark: Apokolips War,202,7.8,,10198.0,R,https://imdb.com/title/tt11079148/,78.0
+42,Gretel & Hansel,202,5.3,64.0,15237.0,PG-13,https://imdb.com/title/tt9086228/,53.0
+43,The Old Guard,202,,,,R,https://imdb.com/title/tt7556122/,
+44,The French Dispatch,202,,,,R,https://imdb.com/title/tt8847712/,
+45,Sniper: Assassin's End,202,5.7,,79.0,R,https://imdb.com/title/tt12305696/,57.0
+46,The New Mutants,202,,,,PG-13,https://imdb.com/title/tt4682266/,
+47,Arkansas,202,5.9,56.0,2981.0,R,https://imdb.com/title/tt9139586/,59.0
+48,The Willoughbys,202,6.4,68.0,9385.0,PG,https://imdb.com/title/tt5206260/,64.0
+49,Roped,202,5.3,,535.0,PG,https://imdb.com/title/tt8523028/,53.0
+50,The Rhythm Section,202,5.2,45.0,7464.0,R,https://imdb.com/title/tt7134096/,52.0
+51,The Grudge,202,4.2,41.0,15186.0,R,https://imdb.com/title/tt3612126/,42.0
+52,Escape from Pretoria,202,6.8,56.0,11655.0,PG-13,https://imdb.com/title/tt5797184/,68.0
+53,The Banker,202,7.2,59.0,11323.0,PG-13,https://imdb.com/title/tt6285944/,72.0
+54,My Spy,202,6.2,44.0,8801.0,PG-13,https://imdb.com/title/tt8242084/,62.0
+55,The Last Thing He Wanted,202,4.2,35.0,10575.0,R,https://imdb.com/title/tt7456312/,42.0
+56,Lost Girls,202,6.1,67.0,12895.0,R,https://imdb.com/title/tt3111426/,61.0
+57,Valley Girl,202,5.4,53.0,939.0,PG-13,https://imdb.com/title/tt1266036/,54.0
+58,Viena and the Fantomes,202,,,,R,https://imdb.com/title/tt3344686/,
+59,The Turning,202,3.8,35.0,6597.0,PG-13,https://imdb.com/title/tt7510346/,38.0
+60,Last Moment of Clarity,202,5.1,,728.0,R,https://imdb.com/title/tt1929297/,51.0
+61,Brahms: The Boy II,202,4.6,29.0,6859.0,PG-13,https://imdb.com/title/tt9173418/,46.0
+62,Lady Driver,202,6.0,,488.0,PG,https://imdb.com/title/tt7562334/,60.0
+63,Like a Boss,202,4.4,33.0,6434.0,R,https://imdb.com/title/tt7545266/,44.0
+64,Mortal Kombat Legends: Scorpion's Revenge,202,7.5,,8005.0,R,https://imdb.com/title/tt9580138/,75.0
+65,Horse Girl,202,5.9,61.0,11516.0,R,https://imdb.com/title/tt11388406/,59.0
+66,Downhill,202,4.8,49.0,4736.0,R,https://imdb.com/title/tt4558376/,48.0
+67,Body Cam,202,5.2,37.0,851.0,R,https://imdb.com/title/tt8179024/,52.0
+68,Sergio,202,6.1,55.0,6242.0,R,https://imdb.com/title/tt8750570/,61.0
+69,The Quarry,202,5.1,53.0,876.0,R,https://imdb.com/title/tt10151054/,51.0
+70,The Secret Garden,202,,,,PG,https://imdb.com/title/tt2702920/,
+71,Hamilton,202,,,,PG-13,https://imdb.com/title/tt8503618/,
+72,Never Rarely Sometimes Always,202,7.2,91.0,4070.0,PG-13,https://imdb.com/title/tt7772582/,72.0
+73,Knives Out,201,7.9,82.0,324379.0,PG-13,https://imdb.com/title/tt8946378/,79.0
+74,Uncut Gems,201,7.5,90.0,179939.0,R,https://imdb.com/title/tt5727208/,75.0
+75,Just Mercy,201,7.6,68.0,31226.0,PG-13,https://imdb.com/title/tt4916630/,76.0
+76,Parasite,201,8.6,96.0,429319.0,R,https://imdb.com/title/tt6751668/,86.0
+77,Joker,201,8.5,59.0,810715.0,R,https://imdb.com/title/tt7286456/,85.0
+78,Ad Astra,201,6.6,80.0,170333.0,PG-13,https://imdb.com/title/tt2935510/,66.0
+79,Once Upon a Time... in Hollywood,201,7.7,83.0,479639.0,R,https://imdb.com/title/tt7131622/,77.0
+80,The Vast of Night,201,6.7,84.0,9513.0,PG-13,https://imdb.com/title/tt6803046/,67.0
+81,The Gentlemen,201,7.9,51.0,148820.0,R,https://imdb.com/title/tt8367814/,79.0
+82,1917,201,8.3,78.0,328999.0,R,https://imdb.com/title/tt8579674/,83.0
+83,Avengers: Endgame,201,8.4,78.0,729349.0,PG-13,https://imdb.com/title/tt4154796/,84.0
+84,7500,201,5.8,57.0,1801.0,R,https://imdb.com/title/tt6436726/,58.0
+85,Maleficent: Mistress of Evil,201,6.6,43.0,71084.0,PG,https://imdb.com/title/tt4777008/,66.0
+86,Jojo Rabbit,201,7.9,58.0,227391.0,PG-13,https://imdb.com/title/tt2584384/,79.0
+87,Rocketman,201,7.3,69.0,117733.0,R,https://imdb.com/title/tt2066051/,73.0
+88,Ready or Not,201,6.8,64.0,85520.0,R,https://imdb.com/title/tt7798634/,68.0
+89,Midsommar,201,7.1,72.0,160399.0,R,https://imdb.com/title/tt8772262/,71.0
+90,Star Wars: Episode IX - The Rise of Skywalker,201,6.7,53.0,333008.0,PG-13,https://imdb.com/title/tt2527338/,67.0
+91,Little Women,201,7.9,91.0,110045.0,PG,https://imdb.com/title/tt3281548/,79.0
+92,The Lodge,201,6.1,64.0,18927.0,R,https://imdb.com/title/tt7347846/,61.0
+93,I See You,201,6.8,65.0,14327.0,R,https://imdb.com/title/tt6079516/,68.0
+94,The Lighthouse,201,7.6,83.0,108763.0,R,https://imdb.com/title/tt7984734/,76.0
+95,Bombshell,201,6.8,64.0,62313.0,R,https://imdb.com/title/tt6394270/,68.0
+96,Jumanji: The Next Level,201,6.7,58.0,151798.0,PG-13,https://imdb.com/title/tt7975244/,67.0
+97,It Chapter Two,201,6.6,58.0,181002.0,R,https://imdb.com/title/tt7349950/,66.0
+98,The Dead Don't Die,201,5.5,53.0,43532.0,R,https://imdb.com/title/tt8695030/,55.0
+99,A Beautiful Day in the Neighborhood,201,7.3,80.0,44058.0,PG,https://imdb.com/title/tt3224458/,73.0
+100,The Irishman,201,7.9,94.0,294614.0,R,https://imdb.com/title/tt1302006/,79.0
+101,Ford v Ferrari,201,8.1,81.0,223926.0,PG-13,https://imdb.com/title/tt1950186/,81.0
+102,Alita: Battle Angel,201,7.3,53.0,210978.0,PG-13,https://imdb.com/title/tt0437086/,73.0
+103,Doctor Sleep,201,7.4,59.0,106370.0,R,https://imdb.com/title/tt5606664/,74.0
+104,Hustlers,201,6.3,79.0,71224.0,R,https://imdb.com/title/tt5503686/,63.0
+105,Guns Akimbo,201,6.3,42.0,23689.0,R,https://imdb.com/title/tt6902676/,63.0
+106,Midway,201,6.7,47.0,48553.0,PG-13,https://imdb.com/title/tt6924650/,67.0
+107,We Summon the Darkness,201,5.1,55.0,2439.0,R,https://imdb.com/title/tt8058874/,51.0
+108,The Lion King,201,6.9,55.0,193741.0,PG,https://imdb.com/title/tt6105098/,69.0
+109,Fast & Furious Presents: Hobbs & Shaw,201,6.4,60.0,153138.0,PG-13,https://imdb.com/title/tt6806448/,64.0
+110,Spider-Man: Far from Home,201,7.5,69.0,295064.0,PG-13,https://imdb.com/title/tt6320628/,75.0
+111,Aladdin,201,7.0,53.0,208606.0,PG,https://imdb.com/title/tt6139732/,70.0
+112,Booksmart,201,7.2,84.0,79524.0,R,https://imdb.com/title/tt1489887/,72.0
+113,Frozen II,201,6.9,64.0,112166.0,PG,https://imdb.com/title/tt4520988/,69.0
+114,6 Underground,201,6.1,41.0,123612.0,R,https://imdb.com/title/tt8106534/,61.0
+115,Portrait of a Lady on Fire,201,8.1,95.0,41270.0,R,https://imdb.com/title/tt8613070/,81.0
+116,After,201,5.4,30.0,28259.0,PG-13,https://imdb.com/title/tt4126476/,54.0
+117,Captain Marvel,201,6.9,64.0,415067.0,PG-13,https://imdb.com/title/tt4154664/,69.0
+118,Outback,201,4.9,,361.0,R,https://imdb.com/title/tt7336182/,49.0
+119,Yesterday,201,6.8,55.0,99218.0,PG-13,https://imdb.com/title/tt8079248/,68.0
+120,Charlie's Angels,201,4.7,52.0,42469.0,PG-13,https://imdb.com/title/tt5033998/,47.0
+121,John Wick: Chapter 3 - Parabellum,201,7.5,73.0,249537.0,R,https://imdb.com/title/tt6146586/,75.0
+122,Cats,201,2.7,32.0,33983.0,PG,https://imdb.com/title/tt5697572/,27.0
+123,Anna,201,6.6,40.0,51015.0,R,https://imdb.com/title/tt7456310/,66.0
+124,Lucy in the Sky,201,4.7,36.0,3975.0,R,https://imdb.com/title/tt4682804/,47.0
+125,Shazam!,201,7.1,71.0,233771.0,PG-13,https://imdb.com/title/tt0448115/,71.0
+126,Us,201,6.9,81.0,202355.0,R,https://imdb.com/title/tt6857112/,69.0
+127,A Rainy Day in New York,201,6.6,44.0,22257.0,PG-13,https://imdb.com/title/tt7139936/,66.0
+128,Terminator: Dark Fate,201,6.3,54.0,122929.0,R,https://imdb.com/title/tt6450804/,63.0
+129,Downton Abbey,201,7.4,64.0,33190.0,PG,https://imdb.com/title/tt6398184/,74.0
+130,The King,201,7.2,62.0,75105.0,R,https://imdb.com/title/tt7984766/,72.0
+131,Official Secrets,201,7.3,63.0,21654.0,R,https://imdb.com/title/tt5431890/,73.0
+132,The Addams Family,201,5.8,46.0,21180.0,PG,https://imdb.com/title/tt1620981/,58.0
+133,Angel Has Fallen,201,6.4,45.0,68714.0,R,https://imdb.com/title/tt6189022/,64.0
+134,Marriage Story,201,8.0,94.0,217007.0,R,https://imdb.com/title/tt7653254/,80.0
+135,Crawl,201,6.2,60.0,55577.0,R,https://imdb.com/title/tt8364368/,62.0
+136,The Peanut Butter Falcon,201,7.6,70.0,41720.0,PG-13,https://imdb.com/title/tt4364194/,76.0
+137,Vivarium,201,5.8,64.0,20610.0,R,https://imdb.com/title/tt8368406/,58.0
+138,X-Men: Dark Phoenix,201,5.8,43.0,140786.0,PG-13,https://imdb.com/title/tt6565702/,58.0
+139,Zombieland: Double Tap,201,6.7,55.0,112950.0,R,https://imdb.com/title/tt1560220/,67.0
+140,Gemini Man,201,5.7,38.0,66285.0,PG-13,https://imdb.com/title/tt1025100/,57.0
+141,Dark Waters,201,7.6,73.0,38463.0,PG-13,https://imdb.com/title/tt9071322/,76.0
+142,The Goldfinch,201,6.2,40.0,12172.0,R,https://imdb.com/title/tt3864056/,62.0
+143,Richard Jewell,201,7.5,68.0,41497.0,R,https://imdb.com/title/tt3513548/,75.0
+144,Good Boys,201,6.7,60.0,51606.0,R,https://imdb.com/title/tt7343762/,67.0
+145,21 Bridges,201,6.6,51.0,31399.0,R,https://imdb.com/title/tt8688634/,66.0
+146,Queen & Slim,201,7.0,74.0,15792.0,R,https://imdb.com/title/tt8722346/,70.0
+147,Glass,201,6.7,43.0,193352.0,PG-13,https://imdb.com/title/tt6823368/,67.0
+148,Godzilla: King of the Monsters,201,6.0,48.0,121296.0,PG-13,https://imdb.com/title/tt3741700/,60.0
+149,The Assistant,201,6.0,79.0,5161.0,R,https://imdb.com/title/tt9000224/,60.0
+150,The Hustle,201,5.4,35.0,41113.0,PG-13,https://imdb.com/title/tt1298644/,54.0
+151,Annabelle Comes Home,201,5.9,53.0,51057.0,R,https://imdb.com/title/tt8350360/,59.0
+152,Long Shot,201,6.8,67.0,83925.0,R,https://imdb.com/title/tt2139881/,68.0
+153,Men in Black: International,201,5.6,38.0,99601.0,PG-13,https://imdb.com/title/tt2283336/,56.0
+154,Ma,201,5.6,53.0,34440.0,R,https://imdb.com/title/tt7958736/,56.0
+155,Honey Boy,201,7.3,73.0,19371.0,R,https://imdb.com/title/tt8151874/,73.0
+156,"Extremely Wicked, Shockingly Evil and Vile",201,6.6,52.0,70330.0,R,https://imdb.com/title/tt2481498/,66.0
+157,Rambo: Last Blood,201,6.2,26.0,69757.0,R,https://imdb.com/title/tt1206885/,62.0
+158,Spies in Disguise,201,6.8,54.0,24583.0,PG,https://imdb.com/title/tt5814534/,68.0
+159,Stuber,201,6.2,42.0,35352.0,R,https://imdb.com/title/tt7734218/,62.0
+160,Motherless Brooklyn,201,6.8,60.0,30635.0,R,https://imdb.com/title/tt0385887/,68.0
+161,A Hidden Life,201,7.4,78.0,12951.0,PG-13,https://imdb.com/title/tt5827916/,74.0
+162,Waves,201,7.6,80.0,12022.0,R,https://imdb.com/title/tt8652728/,76.0
+163,True History of the Kelly Gang,201,6.1,75.0,3853.0,R,https://imdb.com/title/tt4844140/,61.0
+164,Triple Frontier,201,6.4,61.0,98760.0,R,https://imdb.com/title/tt1488606/,64.0
+165,Come to Daddy,201,6.0,64.0,8469.0,R,https://imdb.com/title/tt8816194/,60.0
+166,Murder Mystery,201,6.0,38.0,90599.0,PG-13,https://imdb.com/title/tt1618434/,60.0
+167,Scary Stories to Tell in the Dark,201,6.2,61.0,50554.0,PG-13,https://imdb.com/title/tt3387520/,62.0
+168,Fighting with My Family,201,7.1,68.0,59925.0,PG-13,https://imdb.com/title/tt6513120/,71.0
+169,Harriet,201,6.4,66.0,14428.0,PG-13,https://imdb.com/title/tt4648786/,64.0
+170,Five Feet Apart,201,7.2,53.0,35315.0,PG-13,https://imdb.com/title/tt6472976/,72.0
+171,Weathering with You,201,7.6,72.0,12870.0,PG-13,https://imdb.com/title/tt9426210/,76.0
+172,Hellboy,201,5.2,31.0,72333.0,R,https://imdb.com/title/tt2274648/,52.0
+173,Dora and the Lost City of Gold,201,6.0,63.0,19311.0,PG,https://imdb.com/title/tt7547410/,60.0
+174,Jay and Silent Bob Reboot,201,5.7,46.0,15404.0,R,https://imdb.com/title/tt6521876/,57.0
+175,Big Time Adolescence,201,7.0,64.0,3844.0,R,https://imdb.com/title/tt3824648/,70.0
+176,The Highwaymen,201,6.9,58.0,66637.0,R,https://imdb.com/title/tt1860242/,69.0
+177,The Kitchen,201,5.4,35.0,12466.0,R,https://imdb.com/title/tt5822564/,54.0
+178,Pokémon Detective Pikachu,201,6.6,53.0,126678.0,PG,https://imdb.com/title/tt5884052/,66.0
+179,Judy,201,6.8,66.0,31669.0,PG-13,https://imdb.com/title/tt7549996/,68.0
+180,UglyDolls,201,4.9,39.0,4934.0,PG,https://imdb.com/title/tt1946502/,49.0
+181,Seberg,201,5.5,54.0,3613.0,R,https://imdb.com/title/tt1780967/,55.0
+182,Trauma Center,201,4.7,,5121.0,R,https://imdb.com/title/tt9625664/,47.0
+183,The Farewell,201,7.6,89.0,41072.0,PG,https://imdb.com/title/tt8637428/,76.0
+184,Dirty Sexy Saint,201,5.7,,377.0,R,https://imdb.com/title/tt10969656/,57.0
+185,Escape Room,201,6.3,48.0,75245.0,PG-13,https://imdb.com/title/tt5886046/,63.0
+186,The Last Full Measure,201,6.6,51.0,4121.0,R,https://imdb.com/title/tt0783640/,66.0
+187,Child's Play,201,5.8,48.0,38592.0,R,https://imdb.com/title/tt8663516/,58.0
+188,Brightburn,201,6.1,44.0,71326.0,R,https://imdb.com/title/tt7752126/,61.0
+189,The Art of Racing in the Rain,201,7.5,43.0,19575.0,PG,https://imdb.com/title/tt1478839/,75.0
+190,The Report,201,7.2,66.0,26576.0,R,https://imdb.com/title/tt8236336/,72.0
+191,The Secret Life of Pets 2,201,6.5,55.0,44343.0,PG,https://imdb.com/title/tt5113040/,65.0
+192,Troop Zero,201,6.9,59.0,6608.0,PG,https://imdb.com/title/tt2404465/,69.0
+193,The Aeronauts,201,6.6,60.0,22363.0,PG-13,https://imdb.com/title/tt6141246/,66.0
+194,Serenity,201,5.3,37.0,32181.0,R,https://imdb.com/title/tt6476140/,53.0
+195,The Laundromat,201,6.3,57.0,38971.0,R,https://imdb.com/title/tt5865326/,63.0
+196,Late Night,201,6.5,70.0,23716.0,R,https://imdb.com/title/tt6107548/,65.0
+197,The Personal History of David Copperfield,201,6.4,75.0,3831.0,PG,https://imdb.com/title/tt6439020/,64.0
+198,Blow the Man Down,201,6.4,72.0,4317.0,R,https://imdb.com/title/tt8299768/,64.0
+199,Dolemite Is My Name,201,7.3,76.0,46570.0,R,https://imdb.com/title/tt8526872/,73.0
+200,Line of Duty,201,5.4,50.0,2397.0,R,https://imdb.com/title/tt3541524/,54.0
+201,Swallow,201,6.4,65.0,7234.0,R,https://imdb.com/title/tt8372298/,64.0
+202,How to Train Your Dragon: The Hidden World,201,7.5,71.0,94015.0,PG,https://imdb.com/title/tt2386490/,75.0
+203,47 Meters Down: Uncaged,201,5.0,43.0,16622.0,PG-13,https://imdb.com/title/tt7329656/,50.0
+204,The Last Black Man in San Francisco,201,7.3,83.0,11409.0,R,https://imdb.com/title/tt4353250/,73.0
+205,The Good Liar,201,6.6,55.0,17167.0,R,https://imdb.com/title/tt5563334/,66.0
+206,The Informer,201,6.5,61.0,13294.0,R,https://imdb.com/title/tt1833116/,65.0
+207,Countdown,201,5.4,31.0,18566.0,PG-13,https://imdb.com/title/tt10039344/,54.0
+208,Lady and the Tramp,201,6.3,48.0,12871.0,PG,https://imdb.com/title/tt8096832/,63.0
+209,Tolkien,201,6.8,48.0,28125.0,PG-13,https://imdb.com/title/tt3361792/,68.0
+210,Sound of Metal,201,7.0,87.0,288.0,R,https://imdb.com/title/tt5363618/,70.0
+211,The Two Popes,201,7.6,75.0,93964.0,PG-13,https://imdb.com/title/tt8404614/,76.0
+212,Togo,201,8.0,69.0,28224.0,PG,https://imdb.com/title/tt5116302/,80.0
+213,The Silence,201,5.3,25.0,33672.0,PG-13,https://imdb.com/title/tt7315484/,53.0
+214,Jurassic World: Fallen Kingdom,201,6.2,51.0,250732.0,PG-13,https://imdb.com/title/tt4881806/,62.0
+215,BlacKkKlansman,201,7.5,83.0,195440.0,R,https://imdb.com/title/tt7349662/,75.0
+216,Ready Player One,201,7.5,64.0,346049.0,PG-13,https://imdb.com/title/tt1677720/,75.0
+217,Black Panther,201,7.3,88.0,584788.0,PG-13,https://imdb.com/title/tt1825683/,73.0
+218,Avengers: Infinity War,201,8.5,68.0,780903.0,PG-13,https://imdb.com/title/tt4154756/,85.0
+219,Spider-Man: Into the Spider-Verse,201,8.4,87.0,322712.0,PG,https://imdb.com/title/tt4633694/,84.0
+220,Green Book,201,8.2,69.0,328409.0,PG-13,https://imdb.com/title/tt6966692/,82.0
+221,Hereditary,201,7.3,87.0,211737.0,R,https://imdb.com/title/tt7784604/,73.0
+222,Our House,201,5.3,45.0,5675.0,PG-13,https://imdb.com/title/tt2018069/,53.0
+223,The Hate U Give,201,7.4,81.0,26890.0,PG-13,https://imdb.com/title/tt5580266/,74.0
+224,Aquaman,201,7.0,55.0,340172.0,PG-13,https://imdb.com/title/tt1477834/,70.0
+225,A Star Is Born,201,7.7,88.0,311228.0,R,https://imdb.com/title/tt1517451/,77.0
+226,Mission: Impossible - Fallout,201,7.7,86.0,274633.0,PG-13,https://imdb.com/title/tt4912910/,77.0
+227,Crazy Rich Asians,201,6.9,74.0,127958.0,PG-13,https://imdb.com/title/tt3104988/,69.0
+228,Bohemian Rhapsody,201,8.0,49.0,426417.0,PG-13,https://imdb.com/title/tt1727824/,80.0
+229,Blockers,201,6.2,69.0,67485.0,R,https://imdb.com/title/tt2531344/,62.0
+230,Deadpool 2,201,7.7,66.0,453526.0,R,https://imdb.com/title/tt5463162/,77.0
+231,Annihilation,201,6.9,79.0,266066.0,R,https://imdb.com/title/tt2798920/,69.0
+232,A Quiet Place,201,7.5,82.0,383686.0,PG-13,https://imdb.com/title/tt6644200/,75.0
+233,Solo: A Star Wars Story,201,6.9,62.0,272477.0,PG-13,https://imdb.com/title/tt3778644/,69.0
+234,Fantastic Beasts: The Crimes of Grindelwald,201,6.6,52.0,204380.0,PG-13,https://imdb.com/title/tt4123430/,66.0
+235,The Favourite,201,7.5,91.0,159681.0,R,https://imdb.com/title/tt5083738/,75.0
+236,The Meg,201,5.7,46.0,137155.0,PG-13,https://imdb.com/title/tt4779682/,57.0
+237,Red Sparrow,201,6.6,53.0,156785.0,R,https://imdb.com/title/tt2873282/,66.0
+238,Game Night,201,6.9,66.0,192818.0,R,https://imdb.com/title/tt2704998/,69.0
+239,Den of Thieves,201,7.0,49.0,86460.0,R,https://imdb.com/title/tt1259528/,70.0
+240,Venom,201,6.7,35.0,334683.0,PG-13,https://imdb.com/title/tt1270797/,67.0
+241,A Simple Favor,201,6.8,67.0,114566.0,R,https://imdb.com/title/tt7040874/,68.0
+242,Burden,201,6.0,57.0,530.0,R,https://imdb.com/title/tt5314450/,60.0
+243,Hotel Artemis,201,6.1,58.0,40275.0,R,https://imdb.com/title/tt5834262/,61.0
+244,Night Hunter,201,5.9,31.0,11576.0,R,https://imdb.com/title/tt6533240/,59.0
+245,Ocean's 8,201,6.2,61.0,171362.0,PG-13,https://imdb.com/title/tt5164214/,62.0
+246,First Man,201,7.3,84.0,154555.0,PG-13,https://imdb.com/title/tt1213641/,73.0
+247,Suspiria,201,6.8,64.0,54927.0,R,https://imdb.com/title/tt1034415/,68.0
+248,Mamma Mia! Here We Go Again,201,6.7,60.0,73064.0,PG-13,https://imdb.com/title/tt6911608/,67.0
+249,High Strung Free Dance,201,6.5,43.0,742.0,PG,https://imdb.com/title/tt6428150/,65.0
+250,Climax,201,7.1,67.0,44578.0,R,https://imdb.com/title/tt8359848/,71.0
+251,Upgrade,201,7.5,67.0,138879.0,R,https://imdb.com/title/tt6499752/,75.0
+252,The Ballad of Buster Scruggs,201,7.3,79.0,111513.0,R,https://imdb.com/title/tt6412452/,73.0
+253,Fifty Shades Freed,201,4.5,31.0,51871.0,R,https://imdb.com/title/tt4477536/,45.0
+254,Rampage,201,6.1,45.0,134997.0,PG-13,https://imdb.com/title/tt2231461/,61.0
+255,Bird Box,201,6.6,51.0,260842.0,R,https://imdb.com/title/tt2737304/,66.0
+256,Bad Times at the El Royale,201,7.1,60.0,120338.0,R,https://imdb.com/title/tt6628394/,71.0
+257,Leave No Trace,201,7.2,88.0,45282.0,PG,https://imdb.com/title/tt3892172/,72.0
+258,The Spy Who Dumped Me,201,6.0,52.0,63877.0,R,https://imdb.com/title/tt6663582/,60.0
+259,Vice,201,7.2,61.0,109388.0,R,https://imdb.com/title/tt6266538/,72.0
+260,"Love, Simon",201,7.6,72.0,92310.0,PG-13,https://imdb.com/title/tt5164432/,76.0
+261,Capernaum,201,8.4,75.0,49121.0,R,https://imdb.com/title/tt8267604/,84.0
+262,Bumblebee,201,6.8,66.0,126832.0,PG-13,https://imdb.com/title/tt4701182/,68.0
+263,The Predator,201,5.4,48.0,110678.0,R,https://imdb.com/title/tt3829266/,54.0
+264,Mid90s,201,7.4,66.0,41605.0,R,https://imdb.com/title/tt5613484/,74.0
+265,Mary Poppins Returns,201,6.7,66.0,71676.0,PG,https://imdb.com/title/tt5028340/,67.0
+266,Ant-Man and the Wasp,201,7.1,70.0,289396.0,PG-13,https://imdb.com/title/tt5095030/,71.0
+267,The House That Jack Built,201,6.8,42.0,52176.0,R,https://imdb.com/title/tt4003440/,68.0
+268,Sorry to Bother You,201,6.9,80.0,55315.0,R,https://imdb.com/title/tt5688932/,69.0
+269,If Beale Street Could Talk,201,7.1,87.0,37922.0,R,https://imdb.com/title/tt7125860/,71.0
+270,Incredibles 2,201,7.6,80.0,235090.0,PG,https://imdb.com/title/tt3606756/,76.0
+271,Tomb Raider,201,6.3,48.0,182853.0,PG-13,https://imdb.com/title/tt1365519/,63.0
+272,Overlord,201,6.6,60.0,77746.0,R,https://imdb.com/title/tt4530422/,66.0
+273,Instant Family,201,7.3,57.0,73119.0,PG-13,https://imdb.com/title/tt7401588/,73.0
+274,Sicario: Day of the Soldado,201,7.1,61.0,116493.0,R,https://imdb.com/title/tt5052474/,71.0
+275,Beautiful Boy,201,7.3,62.0,46312.0,R,https://imdb.com/title/tt1226837/,73.0
+276,Freaks,201,6.7,63.0,19498.0,R,https://imdb.com/title/tt8781414/,67.0
+277,The Mule,201,7.0,58.0,97788.0,R,https://imdb.com/title/tt7959026/,70.0
+278,Halloween,201,6.6,67.0,109791.0,R,https://imdb.com/title/tt1502407/,66.0
+279,Ralph Breaks the Internet,201,7.1,71.0,120766.0,PG,https://imdb.com/title/tt5848272/,71.0
+280,Tag,201,6.5,56.0,105690.0,R,https://imdb.com/title/tt2854926/,65.0
+281,The Equalizer 2,201,6.7,50.0,120000.0,R,https://imdb.com/title/tt3766354/,67.0
+282,Under the Silver Lake,201,6.5,60.0,29067.0,R,https://imdb.com/title/tt5691670/,65.0
+283,Ophelia,201,6.6,60.0,6467.0,PG-13,https://imdb.com/title/tt5690810/,66.0
+284,The Nun,201,5.3,46.0,109665.0,R,https://imdb.com/title/tt5814060/,53.0
+285,Creed II,201,7.1,66.0,97233.0,PG-13,https://imdb.com/title/tt6343314/,71.0
+286,12 Strong,201,6.6,54.0,62964.0,R,https://imdb.com/title/tt1413492/,66.0
+287,Mary Queen of Scots,201,6.3,60.0,35791.0,R,https://imdb.com/title/tt2328900/,63.0
+288,Mortal Engines,201,6.1,44.0,95345.0,PG-13,https://imdb.com/title/tt1571234/,61.0
+289,Roma,201,7.7,96.0,131690.0,R,https://imdb.com/title/tt6155172/,77.0
+290,High Life,201,5.8,77.0,24591.0,R,https://imdb.com/title/tt4827558/,58.0
+291,The First Purge,201,5.2,54.0,50829.0,R,https://imdb.com/title/tt6133466/,52.0
+292,Maze Runner: The Death Cure,201,6.2,50.0,105102.0,PG-13,https://imdb.com/title/tt4500922/,62.0
+293,Isle of Dogs,201,7.9,82.0,129745.0,PG-13,https://imdb.com/title/tt5104604/,79.0
+294,The Nightingale,201,7.3,77.0,15513.0,R,https://imdb.com/title/tt4068576/,73.0
+295,Hotel Mumbai,201,7.6,62.0,47160.0,R,https://imdb.com/title/tt5461944/,76.0
+296,Blindspotting,201,7.4,77.0,24072.0,R,https://imdb.com/title/tt7242142/,74.0
+297,Widows,201,6.9,84.0,80857.0,R,https://imdb.com/title/tt4218572/,69.0
+298,The Girl in the Spider's Web,201,6.1,43.0,37680.0,R,https://imdb.com/title/tt5177088/,61.0
+299,Outlaw King,201,6.9,59.0,55250.0,R,https://imdb.com/title/tt6679794/,69.0
+300,Death Wish,201,6.4,31.0,60084.0,R,https://imdb.com/title/tt1137450/,64.0
+301,Robin Hood,201,5.3,32.0,59123.0,PG-13,https://imdb.com/title/tt4532826/,53.0
+302,Status Update,201,5.7,,3690.0,PG-13,https://imdb.com/title/tt5692390/,57.0
+303,Shoplifters,201,8.0,93.0,53822.0,R,https://imdb.com/title/tt8075192/,80.0
+304,Book Club,201,6.1,53.0,23570.0,PG-13,https://imdb.com/title/tt6857166/,61.0
+305,Hunter Killer,201,6.6,43.0,47952.0,R,https://imdb.com/title/tt1846589/,66.0
+306,Mile 22,201,6.1,38.0,61114.0,R,https://imdb.com/title/tt4560436/,61.0
+307,Dragged Across Concrete,201,7.0,60.0,32696.0,R,https://imdb.com/title/tt6491178/,70.0
+308,Searching,201,7.6,71.0,126531.0,PG-13,https://imdb.com/title/tt7668870/,76.0
+309,Pacific Rim: Uprising,201,5.6,44.0,101224.0,PG-13,https://imdb.com/title/tt2557478/,56.0
+310,Brian Banks,201,7.1,58.0,2944.0,PG-13,https://imdb.com/title/tt3920820/,71.0
+311,Hotel Transylvania 3: Summer Vacation,201,6.3,54.0,52213.0,PG,https://imdb.com/title/tt5220122/,63.0
+312,Peppermint,201,6.5,29.0,47767.0,R,https://imdb.com/title/tt6850820/,65.0
+313,A Wrinkle in Time,201,4.2,53.0,39208.0,PG,https://imdb.com/title/tt1620680/,42.0
+314,Dumplin',201,6.6,53.0,26214.0,PG-13,https://imdb.com/title/tt4878482/,66.0
+315,The Sisters Brothers,201,7.0,78.0,48324.0,R,https://imdb.com/title/tt4971344/,70.0
+316,The House with a Clock in Its Walls,201,6.0,57.0,41684.0,PG,https://imdb.com/title/tt2119543/,60.0
+317,Truth or Dare,201,5.2,35.0,42979.0,PG-13,https://imdb.com/title/tt6772950/,52.0
+318,Slaughterhouse Rulez,201,5.2,39.0,8943.0,R,https://imdb.com/title/tt6905696/,52.0
+319,Assassination Nation,201,5.9,56.0,13184.0,R,https://imdb.com/title/tt6205872/,59.0
+320,Driven,201,6.3,55.0,4159.0,R,https://imdb.com/title/tt5592796/,63.0
+321,White Boy Rick,201,6.4,59.0,23409.0,R,https://imdb.com/title/tt4537896/,64.0
+322,Operation Finale,201,6.6,58.0,28624.0,PG-13,https://imdb.com/title/tt5208252/,66.0
+323,Never Look Away,201,7.7,68.0,12678.0,R,https://imdb.com/title/tt5311542/,77.0
+324,The Cloverfield Paradox,201,5.5,37.0,91330.0,PG-13,https://imdb.com/title/tt2548396/,55.0
+325,The Professor,201,6.7,37.0,19388.0,R,https://imdb.com/title/tt6865690/,67.0
+326,On the Basis of Sex,201,7.0,59.0,21116.0,PG-13,https://imdb.com/title/tt4669788/,70.0
+327,Life of the Party,201,5.6,46.0,31278.0,PG-13,https://imdb.com/title/tt5619332/,56.0
+328,Christopher Robin,201,7.3,60.0,64587.0,PG,https://imdb.com/title/tt4575576/,73.0
+329,Boy Erased,201,6.9,69.0,28002.0,R,https://imdb.com/title/tt7008872/,69.0
+330,The Commuter,201,6.3,56.0,98200.0,PG-13,https://imdb.com/title/tt1590193/,63.0
+331,Johnny English Strikes Again,201,6.2,39.0,58315.0,PG,https://imdb.com/title/tt6921996/,62.0
+332,Overboard,201,6.0,42.0,32074.0,PG-13,https://imdb.com/title/tt1563742/,60.0
+333,Life Itself,201,6.8,21.0,15037.0,R,https://imdb.com/title/tt5989218/,68.0
+334,Bigger,201,6.4,37.0,1879.0,PG-13,https://imdb.com/title/tt3226786/,64.0
+335,Eighth Grade,201,7.4,89.0,57173.0,R,https://imdb.com/title/tt7014006/,74.0
+336,Adrift,201,6.6,56.0,42340.0,PG-13,https://imdb.com/title/tt6306064/,66.0
+337,Skyscraper,201,5.8,51.0,97923.0,PG-13,https://imdb.com/title/tt5758778/,58.0
+338,Replicas,201,5.5,19.0,27912.0,PG-13,https://imdb.com/title/tt4154916/,55.0
+339,Border,201,7.0,75.0,21490.0,R,https://imdb.com/title/tt5501104/,70.0
+340,Mowgli: Legend of the Jungle,201,6.5,51.0,53513.0,PG-13,https://imdb.com/title/tt2388771/,65.0
+341,Wildlife,201,6.8,80.0,20796.0,PG-13,https://imdb.com/title/tt5929754/,68.0
+342,Night School,201,5.6,43.0,31365.0,PG-13,https://imdb.com/title/tt6781982/,56.0
+343,Unsane,201,6.4,63.0,37818.0,R,https://imdb.com/title/tt7153766/,64.0
+344,A Million Little Pieces,201,6.2,45.0,1327.0,R,https://imdb.com/title/tt0427543/,62.0
+345,Lady Bird,201,7.4,94.0,221840.0,R,https://imdb.com/title/tt4925292/,74.0
+346,The Disaster Artist,201,7.4,76.0,130022.0,R,https://imdb.com/title/tt3521126/,74.0
+347,Justice League,201,6.4,45.0,365831.0,PG-13,https://imdb.com/title/tt0974015/,64.0
+348,Guardians of the Galaxy Vol. 2,201,7.6,67.0,542318.0,PG-13,https://imdb.com/title/tt3896198/,76.0
+349,Get Out,201,7.7,85.0,463295.0,R,https://imdb.com/title/tt5052448/,77.0
+350,Call Me by Your Name,201,7.9,93.0,193608.0,R,https://imdb.com/title/tt5726616/,79.0
+351,Blade Runner 2049,201,8.0,81.0,433029.0,R,https://imdb.com/title/tt1856101/,80.0
+352,Thor: Ragnarok,201,7.9,74.0,555088.0,PG-13,https://imdb.com/title/tt3501632/,79.0
+353,It,201,7.3,69.0,436096.0,R,https://imdb.com/title/tt1396484/,73.0
+354,King Arthur: Legend of the Sword,201,6.7,41.0,184620.0,PG-13,https://imdb.com/title/tt1972591/,67.0
+355,Beauty and the Beast,201,7.1,65.0,260549.0,PG,https://imdb.com/title/tt2771200/,71.0
+356,The Square,201,7.2,73.0,51814.0,R,https://imdb.com/title/tt4995790/,72.0
+357,Dunkirk,201,7.9,94.0,520915.0,PG-13,https://imdb.com/title/tt5013056/,79.0
+358,Pirates of the Caribbean: Dead Men Tell No Tales,201,6.6,39.0,250800.0,PG-13,https://imdb.com/title/tt1790809/,66.0
+359,Logan,201,8.1,77.0,618981.0,R,https://imdb.com/title/tt3315342/,81.0
+360,Killing Gunther,201,4.7,53.0,10636.0,R,https://imdb.com/title/tt5689068/,47.0
+361,Spider-Man: Homecoming,201,7.4,73.0,487029.0,PG-13,https://imdb.com/title/tt2250912/,74.0
+362,Baby Driver,201,7.6,86.0,413747.0,R,https://imdb.com/title/tt3890160/,76.0
+363,The Greatest Showman,201,7.6,48.0,221713.0,PG,https://imdb.com/title/tt1485796/,76.0
+364,Before I Fall,201,6.4,58.0,43688.0,PG-13,https://imdb.com/title/tt1691916/,64.0
+365,Baywatch,201,5.5,37.0,153974.0,R,https://imdb.com/title/tt1469304/,55.0
+366,"Three Billboards Outside Ebbing, Missouri",201,8.2,88.0,402197.0,R,https://imdb.com/title/tt5027774/,82.0
+367,Jumanji: Welcome to the Jungle,201,6.9,58.0,302963.0,PG-13,https://imdb.com/title/tt2283362/,69.0
+368,The Killing of a Sacred Deer,201,7.0,73.0,112524.0,R,https://imdb.com/title/tt5715874/,70.0
+369,Wonder Woman,201,7.4,76.0,529618.0,PG-13,https://imdb.com/title/tt0451279/,74.0
+370,Molly's Game,201,7.4,71.0,129923.0,R,https://imdb.com/title/tt4209788/,74.0
+371,Wind River,201,7.7,73.0,191964.0,R,https://imdb.com/title/tt5362988/,77.0
+372,Star Wars: Episode VIII - The Last Jedi,201,7.0,84.0,541556.0,PG-13,https://imdb.com/title/tt2527336/,70.0
+373,Kingsman: The Golden Circle,201,6.7,44.0,257874.0,R,https://imdb.com/title/tt4649466/,67.0
+374,Murder on the Orient Express,201,6.5,52.0,199725.0,PG-13,https://imdb.com/title/tt3402236/,65.0
+375,Good Time,201,7.4,80.0,75813.0,R,https://imdb.com/title/tt4846232/,74.0
+376,Coco,201,8.4,81.0,342606.0,PG,https://imdb.com/title/tt2380307/,84.0
+377,The Shape of Water,201,7.3,87.0,352173.0,R,https://imdb.com/title/tt5580390/,73.0
+378,Alien: Covenant,201,6.4,65.0,245198.0,R,https://imdb.com/title/tt2316204/,64.0
+379,The Post,201,7.2,83.0,127001.0,PG-13,https://imdb.com/title/tt6294822/,72.0
+380,Kong: Skull Island,201,6.6,62.0,259173.0,PG-13,https://imdb.com/title/tt3731562/,66.0
+381,John Wick: Chapter 2,201,7.5,75.0,346011.0,R,https://imdb.com/title/tt4425200/,75.0
+382,"I, Tonya",201,7.5,77.0,169692.0,R,https://imdb.com/title/tt5580036/,75.0
+383,Mother!,201,6.6,75.0,181449.0,R,https://imdb.com/title/tt5109784/,66.0
+384,Logan Lucky,201,7.0,78.0,121334.0,PG-13,https://imdb.com/title/tt5439796/,70.0
+385,The Florida Project,201,7.6,92.0,86918.0,R,https://imdb.com/title/tt5649144/,76.0
+386,Pitch Perfect 3,201,5.8,40.0,52696.0,PG-13,https://imdb.com/title/tt4765284/,58.0
+387,Darkest Hour,201,7.4,75.0,162281.0,PG-13,https://imdb.com/title/tt4555426/,74.0
+388,Transformers: The Last Knight,201,5.2,27.0,130525.0,PG-13,https://imdb.com/title/tt3371366/,52.0
+389,It Comes At Night,201,6.2,78.0,79294.0,R,https://imdb.com/title/tt4695012/,62.0
+390,The Fate of the Furious,201,6.7,56.0,196910.0,PG-13,https://imdb.com/title/tt4630562/,67.0
+391,Wonder,201,8.0,66.0,130680.0,PG,https://imdb.com/title/tt2543472/,80.0
+392,The Death of Stalin,201,7.2,88.0,79541.0,R,https://imdb.com/title/tt4686844/,72.0
+393,Valerian and the City of a Thousand Planets,201,6.5,51.0,155400.0,PG-13,https://imdb.com/title/tt2239822/,65.0
+394,Fifty Shades Darker,201,4.6,33.0,88225.0,R,https://imdb.com/title/tt4465564/,46.0
+395,Downsizing,201,5.7,63.0,93564.0,R,https://imdb.com/title/tt1389072/,57.0
+396,Mudbound,201,7.4,85.0,39602.0,R,https://imdb.com/title/tt2396589/,74.0
+397,Ghost in the Shell,201,6.3,52.0,189799.0,PG-13,https://imdb.com/title/tt1219827/,63.0
+398,The Dark Tower,201,5.6,34.0,121745.0,PG-13,https://imdb.com/title/tt1648190/,56.0
+399,The Mummy,201,5.4,34.0,167242.0,PG-13,https://imdb.com/title/tt2345759/,54.0
+400,Rememory,201,6.2,48.0,14610.0,PG-13,https://imdb.com/title/tt2331047/,62.0
+401,Marshall,201,7.2,66.0,17270.0,PG-13,https://imdb.com/title/tt5301662/,72.0
+402,The Foreigner,201,7.0,55.0,93952.0,R,https://imdb.com/title/tt1615160/,70.0
+403,Phantom Thread,201,7.5,90.0,103831.0,R,https://imdb.com/title/tt5776858/,75.0
+404,American Made,201,7.2,65.0,151104.0,R,https://imdb.com/title/tt3532216/,72.0
+405,You Were Never Really Here,201,6.8,84.0,94415.0,R,https://imdb.com/title/tt5742374/,68.0
+406,Hostiles,201,7.2,65.0,65040.0,R,https://imdb.com/title/tt5478478/,72.0
+407,Only the Brave,201,7.6,72.0,53739.0,PG-13,https://imdb.com/title/tt3829920/,76.0
+408,Life,201,6.6,54.0,198989.0,R,https://imdb.com/title/tt5442430/,66.0
+409,Detroit,201,7.3,77.0,45477.0,R,https://imdb.com/title/tt5390504/,73.0
+410,Gifted,201,7.6,60.0,93886.0,PG-13,https://imdb.com/title/tt4481414/,76.0
+411,Atomic Blonde,201,6.7,63.0,167761.0,R,https://imdb.com/title/tt2406566/,67.0
+412,War for the Planet of the Apes,201,7.4,82.0,219374.0,PG-13,https://imdb.com/title/tt3450958/,74.0
+413,Happy Death Day,201,6.5,58.0,108172.0,PG-13,https://imdb.com/title/tt5308322/,65.0
+414,American Assassin,201,6.2,45.0,66231.0,R,https://imdb.com/title/tt1961175/,62.0
+415,Papillon,201,7.2,51.0,47420.0,R,https://imdb.com/title/tt5093026/,72.0
+416,The Circle,201,5.3,43.0,80180.0,PG-13,https://imdb.com/title/tt4287320/,53.0
+417,Rough Night,201,5.2,51.0,44842.0,R,https://imdb.com/title/tt4799050/,52.0
+418,The Big Sick,201,7.5,86.0,115529.0,R,https://imdb.com/title/tt5462602/,75.0
+419,The Upside,201,6.9,46.0,41333.0,PG-13,https://imdb.com/title/tt1987680/,69.0
+420,The Glass Castle,201,7.1,56.0,27618.0,PG-13,https://imdb.com/title/tt2378507/,71.0
+421,Suburbicon,201,5.7,42.0,38272.0,R,https://imdb.com/title/tt0491175/,57.0
+422,Power Rangers,201,5.9,44.0,99192.0,PG-13,https://imdb.com/title/tt3717490/,59.0
+423,The Current War: Director's Cut,201,6.5,55.0,14614.0,PG-13,https://imdb.com/title/tt2140507/,65.0
+424,LA 92,201,8.2,66.0,4109.0,R,https://imdb.com/title/tt6794424/,82.0
+425,Geostorm,201,5.3,21.0,89475.0,PG-13,https://imdb.com/title/tt1981128/,53.0
+426,Hot Summer Nights,201,6.4,44.0,11516.0,R,https://imdb.com/title/tt3416536/,64.0
+427,Shot Caller,201,7.3,59.0,67511.0,R,https://imdb.com/title/tt4633690/,73.0
+428,A Ghost Story,201,6.9,84.0,55669.0,R,https://imdb.com/title/tt6265828/,69.0
+429,The Layover,201,4.7,15.0,12330.0,R,https://imdb.com/title/tt4565520/,47.0
+430,The Hitman's Bodyguard,201,6.9,47.0,178551.0,R,https://imdb.com/title/tt1959563/,69.0
+431,Aftermath,201,5.6,44.0,20962.0,R,https://imdb.com/title/tt4581576/,56.0
+432,Disobedience,201,6.6,74.0,23074.0,R,https://imdb.com/title/tt6108178/,66.0
+433,Annabelle: Creation,201,6.5,62.0,106225.0,R,https://imdb.com/title/tt5140878/,65.0
+434,All the Money in the World,201,6.8,72.0,69663.0,R,https://imdb.com/title/tt5294550/,68.0
+435,Revenge,201,6.3,81.0,33290.0,R,https://imdb.com/title/tt6738136/,63.0
+436,My Friend Dahmer,201,6.2,68.0,14994.0,R,https://imdb.com/title/tt2291540/,62.0
+437,The Lego Batman Movie,201,7.3,75.0,126807.0,PG,https://imdb.com/title/tt4116284/,73.0
+438,The Wife,201,7.2,77.0,32395.0,R,https://imdb.com/title/tt3750872/,72.0
+439,Professor Marston & the Wonder Women,201,7.1,68.0,21700.0,R,https://imdb.com/title/tt6133130/,71.0
+440,xXx: Return of Xander Cage,201,5.2,42.0,82897.0,PG-13,https://imdb.com/title/tt1293847/,52.0
+441,Girls Trip,201,6.2,71.0,32741.0,R,https://imdb.com/title/tt3564472/,62.0
+442,"Roman J. Israel, Esq.",201,6.5,58.0,29694.0,PG-13,https://imdb.com/title/tt6000478/,65.0
+443,Hangman,201,5.2,31.0,13351.0,R,https://imdb.com/title/tt3011960/,52.0
+444,Thoroughbreds,201,6.7,75.0,31618.0,R,https://imdb.com/title/tt5649108/,67.0
+445,Jungle,201,6.7,48.0,42718.0,R,https://imdb.com/title/tt3758172/,67.0
+446,47 Meters Down,201,5.6,52.0,46190.0,PG-13,https://imdb.com/title/tt2932536/,56.0
+447,The Beguiled,201,6.3,77.0,49210.0,R,https://imdb.com/title/tt5592248/,63.0
+448,First Reformed,201,7.1,85.0,43790.0,R,https://imdb.com/title/tt6053438/,71.0
+449,Crooked House,201,6.3,59.0,16408.0,PG-13,https://imdb.com/title/tt1869347/,63.0
+450,Chips,201,6.0,28.0,41077.0,R,https://imdb.com/title/tt0493405/,60.0
+451,Sleepless,201,5.6,34.0,28672.0,R,https://imdb.com/title/tt2072233/,56.0
+452,First Kill,201,5.0,39.0,9563.0,R,https://imdb.com/title/tt5884234/,50.0
+453,The Snowman,201,5.1,23.0,55561.0,R,https://imdb.com/title/tt1758810/,51.0
+454,Home Again,201,5.8,41.0,26316.0,PG-13,https://imdb.com/title/tt5719700/,58.0
+455,Going in Style,201,6.6,50.0,73747.0,PG-13,https://imdb.com/title/tt2568862/,66.0
+456,Ferdinand,201,6.7,58.0,45602.0,PG,https://imdb.com/title/tt3411444/,67.0
+457,Attraction,201,5.5,,9392.0,R,https://imdb.com/title/tt4731148/,55.0
+458,A Dog's Purpose,201,7.2,43.0,62572.0,PG,https://imdb.com/title/tt1753383/,72.0
+459,T2 Trainspotting,201,7.2,67.0,107998.0,R,https://imdb.com/title/tt2763304/,72.0
+460,Marrowbone,201,6.7,63.0,21057.0,R,https://imdb.com/title/tt5886440/,67.0
+461,The Emoji Movie,201,3.3,12.0,53297.0,PG,https://imdb.com/title/tt4877122/,33.0
+462,Paddington 2,201,7.8,88.0,56735.0,PG,https://imdb.com/title/tt4468740/,78.0
+463,The Boss Baby,201,6.3,50.0,103728.0,PG,https://imdb.com/title/tt3874544/,63.0
+464,Jigsaw,201,5.8,39.0,64876.0,R,https://imdb.com/title/tt3348730/,58.0
+465,Ingrid Goes West,201,6.6,71.0,33624.0,R,https://imdb.com/title/tt5962210/,66.0
+466,Despicable Me 3,201,6.3,49.0,106825.0,PG,https://imdb.com/title/tt3469046/,63.0
+467,Moana,201,7.6,81.0,254798.0,PG,https://imdb.com/title/tt3521164/,76.0
+468,Moonlight,201,7.4,99.0,258464.0,R,https://imdb.com/title/tt4975722/,74.0
+469,Suicide Squad,201,6.0,40.0,580645.0,PG-13,https://imdb.com/title/tt1386697/,60.0
+470,Rogue One: A Star Wars Story,201,7.8,65.0,532794.0,PG-13,https://imdb.com/title/tt3748528/,78.0
+471,Miss Peregrine's Home for Peculiar Children,201,6.7,57.0,150491.0,PG-13,https://imdb.com/title/tt1935859/,67.0
+472,La La Land,201,8.0,94.0,480524.0,PG-13,https://imdb.com/title/tt3783958/,80.0
+473,Batman v Superman: Dawn of Justice,201,6.5,44.0,607046.0,PG-13,https://imdb.com/title/tt2975590/,65.0
+474,Zootopia,201,8.0,78.0,415879.0,PG,https://imdb.com/title/tt2948356/,80.0
+475,Arrival,201,7.9,81.0,567583.0,PG-13,https://imdb.com/title/tt2543164/,79.0
+476,The Nice Guys,201,7.4,70.0,265345.0,R,https://imdb.com/title/tt3799694/,74.0
+477,Hacksaw Ridge,201,8.1,71.0,410960.0,R,https://imdb.com/title/tt2119532/,81.0
+478,Doctor Strange,201,7.5,72.0,571175.0,PG-13,https://imdb.com/title/tt1211837/,75.0
+479,Captain America: Civil War,201,7.8,75.0,636801.0,PG-13,https://imdb.com/title/tt3498820/,78.0
+480,Deadpool,201,8.0,65.0,874351.0,R,https://imdb.com/title/tt1431045/,80.0
+481,Your Name.,201,8.4,79.0,171305.0,PG,https://imdb.com/title/tt5311514/,84.0
+482,Jack Reacher: Never Go Back,201,6.1,47.0,132502.0,PG-13,https://imdb.com/title/tt3393786/,61.0
+483,Fantastic Beasts and Where to Find Them,201,7.3,66.0,394179.0,PG-13,https://imdb.com/title/tt3183660/,73.0
+484,Captain Fantastic,201,7.9,72.0,178904.0,R,https://imdb.com/title/tt3553976/,79.0
+485,Hidden Figures,201,7.8,74.0,190076.0,PG,https://imdb.com/title/tt4846340/,78.0
+486,The Magnificent Seven,201,6.9,54.0,179380.0,PG-13,https://imdb.com/title/tt2404435/,69.0
+487,Split,201,7.3,62.0,403190.0,PG-13,https://imdb.com/title/tt4972582/,73.0
+488,I Am Not Your Negro,201,7.9,95.0,16780.0,PG-13,https://imdb.com/title/tt5804038/,79.0
+489,Me Before You,201,7.4,51.0,196513.0,PG-13,https://imdb.com/title/tt2674426/,74.0
+490,Assassin's Creed,201,5.7,36.0,179286.0,PG-13,https://imdb.com/title/tt2094766/,57.0
+491,Nocturnal Animals,201,7.5,67.0,226040.0,R,https://imdb.com/title/tt4550098/,75.0
+492,The Legend of Tarzan,201,6.2,44.0,159197.0,PG-13,https://imdb.com/title/tt0918940/,62.0
+493,Inferno,201,6.2,42.0,151939.0,PG-13,https://imdb.com/title/tt3062096/,62.0
+494,Star Trek Beyond,201,7.1,68.0,221022.0,PG-13,https://imdb.com/title/tt2660888/,71.0
+495,13 Hours,201,7.3,48.0,113163.0,R,https://imdb.com/title/tt4172430/,73.0
+496,X-Men: Apocalypse,201,6.9,52.0,381012.0,PG-13,https://imdb.com/title/tt3385516/,69.0
+497,Manchester by the Sea,201,7.8,96.0,235156.0,R,https://imdb.com/title/tt4034228/,78.0
+498,The Neon Demon,201,6.2,51.0,80047.0,R,https://imdb.com/title/tt1974419/,62.0
+499,Passengers,201,7.0,41.0,336075.0,PG-13,https://imdb.com/title/tt1355644/,70.0
+500,Sing,201,7.1,59.0,127837.0,PG,https://imdb.com/title/tt3470600/,71.0
+501,The Accountant,201,7.3,51.0,250764.0,R,https://imdb.com/title/tt2140479/,73.0
+502,Independence Day: Resurgence,201,5.2,32.0,162236.0,PG-13,https://imdb.com/title/tt1628841/,52.0
+503,Don't Breathe,201,7.1,71.0,208672.0,R,https://imdb.com/title/tt4160708/,71.0
+504,The Boy,201,6.0,42.0,76097.0,PG-13,https://imdb.com/title/tt3882082/,60.0
+505,Sausage Party,201,6.1,66.0,170143.0,R,https://imdb.com/title/tt1700841/,61.0
+506,Lion,201,8.0,69.0,203383.0,PG-13,https://imdb.com/title/tt3741834/,80.0
+507,The Edge of Seventeen,201,7.3,77.0,98215.0,R,https://imdb.com/title/tt1878870/,73.0
+508,The Girl on the Train,201,6.5,48.0,163061.0,R,https://imdb.com/title/tt3631112/,65.0
+509,Hell or High Water,201,7.6,88.0,195003.0,R,https://imdb.com/title/tt2582782/,76.0
+510,Loving,201,7.0,79.0,30246.0,PG-13,https://imdb.com/title/tt4669986/,70.0
+511,Deepwater Horizon,201,7.1,68.0,144844.0,PG-13,https://imdb.com/title/tt1860357/,71.0
+512,Jason Bourne,201,6.6,58.0,202046.0,PG-13,https://imdb.com/title/tt4196776/,66.0
+513,Trolls,201,6.5,55.0,69080.0,PG,https://imdb.com/title/tt1679335/,65.0
+514,Central Intelligence,201,6.3,52.0,152728.0,PG-13,https://imdb.com/title/tt1489889/,63.0
+515,Blood Father,201,6.4,66.0,57421.0,R,https://imdb.com/title/tt3647498/,64.0
+516,Gods of Egypt,201,5.4,25.0,101894.0,PG-13,https://imdb.com/title/tt2404233/,54.0
+517,Now You See Me 2,201,6.5,46.0,237457.0,PG-13,https://imdb.com/title/tt3110958/,65.0
+518,"Hail, Caesar!",201,6.3,72.0,119953.0,PG-13,https://imdb.com/title/tt0475290/,63.0
+519,Warcraft,201,6.8,32.0,236573.0,PG-13,https://imdb.com/title/tt0803096/,68.0
+520,Swiss Army Man,201,7.0,64.0,101262.0,R,https://imdb.com/title/tt4034354/,70.0
+521,Dirty Grandpa,201,5.9,21.0,109318.0,R,https://imdb.com/title/tt1860213/,59.0
+522,The Lost City of Z,201,6.6,78.0,74803.0,PG-13,https://imdb.com/title/tt1212428/,66.0
+523,The Shallows,201,6.3,59.0,115791.0,PG-13,https://imdb.com/title/tt4052882/,63.0
+524,10 Cloverfield Lane,201,7.2,76.0,280089.0,PG-13,https://imdb.com/title/tt1179933/,72.0
+525,The Conjuring 2,201,7.3,65.0,215076.0,R,https://imdb.com/title/tt3065204/,73.0
+526,The Autopsy of Jane Doe,201,6.8,65.0,90459.0,R,https://imdb.com/title/tt3289956/,68.0
+527,Hunt for the Wilderpeople,201,7.9,81.0,102350.0,PG-13,https://imdb.com/title/tt4698684/,79.0
+528,Silence,201,7.2,79.0,95695.0,R,https://imdb.com/title/tt0490215/,72.0
+529,The Jungle Book,201,7.4,77.0,252801.0,PG,https://imdb.com/title/tt3040964/,74.0
+530,Ghostbusters,201,5.2,60.0,198154.0,PG-13,https://imdb.com/title/tt1289401/,52.0
+531,War Dogs,201,7.1,57.0,169603.0,R,https://imdb.com/title/tt2005151/,71.0
+532,How to Be Single,201,6.1,51.0,78827.0,R,https://imdb.com/title/tt1292566/,61.0
+533,Lights Out,201,6.3,58.0,110152.0,PG-13,https://imdb.com/title/tt4786282/,63.0
+534,Sully,201,7.4,74.0,225889.0,PG-13,https://imdb.com/title/tt3263904/,74.0
+535,Hush,201,6.6,67.0,94204.0,R,https://imdb.com/title/tt5022702/,66.0
+536,Underworld: Blood Wars,201,5.8,23.0,67343.0,R,https://imdb.com/title/tt3717252/,58.0
+537,Why Him?,201,6.2,39.0,97362.0,R,https://imdb.com/title/tt4501244/,62.0
+538,Allegiant,201,5.7,33.0,104157.0,PG-13,https://imdb.com/title/tt3410834/,57.0
+539,Ben-Hur,201,5.7,38.0,40442.0,PG-13,https://imdb.com/title/tt2638144/,57.0
+540,Allied,201,7.1,60.0,136232.0,R,https://imdb.com/title/tt3640424/,71.0
+541,Finding Dory,201,7.3,77.0,230781.0,PG,https://imdb.com/title/tt2277860/,73.0
+542,Bad Moms,201,6.2,60.0,109823.0,R,https://imdb.com/title/tt4651520/,62.0
+543,The Founder,201,7.2,66.0,113350.0,PG-13,https://imdb.com/title/tt4276820/,72.0
+544,Resident Evil: The Final Chapter,201,5.5,49.0,81010.0,R,https://imdb.com/title/tt2592614/,55.0
+545,Teenage Mutant Ninja Turtles: Out of the Shadows,201,6.0,40.0,81880.0,PG-13,https://imdb.com/title/tt3949660/,60.0
+546,The Bad Batch,201,5.3,62.0,24742.0,R,https://imdb.com/title/tt4334266/,53.0
+547,London Has Fallen,201,5.9,28.0,139586.0,R,https://imdb.com/title/tt3300542/,59.0
+548,The 5th Wave,201,5.2,33.0,96554.0,PG-13,https://imdb.com/title/tt2304933/,52.0
+549,American Honey,201,7.0,79.0,35893.0,R,https://imdb.com/title/tt3721936/,70.0
+550,A Cure for Wellness,201,6.4,47.0,80555.0,R,https://imdb.com/title/tt4731136/,64.0
+551,The Secret Life of Pets,201,6.5,61.0,177623.0,PG,https://imdb.com/title/tt2709768/,65.0
+552,Snowden,201,7.3,58.0,130062.0,R,https://imdb.com/title/tt3774114/,73.0
+553,The Girl with All the Gifts,201,6.6,67.0,52056.0,R,https://imdb.com/title/tt4547056/,66.0
+554,Patriots Day,201,7.4,69.0,84256.0,R,https://imdb.com/title/tt4572514/,74.0
+555,Mike and Dave Need Wedding Dates,201,6.0,51.0,79931.0,R,https://imdb.com/title/tt2823054/,60.0
+556,Pride and Prejudice and Zombies,201,5.8,45.0,49610.0,PG-13,https://imdb.com/title/tt1374989/,58.0
+557,Paterson,201,7.4,90.0,65492.0,R,https://imdb.com/title/tt5247022/,74.0
+558,Fences,201,7.2,79.0,94185.0,PG-13,https://imdb.com/title/tt2671706/,72.0
+559,The Assignment,201,4.6,34.0,7045.0,R,https://imdb.com/title/tt5034474/,46.0
+560,Spectral,201,6.3,,49143.0,PG-13,https://imdb.com/title/tt2106651/,63.0
+561,Nerve,201,6.5,58.0,111097.0,PG-13,https://imdb.com/title/tt3531824/,65.0
+562,The Great Wall,201,5.9,42.0,120751.0,PG-13,https://imdb.com/title/tt2034800/,59.0
+563,Criminal,201,6.3,36.0,56892.0,R,https://imdb.com/title/tt3014866/,63.0
+564,The Take,201,6.3,48.0,34302.0,R,https://imdb.com/title/tt2368619/,63.0
+565,The Huntsman: Winter's War,201,6.1,35.0,94596.0,PG-13,https://imdb.com/title/tt2381991/,61.0
+566,Collateral Beauty,201,6.8,23.0,87672.0,PG-13,https://imdb.com/title/tt4682786/,68.0
+567,A Monster Calls,201,7.5,76.0,77672.0,PG-13,https://imdb.com/title/tt3416532/,75.0
+568,Gold,201,6.7,49.0,54762.0,R,https://imdb.com/title/tt1800302/,67.0
+569,The Brothers Grimsby,201,6.2,44.0,88468.0,R,https://imdb.com/title/tt3381008/,62.0
+570,The BFG,201,6.4,66.0,74590.0,PG,https://imdb.com/title/tt3691740/,64.0
+571,Kung Fu Panda 3,201,7.1,66.0,127909.0,PG,https://imdb.com/title/tt2267968/,71.0
+572,Alice Through the Looking Glass,201,6.2,34.0,88123.0,PG,https://imdb.com/title/tt2567026/,62.0
+573,Bridget Jones's Baby,201,6.5,59.0,65552.0,R,https://imdb.com/title/tt1473832/,65.0
+574,Brimstone,201,7.1,45.0,34412.0,R,https://imdb.com/title/tt1895315/,71.0
+575,Mechanic: Resurrection,201,5.7,38.0,73416.0,R,https://imdb.com/title/tt3522806/,57.0
+576,Midnight Special,201,6.6,76.0,72528.0,PG-13,https://imdb.com/title/tt2649554/,66.0
+577,Better Watch Out,201,6.5,67.0,27539.0,R,https://imdb.com/title/tt4443658/,65.0
+578,Miss Sloane,201,7.5,64.0,60448.0,R,https://imdb.com/title/tt4540710/,75.0
+579,The Choice,201,6.6,26.0,33230.0,PG-13,https://imdb.com/title/tt3797868/,66.0
+580,The Finest Hours,201,6.8,58.0,59821.0,PG-13,https://imdb.com/title/tt2025690/,68.0
+581,Raw,201,7.0,81.0,56614.0,R,https://imdb.com/title/tt4954522/,70.0
+582,I Am Wrath,201,5.4,,12816.0,R,https://imdb.com/title/tt3212232/,54.0
+583,Free State of Jones,201,6.9,53.0,49143.0,R,https://imdb.com/title/tt1124037/,69.0
+584,Whiskey Tango Foxtrot,201,6.6,57.0,48394.0,R,https://imdb.com/title/tt3553442/,66.0
+585,The Purge: Election Year,201,6.0,55.0,86768.0,R,https://imdb.com/title/tt4094724/,60.0
+586,Keanu,201,6.2,63.0,44351.0,R,https://imdb.com/title/tt4139124/,62.0
+587,Free Fire,201,6.4,63.0,39890.0,R,https://imdb.com/title/tt4158096/,64.0
+588,Anthropoid,201,7.2,59.0,41718.0,R,https://imdb.com/title/tt4190530/,72.0
+589,Sing Street,201,7.9,79.0,81604.0,PG-13,https://imdb.com/title/tt3544112/,79.0
+590,Popstar: Never Stop Never Stopping,201,6.7,68.0,51886.0,R,https://imdb.com/title/tt3960412/,67.0
+591,Boyka: Undisputed,201,7.0,,24343.0,R,https://imdb.com/title/tt3344680/,70.0
+592,My Big Fat Greek Wedding 2,201,6.0,37.0,27501.0,PG-13,https://imdb.com/title/tt3760922/,60.0
+593,Neighbors 2: Sorority Rising,201,5.7,58.0,110092.0,R,https://imdb.com/title/tt4438848/,57.0
+594,Café Society,201,6.6,64.0,68059.0,PG-13,https://imdb.com/title/tt4513674/,66.0
+595,Dark Crimes,201,4.8,24.0,13656.0,R,https://imdb.com/title/tt1901024/,48.0
+596,Get a Job,201,5.3,31.0,20694.0,R,https://imdb.com/title/tt1468846/,53.0
+597,Zoolander 2,201,4.7,34.0,63075.0,PG-13,https://imdb.com/title/tt1608290/,47.0
+598,Triple 9,201,6.3,52.0,63663.0,R,https://imdb.com/title/tt1712261/,63.0
+599,Before I Wake,201,6.2,68.0,36942.0,PG-13,https://imdb.com/title/tt3174376/,62.0
+600,Everybody Wants Some!!,201,6.9,83.0,50367.0,R,https://imdb.com/title/tt2937696/,69.0
+601,Colossal,201,6.2,70.0,56378.0,R,https://imdb.com/title/tt4680182/,62.0
+602,Jackie,201,6.7,81.0,70714.0,R,https://imdb.com/title/tt1619029/,67.0
+603,Julieta,201,7.1,73.0,27634.0,R,https://imdb.com/title/tt4326444/,71.0

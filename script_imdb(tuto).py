@@ -34,8 +34,8 @@ mv_pages = []
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(3)
-pages = scrap.nb_page(2)
+years_url = scrap.years_loop(5)
+pages = scrap.nb_page(5)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
