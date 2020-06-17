@@ -128,8 +128,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
                 
     return mv_attributs
 
-def caca():
-    print(1)
 
 def warning_request(response, nb_requests):
     '''

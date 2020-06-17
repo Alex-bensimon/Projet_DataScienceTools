@@ -77,7 +77,7 @@ for year_url in years_url:
         
 
 # Create Data Frame : 
-#movie_ratings = analy.data_frame_netoyage(mv_attributs)
+movie_ratings = analy.data_frame_netoyage(mv_attributs)
 
   
 
