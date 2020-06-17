@@ -10,8 +10,13 @@ from time import time
 
 start_time = time()
 
+<<<<<<< HEAD
 
 def extraction_data(mv_containers):
+=======
+def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages): 
+        
+>>>>>>> master
     '''
     Cleaning of the data contained in the container and then upload in their respective list
 
@@ -24,7 +29,10 @@ def extraction_data(mv_containers):
     :rtype: listes
 
     '''
+    
+    category_film = ['R','PG','PG-13']
 
+<<<<<<< HEAD
     names = []
     years = []
     imdb_ratings = []
@@ -69,6 +77,48 @@ def extraction_data(mv_containers):
             # categories.append(category)
 
     return names, years, imdb_ratings, metascores, votes, categories
+=======
+         
+# For every movie of these 50
+    for container in mv_containers:
+        # If the movie has a Metascore, then:
+        if container.find('div', class_ = 'ratings-metascore') is not None:
+            
+            #Scrape the category and verify if it's a movie (movie type and parental guidancee: R, PG, PG13)
+            category = container.p.find('span', class_='certificate').text
+            if category_film.count(category)>0 :
+                categories.append(category)
+                
+                # Scrape the name
+                name = container.h3.a.text
+                names.append(name)
+        
+                # Scrape the year
+                year = container.h3.find('span', class_ = 'lister-item-year').text
+                years.append(year)
+        
+                # Scrape the IMDB rating
+                imdb = float(container.strong.text)
+                imdb_ratings.append(imdb)
+        
+                # Scrape the Metascore
+                m_score = container.find('span', class_ = 'metascore').text
+                metascores.append(int(m_score))
+        
+                # Scrape the number of votes
+                vote = container.find('span', attrs = {'name':'nv'})['data-value']
+                votes.append(int(vote))
+                
+                # Scrap the URL of the movie page
+                mv_page = container.h3.find('a').get('href')
+                url = "https://imdb.com" + str(mv_page)
+                mv_pages.append(url)
+                
+            else :
+                pass      
+    return names, years, imdb_ratings, metascores, votes, categories, mv_pages
+
+>>>>>>> master
 
 
 def monitor_request(nb_requests):
@@ -94,4 +144,44 @@ def warning_request(response, nb_requests):
 
     '''
     if response.status_code != 200:
+<<<<<<< HEAD
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
+=======
+        warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
+
+def years_loop(nb_years):
+    """
+    Return the period that we want to get the films
+
+    :param int nb_years:
+    :return list period: the period with all years
+    :rtype: list of int
+    """
+    year = 2020
+    i = 0
+    period = []
+    for i in range(nb_years):
+        period.append(year)
+        year = year - 1
+
+    return period
+
+
+def nb_page(number):
+    """
+    Return the number of page.s to get
+
+    :param int number:
+    :return list nb_page: a list of numbers
+    :rtype: list of int
+    """
+    i = 0
+    page = 1
+    nb_page = []
+    for i in range(number):
+        nb_page.append(page)
+        page += 1
+
+    return nb_page
+
+>>>>>>> master

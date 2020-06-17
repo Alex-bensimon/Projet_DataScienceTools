@@ -1,0 +1,304 @@
+,movie,year,imdb_ratings,metascore,votes,category,mv_page,n_imdb
+0,Extraction,2020,6.8,56,122606,R,https://imdb.com/title/tt8936646/,68.0
+1,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60,119835,R,https://imdb.com/title/tt7713068/,61.0
+2,The Invisible Man,2020,7.1,72,107834,R,https://imdb.com/title/tt1051906/,71.0
+3,Bad Boys for Life,2020,6.7,59,99129,R,https://imdb.com/title/tt1502397/,67.0
+4,Sonic the Hedgehog,2020,6.6,47,66647,PG,https://imdb.com/title/tt3794354/,66.0
+5,Onward,2020,7.5,61,64832,PG,https://imdb.com/title/tt7146812/,75.0
+6,Spenser Confidential,2020,6.2,49,56146,R,https://imdb.com/title/tt8629748/,62.0
+7,Underwater,2020,5.8,48,42433,PG-13,https://imdb.com/title/tt5774060/,58.0
+8,Bloodshot,2020,5.7,44,42032,PG-13,https://imdb.com/title/tt1634106/,57.0
+9,The Hunt,2020,6.4,50,39780,R,https://imdb.com/title/tt8244784/,64.0
+10,Dolittle,2020,5.6,26,35318,PG,https://imdb.com/title/tt6673612/,56.0
+11,The Call of the Wild,2020,6.8,47,24676,PG,https://imdb.com/title/tt7504726/,68.0
+12,Fantasy Island,2020,4.8,22,22070,PG-13,https://imdb.com/title/tt0983946/,48.0
+13,The Way Back,2020,6.8,68,19091,R,https://imdb.com/title/tt8544498/,68.0
+14,The Half of It,2020,7.0,74,18672,PG-13,https://imdb.com/title/tt9683478/,70.0
+15,Emma.,2020,6.8,71,16171,PG,https://imdb.com/title/tt9214832/,68.0
+16,Gretel & Hansel,2020,5.3,64,15217,PG-13,https://imdb.com/title/tt9086228/,53.0
+17,The Grudge,2020,4.2,41,15178,R,https://imdb.com/title/tt3612126/,42.0
+18,The Lovebirds,2020,6.0,59,13289,R,https://imdb.com/title/tt8851668/,60.0
+19,Extraction,2020,6.8,56,122606,R,https://imdb.com/title/tt8936646/,68.0
+20,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60,119835,R,https://imdb.com/title/tt7713068/,61.0
+21,The Invisible Man,2020,7.1,72,107834,R,https://imdb.com/title/tt1051906/,71.0
+22,Bad Boys for Life,2020,6.7,59,99129,R,https://imdb.com/title/tt1502397/,67.0
+23,Sonic the Hedgehog,2020,6.6,47,66647,PG,https://imdb.com/title/tt3794354/,66.0
+24,Onward,2020,7.5,61,64832,PG,https://imdb.com/title/tt7146812/,75.0
+25,Spenser Confidential,2020,6.2,49,56146,R,https://imdb.com/title/tt8629748/,62.0
+26,Underwater,2020,5.8,48,42433,PG-13,https://imdb.com/title/tt5774060/,58.0
+27,Bloodshot,2020,5.7,44,42032,PG-13,https://imdb.com/title/tt1634106/,57.0
+28,The Hunt,2020,6.4,50,39780,R,https://imdb.com/title/tt8244784/,64.0
+29,Dolittle,2020,5.6,26,35318,PG,https://imdb.com/title/tt6673612/,56.0
+30,The Call of the Wild,2020,6.8,47,24676,PG,https://imdb.com/title/tt7504726/,68.0
+31,Fantasy Island,2020,4.8,22,22070,PG-13,https://imdb.com/title/tt0983946/,48.0
+32,The Way Back,2020,6.8,68,19091,R,https://imdb.com/title/tt8544498/,68.0
+33,The Half of It,2020,7.0,74,18672,PG-13,https://imdb.com/title/tt9683478/,70.0
+34,Emma.,2020,6.8,71,16171,PG,https://imdb.com/title/tt9214832/,68.0
+35,Gretel & Hansel,2020,5.3,64,15217,PG-13,https://imdb.com/title/tt9086228/,53.0
+36,The Grudge,2020,4.2,41,15178,R,https://imdb.com/title/tt3612126/,42.0
+37,The Lovebirds,2020,6.0,59,13289,R,https://imdb.com/title/tt8851668/,60.0
+38,Extraction,2020,6.8,56,122606,R,https://imdb.com/title/tt8936646/,68.0
+39,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60,119835,R,https://imdb.com/title/tt7713068/,61.0
+40,The Invisible Man,2020,7.1,72,107834,R,https://imdb.com/title/tt1051906/,71.0
+41,Bad Boys for Life,2020,6.7,59,99129,R,https://imdb.com/title/tt1502397/,67.0
+42,Sonic the Hedgehog,2020,6.6,47,66647,PG,https://imdb.com/title/tt3794354/,66.0
+43,Onward,2020,7.5,61,64832,PG,https://imdb.com/title/tt7146812/,75.0
+44,Spenser Confidential,2020,6.2,49,56146,R,https://imdb.com/title/tt8629748/,62.0
+45,Underwater,2020,5.8,48,42433,PG-13,https://imdb.com/title/tt5774060/,58.0
+46,Bloodshot,2020,5.7,44,42032,PG-13,https://imdb.com/title/tt1634106/,57.0
+47,The Hunt,2020,6.4,50,39780,R,https://imdb.com/title/tt8244784/,64.0
+48,Dolittle,2020,5.6,26,35318,PG,https://imdb.com/title/tt6673612/,56.0
+49,The Call of the Wild,2020,6.8,47,24676,PG,https://imdb.com/title/tt7504726/,68.0
+50,Fantasy Island,2020,4.8,22,22070,PG-13,https://imdb.com/title/tt0983946/,48.0
+51,The Way Back,2020,6.8,68,19091,R,https://imdb.com/title/tt8544498/,68.0
+52,The Half of It,2020,7.0,74,18672,PG-13,https://imdb.com/title/tt9683478/,70.0
+53,Emma.,2020,6.8,71,16171,PG,https://imdb.com/title/tt9214832/,68.0
+54,Gretel & Hansel,2020,5.3,64,15217,PG-13,https://imdb.com/title/tt9086228/,53.0
+55,The Grudge,2020,4.2,41,15178,R,https://imdb.com/title/tt3612126/,42.0
+56,The Lovebirds,2020,6.0,59,13289,R,https://imdb.com/title/tt8851668/,60.0
+57,Joker,2019,8.5,59,810493,R,https://imdb.com/title/tt7286456/,85.0
+58,Avengers: Endgame,2019,8.4,78,729241,PG-13,https://imdb.com/title/tt4154796/,84.0
+59,Once Upon a Time... in Hollywood,2019,7.7,83,479488,R,https://imdb.com/title/tt7131622/,77.0
+60,Parasite,2019,8.6,96,429103,R,https://imdb.com/title/tt6751668/,86.0
+61,Captain Marvel,2019,6.9,64,415025,PG-13,https://imdb.com/title/tt4154664/,69.0
+62,Star Wars: Episode IX - The Rise of Skywalker,2019,6.7,53,332906,PG-13,https://imdb.com/title/tt2527338/,67.0
+63,1917,2019,8.3,78,328801,R,https://imdb.com/title/tt8579674/,83.0
+64,Knives Out,2019,7.9,82,323863,PG-13,https://imdb.com/title/tt8946378/,79.0
+65,Spider-Man: Far from Home,2019,7.5,69,295018,PG-13,https://imdb.com/title/tt6320628/,75.0
+66,The Irishman,2019,7.9,94,294570,R,https://imdb.com/title/tt1302006/,79.0
+67,John Wick: Chapter 3 - Parabellum,2019,7.5,73,249483,R,https://imdb.com/title/tt6146586/,75.0
+68,Shazam!,2019,7.1,71,233724,PG-13,https://imdb.com/title/tt0448115/,71.0
+69,Jojo Rabbit,2019,7.9,58,227262,PG-13,https://imdb.com/title/tt2584384/,79.0
+70,Ford v Ferrari,2019,8.1,81,223816,PG-13,https://imdb.com/title/tt1950186/,81.0
+71,Marriage Story,2019,8.0,94,216945,R,https://imdb.com/title/tt7653254/,80.0
+72,Alita: Battle Angel,2019,7.3,53,210934,PG-13,https://imdb.com/title/tt0437086/,73.0
+73,Aladdin,2019,7.0,53,208565,PG,https://imdb.com/title/tt6139732/,70.0
+74,Us,2019,6.9,81,202310,R,https://imdb.com/title/tt6857112/,69.0
+75,The Lion King,2019,6.9,55,193709,PG,https://imdb.com/title/tt6105098/,69.0
+76,Glass,2019,6.7,43,193329,PG-13,https://imdb.com/title/tt6823368/,67.0
+77,It Chapter Two,2019,6.6,58,180957,R,https://imdb.com/title/tt7349950/,66.0
+78,Uncut Gems,2019,7.5,90,179741,R,https://imdb.com/title/tt5727208/,75.0
+79,Ad Astra,2019,6.6,80,170201,PG-13,https://imdb.com/title/tt2935510/,66.0
+80,Midsommar,2019,7.1,72,160311,R,https://imdb.com/title/tt8772262/,71.0
+81,Fast & Furious Presents: Hobbs & Shaw,2019,6.4,60,153100,PG-13,https://imdb.com/title/tt6806448/,64.0
+82,Jumanji: The Next Level,2019,6.7,58,151746,PG-13,https://imdb.com/title/tt7975244/,67.0
+83,The Gentlemen,2019,7.9,51,148644,R,https://imdb.com/title/tt8367814/,79.0
+84,X-Men: Dark Phoenix,2019,5.8,43,140763,PG-13,https://imdb.com/title/tt6565702/,58.0
+85,Pokémon Detective Pikachu,2019,6.6,53,126661,PG,https://imdb.com/title/tt5884052/,66.0
+86,6 Underground,2019,6.1,41,123576,R,https://imdb.com/title/tt8106534/,61.0
+87,Terminator: Dark Fate,2019,6.3,54,122894,R,https://imdb.com/title/tt6450804/,63.0
+88,Godzilla: King of the Monsters,2019,6.0,48,121279,PG-13,https://imdb.com/title/tt3741700/,60.0
+89,Rocketman,2019,7.3,69,117667,R,https://imdb.com/title/tt2066051/,73.0
+90,Zombieland: Double Tap,2019,6.7,55,112910,R,https://imdb.com/title/tt1560220/,67.0
+91,Frozen II,2019,6.9,64,112119,PG,https://imdb.com/title/tt4520988/,69.0
+92,Little Women,2019,7.9,91,109981,PG,https://imdb.com/title/tt3281548/,79.0
+93,Joker,2019,8.5,59,810493,R,https://imdb.com/title/tt7286456/,85.0
+94,Avengers: Endgame,2019,8.4,78,729241,PG-13,https://imdb.com/title/tt4154796/,84.0
+95,Once Upon a Time... in Hollywood,2019,7.7,83,479488,R,https://imdb.com/title/tt7131622/,77.0
+96,Parasite,2019,8.6,96,429103,R,https://imdb.com/title/tt6751668/,86.0
+97,Captain Marvel,2019,6.9,64,415025,PG-13,https://imdb.com/title/tt4154664/,69.0
+98,Star Wars: Episode IX - The Rise of Skywalker,2019,6.7,53,332906,PG-13,https://imdb.com/title/tt2527338/,67.0
+99,1917,2019,8.3,78,328801,R,https://imdb.com/title/tt8579674/,83.0
+100,Knives Out,2019,7.9,82,323863,PG-13,https://imdb.com/title/tt8946378/,79.0
+101,Spider-Man: Far from Home,2019,7.5,69,295018,PG-13,https://imdb.com/title/tt6320628/,75.0
+102,The Irishman,2019,7.9,94,294570,R,https://imdb.com/title/tt1302006/,79.0
+103,John Wick: Chapter 3 - Parabellum,2019,7.5,73,249483,R,https://imdb.com/title/tt6146586/,75.0
+104,Shazam!,2019,7.1,71,233724,PG-13,https://imdb.com/title/tt0448115/,71.0
+105,Jojo Rabbit,2019,7.9,58,227262,PG-13,https://imdb.com/title/tt2584384/,79.0
+106,Ford v Ferrari,2019,8.1,81,223816,PG-13,https://imdb.com/title/tt1950186/,81.0
+107,Marriage Story,2019,8.0,94,216945,R,https://imdb.com/title/tt7653254/,80.0
+108,Alita: Battle Angel,2019,7.3,53,210934,PG-13,https://imdb.com/title/tt0437086/,73.0
+109,Aladdin,2019,7.0,53,208565,PG,https://imdb.com/title/tt6139732/,70.0
+110,Us,2019,6.9,81,202310,R,https://imdb.com/title/tt6857112/,69.0
+111,The Lion King,2019,6.9,55,193709,PG,https://imdb.com/title/tt6105098/,69.0
+112,Glass,2019,6.7,43,193329,PG-13,https://imdb.com/title/tt6823368/,67.0
+113,It Chapter Two,2019,6.6,58,180957,R,https://imdb.com/title/tt7349950/,66.0
+114,Uncut Gems,2019,7.5,90,179741,R,https://imdb.com/title/tt5727208/,75.0
+115,Ad Astra,2019,6.6,80,170201,PG-13,https://imdb.com/title/tt2935510/,66.0
+116,Midsommar,2019,7.1,72,160311,R,https://imdb.com/title/tt8772262/,71.0
+117,Fast & Furious Presents: Hobbs & Shaw,2019,6.4,60,153100,PG-13,https://imdb.com/title/tt6806448/,64.0
+118,Jumanji: The Next Level,2019,6.7,58,151746,PG-13,https://imdb.com/title/tt7975244/,67.0
+119,The Gentlemen,2019,7.9,51,148644,R,https://imdb.com/title/tt8367814/,79.0
+120,X-Men: Dark Phoenix,2019,5.8,43,140763,PG-13,https://imdb.com/title/tt6565702/,58.0
+121,Pokémon Detective Pikachu,2019,6.6,53,126661,PG,https://imdb.com/title/tt5884052/,66.0
+122,6 Underground,2019,6.1,41,123576,R,https://imdb.com/title/tt8106534/,61.0
+123,Terminator: Dark Fate,2019,6.3,54,122894,R,https://imdb.com/title/tt6450804/,63.0
+124,Godzilla: King of the Monsters,2019,6.0,48,121279,PG-13,https://imdb.com/title/tt3741700/,60.0
+125,Rocketman,2019,7.3,69,117667,R,https://imdb.com/title/tt2066051/,73.0
+126,Zombieland: Double Tap,2019,6.7,55,112910,R,https://imdb.com/title/tt1560220/,67.0
+127,Frozen II,2019,6.9,64,112119,PG,https://imdb.com/title/tt4520988/,69.0
+128,Little Women,2019,7.9,91,109981,PG,https://imdb.com/title/tt3281548/,79.0
+129,Joker,2019,8.5,59,810493,R,https://imdb.com/title/tt7286456/,85.0
+130,Avengers: Endgame,2019,8.4,78,729241,PG-13,https://imdb.com/title/tt4154796/,84.0
+131,Once Upon a Time... in Hollywood,2019,7.7,83,479488,R,https://imdb.com/title/tt7131622/,77.0
+132,Parasite,2019,8.6,96,429103,R,https://imdb.com/title/tt6751668/,86.0
+133,Captain Marvel,2019,6.9,64,415025,PG-13,https://imdb.com/title/tt4154664/,69.0
+134,Star Wars: Episode IX - The Rise of Skywalker,2019,6.7,53,332906,PG-13,https://imdb.com/title/tt2527338/,67.0
+135,1917,2019,8.3,78,328801,R,https://imdb.com/title/tt8579674/,83.0
+136,Knives Out,2019,7.9,82,323863,PG-13,https://imdb.com/title/tt8946378/,79.0
+137,Spider-Man: Far from Home,2019,7.5,69,295018,PG-13,https://imdb.com/title/tt6320628/,75.0
+138,The Irishman,2019,7.9,94,294570,R,https://imdb.com/title/tt1302006/,79.0
+139,John Wick: Chapter 3 - Parabellum,2019,7.5,73,249483,R,https://imdb.com/title/tt6146586/,75.0
+140,Shazam!,2019,7.1,71,233724,PG-13,https://imdb.com/title/tt0448115/,71.0
+141,Jojo Rabbit,2019,7.9,58,227262,PG-13,https://imdb.com/title/tt2584384/,79.0
+142,Ford v Ferrari,2019,8.1,81,223816,PG-13,https://imdb.com/title/tt1950186/,81.0
+143,Marriage Story,2019,8.0,94,216945,R,https://imdb.com/title/tt7653254/,80.0
+144,Alita: Battle Angel,2019,7.3,53,210934,PG-13,https://imdb.com/title/tt0437086/,73.0
+145,Aladdin,2019,7.0,53,208565,PG,https://imdb.com/title/tt6139732/,70.0
+146,Us,2019,6.9,81,202310,R,https://imdb.com/title/tt6857112/,69.0
+147,The Lion King,2019,6.9,55,193709,PG,https://imdb.com/title/tt6105098/,69.0
+148,Glass,2019,6.7,43,193329,PG-13,https://imdb.com/title/tt6823368/,67.0
+149,It Chapter Two,2019,6.6,58,180957,R,https://imdb.com/title/tt7349950/,66.0
+150,Uncut Gems,2019,7.5,90,179741,R,https://imdb.com/title/tt5727208/,75.0
+151,Ad Astra,2019,6.6,80,170201,PG-13,https://imdb.com/title/tt2935510/,66.0
+152,Midsommar,2019,7.1,72,160311,R,https://imdb.com/title/tt8772262/,71.0
+153,Fast & Furious Presents: Hobbs & Shaw,2019,6.4,60,153100,PG-13,https://imdb.com/title/tt6806448/,64.0
+154,Jumanji: The Next Level,2019,6.7,58,151746,PG-13,https://imdb.com/title/tt7975244/,67.0
+155,The Gentlemen,2019,7.9,51,148644,R,https://imdb.com/title/tt8367814/,79.0
+156,X-Men: Dark Phoenix,2019,5.8,43,140763,PG-13,https://imdb.com/title/tt6565702/,58.0
+157,Pokémon Detective Pikachu,2019,6.6,53,126661,PG,https://imdb.com/title/tt5884052/,66.0
+158,6 Underground,2019,6.1,41,123576,R,https://imdb.com/title/tt8106534/,61.0
+159,Terminator: Dark Fate,2019,6.3,54,122894,R,https://imdb.com/title/tt6450804/,63.0
+160,Godzilla: King of the Monsters,2019,6.0,48,121279,PG-13,https://imdb.com/title/tt3741700/,60.0
+161,Rocketman,2019,7.3,69,117667,R,https://imdb.com/title/tt2066051/,73.0
+162,Zombieland: Double Tap,2019,6.7,55,112910,R,https://imdb.com/title/tt1560220/,67.0
+163,Frozen II,2019,6.9,64,112119,PG,https://imdb.com/title/tt4520988/,69.0
+164,Little Women,2019,7.9,91,109981,PG,https://imdb.com/title/tt3281548/,79.0
+165,Avengers: Infinity War,2018,8.5,68,780839,PG-13,https://imdb.com/title/tt4154756/,85.0
+166,Black Panther,2018,7.3,88,584752,PG-13,https://imdb.com/title/tt1825683/,73.0
+167,Deadpool 2,2018,7.7,66,453488,R,https://imdb.com/title/tt5463162/,77.0
+168,Bohemian Rhapsody,2018,8.0,49,426381,PG-13,https://imdb.com/title/tt1727824/,80.0
+169,A Quiet Place,2018,7.5,82,383644,PG-13,https://imdb.com/title/tt6644200/,75.0
+170,Ready Player One,2018,7.5,64,346000,PG-13,https://imdb.com/title/tt1677720/,75.0
+171,Aquaman,2018,7.0,55,340143,PG-13,https://imdb.com/title/tt1477834/,70.0
+172,Venom,2018,6.7,35,334661,PG-13,https://imdb.com/title/tt1270797/,67.0
+173,Green Book,2018,8.2,69,328324,PG-13,https://imdb.com/title/tt6966692/,82.0
+174,Spider-Man: Into the Spider-Verse,2018,8.4,87,322641,PG,https://imdb.com/title/tt4633694/,84.0
+175,A Star Is Born,2018,7.7,88,311181,R,https://imdb.com/title/tt1517451/,77.0
+176,Ant-Man and the Wasp,2018,7.1,70,289365,PG-13,https://imdb.com/title/tt5095030/,71.0
+177,Mission: Impossible - Fallout,2018,7.7,86,274603,PG-13,https://imdb.com/title/tt4912910/,77.0
+178,Solo: A Star Wars Story,2018,6.9,62,272454,PG-13,https://imdb.com/title/tt3778644/,69.0
+179,Annihilation,2018,6.9,79,266031,R,https://imdb.com/title/tt2798920/,69.0
+180,Bird Box,2018,6.6,51,260806,R,https://imdb.com/title/tt2737304/,66.0
+181,Jurassic World: Fallen Kingdom,2018,6.2,51,250667,PG-13,https://imdb.com/title/tt4881806/,62.0
+182,Incredibles 2,2018,7.6,80,235066,PG,https://imdb.com/title/tt3606756/,76.0
+183,Hereditary,2018,7.3,87,211657,R,https://imdb.com/title/tt7784604/,73.0
+184,Fantastic Beasts: The Crimes of Grindelwald,2018,6.6,52,204347,PG-13,https://imdb.com/title/tt4123430/,66.0
+185,BlacKkKlansman,2018,7.5,83,195349,R,https://imdb.com/title/tt7349662/,75.0
+186,Game Night,2018,6.9,66,192779,R,https://imdb.com/title/tt2704998/,69.0
+187,Tomb Raider,2018,6.3,48,182843,PG-13,https://imdb.com/title/tt1365519/,63.0
+188,Ocean's 8,2018,6.2,61,171340,PG-13,https://imdb.com/title/tt5164214/,62.0
+189,The Favourite,2018,7.5,91,159654,R,https://imdb.com/title/tt5083738/,75.0
+190,Red Sparrow,2018,6.6,53,156774,R,https://imdb.com/title/tt2873282/,66.0
+191,First Man,2018,7.3,84,154529,PG-13,https://imdb.com/title/tt1213641/,73.0
+192,Upgrade,2018,7.5,67,138852,R,https://imdb.com/title/tt6499752/,75.0
+193,The Meg,2018,5.7,46,137133,PG-13,https://imdb.com/title/tt4779682/,57.0
+194,Rampage,2018,6.1,45,134972,PG-13,https://imdb.com/title/tt2231461/,61.0
+195,Roma,2018,7.7,96,131670,R,https://imdb.com/title/tt6155172/,77.0
+196,Isle of Dogs,2018,7.9,82,129723,PG-13,https://imdb.com/title/tt5104604/,79.0
+197,Crazy Rich Asians,2018,6.9,74,127923,PG-13,https://imdb.com/title/tt3104988/,69.0
+198,Bumblebee,2018,6.8,66,126798,PG-13,https://imdb.com/title/tt4701182/,68.0
+199,Searching,2018,7.6,71,126502,PG-13,https://imdb.com/title/tt7668870/,76.0
+200,Ralph Breaks the Internet,2018,7.1,71,120743,PG,https://imdb.com/title/tt5848272/,71.0
+201,Bad Times at the El Royale,2018,7.1,60,120325,R,https://imdb.com/title/tt6628394/,71.0
+202,The Equalizer 2,2018,6.7,50,119977,R,https://imdb.com/title/tt3766354/,67.0
+203,Sicario: Day of the Soldado,2018,7.1,61,116469,R,https://imdb.com/title/tt5052474/,71.0
+204,A Simple Favor,2018,6.8,67,114551,R,https://imdb.com/title/tt7040874/,68.0
+205,The Ballad of Buster Scruggs,2018,7.3,79,111490,R,https://imdb.com/title/tt6412452/,73.0
+206,The Predator,2018,5.4,48,110662,R,https://imdb.com/title/tt3829266/,54.0
+207,Halloween,2018,6.6,67,109779,R,https://imdb.com/title/tt1502407/,66.0
+208,The Nun,2018,5.3,46,109648,R,https://imdb.com/title/tt5814060/,53.0
+209,Vice,2018,7.2,61,109362,R,https://imdb.com/title/tt6266538/,72.0
+210,Tag,2018,6.5,56,105676,R,https://imdb.com/title/tt2854926/,65.0
+211,Avengers: Infinity War,2018,8.5,68,780839,PG-13,https://imdb.com/title/tt4154756/,85.0
+212,Black Panther,2018,7.3,88,584752,PG-13,https://imdb.com/title/tt1825683/,73.0
+213,Deadpool 2,2018,7.7,66,453488,R,https://imdb.com/title/tt5463162/,77.0
+214,Bohemian Rhapsody,2018,8.0,49,426381,PG-13,https://imdb.com/title/tt1727824/,80.0
+215,A Quiet Place,2018,7.5,82,383644,PG-13,https://imdb.com/title/tt6644200/,75.0
+216,Ready Player One,2018,7.5,64,346000,PG-13,https://imdb.com/title/tt1677720/,75.0
+217,Aquaman,2018,7.0,55,340143,PG-13,https://imdb.com/title/tt1477834/,70.0
+218,Venom,2018,6.7,35,334661,PG-13,https://imdb.com/title/tt1270797/,67.0
+219,Green Book,2018,8.2,69,328324,PG-13,https://imdb.com/title/tt6966692/,82.0
+220,Spider-Man: Into the Spider-Verse,2018,8.4,87,322641,PG,https://imdb.com/title/tt4633694/,84.0
+221,A Star Is Born,2018,7.7,88,311181,R,https://imdb.com/title/tt1517451/,77.0
+222,Ant-Man and the Wasp,2018,7.1,70,289365,PG-13,https://imdb.com/title/tt5095030/,71.0
+223,Mission: Impossible - Fallout,2018,7.7,86,274603,PG-13,https://imdb.com/title/tt4912910/,77.0
+224,Solo: A Star Wars Story,2018,6.9,62,272454,PG-13,https://imdb.com/title/tt3778644/,69.0
+225,Annihilation,2018,6.9,79,266031,R,https://imdb.com/title/tt2798920/,69.0
+226,Bird Box,2018,6.6,51,260806,R,https://imdb.com/title/tt2737304/,66.0
+227,Jurassic World: Fallen Kingdom,2018,6.2,51,250667,PG-13,https://imdb.com/title/tt4881806/,62.0
+228,Incredibles 2,2018,7.6,80,235066,PG,https://imdb.com/title/tt3606756/,76.0
+229,Hereditary,2018,7.3,87,211657,R,https://imdb.com/title/tt7784604/,73.0
+230,Fantastic Beasts: The Crimes of Grindelwald,2018,6.6,52,204347,PG-13,https://imdb.com/title/tt4123430/,66.0
+231,BlacKkKlansman,2018,7.5,83,195349,R,https://imdb.com/title/tt7349662/,75.0
+232,Game Night,2018,6.9,66,192779,R,https://imdb.com/title/tt2704998/,69.0
+233,Tomb Raider,2018,6.3,48,182843,PG-13,https://imdb.com/title/tt1365519/,63.0
+234,Ocean's 8,2018,6.2,61,171340,PG-13,https://imdb.com/title/tt5164214/,62.0
+235,The Favourite,2018,7.5,91,159654,R,https://imdb.com/title/tt5083738/,75.0
+236,Red Sparrow,2018,6.6,53,156774,R,https://imdb.com/title/tt2873282/,66.0
+237,First Man,2018,7.3,84,154529,PG-13,https://imdb.com/title/tt1213641/,73.0
+238,Upgrade,2018,7.5,67,138852,R,https://imdb.com/title/tt6499752/,75.0
+239,The Meg,2018,5.7,46,137133,PG-13,https://imdb.com/title/tt4779682/,57.0
+240,Rampage,2018,6.1,45,134972,PG-13,https://imdb.com/title/tt2231461/,61.0
+241,Roma,2018,7.7,96,131670,R,https://imdb.com/title/tt6155172/,77.0
+242,Isle of Dogs,2018,7.9,82,129723,PG-13,https://imdb.com/title/tt5104604/,79.0
+243,Crazy Rich Asians,2018,6.9,74,127923,PG-13,https://imdb.com/title/tt3104988/,69.0
+244,Bumblebee,2018,6.8,66,126798,PG-13,https://imdb.com/title/tt4701182/,68.0
+245,Searching,2018,7.6,71,126502,PG-13,https://imdb.com/title/tt7668870/,76.0
+246,Ralph Breaks the Internet,2018,7.1,71,120743,PG,https://imdb.com/title/tt5848272/,71.0
+247,Bad Times at the El Royale,2018,7.1,60,120325,R,https://imdb.com/title/tt6628394/,71.0
+248,The Equalizer 2,2018,6.7,50,119977,R,https://imdb.com/title/tt3766354/,67.0
+249,Sicario: Day of the Soldado,2018,7.1,61,116469,R,https://imdb.com/title/tt5052474/,71.0
+250,A Simple Favor,2018,6.8,67,114551,R,https://imdb.com/title/tt7040874/,68.0
+251,The Ballad of Buster Scruggs,2018,7.3,79,111490,R,https://imdb.com/title/tt6412452/,73.0
+252,The Predator,2018,5.4,48,110662,R,https://imdb.com/title/tt3829266/,54.0
+253,Halloween,2018,6.6,67,109779,R,https://imdb.com/title/tt1502407/,66.0
+254,The Nun,2018,5.3,46,109648,R,https://imdb.com/title/tt5814060/,53.0
+255,Vice,2018,7.2,61,109362,R,https://imdb.com/title/tt6266538/,72.0
+256,Tag,2018,6.5,56,105676,R,https://imdb.com/title/tt2854926/,65.0
+257,Avengers: Infinity War,2018,8.5,68,780839,PG-13,https://imdb.com/title/tt4154756/,85.0
+258,Black Panther,2018,7.3,88,584752,PG-13,https://imdb.com/title/tt1825683/,73.0
+259,Deadpool 2,2018,7.7,66,453488,R,https://imdb.com/title/tt5463162/,77.0
+260,Bohemian Rhapsody,2018,8.0,49,426381,PG-13,https://imdb.com/title/tt1727824/,80.0
+261,A Quiet Place,2018,7.5,82,383644,PG-13,https://imdb.com/title/tt6644200/,75.0
+262,Ready Player One,2018,7.5,64,346000,PG-13,https://imdb.com/title/tt1677720/,75.0
+263,Aquaman,2018,7.0,55,340143,PG-13,https://imdb.com/title/tt1477834/,70.0
+264,Venom,2018,6.7,35,334661,PG-13,https://imdb.com/title/tt1270797/,67.0
+265,Green Book,2018,8.2,69,328324,PG-13,https://imdb.com/title/tt6966692/,82.0
+266,Spider-Man: Into the Spider-Verse,2018,8.4,87,322641,PG,https://imdb.com/title/tt4633694/,84.0
+267,A Star Is Born,2018,7.7,88,311181,R,https://imdb.com/title/tt1517451/,77.0
+268,Ant-Man and the Wasp,2018,7.1,70,289365,PG-13,https://imdb.com/title/tt5095030/,71.0
+269,Mission: Impossible - Fallout,2018,7.7,86,274603,PG-13,https://imdb.com/title/tt4912910/,77.0
+270,Solo: A Star Wars Story,2018,6.9,62,272454,PG-13,https://imdb.com/title/tt3778644/,69.0
+271,Annihilation,2018,6.9,79,266031,R,https://imdb.com/title/tt2798920/,69.0
+272,Bird Box,2018,6.6,51,260806,R,https://imdb.com/title/tt2737304/,66.0
+273,Jurassic World: Fallen Kingdom,2018,6.2,51,250667,PG-13,https://imdb.com/title/tt4881806/,62.0
+274,Incredibles 2,2018,7.6,80,235066,PG,https://imdb.com/title/tt3606756/,76.0
+275,Hereditary,2018,7.3,87,211657,R,https://imdb.com/title/tt7784604/,73.0
+276,Fantastic Beasts: The Crimes of Grindelwald,2018,6.6,52,204347,PG-13,https://imdb.com/title/tt4123430/,66.0
+277,BlacKkKlansman,2018,7.5,83,195349,R,https://imdb.com/title/tt7349662/,75.0
+278,Game Night,2018,6.9,66,192779,R,https://imdb.com/title/tt2704998/,69.0
+279,Tomb Raider,2018,6.3,48,182843,PG-13,https://imdb.com/title/tt1365519/,63.0
+280,Ocean's 8,2018,6.2,61,171340,PG-13,https://imdb.com/title/tt5164214/,62.0
+281,The Favourite,2018,7.5,91,159654,R,https://imdb.com/title/tt5083738/,75.0
+282,Red Sparrow,2018,6.6,53,156774,R,https://imdb.com/title/tt2873282/,66.0
+283,First Man,2018,7.3,84,154529,PG-13,https://imdb.com/title/tt1213641/,73.0
+284,Upgrade,2018,7.5,67,138852,R,https://imdb.com/title/tt6499752/,75.0
+285,The Meg,2018,5.7,46,137133,PG-13,https://imdb.com/title/tt4779682/,57.0
+286,Rampage,2018,6.1,45,134972,PG-13,https://imdb.com/title/tt2231461/,61.0
+287,Roma,2018,7.7,96,131670,R,https://imdb.com/title/tt6155172/,77.0
+288,Isle of Dogs,2018,7.9,82,129723,PG-13,https://imdb.com/title/tt5104604/,79.0
+289,Crazy Rich Asians,2018,6.9,74,127923,PG-13,https://imdb.com/title/tt3104988/,69.0
+290,Bumblebee,2018,6.8,66,126798,PG-13,https://imdb.com/title/tt4701182/,68.0
+291,Searching,2018,7.6,71,126502,PG-13,https://imdb.com/title/tt7668870/,76.0
+292,Ralph Breaks the Internet,2018,7.1,71,120743,PG,https://imdb.com/title/tt5848272/,71.0
+293,Bad Times at the El Royale,2018,7.1,60,120325,R,https://imdb.com/title/tt6628394/,71.0
+294,The Equalizer 2,2018,6.7,50,119977,R,https://imdb.com/title/tt3766354/,67.0
+295,Sicario: Day of the Soldado,2018,7.1,61,116469,R,https://imdb.com/title/tt5052474/,71.0
+296,A Simple Favor,2018,6.8,67,114551,R,https://imdb.com/title/tt7040874/,68.0
+297,The Ballad of Buster Scruggs,2018,7.3,79,111490,R,https://imdb.com/title/tt6412452/,73.0
+298,The Predator,2018,5.4,48,110662,R,https://imdb.com/title/tt3829266/,54.0
+299,Halloween,2018,6.6,67,109779,R,https://imdb.com/title/tt1502407/,66.0
+300,The Nun,2018,5.3,46,109648,R,https://imdb.com/title/tt5814060/,53.0
+301,Vice,2018,7.2,61,109362,R,https://imdb.com/title/tt6266538/,72.0
+302,Tag,2018,6.5,56,105676,R,https://imdb.com/title/tt2854926/,65.0

@@ -5,8 +5,12 @@ Created on Tue Jun 16 11:45:39 2020
 """
 import pandas as pd
 
+<<<<<<< HEAD
 
 def data_frame_netoyage(names, years, imdb_ratings, metascores, votes, categories):
+=======
+def data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages):
+>>>>>>> master
     '''
     Create a new dataFrame with all the inforamtion about the movie from the scraping
 
@@ -23,9 +27,10 @@ def data_frame_netoyage(names, years, imdb_ratings, metascores, votes, categorie
     movie_ratings = pd.DataFrame({
         'movie': names,
         'year': years,
-        'imdb': imdb_ratings,
+        'imdb_ratings': imdb_ratings,
         'metascore': metascores,
         'votes': votes,
+<<<<<<< HEAD
         'categories': categories
     })
 
@@ -59,3 +64,19 @@ def data_frame_netoyage(names, years, imdb_ratings, metascores, votes, categorie
 #     ax.spines['top'].set_visible(False)
 #     ax.spines['right'].set_visible(False)
 # plt.show()
+=======
+        'category':categories,
+        'mv_page':mv_pages
+    })
+    
+    movie_ratings.loc[:, 'year'] = movie_ratings['year'].str[-5:-1].astype(int)
+    
+    movie_ratings['n_imdb'] = movie_ratings['imdb_ratings'] * 10
+    
+    print(movie_ratings.head(10))
+    
+    
+    
+    return movie_ratings
+
+>>>>>>> master
