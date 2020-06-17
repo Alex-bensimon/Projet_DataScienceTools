@@ -45,33 +45,16 @@ headers = {"Accept-Language": "en-US, en;q=0.5"}
 #sleep(randint(1,3))
 #scrap.monitor_request(nb_requests)
 
-# For every year in the interval 2000-2002
+# For every year in an interval
 for year_url in years_url:
 
-    # For every page in the interval 1-3
+    # For every page in an interval 
     for page in pages:
 
         # Make a get request
-
         url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&start='+ str(page)+'&ref_=adv_nxt'      
         print(url)
         response = get(url, headers = headers)
-
-        # Pause the loop
-        # sleep(randint(8,15))
-        
-        #nb_requests += 1
-        
-        # Monitor the requests :    
-        #scrap.monitor_request(nb_requests)
-
-        # Throw a warning for non-200 status codes
-        #scrap.warning_request(response, nb_requests)
-
-        # Break the loop if the number of requests is greater than expected
-        #if nb_requests > 2:
-            #  warn('Number of requests was greater than expected.')
-            #  break
 
         # Parse the content of the request with BeautifulSoup
         page_html = BeautifulSoup(response.text, 'html.parser')
@@ -83,8 +66,7 @@ for year_url in years_url:
         names, years, imdb_ratings, metascores, votes, categories, mv_pages = scrap.extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes, categories, mv_pages)
         
 
-        # Create Data Frame :
-        
+# Create Data Frame : 
 movie_ratings = analy.data_frame_netoyage(names,years,imdb_ratings,metascores,votes,categories,mv_pages)
 
   

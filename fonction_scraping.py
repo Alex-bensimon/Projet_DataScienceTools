@@ -152,4 +152,3 @@ def nb_page(number):
             page +=50
 
     return nb_page
-

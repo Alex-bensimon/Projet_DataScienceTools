@@ -4,6 +4,9 @@ import pandas as pd
 import requests
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
+import fonction_scraping as scrap
+
+
 
 genres = []
 
@@ -27,12 +30,12 @@ print(genres)
 
 award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
 if award is not None:
-    print("1")
+    #print("1")
     if award.find('a', href="/chart/top?ref_=tt_awd") is not None:
-        print("2")
+        #print("2")
         rank = html.find('a', href="/chart/top?ref_=tt_awd").text[18:]
     if award.find_all('span', class_="awards-blurb") is not None:
-        print("3")
+        #print("3")
         nb_span = 1
         for span in award.find_all('span', class_="awards-blurb"):
             if nb_span == 1:
@@ -40,7 +43,7 @@ if award is not None:
                 nb_oscar = int(nb_oscar)
                 nb_span+=1
             else:
-                print("5")
+                #print("5")
                 win_nom = span.text.translate(
                     {ord(c): " " for c in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&."})
                 for i in range(0,len(win_nom)-1):
@@ -51,7 +54,7 @@ if award is not None:
 #print(rank)
 print(nb_oscar)
 print(win_nom)
-"""
+
 for div in html.find_all('div', class_="txt-block"):
     if div.find('h4', class_='inline') is not None:
         inline = div.find('h4', class_='inline').text
@@ -74,14 +77,3 @@ for div in html.find_all('div', class_="txt-block"):
 print(runtime)
 print(budget)
 print(gross)
-replace('\n','').replace('a','').replace('A','').replace('b','').\
-                    replace('B','').replace('c','').replace('C','').replace('d','').\
-                    replace('D','').replace('e','').replace('E','').replace('f','').\
-                    replace('F','').replace('g','').replace('G','').replace('h','').\
-                    replace('H','').replace('i','').replace('I','').replace('j','').\
-                    replace('J','').replace('k','').replace('K','').replace('l','').\
-                    replace('L','').replace('m','').replace('M','').replace('n','').\
-                    replace('N','').replace('o','').replace('O','').replace('N','').\
-                    replace('o','').replace('O','').replace('(','').\
-                    replace(')','').replace('.','')
-"""
