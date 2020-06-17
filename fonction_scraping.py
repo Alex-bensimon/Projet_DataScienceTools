@@ -32,52 +32,6 @@ def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes,
     
     category_film = ['R','PG','PG-13']
 
-<<<<<<< HEAD
-    names = []
-    years = []
-    imdb_ratings = []
-    metascores = []
-    votes = []
-    categories = []
-
-    # For every movie of these 50
-    for container in mv_containers:
-        # If the movie has a Metascore, then:
-        if container.find('div', class_='ratings-metascore') is not None:
-
-            # Scrape the category and verify if it's a movie
-            category = container.p.find('span', class_='certificate').text
-            if category == 'R':
-                categories.append(category)
-
-                # Scrape the name
-                name = container.h3.a.text
-                names.append(name)
-
-                # Scrape the year
-                year = container.h3.find('span', class_='lister-item-year').text
-                years.append(year)
-
-                # Scrape the IMDB rating
-                imdb = float(container.strong.text)
-                imdb_ratings.append(imdb)
-
-                # Scrape the Metascore
-                m_score = container.find('span', class_='metascore').text
-                metascores.append(int(m_score))
-
-                # Scrape the number of votes
-                vote = container.find('span', attrs={'name': 'nv'})['data-value']
-                votes.append(int(vote))
-
-            else:
-                pass
-
-            # category = container.p.find('span', class_='certificate').text
-            # categories.append(category)
-
-    return names, years, imdb_ratings, metascores, votes, categories
-=======
          
 # For every movie of these 50
     for container in mv_containers:
@@ -138,7 +92,6 @@ def extraction_data(mv_containers,names, years, imdb_ratings, metascores, votes,
                          
     return names, years, imdb_ratings, metascores, votes, categories, mv_pages
 
->>>>>>> master
 
 
 def monitor_request(nb_requests):
@@ -164,9 +117,6 @@ def warning_request(response, nb_requests):
 
     '''
     if response.status_code != 200:
-<<<<<<< HEAD
-        warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
-=======
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
 
 def years_loop(nb_years):
@@ -206,8 +156,4 @@ def nb_page(number):
             page +=50
 
     return nb_page
-<<<<<<< HEAD
-=======
 
->>>>>>> master
->>>>>>> feature/je

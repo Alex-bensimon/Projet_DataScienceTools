@@ -18,11 +18,8 @@ from random import randint
 from warnings import warn
 from time import time
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 import requests
-=======
 
-<<<<<<< HEAD
 # Tabs 
 names = []
 years = []
@@ -117,5 +114,3 @@ selector.fit(X, y)
 print(selector.ranking_)
 print(selector.grid_scores_)
 """
-=======
->>>>>>> master
