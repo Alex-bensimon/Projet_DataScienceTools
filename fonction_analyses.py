@@ -58,7 +58,7 @@ def replace_nan(movie_ratings):
     
 
 
-
+"""
 def actors_to_num(movie_ratings):
     '''
     '''
@@ -91,7 +91,7 @@ def actors_to_num(movie_ratings):
 
     
     return index_acteurs
-
+"""
 
 
 def clean_dataframe(movie_ratings):

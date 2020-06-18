@@ -31,24 +31,31 @@ def extraction_movie_data_from_link(link, mv_attributs):
     div = html.find('div', class_="subtext")
     #test_genre = False
     for a in div.find_all('a'):
-        test_genre = False
+        #test_genre = False
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
             mv_attributs[7+nb_genre].append(a.text)
-            test_genre = True
+            #test_genre = True
             nb_genre += 1
-
-    if not test_genre:
-        mv_attributs[7+nb_genre].append(None)
-        nb_genre += 1
-
+    if nb_genre == 1:
+        mv_attributs[8].append(None)
+        mv_attributs[9].append(None)
+        nb_genre = 3
+    if nb_genre == 2:
+        mv_attributs[9].append(None)
+        nb_genre = 3
+        """
+        if not test_genre:
+            mv_attributs[7+nb_genre].append(None)
+            nb_genre += 1
+        """
     #get the stars acting in the movie
     stars = []
     nb_act = 0
-    #test_stars = False
+    test_stars = False
     for credit in html.find_all('div', class_='credit_summary_item'):
-        test_stars = False
+        #test_stars = False
         inline = credit.h4.text
         if inline == "Stars:":
             for a in credit.find_all('a'):
@@ -86,7 +93,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
                 osc_bool = False
                 # if there is/are oscar/s
                 if span.find('b') is not None:
-                    print("1####")
                     nb_oscar = span.find('b').text
                     nb_oscar = scrap.clean_chars(nb_oscar)
                     mv_attributs[14].append(nb_oscar)
@@ -95,7 +101,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
 
                 # if there is/are oscar/s
                 elif osc_bool == True:
-                    print("2####")
                     length = len(span.text)
                     win = span.text[:length - 24]
                     win = scrap.clean_chars(win)
@@ -108,7 +113,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     test_nom = True
                 # if not
                 else:
-                    print("3####")
                     length = len(span.text)
                     
                     if length > 30:

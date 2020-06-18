@@ -79,7 +79,7 @@ movie_ratings = analy.clean_dataframe(movie_ratings)
 movie_ratings.to_csv('movie_ratings.csv')
 #%%
 
-liste_acteurs = analy.actors_to_num(movie_ratings)
+#liste_acteurs = analy.actors_to_num(movie_ratings)
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
