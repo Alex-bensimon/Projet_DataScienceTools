@@ -29,12 +29,12 @@ def extraction_movie_data_from_link(link, mv_attributs):
     #get the movie genres
     div = html.find('div', class_="subtext")
     test_genre = False
-    for a in div.find_all('a'):
-        title = a.get('title')
-        #there is a balise title which we do not want
-        if title is None:
-            mv_attributs[7].append(a.text)
-            test_genre = True
+    a=div.find('a')
+    title = a.get('title')
+    #there is a balise title which we do not want
+    if title is None:
+        mv_attributs[7].append(a.text)
+        test_genre = True
 
     if not test_genre:
         mv_attributs[7].append(None)
@@ -45,11 +45,11 @@ def extraction_movie_data_from_link(link, mv_attributs):
     for credit in html.find_all('div', class_='credit_summary_item'):
         inline = credit.h4.text
         if inline == "Stars:":
-            for a in credit.find_all('a'):
-                href = a.get('href')
-                if href != "fullcredits/":
-                    mv_attributs[8].append(a.text)
-                    test_stars = True
+            a=  credit.find('a')
+            href = a.get('href')
+            if href != "fullcredits/":
+                mv_attributs[8].append(a.text)
+                test_stars = True
 
     if not test_stars:
         mv_attributs[8].append(None)
@@ -64,7 +64,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
 
         # movie rank
         if award.find('strong') is not None:
-            strong = award.find('strong').strong.text
+            strong = award.find('strong').text
             rank = scrap.clean_chars(strong)
             mv_attributs[9].append(rank)
             test_rank = True
