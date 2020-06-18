@@ -26,6 +26,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
     response = requests.get(page_link)
     html = bs4.BeautifulSoup(response.text, 'html.parser')
 
+    nb_genre = 0
     #get the movie genres
     div = html.find('div', class_="subtext")
     test_genre = False
@@ -33,14 +34,17 @@ def extraction_movie_data_from_link(link, mv_attributs):
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
-            mv_attributs[7].append(a.text)
+            mv_attributs[7+nb_genre].append(a.text)
             test_genre = True
+            nb_genre += 1
 
     if not test_genre:
-        mv_attributs[7].append(None)
+        mv_attributs[7+nb_genre].append(None)
+        nb_genre += 1
 
     #get the stars acting in the movie
     stars = []
+    nb_act = 0
     test_stars = False
     for credit in html.find_all('div', class_='credit_summary_item'):
         inline = credit.h4.text
@@ -48,11 +52,13 @@ def extraction_movie_data_from_link(link, mv_attributs):
             for a in credit.find_all('a'):
                 href = a.get('href')
                 if href != "fullcredits/":
-                    mv_attributs[8].append(a.text)
+                    mv_attributs[10+nb_act].append(a.text)
                     test_stars = True
+                    nb_act += 1
 
     if not test_stars:
-        mv_attributs[8].append(None)
+        mv_attributs[10+nb_act].append(None)
+        nb_act += 1
 
     award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
     test_rank = False
@@ -66,7 +72,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
         if award.find('strong') is not None:
             strong = award.find('strong').text
             rank = scrap.clean_chars(strong)
-            mv_attributs[9].append(rank)
+            mv_attributs[13].append(rank)
             test_rank = True
 
 
@@ -81,7 +87,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     print("1####")
                     nb_oscar = span.find('b').text
                     nb_oscar = scrap.clean_chars(nb_oscar)
-                    mv_attributs[10].append(nb_oscar)
+                    mv_attributs[14].append(nb_oscar)
                     osc_bool = True
                     test_nb_oscar = True
 
@@ -91,12 +97,12 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     length = len(span.text)
                     win = span.text[:length - 24]
                     win = scrap.clean_chars(win)
-                    mv_attributs[11].append(win)
+                    mv_attributs[15].append(win)
                     test_win = True
 
                     nom = span.text[32:]
                     nom = scrap.clean_chars(nom)
-                    mv_attributs[12].append(nom)
+                    mv_attributs[16].append(nom)
                     test_nom = True
                 # if not
                 else:
@@ -107,28 +113,28 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     
                         win = span.text[:length - 24]
                         win = scrap.clean_chars(win)
-                        mv_attributs[11].append(win)
+                        mv_attributs[15].append(win)
                         test_win = True
 
                         nom = span.text[15:]
                         nom = scrap.clean_chars(nom)
-                        mv_attributs[12].append(nom)
+                        mv_attributs[16].append(nom)
                         test_nom = True
                     else:
                         win = None
                         nom = span.text
                         nom = scrap.clean_chars(nom)
-                        mv_attributs[12].append(nom)
+                        mv_attributs[16].append(nom)
                         test_nom = True
 
     if not test_rank:
-        mv_attributs[9].append(None)
+        mv_attributs[13].append(None)
     if not test_nb_oscar:
-        mv_attributs[10].append(None)
+        mv_attributs[14].append(None)
     if not test_win:
-        mv_attributs[11].append(None)
+        mv_attributs[15].append(None)
     if not test_nom:
-        mv_attributs[12].append(None)
+        mv_attributs[16].append(None)
 
     test_runtime=False
     test_budget=False
@@ -141,29 +147,29 @@ def extraction_movie_data_from_link(link, mv_attributs):
             if inline == "Runtime:":
                 runtime = div.find('time').text
                 runtime = scrap.clean_chars(runtime)
-                mv_attributs[13].append(runtime)
+                mv_attributs[17].append(runtime)
                 test_runtime = True
 
             # find the movie budget
             if inline == "Budget:":
                 budget = div.text
                 budget = scrap.clean_chars(budget)
-                mv_attributs[14].append(budget)
+                mv_attributs[18].append(budget)
                 test_budget = True
 
             # find the movie worldwide gross
             if inline == "Cumulative Worldwide Gross:":
                 gross = div.text
                 gross = scrap.clean_chars(gross)
-                mv_attributs[15].append(gross)
+                mv_attributs[19].append(gross)
                 test_gross = True
 
     if not test_runtime:
-        mv_attributs[13].append(None)
+        mv_attributs[17].append(None)
     if not test_budget:
-        mv_attributs[14].append(None)
+        mv_attributs[18].append(None)
     if not test_gross:
-        mv_attributs[15].append(None)
+        mv_attributs[19].append(None)
 
     return mv_attributs
 

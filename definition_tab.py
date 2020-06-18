@@ -17,17 +17,21 @@ def instanciation_tablist():
     votes = []          #4
     categories = []     #5
     mv_pages = []       #6
-    genres = []         #7
-    stars = []          #8
-    rank = []           #9
-    nb_oscar = []       #10
-    win = []            #11
-    nom = []            #12
-    runtime = []        #13
-    budget = []         #14
-    gross = []          #15
+    genre1 = []         #7
+    genre2 = []         #8
+    genre3 = []         #9
+    stars1 = []         #10
+    stars2 = []         #11
+    stars3 = []         #12
+    rank = []           #13
+    nb_oscar = []       #14
+    win = []            #15
+    nom = []            #16
+    runtime = []        #17
+    budget = []         #18
+    gross = []          #19
         
-    mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
+    mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,genre1,genre2,genre3,stars1,stars2,stars3,rank,nb_oscar,win,nom,runtime,budget,gross
     
     return mv_attributs
 
@@ -49,7 +53,7 @@ def creation_dataframe(mv_attributs):
         'imdb_ratings': mv_attributs[2],
         'metascore': mv_attributs[3],
         'votes': mv_attributs[4],
-        'category1': mv_attributs[5],
+        'category': mv_attributs[5],
         'mv_page': mv_attributs[6],
         'genres1' : mv_attributs[7],
         'genres2' : mv_attributs[8],

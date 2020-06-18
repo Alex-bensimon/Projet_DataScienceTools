@@ -59,7 +59,7 @@ for year_url in years_url:
         #Take the information from the containers
         mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
         
-        
+print(mv_attributs)
 
 # Create Data Frame : 
 movie_ratings = dftab.creation_dataframe(mv_attributs)
@@ -111,6 +111,7 @@ test = test.set_index('movie')
 
 test.to_csv('movie_ratings3.csv')
 
+"""
 #%%
 #scikit-learn
 import sklearn
@@ -269,3 +270,4 @@ for k in range(p):
  ctrvar[:,k] = ctrvar[:,k]/eigval[k]
 #on n'affiche que pour les deux premiers axes
 print(pd.DataFrame({'id':test.columns,'CTR_1':ctrvar[:,0],'CTR_2':ctrvar[:,1]}))
+"""
