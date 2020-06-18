@@ -27,8 +27,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(1)
-pages = scrap.nb_page(1)
+years_url = scrap.years_loop(3)
+pages = scrap.nb_page(3)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -59,7 +59,7 @@ for year_url in years_url:
         mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
         
 print(mv_attributs)
-
+ #%%
 # Create Data Frame : 
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 
@@ -73,7 +73,7 @@ movie_ratings = dftab.creation_dataframe(mv_attributs)
 Call the function which cleans the dataframe by deleting rows if rating is NaN
 and get a metascore based on the imdb rating.
 """
-movie_ratings = analy.clean_dataframe(movie_ratings)
+movie_ratings = analy.clean_dataframe(movie_ratings) # marche pas ...
 
 #%%
 movie_ratings.to_csv('movie_ratings.csv')
@@ -83,13 +83,13 @@ movie_ratings.to_csv('movie_ratings.csv')
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
-print(movie_ratings.head(10))
+print(movie_ratings.head(20))
 
 movie_ratings.to_csv('movie_ratings.csv')
 
 
 #%%
-
+"""
 #Partie Analyse 
 
 import numpy as np 
@@ -110,7 +110,7 @@ test = test.set_index('movie')
 
 test.to_csv('movie_ratings3.csv')
 
-"""
+
 #%%
 #scikit-learn
 import sklearn

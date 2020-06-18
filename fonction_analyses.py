@@ -19,7 +19,7 @@ def delete_raws_nan(movie_ratings):
 
     i = 0
     for note in movie_ratings.itertuples():
-        test = math.isnan(float(note.n_ratings))
+        test = math.isnan(float(note.n_imdb))
         if test is True:
             movie_ratings = movie_ratings.drop(movie_ratings.index[i])
             i -= 1
@@ -113,6 +113,6 @@ def clean_dataframe(movie_ratings):
     movie_ratings = movie_ratings.set_index('movie')
     movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
     movie_ratings = delete_raws_nan(movie_ratings)
-    movie_ratings = replace_metascore(movie_ratings)
+   #movie_ratings = replace_metascore(movie_ratings)
 
     return movie_ratings

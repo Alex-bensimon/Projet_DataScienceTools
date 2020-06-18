@@ -1,4 +1,4 @@
-movie,year,metascore,votes,category,genres1,genres2,genres3,stars1,stars2,stars3,rank,nb_oscar,win,nom,runtime,budget,gross,n_ratings
+movie,year,metascore,votes,category,genres1,genres2,genres3,stars1,stars2,stars3,rank,nb_oscar,win,nom,runtime,budget,gross,n_imdb
 Artemis Fowl,2020,31.0,8039.0,2,Adventure,Family,Fantasy,Ferdia Shaw,Lara McDonnell,Josh Gad,,,,,95.0,,,40.0
 The King of Staten Island,2020,68.0,6523.0,1,Comedy,Drama,,Pete Davidson,Bel Powley,Ricky Velez,,,,,136.0,,,72.0
 Da 5 Bloods,2020,81.0,13689.0,1,Adventure,Drama,War,Delroy Lindo,Jonathan Majors,Clarke Peters,,,,,154.0,,,68.0
@@ -12,3 +12,196 @@ Extraction,2020,56.0,123034.0,1,Action,Crime,Thriller,Chris Hemsworth,Bryon Leru
 Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,60.0,120090.0,1,Action,Adventure,Crime,Margot Robbie,Rosie Perez,Mary Elizabeth Winstead,,,,3.0,109.0,84500000.0,201858461.0,61.0
 Bad Boys for Life,2020,59.0,99318.0,1,Action,Comedy,Crime,Will Smith,Martin Lawrence,Vanessa Hudgens,,,,1.0,124.0,90000000.0,419074646.0,67.0
 Scoob!,2020,43.0,9194.0,2,Animation,Adventure,Comedy,Will Forte,Mark Wahlberg,Jason Isaacs,,,,,93.0,,,58.0
+The Lovebirds,2020,59.0,13478.0,1,Action,Comedy,Crime,Issa Rae,Kumail Nanjiani,Paul Sparks,,,,,86.0,,,60.0
+Capone,2020,46.0,8788.0,1,Biography,Crime,Drama,Tom Hardy,Linda Cardellini,Matt Dillon,,,,,103.0,,15547.0,48.0
+Onward,2020,61.0,65059.0,2,Animation,Adventure,Comedy,Tom Holland,Chris Pratt,Julia Louis-Dreyfus,,,,1.0,102.0,,103181419.0,75.0
+Fantasy Island,2020,22.0,22160.0,3,Adventure,Fantasy,Horror,Michael Peña,Maggie Q,Lucy Hale,,,,,109.0,7000000.0,47315959.0,48.0
+Sonic the Hedgehog,2020,47.0,66827.0,2,Action,Adventure,Comedy,Ben Schwartz,James Marsden,Jim Carrey,,,,1.0,99.0,85000000.0,306766470.0,66.0
+Bloodshot,2020,44.0,42151.0,3,Action,Drama,Sci-Fi,Vin Diesel,Eiza González,Sam Heughan,,,,,109.0,45000000.0,28486201.0,57.0
+Emma.,2020,71.0,16243.0,2,Comedy,Drama,,Anya Taylor-Joy,Johnny Flynn,Mia Goth,,,,,124.0,,25155355.0,68.0
+Dolittle,2020,26.0,35381.0,2,Adventure,Comedy,Family,Robert Downey Jr.,Antonio Banderas,Michael Sheen,,,,,101.0,175000000.0,223343452.0,56.0
+Underwater,2020,48.0,42556.0,3,Action,Horror,Sci-Fi,Kristen Stewart,Vincent Cassel,Mamoudou Athie,,,,,95.0,80000000.0,40882928.0,58.0
+The Half of It,2020,74.0,18818.0,3,Comedy,Drama,Romance,Leah Lewis,Daniel Diemer,Alexxis Lemire,,,1.0,1.0,104.0,,,70.0
+The High Note,2020,58.0,1509.0,3,Drama,Music,Romance,Dakota Johnson,Tracee Ellis Ross,Kelvin Harrison Jr.,,,,,113.0,,,60.0
+Trolls World Tour,2020,51.0,8652.0,2,Animation,Adventure,Comedy,Anna Kendrick,Justin Timberlake,Rachel Bloom,,,,,90.0,90000000.0,3826994.0,61.0
+The Call of the Wild,2020,47.0,24766.0,2,Adventure,Drama,Family,Harrison Ford,Omar Sy,Cara Gee,,,,1.0,100.0,135000000.0,107604626.0,68.0
+Think Like a Dog,2020,,205.0,2,Comedy,Drama,Family,Megan Fox,Josh Duhamel,Gabriel Bateman,,,,1.0,91.0,,,48.0
+Spenser Confidential,2020,49.0,56232.0,1,Action,Comedy,Crime,Mark Wahlberg,Winston Duke,Alan Arkin,,,,,111.0,,,62.0
+The Way Back,2020,68.0,19160.0,1,Drama,Sport,,Ben Affleck,Al Madrigal,Janina Gavankar,,,,,108.0,,14690514.0,68.0
+I Still Believe,2020,41.0,4666.0,2,Biography,Drama,Music,K.J. Apa,Britt Robertson,Nathan Parsons,,,,,116.0,,10550704.0,66.0
+Survive the Night,2020,26.0,2967.0,1,Action,Drama,Thriller,Bruce Willis,Chad Michael Murray,Lydia Hull,,,,,90.0,,,48.0
+Justice League Dark: Apokolips War,2020,,10236.0,1,Animation,Action,Sci-Fi,Roger Cross,Rosario Dawson,Christopher Gorham,,,,,90.0,,,78.0
+Gretel & Hansel,2020,64.0,15267.0,3,Fantasy,Horror,Mystery,Sophia Lillis,Samuel Leakey,Alice Krige,,,,,87.0,5000000.0,21282967.0,53.0
+Sniper: Assassin's End,2020,,109.0,1,Action,,,Chad Michael Collins,Sayaka Akimoto,Tom Berenger,,,,,90.0,,,57.0
+Arkansas,2020,56.0,2992.0,1,Crime,Drama,Thriller,Liam Hemsworth,Vince Vaughn,Clark Duke,,,,,117.0,,,59.0
+The Willoughbys,2020,68.0,9419.0,2,Animation,Adventure,Comedy,Will Forte,Maya Rudolph,Alessia Cara,,,,,90.0,,,64.0
+Knives Out,2019,82.0,325161.0,3,Comedy,Crime,Drama,Daniel Craig,Chris Evans,Ana de Armas,,1.0,45.0,4593.0,130.0,40000000.0,309232797.0,79.0
+Uncut Gems,2019,90.0,180277.0,1,Crime,Drama,Thriller,Adam Sandler,Julia Fox,Idina Menzel,,,24.0,76.0,135.0,19000000.0,50023780.0,75.0
+Just Mercy,2019,68.0,31361.0,3,Biography,Crime,Drama,Michael B. Jordan,Jamie Foxx,Brie Larson,,,10.0,11.0,137.0,25000000.0,50401502.0,76.0
+Parasite,2019,96.0,429843.0,1,Comedy,Drama,Thriller,Kang-ho Song,Sun-kyun Lee,Yeo-jeong Jo,28.0,4.0,263.0,263228.0,132.0,11400000.0,258247077.0,86.0
+Joker,2019,59.0,811248.0,1,Crime,Drama,Thriller,Joaquin Phoenix,Robert De Niro,Zazie Beetz,55.0,2.0,92.0,92200.0,122.0,55000000.0,1074251311.0,85.0
+Ad Astra,2019,80.0,170569.0,3,Adventure,Drama,Mystery,Brad Pitt,Tommy Lee Jones,Ruth Negga,,1.0,10.0,1058.0,123.0,90000000.0,132807427.0,66.0
+Once Upon a Time... in Hollywood,2019,83.0,479980.0,1,Comedy,Drama,,Leonardo DiCaprio,Brad Pitt,Margot Robbie,,2.0,126.0,126344.0,161.0,90000000.0,374343626.0,77.0
+The Vast of Night,2019,84.0,9733.0,3,Drama,Mystery,Sci-Fi,Sierra McCormick,Jake Horowitz,Gail Cronauer,,,4.0,10.0,91.0,,,67.0
+The Gentlemen,2019,51.0,149169.0,1,Action,Comedy,Crime,Matthew McConaughey,Charlie Hunnam,Michelle Dockery,,,,,113.0,22000000.0,114996853.0,79.0
+1917,2019,78.0,329414.0,1,Drama,War,,Dean-Charles Chapman,George MacKay,Daniel Mays,88.0,3.0,110.0,110161.0,119.0,95000000.0,374717445.0,83.0
+Avengers: Endgame,2019,78.0,729656.0,3,Action,Adventure,Drama,Robert Downey Jr.,Chris Evans,Mark Ruffalo,72.0,1.0,65.0,65103.0,181.0,356000000.0,2797800564.0,84.0
+7500,2019,59.0,1890.0,1,Drama,Thriller,,Passar Hariky,Omid Memar,Hicham Sebiai,,,,3.0,92.0,,,58.0
+Maleficent: Mistress of Evil,2019,43.0,71216.0,2,Adventure,Family,Fantasy,Angelina Jolie,Elle Fanning,Harris Dickinson,,1.0,1.0,17.0,119.0,185000000.0,491730089.0,66.0
+Jojo Rabbit,2019,58.0,227688.0,3,Comedy,Drama,War,Roman Griffin Davis,Thomasin McKenzie,Scarlett Johansson,,1.0,33.0,33152.0,108.0,14000000.0,90335025.0,79.0
+Rocketman,2019,69.0,117861.0,1,Biography,Drama,Music,Taron Egerton,Jamie Bell,Richard Madden,,1.0,20.0,2064.0,121.0,40000000.0,195179299.0,73.0
+Ready or Not,2019,64.0,85678.0,1,Comedy,Horror,Mystery,Samara Weaving,Adam Brody,Mark O'Brien,,,3.0,19.0,95.0,6000000.0,57615777.0,68.0
+Midsommar,2019,72.0,160593.0,1,Drama,Horror,Mystery,Florence Pugh,Jack Reynor,Vilhelm Blomgren,,,25.0,55.0,148.0,9000000.0,47901922.0,71.0
+Star Wars: Episode IX - The Rise of Skywalker,2019,53.0,333232.0,3,Action,Adventure,Fantasy,Daisy Ridley,John Boyega,Oscar Isaac,,3.0,7.0,735.0,142.0,275000000.0,1074144248.0,67.0
+Little Women,2019,91.0,110175.0,2,Drama,Romance,,Saoirse Ronan,Emma Watson,Florence Pugh,,1.0,72.0,72185.0,135.0,40000000.0,207601214.0,79.0
+The Lodge,2019,64.0,19015.0,1,Drama,Horror,Thriller,Riley Keough,Jaeden Martell,Lia McHugh,,,,4.0,108.0,,2679438.0,61.0
+I See You,2019,65.0,14394.0,1,Crime,Drama,Horror,Helen Hunt,Jon Tenney,Judah Lewis,,,1.0,1.0,98.0,3000000.0,77668.0,68.0
+The Lighthouse,2019,83.0,108909.0,1,Drama,Fantasy,Horror,Robert Pattinson,Willem Dafoe,Valeriia Karaman,,1.0,29.0,29114.0,109.0,,18032007.0,76.0
+Bombshell,2019,64.0,62400.0,1,Biography,Drama,,Charlize Theron,Nicole Kidman,Margot Robbie,,1.0,21.0,2151.0,109.0,32000000.0,59636523.0,68.0
+Jumanji: The Next Level,2019,58.0,151924.0,3,Action,Adventure,Comedy,Dwayne Johnson,Jack Black,Kevin Hart,,,1.0,5.0,123.0,125000000.0,796575993.0,67.0
+It Chapter Two,2019,58.0,181105.0,1,Drama,Fantasy,Horror,Jessica Chastain,James McAvoy,Bill Hader,,,5.0,18.0,169.0,79000000.0,473093228.0,66.0
+The Dead Don't Die,2019,53.0,43581.0,1,Comedy,Fantasy,Horror,Bill Murray,Adam Driver,Tom Waits,,,2.0,7.0,104.0,,15049363.0,55.0
+A Beautiful Day in the Neighborhood,2019,80.0,44132.0,2,Biography,Drama,,Tom Hanks,Matthew Rhys,Chris Cooper,,1.0,4.0,457.0,109.0,25000000.0,67760877.0,73.0
+The Irishman,2019,94.0,294714.0,1,Biography,Crime,Drama,Robert De Niro,Al Pacino,Joe Pesci,,10.0,71.0,71310.0,209.0,159000000.0,968853.0,79.0
+Ford v Ferrari,2019,81.0,224146.0,3,Action,Biography,Drama,Matt Damon,Christian Bale,Jon Bernthal,196.0,2.0,21.0,2173.0,152.0,97600000.0,225508210.0,81.0
+Alita: Battle Angel,2019,53.0,211048.0,3,Action,Adventure,Sci-Fi,Rosa Salazar,Christoph Waltz,Jennifer Connelly,,,9.0,25.0,122.0,170000000.0,404852543.0,73.0
+Doctor Sleep,2019,59.0,106459.0,1,Drama,Fantasy,Horror,Ewan McGregor,Rebecca Ferguson,Kyliegh Curran,,,7.0,26.0,152.0,45000000.0,72381712.0,74.0
+Hustlers,2019,79.0,71269.0,1,Comedy,Crime,Drama,Constance Wu,Jennifer Lopez,Julia Stiles,,1.0,20.0,2067.0,110.0,20000000.0,157563598.0,63.0
+Guns Akimbo,2019,42.0,23752.0,1,Action,Comedy,,Samara Weaving,Daniel Radcliffe,Mark Rowley,,,,,98.0,,827525.0,63.0
+Midway,2019,47.0,48602.0,3,Action,Adventure,Drama,Ed Skrein,Patrick Wilson,Woody Harrelson,,,,1.0,138.0,100000000.0,125586354.0,67.0
+We Summon the Darkness,2019,55.0,2455.0,1,Horror,Music,Thriller,Alexandra Daddario,Keean Johnson,Maddie Hasson,,,1.0,1.0,91.0,,60794.0,51.0
+The Lion King,2019,55.0,193828.0,2,Animation,Adventure,Drama,Donald Glover,Beyoncé,Seth Rogen,,1.0,16.0,1634.0,118.0,260000000.0,1656943394.0,69.0
+Fast & Furious Presents: Hobbs & Shaw,2019,60.0,153209.0,3,Action,Adventure,Thriller,Dwayne Johnson,Jason Statham,Idris Elba,,,1.0,20.0,137.0,200000000.0,759056935.0,64.0
+Spider-Man: Far from Home,2019,69.0,295179.0,3,Action,Adventure,Sci-Fi,Tom Holland,Samuel L. Jackson,Jake Gyllenhaal,,,9.0,21.0,129.0,160000000.0,1131927996.0,75.0
+Aladdin,2019,53.0,208690.0,2,Adventure,Family,Fantasy,Will Smith,Mena Massoud,Naomi Scott,,,7.0,31.0,128.0,183000000.0,1050693953.0,70.0
+Booksmart,2019,84.0,79583.0,1,Comedy,,,Kaitlyn Dever,Beanie Feldstein,Jessica Williams,,1.0,23.0,2346.0,102.0,6000000.0,24863452.0,72.0
+Frozen II,2019,64.0,112240.0,2,Animation,Adventure,Comedy,Kristen Bell,Idina Menzel,Josh Gad,,1.0,15.0,1572.0,103.0,150000000.0,1450026933.0,69.0
+6 Underground,2019,41.0,123668.0,1,Action,Comedy,Thriller,Ryan Reynolds,Mélanie Laurent,Manuel Garcia-Rulfo,,,,9.0,128.0,150000000.0,,61.0
+Portrait of a Lady on Fire,2019,95.0,41364.0,1,Drama,Romance,,Noémie Merlant,Adèle Haenel,Luàna Bajrami,235.0,1.0,43.0,43125.0,122.0,,22978382.0,81.0
+After,2019,30.0,28278.0,3,Drama,Romance,,Josephine Langford,Hero Fiennes Tiffin,Khadijha Red Thunder,,,,4.0,105.0,14000000.0,69733482.0,54.0
+Captain Marvel,2019,64.0,415149.0,3,Action,Adventure,Sci-Fi,Brie Larson,Samuel L. Jackson,Ben Mendelsohn,,,7.0,46.0,123.0,160000000.0,1128274794.0,69.0
+Outback,2019,,372.0,1,Thriller,,,Kym Cramp,Brendan Donoghue,Lauren Lofberg,,,,,86.0,1500000.0,,49.0
+Yesterday,2019,55.0,99281.0,3,Comedy,Fantasy,Music,Himesh Patel,Lily James,Sophia Di Martino,,,1.0,15.0,116.0,26000000.0,153735613.0,68.0
+Charlie's Angels,2019,52.0,42521.0,3,Action,Adventure,Comedy,Kristen Stewart,Naomi Scott,Ella Balinska,,,1.0,6.0,118.0,48000000.0,73279888.0,47.0
+John Wick: Chapter 3 - Parabellum,2019,73.0,249626.0,1,Action,Crime,Thriller,Keanu Reeves,Halle Berry,Ian McShane,,,12.0,27.0,130.0,75000000.0,326709727.0,75.0
+Cats,2019,32.0,34014.0,2,Comedy,Drama,Family,James Corden,Judi Dench,Jason Derulo,25.0,1.0,11.0,115.0,110.0,95000000.0,73695985.0,27.0
+Anna,2019,40.0,51075.0,1,Action,Thriller,,Sasha Luss,Helen Mirren,Luke Evans,,,,1.0,118.0,30690000.0,31640190.0,66.0
+Lucy in the Sky,2019,36.0,3990.0,1,Drama,Sci-Fi,,Natalie Portman,Jon Hamm,Zazie Beetz,,,,3.0,124.0,,325950.0,47.0
+Shazam!,2019,71.0,233858.0,3,Action,Adventure,Comedy,Zachary Levi,Mark Strong,Asher Angel,,,,21.0,132.0,100000000.0,365971656.0,71.0
+Us,2019,81.0,202433.0,1,Horror,Mystery,Thriller,Lupita Nyong'o,Winston Duke,Elisabeth Moss,,,75.0,110.0,116.0,20000000.0,255184580.0,69.0
+A Rainy Day in New York,2019,44.0,22307.0,3,Comedy,Romance,,Timothée Chalamet,Elle Fanning,Liev Schreiber,,,,2.0,92.0,,21567442.0,66.0
+Terminator: Dark Fate,2019,54.0,123017.0,1,Action,Adventure,Sci-Fi,Linda Hamilton,Arnold Schwarzenegger,Mackenzie Davis,,,1.0,7.0,128.0,185000000.0,261119292.0,63.0
+Downton Abbey,2019,64.0,33206.0,2,Drama,Romance,,Stephen Campbell Moore,Michael Fox,Lesley Nicol,,,2.0,17.0,122.0,13000000.0,192094429.0,74.0
+The King,2019,62.0,75158.0,1,Biography,Drama,History,Tom Glynn-Carney,Gábor Czap,Tom Fisher,,,5.0,23.0,140.0,,126931.0,72.0
+Official Secrets,2019,63.0,21691.0,1,Biography,Crime,Drama,Keira Knightley,Matt Smith,Matthew Goode,,,4.0,8.0,112.0,,9581462.0,73.0
+The Addams Family,2019,46.0,21204.0,2,Animation,Comedy,Family,Oscar Isaac,Charlize Theron,Chloë Grace Moretz,,,,4.0,86.0,24000000.0,203044905.0,58.0
+Angel Has Fallen,2019,45.0,68760.0,1,Action,Thriller,,Gerard Butler,Frederick Schmidt,Danny Huston,,,,1.0,121.0,40000000.0,147501990.0,64.0
+Marriage Story,2019,94.0,217116.0,1,Comedy,Drama,Romance,Adam Driver,Scarlett Johansson,Julia Greer,,1.0,122.0,122246.0,137.0,18600000.0,333686.0,80.0
+Crawl,2019,60.0,55639.0,1,Drama,Horror,Thriller,Kaya Scodelario,Barry Pepper,Morfydd Clark,,,,3.0,87.0,13500000.0,91542097.0,62.0
+The Peanut Butter Falcon,2019,70.0,41768.0,3,Comedy,Drama,,Zack Gottsagen,Ann Owens,Dakota Johnson,,,21.0,16.0,97.0,6200000.0,22890626.0,76.0
+Vivarium,2019,64.0,20670.0,1,Horror,Mystery,Sci-Fi,Imogen Poots,Danielle Ryan,Molly McCann,,,2.0,4.0,97.0,4000000.0,123044.0,58.0
+X-Men: Dark Phoenix,2019,43.0,140848.0,3,Action,Adventure,Sci-Fi,James McAvoy,Michael Fassbender,Jennifer Lawrence,,,,13.0,113.0,200000000.0,252442974.0,58.0
+Zombieland: Double Tap,2019,55.0,113033.0,1,Action,Comedy,Horror,Woody Harrelson,Jesse Eisenberg,Emma Stone,,,,3.0,99.0,42000000.0,122810399.0,67.0
+Gemini Man,2019,38.0,66366.0,3,Action,Drama,Sci-Fi,Will Smith,Mary Elizabeth Winstead,Clive Owen,,,1.0,5.0,117.0,138000000.0,173469516.0,57.0
+Dark Waters,2019,73.0,38514.0,3,Biography,Drama,History,Mark Ruffalo,Anne Hathaway,Tim Robbins,,,,4.0,126.0,,21570073.0,76.0
+The Goldfinch,2019,40.0,12193.0,1,Drama,,,Oakes Fegley,Ansel Elgort,Nicole Kidman,,,,,149.0,45000000.0,9932621.0,62.0
+Richard Jewell,2019,68.0,41548.0,1,Biography,Crime,Drama,Paul Walter Hauser,Sam Rockwell,Brandon Stanley,,1.0,6.0,611.0,131.0,45000000.0,43745542.0,75.0
+Good Boys,2019,60.0,51642.0,1,Adventure,Comedy,,Jacob Tremblay,Keith L. Williams,Brady Noon,,,1.0,7.0,90.0,20000000.0,110940306.0,67.0
+21 Bridges,2019,51.0,31456.0,1,Action,Crime,Drama,Chadwick Boseman,Sienna Miller,J.K. Simmons,,,,2.0,99.0,33000000.0,49939757.0,66.0
+Queen & Slim,2019,74.0,15822.0,1,Crime,Drama,Romance,Daniel Kaluuya,Jodie Turner-Smith,Bokeem Woodbine,,,10.0,32.0,132.0,18000000.0,47505301.0,70.0
+Glass,2019,43.0,193406.0,3,Drama,Sci-Fi,Thriller,James McAvoy,Bruce Willis,Samuel L. Jackson,,,2.0,14.0,129.0,20000000.0,246999039.0,67.0
+Godzilla: King of the Monsters,2019,48.0,121338.0,3,Action,Adventure,Fantasy,Kyle Chandler,Vera Farmiga,Millie Bobby Brown,,,6.0,13.0,132.0,170000000.0,386600138.0,60.0
+The Assistant,2019,79.0,5184.0,1,Drama,,,Julia Garner,Owen Holland,Jon Orsini,,,,1.0,87.0,,1191801.0,60.0
+The Hustle,2019,35.0,41149.0,3,Comedy,Crime,,Anne Hathaway,Rebel Wilson,Alex Sharp,,,3.0,3.0,93.0,21000000.0,95017038.0,54.0
+Annabelle Comes Home,2019,53.0,51087.0,1,Horror,Mystery,Thriller,Vera Farmiga,Patrick Wilson,Mckenna Grace,,,,2.0,106.0,30000000.0,231252591.0,59.0
+Long Shot,2019,67.0,83971.0,1,Comedy,Romance,,Charlize Theron,Seth Rogen,June Diane Raphael,,,5.0,9.0,125.0,40000000.0,53873809.0,68.0
+Men in Black: International,2019,38.0,99633.0,3,Action,Adventure,Comedy,Chris Hemsworth,Tessa Thompson,Kumail Nanjiani,,,,9.0,114.0,110000000.0,253890701.0,56.0
+Ma,2019,53.0,34470.0,1,Horror,Mystery,Thriller,Octavia Spencer,Diana Silvers,Juliette Lewis,,,1.0,5.0,99.0,5000000.0,61105672.0,56.0
+Honey Boy,2019,73.0,19414.0,1,Drama,,,Shia LaBeouf,Lucas Hedges,Noah Jupe,,,10.0,35.0,94.0,,3270077.0,73.0
+"Extremely Wicked, Shockingly Evil and Vile",2019,52.0,70365.0,1,Biography,Crime,Drama,Lily Collins,Zac Efron,Angela Sarafyan,,,4.0,5.0,110.0,,10219049.0,66.0
+Rambo: Last Blood,2019,26.0,69810.0,1,Action,Thriller,,Sylvester Stallone,Paz Vega,Sergio Peris-Mencheta,,,4.0,7.0,89.0,50000000.0,91490353.0,62.0
+Spies in Disguise,2019,54.0,24620.0,2,Animation,Adventure,Comedy,Rachel Brosnahan,Jarrett Bruno,Claire Crosby,,,,3.0,102.0,100000000.0,171616764.0,68.0
+Stuber,2019,42.0,35379.0,1,Action,Comedy,Crime,Dave Bautista,Kumail Nanjiani,Mira Sorvino,,,,4.0,93.0,16000000.0,32390945.0,62.0
+Motherless Brooklyn,2019,60.0,30669.0,1,Crime,Drama,Mystery,Edward Norton,Gugu Mbatha-Raw,Alec Baldwin,,1.0,2.0,211.0,144.0,26000000.0,18477736.0,68.0
+A Hidden Life,2019,78.0,12975.0,3,Biography,Drama,Romance,August Diehl,Valerie Pachner,Maria Simon,,,7.0,24.0,174.0,,4598239.0,74.0
+Waves,2019,80.0,12057.0,1,Drama,Romance,Sport,Taylor Russell,Kelvin Harrison Jr.,Alexa Demie,,,14.0,38.0,135.0,,2044542.0,76.0
+True History of the Kelly Gang,2019,75.0,3868.0,1,Biography,Crime,Drama,George MacKay,Essie Davis,Nicholas Hoult,,,1.0,1.0,124.0,,457048.0,61.0
+Jurassic World: Fallen Kingdom,2018,51.0,250869.0,3,Action,Adventure,Sci-Fi,Chris Pratt,Bryce Dallas Howard,Rafe Spall,,,4.0,25.0,128.0,170000000.0,1308467944.0,62.0
+BlacKkKlansman,2018,83.0,195601.0,1,Biography,Crime,Drama,John David Washington,Adam Driver,Laura Harrier,,1.0,42.0,42206.0,135.0,15000000.0,93400823.0,75.0
+Ready Player One,2018,64.0,346188.0,3,Action,Adventure,Sci-Fi,Tye Sheridan,Olivia Cooke,Ben Mendelsohn,,1.0,11.0,1152.0,140.0,175000000.0,582890172.0,75.0
+Black Panther,2018,88.0,584883.0,3,Action,Adventure,Sci-Fi,Chadwick Boseman,Michael B. Jordan,Lupita Nyong'o,,3.0,109.0,109265.0,134.0,200000000.0,1346913161.0,73.0
+Avengers: Infinity War,2018,68.0,781082.0,3,Action,Adventure,Sci-Fi,Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo,63.0,1.0,46.0,4673.0,149.0,321000000.0,2048359754.0,85.0
+Spider-Man: Into the Spider-Verse,2018,87.0,322862.0,2,Animation,Action,Adventure,Shameik Moore,Jake Johnson,Hailee Steinfeld,66.0,1.0,79.0,7955.0,117.0,90000000.0,375540831.0,84.0
+Green Book,2018,69.0,328577.0,3,Biography,Comedy,Drama,Viggo Mortensen,Mahershala Ali,Linda Cardellini,130.0,3.0,54.0,54120.0,130.0,23000000.0,327909440.0,82.0
+Hereditary,2018,87.0,211877.0,1,Drama,Horror,Mystery,Toni Collette,Milly Shapiro,Gabriel Byrne,,,44.0,104.0,127.0,10000000.0,80239658.0,73.0
+Our House,2018,45.0,5699.0,3,Drama,Horror,Mystery,John Ralston,Thomas Mann,Percy Hynes White,,,,3.0,90.0,,24039.0,53.0
+The Hate U Give,2018,81.0,26927.0,3,Crime,Drama,,Amandla Stenberg,Regina Hall,Russell Hornsby,,,23.0,32.0,133.0,23000000.0,34934009.0,74.0
+Aquaman,2018,55.0,340241.0,3,Action,Adventure,Fantasy,Jason Momoa,Amber Heard,Willem Dafoe,,,2.0,38.0,143.0,160000000.0,1148461807.0,70.0
+A Star Is Born,2018,88.0,311312.0,1,Drama,Music,Romance,Lady Gaga,Bradley Cooper,Sam Elliott,,1.0,94.0,94274.0,136.0,36000000.0,436188866.0,77.0
+Mission: Impossible - Fallout,2018,86.0,274680.0,3,Action,Adventure,Thriller,Tom Cruise,Henry Cavill,Ving Rhames,,1.0,23.0,2339.0,147.0,178000000.0,791115104.0,77.0
+Crazy Rich Asians,2018,74.0,127999.0,3,Comedy,Drama,Romance,Constance Wu,Henry Golding,Michelle Yeoh,,2.0,12.0,1260.0,120.0,30000000.0,238532921.0,69.0
+Bohemian Rhapsody,2018,49.0,426501.0,3,Biography,Drama,Music,Rami Malek,Lucy Boynton,Gwilym Lee,,4.0,40.0,4076.0,134.0,52000000.0,903655259.0,80.0
+Blockers,2018,69.0,67510.0,1,Comedy,,,Leslie Mann,John Cena,Ike Barinholtz,,,1.0,6.0,102.0,21000000.0,94017294.0,62.0
+Deadpool 2,2018,66.0,453612.0,1,Action,Adventure,Comedy,Ryan Reynolds,Josh Brolin,Morena Baccarin,,,6.0,50.0,119.0,110000000.0,785794179.0,77.0
+Annihilation,2018,79.0,266126.0,1,Adventure,Drama,Horror,Natalie Portman,Jennifer Jason Leigh,Tessa Thompson,,,16.0,57.0,115.0,40000000.0,43070915.0,69.0
+A Quiet Place,2018,82.0,383773.0,3,Drama,Horror,Sci-Fi,Emily Blunt,John Krasinski,Millicent Simmonds,,1.0,34.0,34108.0,90.0,17000000.0,340939361.0,75.0
+Solo: A Star Wars Story,2018,62.0,272538.0,3,Action,Adventure,Sci-Fi,Alden Ehrenreich,Woody Harrelson,Emilia Clarke,,1.0,4.0,422.0,135.0,275000000.0,392924807.0,69.0
+Fantastic Beasts: The Crimes of Grindelwald,2018,52.0,204439.0,3,Adventure,Family,Fantasy,Eddie Redmayne,Katherine Waterston,Dan Fogler,,2.0,3.0,318.0,134.0,200000000.0,654855901.0,66.0
+The Favourite,2018,91.0,159745.0,1,Biography,Comedy,Drama,Olivia Colman,Emma Stone,Rachel Weisz,,1.0,183.0,183329.0,119.0,15000000.0,95918706.0,75.0
+The Meg,2018,46.0,137195.0,3,Action,Horror,Sci-Fi,Jason Statham,Bingbing Li,Rainn Wilson,,,4.0,5.0,113.0,130000000.0,530243742.0,57.0
+Red Sparrow,2018,53.0,156816.0,1,Action,Drama,Thriller,Jennifer Lawrence,Joel Edgerton,Matthias Schoenaerts,,,3.0,8.0,140.0,69000000.0,151572634.0,66.0
+Game Night,2018,66.0,192882.0,1,Action,Comedy,Crime,Jason Bateman,Rachel McAdams,Kyle Chandler,,,4.0,18.0,100.0,37000000.0,117679066.0,69.0
+Den of Thieves,2018,49.0,86482.0,1,Action,Crime,Drama,Gerard Butler,Pablo Schreiber,O'Shea Jackson Jr.,,,,,148.0,30000000.0,80509622.0,70.0
+Venom,2018,35.0,334756.0,3,Action,Adventure,Sci-Fi,Tom Hardy,Michelle Williams,Riz Ahmed,,,3.0,9.0,112.0,100000000.0,856085151.0,67.0
+A Simple Favor,2018,67.0,114603.0,1,Comedy,Crime,Drama,Anna Kendrick,Blake Lively,Henry Golding,,,3.0,4.0,117.0,20000000.0,97644617.0,68.0
+Burden,2018,57.0,536.0,1,Drama,,,Andrea Riseborough,Garrett Hedlund,Forest Whitaker,,,2.0,1.0,117.0,,149295.0,60.0
+Hotel Artemis,2018,58.0,40297.0,1,Action,Crime,Drama,Jodie Foster,Sofia Boutella,Dave Bautista,,,1.0,1.0,94.0,15000000.0,13313581.0,61.0
+Night Hunter,2018,31.0,11591.0,1,Action,Crime,Drama,Henry Cavill,Ben Kingsley,Alexandra Daddario,,,,,98.0,,1548033.0,59.0
+Ocean's 8,2018,61.0,171399.0,3,Action,Comedy,Crime,Sandra Bullock,Cate Blanchett,Anne Hathaway,,,3.0,14.0,110.0,70000000.0,297718711.0,62.0
+First Man,2018,84.0,154601.0,3,Biography,Drama,History,Ryan Gosling,Claire Foy,Jason Clarke,,1.0,30.0,30190.0,141.0,59000000.0,105697415.0,73.0
+Suspiria,2018,64.0,54954.0,1,Fantasy,Horror,Mystery,Chloë Grace Moretz,Tilda Swinton,Doris Hick,,,24.0,67.0,152.0,20000000.0,7942093.0,68.0
+Mamma Mia! Here We Go Again,2018,60.0,73081.0,3,Comedy,Musical,Romance,Lily James,Amanda Seyfried,Meryl Streep,,,,12.0,114.0,75000000.0,395044706.0,67.0
+High Strung Free Dance,2018,43.0,749.0,2,Music,Romance,,Thomas Doherty,Jane Seymour,Juliet Doherty,,,,,103.0,,235066.0,65.0
+Climax,2018,67.0,44609.0,1,Drama,Horror,Music,Sofia Boutella,Romain Guillermic,Souheila Yacoub,,,5.0,7.0,97.0,2600000.0,2027391.0,71.0
+Upgrade,2018,67.0,138946.0,1,Action,Horror,Sci-Fi,Logan Marshall-Green,Melanie Vallejo,Steve Danielsen,,,3.0,24.0,100.0,5000000.0,16593554.0,75.0
+The Ballad of Buster Scruggs,2018,79.0,111556.0,1,Comedy,Drama,Musical,Tim Blake Nelson,Willie Watson,Clancy Brown,,3.0,8.0,836.0,133.0,,,73.0
+Fifty Shades Freed,2018,31.0,51896.0,1,Drama,Romance,Thriller,Dakota Johnson,Jamie Dornan,Eric Johnson,,,5.0,10.0,105.0,55000000.0,371985018.0,45.0
+Rampage,2018,45.0,135044.0,3,Action,Adventure,Sci-Fi,Dwayne Johnson,Naomie Harris,Malin Akerman,,,,7.0,107.0,120000000.0,428028233.0,61.0
+Bird Box,2018,51.0,260902.0,1,Drama,Horror,Sci-Fi,Sandra Bullock,Trevante Rhodes,John Malkovich,,,5.0,7.0,124.0,,,66.0
+Bad Times at the El Royale,2018,60.0,120384.0,1,Crime,Drama,Mystery,Jeff Bridges,Cynthia Erivo,Dakota Johnson,,,2.0,9.0,141.0,32000000.0,31882724.0,71.0
+Leave No Trace,2018,88.0,45313.0,2,Drama,,,Thomasin McKenzie,Ben Foster,Jeffery Rifflard,,,17.0,90.0,109.0,,7682928.0,72.0
+The Spy Who Dumped Me,2018,52.0,63897.0,1,Action,Adventure,Comedy,Justin Theroux,Blanka Györfi-Tóth,Vilma Szécsi,,,3.0,4.0,117.0,40000000.0,75320680.0,60.0
+Vice,2018,61.0,109443.0,1,Biography,Comedy,Drama,Christian Bale,Amy Adams,Steve Carell,,1.0,33.0,33132.0,132.0,60000000.0,76073488.0,72.0
+"Love, Simon",2018,72.0,92374.0,3,Comedy,Drama,Romance,Nick Robinson,Jennifer Garner,Josh Duhamel,,,8.0,24.0,110.0,17000000.0,66316289.0,76.0
+Capernaum,2018,75.0,49174.0,1,Drama,,,Zain Al Rafeea,Yordanos Shiferaw,Boluwatife Treasure Bankole,92.0,1.0,34.0,3446.0,126.0,4000000.0,64413178.0,84.0
+Bumblebee,2018,66.0,126872.0,3,Action,Adventure,Sci-Fi,Hailee Steinfeld,Jorge Lendeborg Jr.,John Cena,,,2.0,11.0,114.0,135000000.0,467989645.0,68.0
+The Predator,2018,48.0,110700.0,1,Action,Adventure,Sci-Fi,Boyd Holbrook,Trevante Rhodes,Jacob Tremblay,,,1.0,7.0,107.0,88000000.0,160542134.0,54.0
+Mid90s,2018,66.0,41634.0,1,Comedy,Drama,,Sunny Suljic,Katherine Waterston,Lucas Hedges,,,4.0,10.0,85.0,,9303022.0,74.0
+Mary Poppins Returns,2018,66.0,71696.0,2,Comedy,Family,Fantasy,Emily Blunt,Lin-Manuel Miranda,Ben Whishaw,,4.0,20.0,20103.0,130.0,130000000.0,349537494.0,67.0
+Ant-Man and the Wasp,2018,70.0,289463.0,3,Action,Adventure,Comedy,Paul Rudd,Evangeline Lilly,Michael Peña,,,,18.0,118.0,162000000.0,622674139.0,71.0
+The House That Jack Built,2018,42.0,52194.0,1,Crime,Drama,Horror,Matt Dillon,Bruno Ganz,Uma Thurman,,,11.0,20.0,152.0,8700000.0,5565865.0,68.0
+Sorry to Bother You,2018,80.0,55332.0,1,Comedy,Fantasy,Sci-Fi,LaKeith Stanfield,Tessa Thompson,Jermaine Fowler,,,19.0,54.0,112.0,3200000.0,18170707.0,69.0
+If Beale Street Could Talk,2018,87.0,37945.0,1,Drama,Romance,,KiKi Layne,Stephan James,Regina King,,1.0,108.0,108180.0,119.0,12000000.0,20596567.0,71.0
+Incredibles 2,2018,80.0,235140.0,2,Animation,Action,Adventure,Craig T. Nelson,Holly Hunter,Sarah Vowell,,1.0,12.0,1273.0,118.0,200000000.0,1242805359.0,76.0
+Tomb Raider,2018,48.0,182879.0,3,Action,Adventure,Fantasy,Alicia Vikander,Dominic West,Walton Goggins,,,,7.0,119.0,94000000.0,274650803.0,63.0
+Overlord,2018,60.0,77773.0,1,Action,Adventure,Horror,Jovan Adepo,Wyatt Russell,Mathilde Ollivier,,,2.0,5.0,110.0,38000000.0,41657844.0,66.0
+Instant Family,2018,57.0,73151.0,3,Comedy,Drama,,Mark Wahlberg,Rose Byrne,Isabela Merced,,,2.0,5.0,118.0,48000000.0,120556201.0,73.0
+Sicario: Day of the Soldado,2018,61.0,116539.0,1,Action,Adventure,Crime,Benicio Del Toro,Josh Brolin,Isabela Merced,,,1.0,7.0,122.0,35000000.0,75837743.0,71.0
+Beautiful Boy,2018,62.0,46341.0,1,Biography,Drama,,Steve Carell,Maura Tierney,Jack Dylan Grazer,,1.0,9.0,927.0,120.0,25000000.0,16636604.0,73.0
+Freaks,2018,63.0,19531.0,1,Drama,Mystery,Sci-Fi,Emile Hirsch,Bruce Dern,Grace Park,,,9.0,13.0,105.0,,335050.0,67.0
+The Mule,2018,58.0,97819.0,1,Crime,Drama,Thriller,Clint Eastwood,Patrick L. Reyes,Cesar De León,,,1.0,10.0,116.0,50000000.0,174804407.0,70.0
+Halloween,2018,67.0,109829.0,1,Horror,Thriller,,Jamie Lee Curtis,Judy Greer,Andi Matichak,,,3.0,24.0,106.0,10000000.0,255485178.0,66.0
+Ralph Breaks the Internet,2018,71.0,120812.0,2,Animation,Adventure,Comedy,John C. Reilly,Sarah Silverman,Gal Gadot,,1.0,3.0,363.0,112.0,175000000.0,529323962.0,71.0
+Tag,2018,56.0,105726.0,1,Comedy,,,Jeremy Renner,Ed Helms,Jake Johnson,,,,2.0,100.0,28000000.0,78130625.0,65.0
+The Equalizer 2,2018,50.0,120032.0,1,Action,Crime,Thriller,Denzel Washington,Pedro Pascal,Ashton Sanders,,,,4.0,121.0,62000000.0,190400157.0,67.0
+Under the Silver Lake,2018,60.0,29078.0,1,Crime,Drama,Mystery,Andrew Garfield,Riley Keough,Topher Grace,,,2.0,8.0,139.0,8500000.0,2053469.0,65.0
+Ophelia,2018,60.0,6474.0,3,Drama,History,Romance,Daisy Ridley,Mia Quiney,Calum O'Rourke,,,3.0,3.0,114.0,12000000.0,229405.0,66.0
+The Nun,2018,46.0,109694.0,1,Horror,Mystery,Thriller,Demián Bichir,Taissa Farmiga,Jonas Bloquet,,,2.0,1.0,96.0,22000000.0,365550119.0,53.0
+Creed II,2018,66.0,97253.0,3,Drama,Sport,,Michael B. Jordan,Sylvester Stallone,Tessa Thompson,,,1.0,12.0,130.0,50000000.0,214215889.0,71.0
+12 Strong,2018,54.0,62989.0,1,Action,Drama,History,Chris Hemsworth,Michael Shannon,Michael Peña,,,,3.0,130.0,35000000.0,67450815.0,66.0
+Mary Queen of Scots,2018,60.0,35798.0,1,Biography,Drama,History,Saoirse Ronan,Margot Robbie,Jack Lowden,,2.0,6.0,627.0,124.0,25000000.0,46710283.0,63.0
+Mortal Engines,2018,44.0,95366.0,3,Action,Adventure,Fantasy,Hera Hilmar,Robert Sheehan,Hugo Weaving,,,3.0,2.0,128.0,100000000.0,83672673.0,61.0
+Roma,2018,96.0,131729.0,1,Drama,,,Yalitza Aparicio,Marina de Tavira,Diego Cortina Autrey,,3.0,249.0,249209.0,135.0,,1140769.0,77.0
+High Life,2018,77.0,24603.0,1,Adventure,Drama,Horror,Robert Pattinson,Juliette Binoche,André Benjamin,,,5.0,13.0,113.0,,2133033.0,58.0
+The First Purge,2018,54.0,50852.0,1,Action,Horror,Sci-Fi,Y'lan Noel,Lex Scott Davis,Joivan Wade,,,,,97.0,13000000.0,137056262.0,52.0
+Maze Runner: The Death Cure,2018,50.0,105124.0,3,Action,Adventure,Sci-Fi,Dylan O'Brien,Ki Hong Lee,Kaya Scodelario,,,,6.0,143.0,62000000.0,288175335.0,62.0
