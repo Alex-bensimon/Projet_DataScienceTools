@@ -50,10 +50,12 @@ def replace_metascore(movie_ratings):
     return movie_ratings
 
 
+
 def replace_nan(movie_ratings):
     '''
     
     '''
+    
 
 
 
@@ -61,12 +63,9 @@ def actors_to_num(movie_ratings):
     '''
     '''
 
-    #df = movie_ratings
-    #movie_ratings["stars"]
-    
-    
+    df = movie_ratings
     acteurs = []
-    acteurs = movie_ratings["stars"]
+    acteurs = df['stars']
     list_acteur = []
     index_acteurs = []
 
@@ -84,14 +83,12 @@ def actors_to_num(movie_ratings):
     i = 0
     for i in range(len(list_acteur)):
         len_list_acteur.append(i)
-    print(len_list_acteur)
+    #print(len_list_acteur)
     df2 = pd.DataFrame({'Index': len_list_acteur,'Acteur': list_acteur})
     df2 = df2.set_index('Index')
-    print(df2)
+    #print(df2)
     df2.to_csv('table_correspondance_acteurs.csv')
 
-
-    actors_to_num('movie_ratings.csv')
     
     return index_acteurs
 

@@ -74,7 +74,12 @@ movie_ratings = dftab.creation_dataframe(mv_attributs)
 Call the function which cleans the dataframe by deleting rows if rating is NaN
 and get a metascore based on the imdb rating.
 """
-#movie_ratings = analy.clean_dataframe(movie_ratings)
+movie_ratings = analy.clean_dataframe(movie_ratings)
+
+#%%
+movie_ratings.to_csv('movie_ratings.csv')
+#%%
+
 liste_acteurs = analy.actors_to_num(movie_ratings)
 
 print(movie_ratings.info())

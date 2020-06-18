@@ -49,17 +49,21 @@ def creation_dataframe(mv_attributs):
         'imdb_ratings': mv_attributs[2],
         'metascore': mv_attributs[3],
         'votes': mv_attributs[4],
-        'category': mv_attributs[5],
+        'category1': mv_attributs[5],
         'mv_page': mv_attributs[6],
-        'genres' : mv_attributs[7],
-        'stars' : mv_attributs[8],
-        'rank' : mv_attributs[9],
-        'nb_oscar' : mv_attributs[10],
-        'win' : mv_attributs[11],
-        'nom' : mv_attributs[12],
-        'runtime' : mv_attributs[13],
-        'budget' : mv_attributs[14],
-        'gross' : mv_attributs[15]
+        'genres1' : mv_attributs[7],
+        'genres2' : mv_attributs[8],
+        'genres3' : mv_attributs[9],
+        'stars1' : mv_attributs[10],
+        'stars2' : mv_attributs[11],
+        'stars3' : mv_attributs[12],
+        'rank' : mv_attributs[13],
+        'nb_oscar' : mv_attributs[14],
+        'win' : mv_attributs[15],
+        'nom' : mv_attributs[16],
+        'runtime' : mv_attributs[17],
+        'budget' : mv_attributs[18],
+        'gross' : mv_attributs[19]
     })
     
     movie_ratings.loc[:, 'year'] = movie_ratings['year'].astype(int)
