@@ -7,6 +7,7 @@ Created on Tue Jun 16 08:19:10 2020
 
 import fonction_scraping as scrap
 import fonction_analyses as analy
+import definition_tab as dftab
 
 import numpy as np
 from selenium import webdriver
@@ -20,26 +21,10 @@ from time import time
 import matplotlib.pyplot as plt
 import requests
 
-# Tabs 
-names = []          #0
-years = []          #1
-imdb_ratings = []   #2
-metascores = []     #3
-votes = []          #4
-categories = []     #5
-mv_pages = []       #6
-genres = []         #7
-stars = []          #8
-rank = []           #9
-nb_oscar = []       #10
-win = []            #11
-nom = []            #12
-runtime = []        #13
-budget = []         #14
-gross = []          #15
+
+mv_attributs = dftab.instanciation_tablist()
     
-mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,genres,stars,rank,nb_oscar,win,nom,runtime,budget,gross
-    
+  
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
