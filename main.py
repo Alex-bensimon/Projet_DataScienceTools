@@ -10,7 +10,6 @@ import fonction_analyses as analy
 import definition_tab as dftab
 
 import numpy as np
-from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 from requests import get

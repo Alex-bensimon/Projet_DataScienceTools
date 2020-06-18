@@ -29,8 +29,9 @@ def extraction_movie_data_from_link(link, mv_attributs):
     nb_genre = 0
     #get the movie genres
     div = html.find('div', class_="subtext")
-    test_genre = False
+    #test_genre = False
     for a in div.find_all('a'):
+        test_genre = False
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
@@ -45,8 +46,9 @@ def extraction_movie_data_from_link(link, mv_attributs):
     #get the stars acting in the movie
     stars = []
     nb_act = 0
-    test_stars = False
+    #test_stars = False
     for credit in html.find_all('div', class_='credit_summary_item'):
+        test_stars = False
         inline = credit.h4.text
         if inline == "Stars:":
             for a in credit.find_all('a'):
