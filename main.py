@@ -27,8 +27,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(3)
-pages = scrap.nb_page(3)
+years_url = scrap.years_loop(20)
+pages = scrap.nb_page(10)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -91,24 +91,6 @@ movie_ratings.to_csv('movie_ratings.csv')
 #%%
 """
 #Partie Analyse 
-
-import numpy as np 
-import pandas as pd
-
-movie_ratings.to_csv('movie_ratings3.csv')
-
-test = movie_ratings.drop(["mv_page"],axis=1)
-test = test.drop(["imdb_ratings"],axis=1)
-test = test.drop(["genres"],axis=1)
-test = test.drop(["stars"],axis=1)
-
-#test = test.replace({'category':'R'}, 1).replace({'category':'PG'}, 2).replace({'category':'PG-13'}, 2)
-
-test['category'] = test['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
-
-test = test.set_index('movie')
-
-test.to_csv('movie_ratings3.csv')
 
 
 #%%

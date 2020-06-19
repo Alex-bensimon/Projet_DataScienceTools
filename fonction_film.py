@@ -134,13 +134,13 @@ def extraction_movie_data_from_link(link, mv_attributs):
                         test_nom = True
 
     if not test_rank:
-        mv_attributs[13].append(None)
+        mv_attributs[13].append(0)
     if not test_nb_oscar:
-        mv_attributs[14].append(None)
+        mv_attributs[14].append(0)
     if not test_win:
-        mv_attributs[15].append(None)
+        mv_attributs[15].append(0)
     if not test_nom:
-        mv_attributs[16].append(None)
+        mv_attributs[16].append(0)
 
     test_runtime=False
     test_budget=False

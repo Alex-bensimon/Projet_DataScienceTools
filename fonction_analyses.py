@@ -110,9 +110,11 @@ def clean_dataframe(movie_ratings):
     
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["imdb_ratings"],axis=1)
+    movie_ratings = movie_ratings.drop(["rank"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')
     movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
     movie_ratings = delete_raws_nan(movie_ratings)
-   #movie_ratings = replace_metascore(movie_ratings)
+    movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
+    movie_ratings = replace_metascore(movie_ratings)
 
     return movie_ratings
