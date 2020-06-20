@@ -66,7 +66,7 @@ def labelisation_attributs(movie_ratings,row1,row2,row3):
     y = y.append(df.iloc[:,row3])
     
     y = y.reset_index()
-    y=y.drop(["index"],axis=1)
+    y = y.drop(["index"],axis=1)
     
     print(y)
     
@@ -90,21 +90,26 @@ def labelisation_attributs(movie_ratings,row1,row2,row3):
         elif i >= tier2:
             third_part.append(normal_y[i])
             i += 1
+            
+    print(row1)
+    movie_ratings[row1] = first_part
+    movie_ratings[row2] = second_part
+    movie_ratings[row3] = third_part
     
-        
-    print(first_part)
-    print(second_part)
-    print(third_part)
+    print("---"*30)
+    print(movie_ratings)
+    print("---"*30)
+    return movie_ratings
     
-    
-    """
-    #encoder.inverse_transform(np.array([0, 0, 2]))
-    
-    encoder = LabelBinarizer()
-    test2 = encoder.fit_transform(y)
-    
-    print(test2)
-    """
+
+"""
+#encoder.inverse_transform(np.array([0, 0, 2]))
+
+encoder = LabelBinarizer()
+test2 = encoder.fit_transform(y)
+
+print(test2)
+"""
     
 
 

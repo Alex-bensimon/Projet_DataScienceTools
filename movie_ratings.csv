@@ -1,20 +1,20 @@
 ,movie,year,imdb_ratings,metascore,votes,category,mv_page,genres1,genres2,genres3,stars1,stars2,stars3,rank,nb_oscar,win,nom,runtime,budget,gross
-0,Extraction,2020,6.8,56.0,123662,R,https://imdb.com/title/tt8936646/,Action,Crime,Thriller,Chris Hemsworth,Bryon Lerum,Ryder Lerum,0,0,0,0,116,,
-1,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60.0,120495,R,https://imdb.com/title/tt7713068/,Action,Adventure,Crime,Margot Robbie,Rosie Perez,Mary Elizabeth Winstead,0,0,0,3,109,84500000.0,201858461.0
-2,The Invisible Man,2020,7.1,72.0,108856,R,https://imdb.com/title/tt1051906/,Horror,Mystery,Sci-Fi,Elisabeth Moss,Oliver Jackson-Cohen,Harriet Dyer,0,0,0,0,124,7000000.0,124099351.0
-3,Bad Boys for Life,2020,6.7,59.0,99700,R,https://imdb.com/title/tt1502397/,Action,Comedy,Crime,Will Smith,Martin Lawrence,Vanessa Hudgens,0,0,0,1,124,90000000.0,419074646.0
-4,Sonic the Hedgehog,2020,6.6,47.0,67126,PG,https://imdb.com/title/tt3794354/,Action,Adventure,Comedy,Ben Schwartz,James Marsden,Jim Carrey,0,0,0,1,99,85000000.0,306766470.0
-5,Onward,2020,7.5,61.0,65439,PG,https://imdb.com/title/tt7146812/,Animation,Adventure,Comedy,Tom Holland,Chris Pratt,Julia Louis-Dreyfus,0,0,0,1,102,,103181419.0
-6,Spenser Confidential,2020,6.2,49.0,56382,R,https://imdb.com/title/tt8629748/,Action,Comedy,Crime,Mark Wahlberg,Winston Duke,Alan Arkin,0,0,0,0,111,,
-7,Underwater,2020,5.8,48.0,42771,PG-13,https://imdb.com/title/tt5774060/,Action,Horror,Sci-Fi,Kristen Stewart,Vincent Cassel,Mamoudou Athie,0,0,0,0,95,80000000.0,40882928.0
-8,Bloodshot,2020,5.7,44.0,42369,PG-13,https://imdb.com/title/tt1634106/,Action,Drama,Sci-Fi,Vin Diesel,Eiza González,Sam Heughan,0,0,0,0,109,45000000.0,28599700.0
-9,The Hunt,2020,6.4,50.0,40536,R,https://imdb.com/title/tt8244784/,Action,Horror,Thriller,Betty Gilpin,Hilary Swank,Ike Barinholtz,0,0,0,0,90,14000000.0,6562393.0
-10,Dolittle,2020,5.6,26.0,35530,PG,https://imdb.com/title/tt6673612/,Adventure,Comedy,Family,Robert Downey Jr.,Antonio Banderas,Michael Sheen,0,0,0,0,101,175000000.0,223343452.0
-11,The Call of the Wild,2020,6.8,47.0,24888,PG,https://imdb.com/title/tt7504726/,Adventure,Drama,Family,Harrison Ford,Omar Sy,Cara Gee,0,0,0,1,100,135000000.0,107604626.0
-12,Fantasy Island,2020,4.8,22.0,22306,PG-13,https://imdb.com/title/tt0983946/,Adventure,Fantasy,Horror,Michael Peña,Maggie Q,Lucy Hale,0,0,0,0,109,7000000.0,47315959.0
-13,The Way Back,2020,6.8,68.0,19302,R,https://imdb.com/title/tt8544498/,Drama,Sport,None,Ben Affleck,Al Madrigal,Janina Gavankar,0,0,0,0,108,,14690514.0
-14,The Half of It,2020,7.0,74.0,18999,PG-13,https://imdb.com/title/tt9683478/,Comedy,Drama,Romance,Leah Lewis,Daniel Diemer,Alexxis Lemire,0,0,1,1,104,,
-15,Emma.,2020,6.8,71.0,16362,PG,https://imdb.com/title/tt9214832/,Comedy,Drama,None,Anya Taylor-Joy,Johnny Flynn,Mia Goth,0,0,0,0,124,,25155355.0
-16,Da 5 Bloods,2020,6.7,82.0,15565,R,https://imdb.com/title/tt9777644/,Adventure,Drama,War,Delroy Lindo,Jonathan Majors,Clarke Peters,0,0,0,0,154,,
-17,Gretel & Hansel,2020,5.3,64.0,15339,PG-13,https://imdb.com/title/tt9086228/,Fantasy,Horror,Mystery,Sophia Lillis,Samuel Leakey,Alice Krige,0,0,0,0,87,5000000.0,21287930.0
-18,The Grudge,2020,4.2,41.0,15251,R,https://imdb.com/title/tt3612126/,Horror,Mystery,None,Tara Westwood,Junko Bailey,David Lawrence Brown,0,0,0,0,94,10000000.0,49511319.0
+0,Extraction,2020,6.8,56.0,123679,R,https://imdb.com/title/tt8936646/,,,Thriller,,,Ryder Lerum,0,0,0,0,116,,
+1,Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn,2020,6.1,60.0,120509,R,https://imdb.com/title/tt7713068/,,,Crime,,,Mary Elizabeth Winstead,0,0,0,3,109,84500000.0,201858461.0
+2,The Invisible Man,2020,7.1,72.0,108874,R,https://imdb.com/title/tt1051906/,,,Sci-Fi,,,Harriet Dyer,0,0,0,0,124,7000000.0,124099351.0
+3,Bad Boys for Life,2020,6.7,59.0,99715,R,https://imdb.com/title/tt1502397/,,,Crime,,,Vanessa Hudgens,0,0,0,1,124,90000000.0,419074646.0
+4,Sonic the Hedgehog,2020,6.6,47.0,67136,PG,https://imdb.com/title/tt3794354/,,,Comedy,,,Jim Carrey,0,0,0,1,99,85000000.0,306766470.0
+5,Onward,2020,7.5,61.0,65447,PG,https://imdb.com/title/tt7146812/,,,Comedy,,,Julia Louis-Dreyfus,0,0,0,1,102,,103181419.0
+6,Spenser Confidential,2020,6.2,49.0,56387,R,https://imdb.com/title/tt8629748/,,,Crime,,,Alan Arkin,0,0,0,0,111,,
+7,Underwater,2020,5.8,48.0,42779,PG-13,https://imdb.com/title/tt5774060/,,,Sci-Fi,,,Mamoudou Athie,0,0,0,0,95,80000000.0,40882928.0
+8,Bloodshot,2020,5.7,44.0,42377,PG-13,https://imdb.com/title/tt1634106/,,,Sci-Fi,,,Sam Heughan,0,0,0,0,109,45000000.0,28599700.0
+9,The Hunt,2020,6.4,50.0,40553,R,https://imdb.com/title/tt8244784/,,,Thriller,,,Ike Barinholtz,0,0,0,0,90,14000000.0,6562393.0
+10,Dolittle,2020,5.6,26.0,35537,PG,https://imdb.com/title/tt6673612/,,,Family,,,Michael Sheen,0,0,0,0,101,175000000.0,223343452.0
+11,The Call of the Wild,2020,6.8,47.0,24892,PG,https://imdb.com/title/tt7504726/,,,Family,,,Cara Gee,0,0,0,1,100,135000000.0,107604626.0
+12,Fantasy Island,2020,4.8,22.0,22312,PG-13,https://imdb.com/title/tt0983946/,,,Horror,,,Lucy Hale,0,0,0,0,109,7000000.0,47315959.0
+13,The Way Back,2020,6.8,68.0,19305,R,https://imdb.com/title/tt8544498/,,,None,,,Janina Gavankar,0,0,0,0,108,,14690514.0
+14,The Half of It,2020,7.0,74.0,19004,PG-13,https://imdb.com/title/tt9683478/,,,Romance,,,Alexxis Lemire,0,0,1,1,104,,
+15,Emma.,2020,6.8,71.0,16367,PG,https://imdb.com/title/tt9214832/,,,None,,,Mia Goth,0,0,0,0,124,,25155355.0
+16,Da 5 Bloods,2020,6.7,82.0,15619,R,https://imdb.com/title/tt9777644/,,,War,,,Clarke Peters,0,0,0,0,154,,
+17,Gretel & Hansel,2020,5.3,64.0,15340,PG-13,https://imdb.com/title/tt9086228/,,,Mystery,,,Alice Krige,0,0,0,0,87,5000000.0,21287930.0
+18,The Grudge,2020,4.2,41.0,15251,R,https://imdb.com/title/tt3612126/,,,None,,,David Lawrence Brown,0,0,0,0,94,10000000.0,49511319.0
