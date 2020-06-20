@@ -9,6 +9,8 @@ import fonction_scraping as scrap
 import fonction_analyses as analy
 import definition_tab as dftab
 
+#%%
+
 import numpy as np
 from bs4 import BeautifulSoup
 import time
@@ -90,6 +92,10 @@ movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
 movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
 movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
 movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
+
+movie_ratings = analy.labelisation_attributs(movie_ratings,7, 8, 9)
+movie_ratings = analy.labelisation_attributs(movie_ratings,10, 11, 12)
+
 
 #%%
 
