@@ -41,7 +41,7 @@ def extraction_data(mv_containers , mv_attributs):
                 # Scrape the name
                 if container.h3.a is not None:
                     name = container.h3.a.text
-                    mv_attributs[0].append(str(name))
+                    mv_attributs[0].append(name)
 
                 else:
                     mv_attributs[0].append(None)
@@ -58,7 +58,7 @@ def extraction_data(mv_containers , mv_attributs):
                     
                 # Scrape the IMDB rating
                 if container.strong is not None:
-                    imdb = float(container.strong.text)
+                    imdb = container.strong.text
                     mv_attributs[2].append(imdb)
                 else:
                     mv_attributs[2].append(None)
@@ -66,7 +66,7 @@ def extraction_data(mv_containers , mv_attributs):
                 # Scrape the Metascore
                 if container.find('span', class_ = 'metascore') is not None:
                     m_score = container.find('span', class_ = 'metascore').text
-                    mv_attributs[3].append(int(m_score))
+                    mv_attributs[3].append(m_score)
                 else:
                     mv_attributs[3].append(None)
                     
@@ -74,7 +74,7 @@ def extraction_data(mv_containers , mv_attributs):
                 # Scrape the number of votes
                 if container.find('span', attrs = {'name':'nv'}) is not None:
                     vote = container.find('span', attrs = {'name':'nv'})['data-value']
-                    mv_attributs[4].append(int(vote))
+                    mv_attributs[4].append(vote)
                 else:
                     mv_attributs[4].append(None)
                     
@@ -158,5 +158,7 @@ def nb_page(number):
     return nb_page
 
 def clean_chars(chain_to_clean):
-     chain_to_clean = int(chain_to_clean.translate({ord(c): "" for c in r"#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "}))
+     chain_to_clean = chain_to_clean.translate({ord(c): "" for c in r"#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+     chain_to_clean = chain_to_clean.replace(f"\n","").strip()
+     #chain_to_clean = int(chain_to_clean)
      return chain_to_clean

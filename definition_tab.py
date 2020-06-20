@@ -69,8 +69,5 @@ def creation_dataframe(mv_attributs):
         'budget' : mv_attributs[18],
         'gross' : mv_attributs[19]
     })
-    
-    movie_ratings.loc[:, 'year'] = movie_ratings['year'].astype(int)
-    movie_ratings['n_imdb'] = movie_ratings['imdb_ratings'] * 10   
-    
+        
     return movie_ratings

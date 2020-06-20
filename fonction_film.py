@@ -45,15 +45,11 @@ def extraction_movie_data_from_link(link, mv_attributs):
     if nb_genre == 2:
         mv_attributs[9].append(None)
         nb_genre = 3
-        """
-        if not test_genre:
-            mv_attributs[7+nb_genre].append(None)
-            nb_genre += 1
-        """
+
     #get the stars acting in the movie
     stars = []
     nb_act = 0
-    test_stars = False
+    #test_stars = False
     for credit in html.find_all('div', class_='credit_summary_item'):
         #test_stars = False
         inline = credit.h4.text
@@ -62,12 +58,16 @@ def extraction_movie_data_from_link(link, mv_attributs):
                 href = a.get('href')
                 if href != "fullcredits/":
                     mv_attributs[10+nb_act].append(a.text)
-                    test_stars = True
+                    #test_stars = True
                     nb_act += 1
 
-    if not test_stars:
-        mv_attributs[10+nb_act].append(None)
-        nb_act += 1
+    if nb_act == 1:
+        mv_attributs[11].append(None)
+        mv_attributs[12].append(None)
+        nb_genre = 3
+    if nb_act == 2:
+        mv_attributs[12].append(None)
+        nb_act = 3
 
     award = html.find('div', id='titleAwardsRanks', class_='article highlighted')
     test_rank = False

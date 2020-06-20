@@ -19,6 +19,7 @@ from warnings import warn
 from time import time
 import matplotlib.pyplot as plt
 import requests
+import pandas as pd
 
 
 mv_attributs = dftab.instanciation_tablist()
@@ -27,8 +28,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(20)
-pages = scrap.nb_page(10)
+years_url = scrap.years_loop(1)
+pages = scrap.nb_page(1)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -45,7 +46,7 @@ for year_url in years_url:
     for page in pages:
 
         # Make a get request
-        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&start='+ str(page)+'&ref_=adv_nxt'      
+        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&sort=num_votes,desc&start='+ str(pages)+'&ref_=adv_nxt'      
         print(url)
         response = get(url, headers = headers)
 
@@ -59,12 +60,35 @@ for year_url in years_url:
         mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
         
 print(mv_attributs)
- #%%
-# Create Data Frame : 
+
+movie_ratings = dftab.creation_dataframe(mv_attributs)
+print(movie_ratings)
+#%%
+# Replacing \n in the object Budget 
+i=0
+for budg in mv_attributs[18]:
+    if mv_attributs[18][i] is None:
+        i += 1
+    else:
+        mv_attributs[18][i] = mv_attributs[18][i].replace(f"\n","").strip()
+        i += 1
+
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 
-  
+print(movie_ratings)
 
+#%%
+# Replacing \n in the object Gross 
+i=0
+for gross in mv_attributs[19]:
+    if mv_attributs[19][i] is None:
+        i += 1
+    else:
+        mv_attributs[19][i] = mv_attributs[19][i].replace(f"\n","").strip()
+        i += 1
+
+movie_ratings = dftab.creation_dataframe(mv_attributs)
+print(movie_ratings)
 #%%
 
 #Partie Analyse 
@@ -73,10 +97,51 @@ movie_ratings = dftab.creation_dataframe(mv_attributs)
 Call the function which cleans the dataframe by deleting rows if rating is NaN
 and get a metascore based on the imdb rating.
 """
-movie_ratings = analy.clean_dataframe(movie_ratings) # marche pas ...
+movie_ratings['movie'] = movie_ratings['movie'].astype(str)
+movie_ratings['year'] = movie_ratings['year'].apply(pd.to_numeric) 
+movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
+movie_ratings['metascore'] = movie_ratings['metascore'].astype(float)
+movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
+movie_ratings['votes'] = movie_ratings['votes'].astype(int)
+movie_ratings['category'] = movie_ratings['category'].astype(str)
+movie_ratings['genres1'] = movie_ratings['genres1'].astype(str)
+movie_ratings['genres2'] = movie_ratings['genres2'].astype(str)
+movie_ratings['genres3'] = movie_ratings['genres3'].astype(str)
+movie_ratings['stars1'] = movie_ratings['stars1'].astype(str)
+movie_ratings['stars2'] = movie_ratings['stars2'].astype(str)
+movie_ratings['stars3'] = movie_ratings['stars3'].astype(str)
+
+movie_ratings = movie_ratings.apply(pd.to_numeric) 
+
 
 #%%
-movie_ratings.to_csv('movie_ratings.csv')
+# Converting Budget into an integer
+i=0
+for budget in movie_ratings['budget']:
+    if budget == None:
+        i += 1
+    else:
+        movie_ratings['budget'][i] = int(movie_ratings['budget'][i])
+        i += 1
+
+print(movie_ratings['budget'])
+
+# Converting Gross into an integer
+i=0
+for budget in movie_ratings['gross']:
+    if budget == None:
+        i += 1
+    else:
+        movie_ratings['gross'][i] = int(movie_ratings['gross'][i])
+        i += 1
+
+movie_ratings['gross'] = movie_ratings['gross'].astype(int)
+print(movie_ratings['gross'])
+
+#%%
+
+movie_ratings = analy.clean_dataframe(movie_ratings) # marche pas ...
+
 #%%
 
 #liste_acteurs = analy.actors_to_num(movie_ratings)
