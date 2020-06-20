@@ -23,31 +23,29 @@ y = df['stars1']
 y = y.append(df['stars2'])
 y = y.append(df['stars3'])
 
+y = y.reset_index()
+y=y.drop(["index"],axis=1)
+
+print(y)
+
 tier = int(len(y)/3)
 tier2 = int((len(y)/3)*2)
-
-print(tier)
-print(tier2)
 
 encoder = LabelEncoder()
 test = encoder.fit_transform(y)
 
-print(test)
-
 i = 0
 while i < len(y):
-    if i < tier:
-        first_part.append(y[i])
-        print(first_part[i])
+    if i <= tier:
+        first_part.append(y[0][i])
         i += 1
     elif i >= tier and i < tier2:
-        second_part.append(y[i])
-        print(second_part[i])
+        second_part.append(y[0][i])
         i += 1
     elif i >= tier2:
-        third_part.append(y[i])
-        print(third_part[i])
+        third_part.append(y[0][i])
         i += 1
+
     
 print(first_part)
 print(second_part)
