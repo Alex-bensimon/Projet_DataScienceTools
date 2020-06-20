@@ -63,32 +63,7 @@ print(mv_attributs)
 
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
-#%%
-# Replacing \n in the object Budget 
-i=0
-for budg in mv_attributs[18]:
-    if mv_attributs[18][i] is None:
-        i += 1
-    else:
-        mv_attributs[18][i] = mv_attributs[18][i].replace(f"\n","").strip()
-        i += 1
 
-movie_ratings = dftab.creation_dataframe(mv_attributs)
-
-print(movie_ratings)
-
-#%%
-# Replacing \n in the object Gross 
-i=0
-for gross in mv_attributs[19]:
-    if mv_attributs[19][i] is None:
-        i += 1
-    else:
-        mv_attributs[19][i] = mv_attributs[19][i].replace(f"\n","").strip()
-        i += 1
-
-movie_ratings = dftab.creation_dataframe(mv_attributs)
-print(movie_ratings)
 #%%
 
 #Partie Analyse 
@@ -110,41 +85,17 @@ movie_ratings['genres3'] = movie_ratings['genres3'].astype(str)
 movie_ratings['stars1'] = movie_ratings['stars1'].astype(str)
 movie_ratings['stars2'] = movie_ratings['stars2'].astype(str)
 movie_ratings['stars3'] = movie_ratings['stars3'].astype(str)
-
-movie_ratings = movie_ratings.apply(pd.to_numeric) 
-
-
-#%%
-# Converting Budget into an integer
-i=0
-for budget in movie_ratings['budget']:
-    if budget == None:
-        i += 1
-    else:
-        movie_ratings['budget'][i] = int(movie_ratings['budget'][i])
-        i += 1
-
-print(movie_ratings['budget'])
-
-# Converting Gross into an integer
-i=0
-for budget in movie_ratings['gross']:
-    if budget == None:
-        i += 1
-    else:
-        movie_ratings['gross'][i] = int(movie_ratings['gross'][i])
-        i += 1
-
-movie_ratings['gross'] = movie_ratings['gross'].astype(int)
-print(movie_ratings['gross'])
+movie_ratings['nb_oscar'] = movie_ratings['nb_oscar'].astype(int)
+movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
+movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
+movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
+movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
 
 #%%
 
 movie_ratings = analy.clean_dataframe(movie_ratings) # marche pas ...
 
 #%%
-
-#liste_acteurs = analy.actors_to_num(movie_ratings)
 
 print(movie_ratings.info())
 print(movie_ratings.describe())
@@ -157,8 +108,6 @@ movie_ratings.to_csv('movie_ratings.csv')
 """
 #Partie Analyse 
 
-
-#%%
 #scikit-learn
 import sklearn
 #classe pour standardisation

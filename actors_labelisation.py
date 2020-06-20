@@ -20,12 +20,20 @@ y = df['stars1']
 y = y.append(df['stars2'])
 y = y.append(df['stars3'])
 
+tier = int(len(y)/3)
+tier2 = int((len(y)/3)*2)
+
+print(tier)
+print(tier2)
+
 encoder = LabelEncoder()
 test = encoder.fit_transform(y)
 
-print(test[0:206])
-print(test[207:412])
-print(test[413:618])
+print(test)
+
+i = 0
+for i in range(tier):
+    print("zu")
 
 
 

@@ -41,6 +41,7 @@ def extraction_data(mv_containers , mv_attributs):
                 # Scrape the name
                 if container.h3.a is not None:
                     name = container.h3.a.text
+                    name = str(name)
                     mv_attributs[0].append(name)
 
                 else:
