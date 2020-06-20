@@ -15,6 +15,9 @@ from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, 
 df = pd.read_csv('movie_ratings.csv')
 y = []
 
+first_part = []
+second_part = []
+third_part = []
 
 y = df['stars1']
 y = y.append(df['stars2'])
@@ -32,9 +35,23 @@ test = encoder.fit_transform(y)
 print(test)
 
 i = 0
-for i in range(tier):
-    print("zu")
-
+while i < len(y):
+    if i < tier:
+        first_part.append(y[i])
+        print(first_part[i])
+        i += 1
+    elif i >= tier and i < tier2:
+        second_part.append(y[i])
+        print(second_part[i])
+        i += 1
+    elif i >= tier2:
+        third_part.append(y[i])
+        print(third_part[i])
+        i += 1
+    
+print(first_part)
+print(second_part)
+print(third_part)
 
 
 """
