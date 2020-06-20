@@ -28,8 +28,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(5)
-pages = scrap.nb_page(12)
+years_url = scrap.years_loop(1)
+pages = scrap.nb_page(1)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :

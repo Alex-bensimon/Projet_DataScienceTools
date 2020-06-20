@@ -45,11 +45,11 @@ gross = []          #19
 mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,genre1,genre2,genre3,stars1,stars2,stars3,rank,nb_oscar,win,nom,runtime,budget,gross
 
 
+# TEST POSSIBILITIES :
 
-
-page_link = "https://www.imdb.com/title/tt7286456/" #oscar win nom
-page_link = "https://www.imdb.com/title/tt0120903/" #win nom
-page_link = "https://www.imdb.com/title/tt6914122/" #nom
+#page_link = "https://www.imdb.com/title/tt7286456/" #oscar win nom
+#page_link = "https://www.imdb.com/title/tt0120903/" #win nom
+#page_link = "https://www.imdb.com/title/tt6914122/" #nom
 page_link = "https://www.imdb.com/title/tt8201852/" #Empty
 
 
@@ -123,18 +123,18 @@ if award is not None:
 
     # oscars, wins and nominations
     if award.find_all('span', class_="awards-blurb") is not None:
-
+        
+        test_nb_oscar = False  #On en a besoin seulemnt dans la prmemière iteration de la boucle (après il n'y a plus de possibilité de trouver d'Oscar)
+        
         for span in award.find_all('span', class_="awards-blurb"):
             
-            osc_bool = False
+            
             # if there is/are oscar/s
             if span.find('b') is not None:            #Uniquement pour prendre l'Oscar
                 nb_oscar = span.find('b').text
                 nb_oscar = scrap.clean_chars(nb_oscar)
                 mv_attributs[14].append(nb_oscar)
-                osc_bool = True
                 test_nb_oscar = True
-
 
                 #Encommentaire car inutile : On ne rentreras jamais dedans si on a touver un oscar avant 
                 #                         car le span est celui d'oscar et non de win et nomination
@@ -158,6 +158,7 @@ if award is not None:
                 
                 if length > 40:
                 
+                    print ("coucou")
                     win = span.text[:length - 24]  #On évite de prendre le nomination qu'on prend après
                     win = scrap.clean_chars(win)
                     mv_attributs[15].append(win)
@@ -169,7 +170,7 @@ if award is not None:
                     test_nom = True
                 
                 
-                elif length <= 40:                   
+                elif length <= 40 and length > 30:   
                     win = span.text[:length - 24]  #On évite de prendre le nomination qu'on prend après
                     win = scrap.clean_chars(win)
                     mv_attributs[15].append(win)

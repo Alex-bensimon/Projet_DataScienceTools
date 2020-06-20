@@ -88,48 +88,66 @@ def extraction_movie_data_from_link(link, mv_attributs):
             mv_attributs[13].append(rank)
             test_rank = True
 
-
-        # oscars, wins and nominations
+    # oscars, wins and nominations
         if award.find_all('span', class_="awards-blurb") is not None:
-
+            
+            test_nb_oscar = False  #On en a besoin seulemnt dans la prmemière iteration de la boucle (après il n'y a plus de possibilité de trouver d'Oscar)
+            
             for span in award.find_all('span', class_="awards-blurb"):
-
-                osc_bool = False
+                
+                
                 # if there is/are oscar/s
-                if span.find('b') is not None:
+                if span.find('b') is not None:            #Uniquement pour prendre l'Oscar
                     nb_oscar = span.find('b').text
                     nb_oscar = scrap.clean_chars(nb_oscar)
                     mv_attributs[14].append(nb_oscar)
-                    osc_bool = True
                     test_nb_oscar = True
-
-                # if there is/are win/s and nomination
-                elif osc_bool == True:
-                    length = len(span.text)
-                    win = span.text[:length - 24]
-                    win = scrap.clean_chars(win)
-                    mv_attributs[15].append(win)
-                    test_win = True
-
-                    nom = span.text[32:]
-                    nom = scrap.clean_chars(nom)
-                    mv_attributs[16].append(nom)
-                    test_nom = True
-                # if not
-                else:
+    
+                    #Encommentaire car inutile : On ne rentreras jamais dedans si on a touver un oscar avant 
+                    #                         car le span est celui d'oscar et non de win et nomination
+                    
+                    # print("new span : ", span)
+                    # length = len(span.text)
+                    # win = span.text[:length - 24]
+                    # win = scrap.clean_chars(win)
+                    # mv_attributs[15].append(win)
+                    # test_win = True              
+    
+                    # print("spantext if1 : ",span.text)
+                    # nom = span.text[35:]
+                    # nom = scrap.clean_chars(nom)
+                    # mv_attributs[16].append(nom)
+                    # test_nom = True
+                    # print ('nom :', nom)
+                
+                else:               
                     length = len(span.text)
                     
-                    if length > 30:
+                    if length > 40:
                     
-                        win = span.text[:length - 24]
+                        print ("coucou")
+                        win = span.text[:length - 24]  #On évite de prendre le nomination qu'on prend après
                         win = scrap.clean_chars(win)
                         mv_attributs[15].append(win)
                         test_win = True
-
-                        nom = span.text[15:]
+    
+                        nom = span.text[34:]  #On évite de prendre le win qu'on a déja
                         nom = scrap.clean_chars(nom)
                         mv_attributs[16].append(nom)
                         test_nom = True
+                    
+                    
+                    elif length <= 40 and length > 30:   
+                        win = span.text[:length - 24]  #On évite de prendre le nomination qu'on prend après
+                        win = scrap.clean_chars(win)
+                        mv_attributs[15].append(win)
+                        test_win = True
+    
+                        nom = span.text[14:]         #On évite de prendre le win qu'on a déja
+                        nom = scrap.clean_chars(nom)
+                        mv_attributs[16].append(nom)
+                        test_nom = True
+                        
                     else:
                         win = None
                         nom = span.text
