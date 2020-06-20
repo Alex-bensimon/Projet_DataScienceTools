@@ -92,6 +92,8 @@ def labelisation_attributs(movie_ratings,row1,row2,row3):
             i += 1
             
     print(row1)
+    
+    
     movie_ratings[row1] = first_part
     movie_ratings[row2] = second_part
     movie_ratings[row3] = third_part

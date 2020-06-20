@@ -60,7 +60,11 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     mv_attributs[10+nb_act].append(a.text)
                     #test_stars = True
                     nb_act += 1
-
+    if nb_act == 0:
+        mv_attributs[10].append(None)
+        mv_attributs[11].append(None)
+        mv_attributs[12].append(None)
+        nb_genre = 3
     if nb_act == 1:
         mv_attributs[11].append(None)
         mv_attributs[12].append(None)
@@ -99,7 +103,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     osc_bool = True
                     test_nb_oscar = True
 
-                # if there is/are oscar/s
+                # if there is/are win/s and nomination
                 elif osc_bool == True:
                     length = len(span.text)
                     win = span.text[:length - 24]

@@ -15,7 +15,7 @@ row1 = 7
 row2 = 8
 row3 = 9
 
-df = movie_ratings
+df = pd.dataframe('movie_ratings.csv')
 
 first_part = []
 second_part = []

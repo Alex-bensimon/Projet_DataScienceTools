@@ -28,8 +28,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(1)
-pages = scrap.nb_page(1)
+years_url = scrap.years_loop(5)
+pages = scrap.nb_page(12)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -46,7 +46,7 @@ for year_url in years_url:
     for page in pages:
 
         # Make a get request
-        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&sort=num_votes,desc&start='+ str(pages)+'&ref_=adv_nxt'      
+        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&sort=num_votes,desc&start='+ str(page)+'&ref_=adv_nxt'      
         print(url)
         response = get(url, headers = headers)
 
@@ -58,11 +58,13 @@ for year_url in years_url:
 
         #Take the information from the containers
         mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
-        
+    
 print(mv_attributs)
 
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
+
+movie_ratings.to_csv('movie_ratings_2020_2016_p12.csv')
 
 #%%
 
@@ -85,11 +87,13 @@ movie_ratings['genres3'] = movie_ratings['genres3'].astype(str)
 movie_ratings['stars1'] = movie_ratings['stars1'].astype(str)
 movie_ratings['stars2'] = movie_ratings['stars2'].astype(str)
 movie_ratings['stars3'] = movie_ratings['stars3'].astype(str)
+movie_ratings['runtime'] = movie_ratings['runtime'].apply(pd.to_numeric)
 movie_ratings['nb_oscar'] = movie_ratings['nb_oscar'].astype(int)
 movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
 movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
 movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
 movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
+
 
 #%%
 movie_ratings.iloc[:,7:9] = analy.labelisation_attributs(movie_ratings,7, 8, 9)
