@@ -53,7 +53,14 @@ def extraction_movie_data_from_link(link, mv_attributs):
     for credit in html.find_all('div', class_='credit_summary_item'):
         #test_stars = False
         inline = credit.h4.text
-        if inline == "Stars:" or "Star:":
+        if inline == "Stars:":
+            for a in credit.find_all('a'):
+                href = a.get('href')
+                if href != "fullcredits/":
+                    mv_attributs[10+nb_act].append(a.text)
+                    #test_stars = True
+                    nb_act += 1
+        if inline == "Star:":
             for a in credit.find_all('a'):
                 href = a.get('href')
                 if href != "fullcredits/":
