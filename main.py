@@ -28,8 +28,8 @@ mv_attributs = dftab.instanciation_tablist()
 # Preparing the monitoring of the loop
 start_time = time()
 nb_requests = 0
-years_url = scrap.years_loop(1)
-pages = scrap.nb_page(1)
+years_url = scrap.years_loop(20)
+pages = scrap.nb_page(10)
 headers = {"Accept-Language": "en-US, en;q=0.5"}
 
 #SCRAPPING :
@@ -64,7 +64,10 @@ print(mv_attributs)
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
 
-movie_ratings.to_csv('movie_ratings_2020_2016_p12.csv')
+movie_ratings.to_csv('movie_ratings_1980_2000_p10.csv')
+
+#%%
+movie_ratings.to_excel ('movie_ratings_1980_2000_p10.xlsx', index = None, header=True)
 
 #%%
 
@@ -75,6 +78,7 @@ Call the function which cleans the dataframe by deleting rows if rating is NaN
 and get a metascore based on the imdb rating.
 """
 movie_ratings['movie'] = movie_ratings['movie'].astype(str)
+movie_ratings['year'] = movie_ratings['year'][4:]
 movie_ratings['year'] = movie_ratings['year'].apply(pd.to_numeric) 
 movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
 movie_ratings['metascore'] = movie_ratings['metascore'].astype(float)
