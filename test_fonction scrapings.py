@@ -47,11 +47,11 @@ mv_attributs =  names,years,imdb_ratings,metascores,votes,categories,mv_pages,ge
 
 # TEST POSSIBILITIES :
 
-#page_link = "https://www.imdb.com/title/tt7286456/" #oscar win nom
+page_link = "https://www.imdb.com/title/tt7286456/" #oscar win nom
 #page_link = "https://www.imdb.com/title/tt0120903/" #win nom
 #page_link = "https://www.imdb.com/title/tt6914122/" #nom
-page_link = "https://www.imdb.com/title/tt8201852/" #Empty
-
+#page_link = "https://www.imdb.com/title/tt8201852/" #Empty
+#page_link ="https://www.imdb.com/title/tt2017038/"  #1 Star
 
 
 response = requests.get(page_link)
@@ -84,7 +84,7 @@ nb_act = 0
 for credit in html.find_all('div', class_='credit_summary_item'):
     #test_stars = False
     inline = credit.h4.text
-    if inline == "Stars:":
+    if inline == "Stars:" or "Star":
         for a in credit.find_all('a'):
             href = a.get('href')
             if href != "fullcredits/":
