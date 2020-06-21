@@ -8,7 +8,7 @@ from warnings import warn
 import bs4
 import requests
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
-import fonction_scraping as scrap
+import fonction_scraping_accueil as scrap
 
 #def extraction_movie_data_from_link(link):
 def extraction_movie_data_from_link(link, mv_attributs):
@@ -53,7 +53,7 @@ def extraction_movie_data_from_link(link, mv_attributs):
     for credit in html.find_all('div', class_='credit_summary_item'):
         #test_stars = False
         inline = credit.h4.text
-        if inline == "Stars:":
+        if inline == "Stars:" or "Star:":
             for a in credit.find_all('a'):
                 href = a.get('href')
                 if href != "fullcredits/":
@@ -125,7 +125,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     
                     if length > 40:
                     
-                        print ("coucou")
                         win = span.text[:length - 24]  #On évite de prendre le nomination qu'on prend après
                         win = scrap.clean_chars(win)
                         mv_attributs[15].append(win)

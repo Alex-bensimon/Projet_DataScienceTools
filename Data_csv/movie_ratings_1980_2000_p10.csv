@@ -9,16 +9,16 @@
 7,Unbreakable,2000,7.3,62        ,377278,PG-13,https://imdb.com/title/tt0217869/,Drama,Mystery,Sci-Fi,Bruce Willis,Samuel L. Jackson,Robin Wright,0,0,2,13,106,75000000,248118121
 8,Mission: Impossible II,2000,6.1,59        ,305733,PG-13,https://imdb.com/title/tt0120755/,Action,Adventure,Thriller,Tom Cruise,Dougray Scott,Thandie Newton,0,0,12,20,123,125000000,546388108
 9,Meet the Parents,2000,7.0,73        ,304149,PG-13,https://imdb.com/title/tt0212338/,Comedy,Romance,,Ben Stiller,Robert De Niro,Teri Polo,0,1,7,14,108,55000000,330444045
-10,"O Brother, Where Art Thou?",2000,7.7,69        ,276566,PG-13,https://imdb.com/title/tt0190590/,Adventure,Comedy,Crime,George Clooney,John Turturro,Tim Blake Nelson,0,2,7,36,107,26000000,71868327
+10,O Brother Where Art Thou?,2000,7.7,69        ,276566,PG-13,https://imdb.com/title/tt0190590/,Adventure,Comedy,Crime,George Clooney,John Turturro,Tim Blake Nelson,0,2,7,36,107,26000000,71868327
 11,Gone in 60 Seconds,2000,6.5,35        ,255247,PG-13,https://imdb.com/title/tt0187078/,Action,Crime,Thriller,Nicolas Cage,Angelina Jolie,Giovanni Ribisi,0,0,9,6,118,90000000,237202299
 12,The Patriot,2000,7.2,63        ,248651,R,https://imdb.com/title/tt0187393/,Action,Drama,History,Mel Gibson,Heath Ledger,Joely Richardson,0,3,9,17,165,110000000,215294342
-13,"Crouching Tiger, Hidden Dragon",2000,7.8,94        ,248201,PG-13,https://imdb.com/title/tt0190332/,Action,Adventure,Fantasy,Yun-Fat Chow,Michelle Yeoh,Ziyi Zhang,0,4,97,133,120,17000000,213525736
+13,Crouching Tiger Hidden Dragon,2000,7.8,94        ,248201,PG-13,https://imdb.com/title/tt0190332/,Action,Adventure,Fantasy,Yun-Fat Chow,Michelle Yeoh,Ziyi Zhang,0,4,97,133,120,17000000,213525736
 14,Almost Famous,2000,7.9,90        ,245192,R,https://imdb.com/title/tt0181875/,Adventure,Comedy,Drama,Billy Crudup,Patrick Fugit,Kate Hudson,0,1,52,103,122,60000000,47383689
 15,Scary Movie,2000,6.2,48        ,226395,R,https://imdb.com/title/tt0175142/,Comedy,,,Anna Faris,Jon Abrahams,Marlon Wayans,0,0,7,6,88,19000000,278019771
 16,Final Destination,2000,6.7,36        ,223053,R,https://imdb.com/title/tt0195714/,Horror,Thriller,,Devon Sawa,Ali Larter,Kerr Smith,0,0,3,4,98,23000000,112880294
 17,Pitch Black,2000,7.1,49        ,221190,R,https://imdb.com/title/tt0134847/,Action,Horror,Sci-Fi,Radha Mitchell,Cole Hauser,Vin Diesel,0,0,2,9,109,23000000,53187659
 18,The Beach,2000,6.7,43        ,217807,R,https://imdb.com/title/tt0163978/,Adventure,Drama,Romance,Leonardo DiCaprio,Daniel York,Patcharawan Patarakijjanon,0,0,0,7,119,50000000,144056873
-19,"Me, Myself & Irene",2000,6.6,49        ,217702,R,https://imdb.com/title/tt0183505/,Comedy,,,Jim Carrey,Renée Zellweger,Anthony Anderson,0,0,2,4,116,51000000,149270999
+19,Me Myself & Irene,2000,6.6,49        ,217702,R,https://imdb.com/title/tt0183505/,Comedy,,,Jim Carrey,Renée Zellweger,Anthony Anderson,0,0,2,4,116,51000000,149270999
 20,Amores Perros,2000,8.1,83        ,217472,R,https://imdb.com/title/tt0245712/,Drama,Thriller,,Emilio Echevarría,Gael García Bernal,Goya Toledo,224,1,55,23,154,2000000,20908467
 21,How the Grinch Stole Christmas,2000,6.2,46        ,197000,PG,https://imdb.com/title/tt0170016/,Comedy,Family,Fantasy,Jim Carrey,Taylor Momsen,Kelley,0,1,17,37,104,123000000,345141403
 22,Remember the Titans,2000,7.8,48        ,192561,PG,https://imdb.com/title/tt0210945/,Biography,Drama,Sport,Denzel Washington,Will Patton,Wood Harris,0,0,8,18,113,30000000,136706683
@@ -31,7 +31,7 @@
 29,High Fidelity,2000,7.5,79        ,164400,R,https://imdb.com/title/tt0146882/,Comedy,Drama,Music,John Cusack,Iben Hjejle,Todd Louiso,0,1,3,21,113,30000000,47126295
 30,Road Trip,2000,6.4,55        ,154395,R,https://imdb.com/title/tt0215129/,Comedy,,,Breckin Meyer,Seann William Scott,Amy Smart,0,0,4,9,93,16000000,119754278
 31,The Perfect Storm,2000,6.4,59        ,152702,PG-13,https://imdb.com/title/tt0177971/,Action,Adventure,Drama,George Clooney,Mark Wahlberg,John C. Reilly,0,2,4,25,130,140000000,328718434
-32,"Dude, Where's My Car?",2000,5.5,30        ,132337,PG-13,https://imdb.com/title/tt0242423/,Comedy,Mystery,Sci-Fi,Ashton Kutcher,Seann William Scott,Jennifer Garner,0,0,0,5,83,13000000,73180723
+32,Dude Where's My Car?,2000,5.5,30        ,132337,PG-13,https://imdb.com/title/tt0242423/,Comedy,Mystery,Sci-Fi,Ashton Kutcher,Seann William Scott,Jennifer Garner,0,0,0,5,83,13000000,73180723
 33,Billy Elliot,2000,7.7,74        ,122696,R,https://imdb.com/title/tt0249462/,Drama,Music,,Jamie Bell,Julie Walters,Jean Heywood,0,3,56,69,110,5000000,109280263
 34,Hollow Man,2000,5.8,24        ,120664,R,https://imdb.com/title/tt0164052/,Action,Horror,Sci-Fi,Kevin Bacon,Elisabeth Shue,Josh Brolin,0,1,7,13,112,95000000,190213455
 35,Scream 3,2000,5.6,56        ,120127,R,https://imdb.com/title/tt0134084/,Horror,Mystery,,David Arquette,Neve Campbell,Courteney Cox,0,0,6,5,116,40000000,161834276
@@ -206,7 +206,7 @@
 204,Chuck & Buck,2000,6.5,76        ,5194,R,https://imdb.com/title/tt0200530/,Comedy,Drama,,Mike White,Chris Weitz,Lupe Ontiveros,0,0,6,12,96,250000,1182065
 205,Love & Sex,2000,6.2,44        ,5146,R,https://imdb.com/title/tt0234137/,Comedy,Romance,Drama,Famke Janssen,Jon Favreau,Noah Emmerich,0,0,0,1,82,,580372
 206,Citizen Toxie: The Toxic Avenger IV,2000,6.2,41        ,5047,R,https://imdb.com/title/tt0212879/,Action,Comedy,Fantasy,David Mattey,Clyde Lewis,Heidi Sjursen,0,0,0,1,109,500000,
-207,"Love, Honor and Obey",2000,6.5,23        ,5009,R,https://imdb.com/title/tt0199727/,Comedy,Crime,,Sadie Frost,Jonny Lee Miller,Jude Law,0,0,0,0,103,,1400
+207,Love Honor and Obey,2000,6.5,23        ,5009,R,https://imdb.com/title/tt0199727/,Comedy,Crime,,Sadie Frost,Jonny Lee Miller,Jude Law,0,0,0,0,103,,1400
 208,The Prophecy 3: The Ascent,2000,5.6,,4853,R,https://imdb.com/title/tt0183678/,Fantasy,Horror,Thriller,Christopher Walken,Vincent Spano,Dave Buzzotta,0,0,0,1,,,
 209,Dinner Rush,2000,7.3,79        ,4814,R,https://imdb.com/title/tt0229340/,Crime,Drama,Romance,Danny Aiello,Edoardo Ballerini,John Rothman,0,0,0,2,99,,933740
 210,Divided We Fall,2000,7.6,69        ,4806,PG-13,https://imdb.com/title/tt0234288/,Comedy,Drama,War,Bolek Polívka,Csongor Kassai,Jaroslav Dusek,0,1,15,3,120,,2046440
@@ -282,13 +282,13 @@
 280,Austin Powers: The Spy Who Shagged Me,1999,6.6,59        ,212201,PG-13,https://imdb.com/title/tt0145660/,Action,Adventure,Comedy,Mike Myers,Heather Graham,Michael York,0,1,18,30,95,33000000,312016928
 281,Dogma,1999,7.3,62        ,204668,R,https://imdb.com/title/tt0120655/,Adventure,Comedy,Drama,Ben Affleck,Matt Damon,Linda Fiorentino,0,0,0,8,130,10000000,31429330
 282,Big Daddy,1999,6.4,41        ,194120,PG-13,https://imdb.com/title/tt0142342/,Comedy,Drama,,Adam Sandler,Joey Lauren Adams,Jon Stewart,0,0,8,14,93,34200000,234801895
-283,"South Park: Bigger, Longer & Uncut",1999,7.7,73        ,188881,R,https://imdb.com/title/tt0158983/,Animation,Comedy,Fantasy,Trey Parker,Matt Stone,Mary Kay Bergman,0,1,7,10,81,21000000,83137603
+283,South Park: Bigger Longer & Uncut,1999,7.7,73        ,188881,R,https://imdb.com/title/tt0158983/,Animation,Comedy,Fantasy,Trey Parker,Matt Stone,Mary Kay Bergman,0,1,7,10,81,21000000,83137603
 284,The World Is Not Enough,1999,6.4,57        ,183949,PG-13,https://imdb.com/title/tt0143145/,Action,Adventure,Thriller,Pierce Brosnan,Sophie Marceau,Robert Carlyle,0,0,7,12,128,135000000,361832400
 285,The Talented Mr. Ripley,1999,7.4,76        ,176100,R,https://imdb.com/title/tt0134119/,Crime,Drama,Thriller,Matt Damon,Gwyneth Paltrow,Jude Law,0,5,10,76,139,40000000,128798265
 286,Cruel Intentions,1999,6.8,56        ,175210,R,https://imdb.com/title/tt0139134/,Drama,Romance,,Sarah Michelle Gellar,Ryan Phillippe,Reese Witherspoon,0,0,7,14,97,10500000,76347426
 287,The Iron Giant,1999,8.0,85        ,166686,PG,https://imdb.com/title/tt0129167/,Animation,Action,Adventure,Eli Marienthal,Harry Connick Jr.,Jennifer Aniston,0,0,20,18,86,70000000,23180087
 288,The Ninth Gate,1999,6.7,44        ,161545,R,https://imdb.com/title/tt0142688/,Mystery,Thriller,,Johnny Depp,Frank Langella,Lena Olin,0,0,2,5,133,38000000,58401898
-289,"Girl, Interrupted",1999,7.3,51        ,158750,R,https://imdb.com/title/tt0172493/,Biography,Drama,,Winona Ryder,Angelina Jolie,Clea DuVall,0,1,7,11,127,40000000,48350205
+289,Girl Interrupted,1999,7.3,51        ,158750,R,https://imdb.com/title/tt0172493/,Biography,Drama,,Winona Ryder,Angelina Jolie,Clea DuVall,0,1,7,11,127,40000000,48350205
 290,Three Kings,1999,7.1,82        ,157513,R,https://imdb.com/title/tt0120188/,Action,Adventure,Comedy,George Clooney,Mark Wahlberg,Ice Cube,0,0,8,19,114,75000000,107752036
 291,The Insider,1999,7.8,84        ,155929,R,https://imdb.com/title/tt0140352/,Biography,Drama,Thriller,Russell Crowe,Al Pacino,Christopher Plummer,0,7,23,50,157,90000000,60289912
 292,Wild Wild West,1999,4.9,38        ,150134,PG-13,https://imdb.com/title/tt0120891/,Action,Comedy,Sci-Fi,Will Smith,Kevin Kline,Kenneth Branagh,0,0,15,17,106,170000000,222104681
@@ -358,7 +358,7 @@
 356,Pushing Tin,1999,6.0,47        ,27802,R,https://imdb.com/title/tt0120797/,Comedy,Drama,Romance,John Cusack,Billy Bob Thornton,Cate Blanchett,0,0,0,2,124,33000000,8408835
 357,Universal Soldier: The Return,1999,4.2,24        ,27365,R,https://imdb.com/title/tt0176269/,Action,Sci-Fi,,Jean-Claude Van Damme,Bill Goldberg,Heidi Schanz,0,0,0,0,83,45000000,10667893
 358,Virus,1999,5.0,19        ,25895,R,https://imdb.com/title/tt0120458/,Action,Horror,Sci-Fi,Jamie Lee Curtis,Donald Sutherland,William Baldwin,0,0,0,0,99,75000000,30657854
-359,"Mystery, Alaska",1999,6.7,49        ,25011,R,https://imdb.com/title/tt0134618/,Comedy,Drama,Sport,Russell Crowe,Burt Reynolds,Hank Azaria,0,0,0,1,119,28000000,8891623
+359,Mystery Alaska,1999,6.7,49        ,25011,R,https://imdb.com/title/tt0134618/,Comedy,Drama,Sport,Russell Crowe,Burt Reynolds,Hank Azaria,0,0,0,1,119,28000000,8891623
 360,But I'm a Cheerleader,1999,6.6,39        ,24981,R,https://imdb.com/title/tt0179116/,Comedy,Drama,Romance,Natasha Lyonne,Clea DuVall,Michelle Williams,0,0,2,2,85,1200000,2595216
 361,Baby Geniuses,1999,2.6,6        ,24672,PG,https://imdb.com/title/tt0118665/,Comedy,Crime,Family,Kathleen Turner,Christopher Lloyd,Kim Cattrall,24,0,2,3,97,12000000,36450736
 362,A Midsummer Night's Dream,1999,6.4,61        ,23980,PG-13,https://imdb.com/title/tt0140379/,Comedy,Fantasy,Romance,Kevin Kline,Michelle Pfeiffer,Rupert Everett,0,0,1,2,116,11000000,16071990
@@ -421,7 +421,7 @@
 419,Romance,1999,5.2,49        ,9641,R,https://imdb.com/title/tt0194314/,Drama,,,Caroline Ducey,Sagamore Stévenin,François Berléand,0,0,0,1,84,,1585642
 420,Dudley Do-Right,1999,3.9,44        ,9464,PG,https://imdb.com/title/tt0160236/,Comedy,Family,Romance,Brendan Fraser,Sarah Jessica Parker,Alfred Molina,0,0,0,1,77,70000000,9974410
 421,Plunkett & Macleane,1999,6.4,44        ,9460,R,https://imdb.com/title/tt0134033/,Action,Adventure,Comedy,Robert Carlyle,Jonny Lee Miller,Iain Robertson,0,0,0,0,99,,474900
-422,"Happy, Texas",1999,6.3,62        ,9436,PG-13,https://imdb.com/title/tt0162360/,Comedy,Crime,Romance,Jeremy Northam,Steve Zahn,William H. Macy,0,0,6,6,98,2500000,1955933
+422,Happy Texas,1999,6.3,62        ,9436,PG-13,https://imdb.com/title/tt0162360/,Comedy,Crime,Romance,Jeremy Northam,Steve Zahn,William H. Macy,0,0,6,6,98,2500000,1955933
 423,The War Zone,1999,7.3,68        ,9413,R,https://imdb.com/title/tt0141974/,Drama,Thriller,,Ray Winstone,Annabelle Apsion,Kate Ashfield,0,0,9,12,98,,254441
 424,Bats,1999,3.9,23        ,9334,PG-13,https://imdb.com/title/tt0200469/,Horror,Sci-Fi,Thriller,Lou Diamond Phillips,Dina Meyer,Bob Gunton,0,0,0,0,91,5250000,10155690
 425,Rogue Trader,1999,6.4,,9182,R,https://imdb.com/title/tt0131566/,Crime,Drama,History,Ewan McGregor,Anna Friel,Cristian Solimeno,0,0,0,0,101,12800000,
@@ -469,7 +469,7 @@
 467,Black & White,1999,4.9,47        ,5485,R,https://imdb.com/title/tt0165643/,Crime,Drama,Music,Ben Stiller,Allan Houston,Claudia Schiffer,0,0,0,0,98,12000000,5541431
 468,Gloria,1999,5.2,26        ,5312,R,https://imdb.com/title/tt0120683/,Crime,Drama,Thriller,Sharon Stone,Jean-Luke Figueroa,Jeremy Northam,0,0,0,6,108,30000000,4197729
 469,A Room for Romeo Brass,1999,7.6,65        ,5308,R,https://imdb.com/title/tt0202559/,Comedy,Drama,,Martin Arrowsmith,Dave Blant,Darren Campbell,0,0,0,3,90,,19478
-470,"Mr. Death: The Rise and Fall of Fred A. Leuchter, Jr.",1999,7.5,78        ,5267,PG-13,https://imdb.com/title/tt0192335/,Documentary,Biography,,Fred A. Leuchter Jr.,Robert Jan Van Pelt,David Irving,0,0,1,8,91,,507941
+470,Mr. Death: The Rise and Fall of Fred A. Leuchter Jr.,1999,7.5,78        ,5267,PG-13,https://imdb.com/title/tt0192335/,Documentary,Biography,,Fred A. Leuchter Jr.,Robert Jan Van Pelt,David Irving,0,0,1,8,91,,507941
 471,Body Shots,1999,4.9,36        ,5196,R,https://imdb.com/title/tt0172627/,Drama,,,Joe Basile,Scott Burkholder,Liz Coke,0,0,0,0,106,,752122
 472,An Affair of Love,1999,7.1,67        ,5113,R,https://imdb.com/title/tt0204709/,Drama,Romance,,Nathalie Baye,Sergi López,Jacques Viala,0,0,7,9,80,,401299
 473,The Omega Code,1999,3.6,14        ,4984,PG-13,https://imdb.com/title/tt0203408/,Action,Adventure,Fantasy,Casper Van Dien,Michael York,Catherine Oxenberg,0,0,0,0,100,8000000,12614346
@@ -504,7 +504,7 @@
 502,Memento Mori,1999,6.4,,3136,R,https://imdb.com/title/tt0266075/,Horror,Romance,Drama,Gyu-ri Kim,Park Yejin,Yeong-jin Lee,0,0,3,3,98,,52692
 503,The Third Miracle,1999,6.5,55        ,3118,R,https://imdb.com/title/tt0174268/,Drama,,,Sofia Polanska,Pavol Simon,Ivan Lukac,0,0,0,1,119,,591142
 504,Muertos de risa,1999,6.6,,3079,R,https://imdb.com/title/tt0168080/,Comedy,Drama,,Santiago Segura,El Gran Wyoming,Álex Angulo,0,0,2,1,113,3500000,
-505,"El mismo amor, la misma lluvia",1999,7.3,,3075,PG-13,https://imdb.com/title/tt0210843/,Comedy,Drama,Romance,Ricardo Darín,Soledad Villamil,Ulises Dumont,0,0,12,7,113,,2385415
+505,El mismo amor la misma lluvia,1999,7.3,,3075,PG-13,https://imdb.com/title/tt0210843/,Comedy,Drama,Romance,Ricardo Darín,Soledad Villamil,Ulises Dumont,0,0,12,7,113,,2385415
 506,The Loss of Sexual Innocence,1999,5.4,42        ,3047,R,https://imdb.com/title/tt0126859/,Drama,,,Julian Sands,Saffron Burrows,Stefano Dionisi,0,0,0,0,106,4000000,164022
 507,Trois saisons,1999,7.2,,3014,PG-13,https://imdb.com/title/tt0138874/,Drama,,,Ngoc Hiep Nguyen,Ngoc Minh,Phat Trieu Hoang,0,0,7,4,113,,2021698
 508,Splendor,1999,6.0,52        ,3013,R,https://imdb.com/title/tt0127296/,Comedy,Romance,,Kathleen Robertson,Johnathon Schaech,Matt Keeslar,0,0,0,0,93,,
@@ -525,7 +525,7 @@
 523,American History X,1998,8.5,62        ,1005652,R,https://imdb.com/title/tt0120586/,Drama,,,Edward Norton,Edward Furlong,Beverly D'Angelo,38,1,4,13,119,20000000,23875127
 524,The Truman Show,1998,8.1,90        ,898197,PG,https://imdb.com/title/tt0120382/,Comedy,Drama,Sci-Fi,Jim Carrey,Ed Harris,Laura Linney,172,3,40,65,103,60000000,264118201
 525,The Big Lebowski,1998,8.1,71        ,704109,R,https://imdb.com/title/tt0118715/,Comedy,Crime,Sport,Jeff Bridges,John Goodman,Julianne Moore,188,0,5,17,117,15000000,46735469
-526,"Lock, Stock and Two Smoking Barrels",1998,8.2,66        ,520080,R,https://imdb.com/title/tt0120735/,Action,Comedy,Crime,Jason Flemyng,Dexter Fletcher,Nick Moran,145,1,13,7,107,960000,3753929
+526,Lock Stock and Two Smoking Barrels,1998,8.2,66        ,520080,R,https://imdb.com/title/tt0120735/,Action,Comedy,Crime,Jason Flemyng,Dexter Fletcher,Nick Moran,145,1,13,7,107,960000,3753929
 527,Armageddon,1998,6.7,42        ,387408,PG-13,https://imdb.com/title/tt0120591/,Action,Adventure,Sci-Fi,Bruce Willis,Billy Bob Thornton,Ben Affleck,0,4,15,36,151,140000000,553709788
 528,There's Something About Mary,1998,7.1,69        ,284466,R,https://imdb.com/title/tt0129387/,Comedy,Romance,,Cameron Diaz,Matt Dillon,Ben Stiller,0,2,17,15,119,23000000,369884651
 529,Fear and Loathing in Las Vegas,1998,7.6,41        ,252767,R,https://imdb.com/title/tt0120669/,Adventure,Comedy,Drama,Johnny Depp,Benicio Del Toro,Tobey Maguire,0,0,1,3,118,18500000,10680275
@@ -592,7 +592,7 @@
 590,Bride of Chucky,1998,5.4,48        ,50811,R,https://imdb.com/title/tt0144120/,Comedy,Horror,,Jennifer Tilly,Brad Dourif,Katherine Heigl,0,0,5,7,89,25000000,50688658
 591,Soldier,1998,6.0,,50714,R,https://imdb.com/title/tt0120157/,Action,Drama,Sci-Fi,Kurt Russell,Jason Scott Lee,Jason Isaacs,0,0,0,1,99,60000000,14594226
 592,Great Expectations,1998,6.9,55        ,50149,R,https://imdb.com/title/tt0119223/,Drama,Romance,,Ethan Hawke,Gwyneth Paltrow,Hank Azaria,0,0,1,3,111,25000000,55494066
-593,"Chat noir, chat blanc",1998,8.1,73        ,49490,R,https://imdb.com/title/tt0118843/,Comedy,Crime,Romance,Bajram Severdzan,Srdjan 'Zika' Todorovic,Branka Katic,0,0,5,4,127,,351447
+593,Chat noir chat blanc,1998,8.1,73        ,49490,R,https://imdb.com/title/tt0118843/,Comedy,Crime,Romance,Bajram Severdzan,Srdjan 'Zika' Todorovic,Branka Katic,0,0,5,4,127,,351447
 594,Buffalo '66,1998,7.5,68        ,45916,R,https://imdb.com/title/tt0118789/,Comedy,Drama,Romance,Vincent Gallo,Christina Ricci,Ben Gazzara,0,0,6,11,110,1500000,2375097
 595,Psycho,1998,4.6,47        ,44764,R,https://imdb.com/title/tt0155975/,Horror,Mystery,Thriller,Vince Vaughn,Anne Heche,Julianne Moore,0,0,4,6,105,60000000,37170655
 596,Can't Hardly Wait,1998,6.5,52        ,44411,PG-13,https://imdb.com/title/tt0127723/,Comedy,Romance,,Jennifer Love Hewitt,Ethan Embry,Charlie Korsmo,0,0,0,2,100,10000000,25605015
@@ -754,7 +754,7 @@
 752,The Rat Pack,1998,6.7,,2840,R,https://imdb.com/title/tt0146165/,Drama,Musical,,Ray Liotta,Joe Mantegna,Don Cheadle,0,1,7,26,120,,
 753,The Governess,1998,6.3,60        ,2824,R,https://imdb.com/title/tt0120687/,Drama,Romance,,Minnie Driver,Tom Wilkinson,Florence Hoath,0,0,3,3,115,,3719509
 754,I Want You,1998,6.1,,2795,R,https://imdb.com/title/tt0119347/,Crime,Drama,Music,Rachel Weisz,Alessandro Nivola,Luka Petrusic,0,0,2,2,87,,1672
-755,"A Cool, Dry Place",1998,6.2,,2793,PG-13,https://imdb.com/title/tt0120642/,Drama,,,Vince Vaughn,Monica Potter,Joey Lauren Adams,0,0,0,0,97,,4390
+755,A Cool Dry Place,1998,6.2,,2793,PG-13,https://imdb.com/title/tt0120642/,Drama,,,Vince Vaughn,Monica Potter,Joey Lauren Adams,0,0,0,0,97,,4390
 756,Tango,1998,7.1,,2743,PG-13,https://imdb.com/title/tt0120274/,Drama,Musical,,Miguel Ángel Solá,Cecilia Narova,Mía Maestro,0,1,8,10,115,700000000,1897948
 757,Free Money,1998,5.1,,2734,R,https://imdb.com/title/tt0120678/,Comedy,Crime,,Marlon Brando,Donald Sutherland,Charlie Sheen,0,0,0,0,91,30000000,
 758,Arrival II,1998,3.8,,2715,R,https://imdb.com/title/tt0122961/,Drama,Horror,Sci-Fi,Patrick Muldoon,Jane Sibbett,Michael Sarrazin,0,0,0,0,101,6000000,
@@ -774,7 +774,7 @@
 772,Dark Harbor,1998,6.2,,2371,R,https://imdb.com/title/tt0129023/,Thriller,Drama,,Alan Rickman,Polly Walker,Norman Reedus,0,0,0,1,96,,
 773,Metallica: Cunning Stunts,1998,8.3,,2334,R,https://imdb.com/title/tt0180826/,Documentary,Music,,James Hetfield,Kirk Hammett,Lars Ulrich,0,0,0,0,130,,
 774,Operation Delta Force 3: Clear Target,1998,5.4,,2320,R,https://imdb.com/title/tt0118864/,Action,,,Jim Fitzpatrick,Bryan Genesse,Greg Collins,0,0,0,0,94,3000000,
-775,"Dancer, Texas Pop. 81",1998,6.6,,2292,PG,https://imdb.com/title/tt0118925/,Comedy,Drama,Family,Breckin Meyer,Peter Facinelli,Eddie Mills,0,0,0,2,97,,676631
+775,Dancer Texas Pop. 81,1998,6.6,,2292,PG,https://imdb.com/title/tt0118925/,Comedy,Drama,Family,Breckin Meyer,Peter Facinelli,Eddie Mills,0,0,0,2,97,,676631
 776,Ground Control,1998,5.7,,2255,PG-13,https://imdb.com/title/tt0137799/,Action,Adventure,Drama,Kiefer Sutherland,Robert Sean Leonard,Bruce McGill,0,0,0,0,93,,
 777,A Soldier's Daughter Never Cries,1998,6.7,65        ,2248,R,https://imdb.com/title/tt0120835/,Drama,,,Leelee Sobieski,Kris Kristofferson,Barbara Hershey,0,0,0,4,127,,1782005
 778,Slam,1998,7.1,,2191,R,https://imdb.com/title/tt0139615/,Drama,,,Saul Williams,Sonja Sohn,Bonz Malone,0,0,4,3,100,1000000,1009819
@@ -901,7 +901,7 @@
 899,Border,1997,7.9,,13184,R,https://imdb.com/title/tt0118751/,Drama,History,War,Sunny Deol,Sunil Shetty,Akshaye Khanna,135,0,15,7,176,110000000,
 900,The Apostle,1997,7.2,83        ,13118,PG-13,https://imdb.com/title/tt0118632/,Drama,,,Robert Duvall,Todd Allen,Paul Bagget,0,1,14,7,134,5000000,19868354
 901,Mrs. Brown,1997,7.2,71        ,13104,PG,https://imdb.com/title/tt0119280/,Biography,Drama,History,Judi Dench,Billy Connolly,Geoffrey Palmer,0,2,12,24,101,,9229808
-902,"Honey, We Shrunk Ourselves!",1997,5.0,,12863,PG,https://imdb.com/title/tt0119310/,Action,Adventure,Comedy,Rick Moranis,Eve Gordon,Bug Hall,0,0,0,0,74,,
+902,Honey We Shrunk Ourselves!,1997,5.0,,12863,PG,https://imdb.com/title/tt0119310/,Action,Adventure,Comedy,Rick Moranis,Eve Gordon,Bug Hall,0,0,0,0,74,,
 903,In the Company of Men,1997,7.2,81        ,12822,R,https://imdb.com/title/tt0119361/,Comedy,Drama,,Aaron Eckhart,Matt Malloy,Stacy Edwards,0,0,14,12,97,25000,2804473
 904,12 Angry Men,1997,7.9,,12822,PG-13,https://imdb.com/title/tt0118528/,Crime,Drama,,Jack Lemmon,George C. Scott,Hume Cronyn,0,1,6,22,117,,
 905,Excess Baggage,1997,5.4,34        ,12441,PG-13,https://imdb.com/title/tt0119086/,Action,Comedy,Crime,Alicia Silverstone,Benicio Del Toro,Christopher Walken,0,0,2,3,101,20000000,14515490
@@ -973,7 +973,7 @@
 971,B*A*P*S,1997,4.6,,4794,PG-13,https://imdb.com/title/tt0118663/,Comedy,,,Halle Berry,Natalie Desselle Reid,Martin Landau,0,0,0,2,91,,7338279
 972,The Thief,1997,7.7,,4790,R,https://imdb.com/title/tt0124207/,Crime,Drama,,Vladimir Mashkov,Yekaterina Rednikova,Mikhail Filipchuk,0,1,14,11,96,2000000,1126506
 973,Trekkies,1997,6.9,64        ,4698,PG,https://imdb.com/title/tt0120370/,Documentary,Comedy,,Denise Crosby,Frank D'Amico,Barbara Adams,0,0,1,5,86,375000,318246
-974,"Truth or Consequences, N.M.",1997,6.3,,4582,R,https://imdb.com/title/tt0120383/,Action,Crime,Drama,Kiefer Sutherland,Kim Dickens,Vincent Gallo,0,0,0,0,106,,134831
+974,Truth or Consequences N.M.,1997,6.3,,4582,R,https://imdb.com/title/tt0120383/,Action,Crime,Drama,Kiefer Sutherland,Kim Dickens,Vincent Gallo,0,0,0,0,106,,134831
 975,The End of Violence,1997,5.6,,4554,R,https://imdb.com/title/tt0119062/,Drama,Thriller,,Traci Lind,Rosalind Chao,Bill Pullman,0,0,1,4,122,5000000,386673
 976,Clockwatchers,1997,6.5,,4488,PG-13,https://imdb.com/title/tt0118866/,Comedy,Drama,,Toni Collette,Parker Posey,Lisa Kudrow,0,0,2,1,96,,537948
 977,Four Days in September,1997,7.4,,4421,R,https://imdb.com/title/tt0119815/,Action,Drama,History,Alan Arkin,Pedro Cardoso,Fernanda Torres,0,1,6,8,110,,397517
@@ -992,7 +992,7 @@
 990,Love Jones,1997,7.5,,3743,R,https://imdb.com/title/tt0119572/,Drama,Romance,,Larenz Tate,Nia Long,Isaiah Washington,0,0,2,7,104,10000000,12782749
 991,Campfire Tales,1997,5.9,,3614,R,https://imdb.com/title/tt0115813/,Horror,,,James Marsden,Amy Smart,Frederick Lawrence,0,0,0,0,88,,
 992,Plump Fiction,1997,2.7,,3582,R,https://imdb.com/title/tt0117350/,Comedy,Crime,,Tommy Davidson,Julie Brown,Paul Dinello,0,0,0,0,82,,71145
-993,"Fast, Cheap & Out of Control",1997,7.2,,3580,PG,https://imdb.com/title/tt0119107/,Documentary,,,Dave Hoover,George Mendonça,Rodney Brooks,0,0,11,2,80,,878960
+993,Fast Cheap & Out of Control,1997,7.2,,3580,PG,https://imdb.com/title/tt0119107/,Documentary,,,Dave Hoover,George Mendonça,Rodney Brooks,0,0,11,2,80,,878960
 994,Casper: A Spirited Beginning,1997,4.5,,3479,PG,https://imdb.com/title/tt0118824/,Animation,Comedy,Family,Steve Guttenberg,Lori Loughlin,Rodney Dangerfield,0,0,0,0,90,500000,
 995,Mrs Dalloway,1997,6.6,,3459,PG-13,https://imdb.com/title/tt0119723/,Drama,Romance,,Vanessa Redgrave,Natascha McElhone,Michael Kitchen,0,0,2,1,97,,3309421
 996,That Old Feeling,1997,6.2,,3456,PG-13,https://imdb.com/title/tt0120318/,Comedy,Romance,,Bette Midler,Dennis Farina,Paula Marshall,0,0,0,2,105,35000000,16574176
@@ -1292,7 +1292,7 @@
 1290,It's My Party,1996,7.1,,2687,R,https://imdb.com/title/tt0113443/,Drama,Romance,,Eric Roberts,Gregory Harrison,Margaret Cho,0,0,0,1,110,,622503
 1291,Susie Q,1996,7.3,,2658,PG,https://imdb.com/title/tt0117794/,Comedy,Drama,Family,Amy Jo Johnson,Ernie Prentice,Bentley Mitchum,0,0,0,0,85,2000000,
 1292,Mad Dog Time,1996,5.5,,2657,R,https://imdb.com/title/tt0116953/,Comedy,Crime,Drama,Michael J. Pollard,Henry Silva,Gabriel Byrne,0,0,0,0,93,8000000,107874
-1293,"I Love You, I Love You Not",1996,5.5,,2607,PG-13,https://imdb.com/title/tt0116592/,Drama,Romance,,Jeanne Moreau,Claire Danes,Jude Law,0,0,0,0,88,,20677
+1293,I Love You I Love You Not,1996,5.5,,2607,PG-13,https://imdb.com/title/tt0116592/,Drama,Romance,,Jeanne Moreau,Claire Danes,Jude Law,0,0,0,0,88,,20677
 1294,Crossworlds,1996,5.3,,2595,PG-13,https://imdb.com/title/tt0115985/,Action,Sci-Fi,Comedy,Rutger Hauer,Josh Charles,Stuart Wilson,0,0,0,0,90,,
 1295,Dream for an Insomniac,1996,6.1,,2578,R,https://imdb.com/title/tt0116141/,Romance,Comedy,Drama,Ione Skye,Jennifer Aniston,Mackenzie Astin,0,0,0,0,90,,24727
 1296,Lilies,1996,7.3,,2575,R,https://imdb.com/title/tt0116882/,Crime,Drama,Fantasy,Ian D. Clark,Marcel Sabourin,Aubert Pallascio,0,0,8,14,95,2200000,301548
@@ -1407,7 +1407,7 @@
 1405,Nixon,1995,7.1,66        ,28073,R,https://imdb.com/title/tt0113987/,Biography,Drama,History,Anthony Hopkins,Joan Allen,Powers Boothe,0,4,11,14,192,44000000,13681765
 1406,Powder,1995,6.6,,27941,PG-13,https://imdb.com/title/tt0114168/,Drama,Fantasy,Mystery,Mary Steenburgen,Sean Patrick Flanery,Lance Henriksen,0,0,1,1,111,9500000,30862156
 1407,Village of the Damned,1995,5.7,41        ,27919,R,https://imdb.com/title/tt0114852/,Horror,Sci-Fi,Thriller,Christopher Reeve,Kirstie Alley,Linda Kozlowski,0,0,0,2,98,22000000,9418365
-1408,"To Wong Foo Thanks for Everything, Julie Newmar",1995,6.6,60        ,27436,PG-13,https://imdb.com/title/tt0114682/,Comedy,Drama,,Wesley Snipes,Patrick Swayze,John Leguizamo,0,2,,,109,,47774193
+1408,To Wong Foo Thanks for Everything Julie Newmar,1995,6.6,60        ,27436,PG-13,https://imdb.com/title/tt0114682/,Comedy,Drama,,Wesley Snipes,Patrick Swayze,John Leguizamo,0,2,,,109,,47774193
 1409,Virtuosity,1995,5.6,39        ,27240,R,https://imdb.com/title/tt0114857/,Action,Crime,Sci-Fi,Denzel Washington,Russell Crowe,Kelly Lynch,0,0,0,1,106,30000000,24047675
 1410,Now and Then,1995,6.8,,26287,PG-13,https://imdb.com/title/tt0114011/,Comedy,Drama,Romance,Christina Ricci,Demi Moore,Rosie O'Donnell,0,0,0,1,100,,37591674
 1411,The Langoliers,1995,6.1,,26055,PG-13,https://imdb.com/title/tt0112040/,Horror,Mystery,Sci-Fi,Patricia Wettig,Dean Stockwell,Tom Holland,0,1,,,180,,
@@ -1587,7 +1587,7 @@
 1585,Roommates,1995,6.4,,1694,PG,https://imdb.com/title/tt0114296/,Comedy,Drama,,Peter Falk,D.B. Sweeney,Julianne Moore,0,1,,,108,22000000,12096881
 1586, Seinfeld,1989–1998,8.7,,1676,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 1587,Fall Time,1995,5.5,,1676,R,https://imdb.com/title/tt0113014/,Comedy,Crime,Drama,Steve Alden,David Arquette,Stephen Baldwin,0,0,0,1,88,4000000,
-1588,"Cry, the Beloved Country",1995,6.8,71        ,1657,PG-13,https://imdb.com/title/tt0112749/,Drama,Thriller,,Richard Harris,James Earl Jones,Vusi Kunene,0,0,1,4,106,,670727
+1588,Cry the Beloved Country,1995,6.8,71        ,1657,PG-13,https://imdb.com/title/tt0112749/,Drama,Thriller,,Richard Harris,James Earl Jones,Vusi Kunene,0,0,1,4,106,,670727
 1589, Seinfeld,1989–1998,8.7,,1643,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 1590,Live Nude Girls,1995,5.2,,1642,R,https://imdb.com/title/tt0113674/,Comedy,,,Dana Delany,Kim Cattrall,Cynthia Stevenson,0,0,0,0,95,,23808
 1591,Magnetic Rose,1995,8.2,,1600,PG-13,https://imdb.com/title/tt1530535/,Animation,Adventure,Sci-Fi,Shigeru Chiba,Ami Hasegawa,Masato Hirano,0,0,0,0,,,
@@ -1637,7 +1637,7 @@
 1635,Wes Craven's New Nightmare,1994,6.4,64        ,49287,R,https://imdb.com/title/tt0111686/,Fantasy,Horror,Mystery,Heather Langenkamp,Robert Englund,Jeff Davis,0,0,3,7,112,8000000,19721741
 1636,Andaz Apna Apna,1994,8.2,,47808,PG,https://imdb.com/title/tt0109117/,Action,Comedy,Family,Aamir Khan,Salman Khan,Raveena Tandon,66,0,0,4,160,,
 1637,Don Juan DeMarco,1994,6.7,63        ,47106,PG-13,https://imdb.com/title/tt0112883/,Comedy,Drama,Romance,Johnny Depp,Marlon Brando,Faye Dunaway,0,1,4,4,97,25000000,68792531
-1638,"The Adventures of Priscilla, Queen of the Desert",1994,7.4,70        ,45210,R,https://imdb.com/title/tt0109045/,Comedy,Music,,Hugo Weaving,Guy Pearce,Terence Stamp,0,1,12,19,104,,11224491
+1638,The Adventures of Priscilla Queen of the Desert,1994,7.4,70        ,45210,R,https://imdb.com/title/tt0109045/,Comedy,Music,,Hugo Weaving,Guy Pearce,Terence Stamp,0,1,12,19,104,,11224491
 1639,Airheads,1994,6.1,46        ,45077,PG-13,https://imdb.com/title/tt0109068/,Comedy,Crime,Music,Brendan Fraser,Steve Buscemi,Adam Sandler,0,0,0,0,92,,5751882
 1640,Disclosure,1994,6.1,58        ,45076,R,https://imdb.com/title/tt0109635/,Drama,Thriller,,Michael Douglas,Demi Moore,Donald Sutherland,0,0,2,2,128,55000000,214015089
 1641,Reality Bites,1994,6.6,67        ,44605,PG-13,https://imdb.com/title/tt0110950/,Comedy,Drama,Romance,Winona Ryder,Ethan Hawke,Janeane Garofalo,0,0,1,1,99,11500000,33351557
@@ -1705,7 +1705,7 @@
 1703,In the Army Now,1994,5.0,,12478,PG,https://imdb.com/title/tt0110123/,Comedy,War,,Pauly Shore,Lori Petty,Andy Dick,0,0,0,0,91,,28881266
 1704,Threesome,1994,6.3,,12367,R,https://imdb.com/title/tt0111418/,Comedy,Drama,Romance,Lara Flynn Boyle,Josh Charles,Stephen Baldwin,0,0,0,0,89,,14815317
 1705,Trapped in Paradise,1994,6.0,,11976,PG-13,https://imdb.com/title/tt0111477/,Adventure,Comedy,Crime,Nicolas Cage,Jon Lovitz,Dana Carvey,0,0,0,0,111,,6017509
-1706,"Corrina, Corrina",1994,6.6,,11968,PG,https://imdb.com/title/tt0109484/,Comedy,Drama,Romance,Ray Liotta,Whoopi Goldberg,Tina Majorino,0,0,0,3,115,,20164171
+1706,Corrina Corrina,1994,6.6,,11968,PG,https://imdb.com/title/tt0109484/,Comedy,Drama,Romance,Ray Liotta,Whoopi Goldberg,Tina Majorino,0,0,0,3,115,,20164171
 1707,Blue Chips,1994,6.2,54        ,11833,PG-13,https://imdb.com/title/tt0109305/,Drama,Sport,,Nick Nolte,Mary McDonnell,J.T. Walsh,0,0,0,1,108,,23070663
 1708,Fresh,1994,7.6,81        ,11827,R,https://imdb.com/title/tt0109842/,Crime,Drama,Thriller,Sean Nelson,Giancarlo Esposito,Samuel L. Jackson,0,0,4,4,114,3500000,8094616
 1709,The War,1994,6.8,,11801,PG-13,https://imdb.com/title/tt0111667/,Drama,,,Elijah Wood,Kevin Costner,Mare Winningham,0,0,1,3,126,,16928556
@@ -1778,8 +1778,8 @@
 1776,Lisbon Story,1994,7.2,,4271,PG,https://imdb.com/title/tt0110361/,Drama,Music,,Rüdiger Vogler,Patrick Bauchau,Vasco Sequeira,0,0,1,2,100,,
 1777,Vanya on 42nd Street,1994,7.4,,4213,PG,https://imdb.com/title/tt0111590/,Comedy,Drama,Romance,Wallace Shawn,Phoebe Brand,George Gaynes,0,0,2,12,119,,1746050
 1778,Mrs. Parker and the Vicious Circle,1994,6.4,66        ,4158,R,https://imdb.com/title/tt0110588/,Biography,Drama,,Jennifer Jason Leigh,Campbell Scott,Matthew Broderick,0,1,2,7,125,7000000,2144667
-1779,"Car 54, Where Are You?",1994,2.5,,4139,PG-13,https://imdb.com/title/tt0109376/,Comedy,,,David Johansen,John C. McGinley,Fran Drescher,0,0,2,2,89,10700000,1238080
-1780,"Little Indian, Big City",1994,5.7,,4047,PG,https://imdb.com/title/tt0111543/,Adventure,Comedy,Romance,Thierry Lhermitte,Ludwig Briand,Patrick Timsit,0,0,0,0,,,722182
+1779,Car 54 Where Are You?,1994,2.5,,4139,PG-13,https://imdb.com/title/tt0109376/,Comedy,,,David Johansen,John C. McGinley,Fran Drescher,0,0,2,2,89,10700000,1238080
+1780,Little Indian Big City,1994,5.7,,4047,PG,https://imdb.com/title/tt0111543/,Adventure,Comedy,Romance,Thierry Lhermitte,Ludwig Briand,Patrick Timsit,0,0,0,0,,,722182
 1781,War of the Buttons,1994,7.4,,3932,PG,https://imdb.com/title/tt0111666/,Adventure,Drama,Family,Gregg Fitzgerald,Gerard Kearney,Darragh Naughton,0,0,0,2,94,,12712
 1782,Love and a .45,1994,6.1,,3910,R,https://imdb.com/title/tt0110395/,Crime,Romance,Thriller,Gil Bellows,Renée Zellweger,Rory Cochrane,0,0,0,2,101,,35200
 1783,Being Human,1994,5.5,33        ,3754,PG-13,https://imdb.com/title/tt0106379/,Comedy,Drama,,Robin Williams,John Turturro,Kelly Hunter,0,0,0,0,122,40000000,1519366
@@ -1924,7 +1924,7 @@
 1922,Teenage Mutant Ninja Turtles III,1993,4.8,40        ,30119,PG,https://imdb.com/title/tt0108308/,Action,Adventure,Comedy,Elias Koteas,Paige Turco,Stuart Wilson,0,0,0,1,96,21000000,42273609
 1923,Searching for Bobby Fischer,1993,7.4,89        ,28570,PG,https://imdb.com/title/tt0108065/,Biography,Drama,,Joe Mantegna,Ben Kingsley,Max Pomeranc,0,1,5,9,109,12000000,7266383
 1924,Sliver,1993,5.0,38        ,28184,R,https://imdb.com/title/tt0108162/,Drama,Thriller,,Sharon Stone,William Baldwin,Tom Berenger,0,0,4,9,107,40000000,116300000
-1925,"Blood In, Blood Out",1993,8.0,47        ,28026,R,https://imdb.com/title/tt0106469/,Crime,Drama,,Damian Chapa,Jesse Borrego,Benjamin Bratt,0,0,1,1,180,35000000,4496583
+1925,Blood In Blood Out,1993,8.0,47        ,28026,R,https://imdb.com/title/tt0106469/,Crime,Drama,,Damian Chapa,Jesse Borrego,Benjamin Bratt,0,0,1,1,180,35000000,4496583
 1926,The Man Without a Face,1993,6.7,62        ,27164,PG-13,https://imdb.com/title/tt0107501/,Drama,,,Mel Gibson,Nick Stahl,Margaret Whitton,0,0,0,3,115,,24760338
 1927,Look Who's Talking Now,1993,4.4,,27071,PG-13,https://imdb.com/title/tt0107438/,Comedy,Family,Romance,John Travolta,Kirstie Alley,David Gallagher,0,0,1,4,96,22000000,10340263
 1928,Jason Goes to Hell: The Final Friday,1993,4.2,17        ,27056,R,https://imdb.com/title/tt0107254/,Fantasy,Horror,Thriller,John D. LeMay,Kari Keegan,Kane Hodder,0,0,0,5,87,3000000,15935068
@@ -1998,7 +1998,7 @@
 1996,The Meteor Man,1993,5.2,,7507,PG,https://imdb.com/title/tt0107563/,Action,Comedy,Fantasy,Robert Townsend,Marla Gibbs,Eddie Griffin,0,0,0,1,100,30000000,8016708
 1997,Surf Ninjas,1993,5.1,,7476,PG,https://imdb.com/title/tt0108258/,Action,Adventure,Comedy,Ernie Reyes Sr.,Rob Schneider,Ernie Reyes Jr.,0,0,0,1,,,4916135
 1998,Undercover Blues,1993,6.1,,7345,PG-13,https://imdb.com/title/tt0108442/,Comedy,Crime,,Kathleen Turner,Dennis Quaid,Fiona Shaw,0,0,0,0,90,,12324660
-1999,"Faraway, So Close!",1993,7.3,,7313,PG-13,https://imdb.com/title/tt0107209/,Drama,Fantasy,Romance,Otto Sander,Bruno Ganz,Peter Falk,0,1,4,6,144,10500000,810455
+1999,Faraway So Close!,1993,7.3,,7313,PG-13,https://imdb.com/title/tt0107209/,Drama,Fantasy,Romance,Otto Sander,Bruno Ganz,Peter Falk,0,1,4,6,144,10500000,810455
 2000,King of the Hill,1993,7.4,86        ,7306,PG-13,https://imdb.com/title/tt0107322/,Drama,History,,Jesse Bradford,Jeroen Krabbé,Lisa Eichhorn,0,0,0,7,103,8000000,1214231
 2001,The Legend,1993,7.2,,7206,R,https://imdb.com/title/tt0106936/,Action,Comedy,History,Jet Li,Josephine Siao,Michelle Reis,0,0,3,2,100,,
 2002,The Thing Called Love,1993,6.4,,6998,PG-13,https://imdb.com/title/tt0108327/,Comedy,Drama,Music,River Phoenix,Samantha Mathis,Dermot Mulroney,0,0,0,0,116,14000000,1029721
@@ -2079,7 +2079,7 @@
 2077,The Saint of Fort Washington,1993,7.2,,2284,R,https://imdb.com/title/tt0108026/,Drama,,,Danny Glover,Matt Dillon,Rick Aviles,0,0,1,2,,,134454
 2078,American Yakuza,1993,5.7,,2251,R,https://imdb.com/title/tt0109099/,Action,Crime,Drama,Viggo Mortensen,Ryo Ishibashi,Michael Nouri,0,0,0,0,96,,
 2079,The Last Outlaw,1993,6.3,,2168,R,https://imdb.com/title/tt0110307/,Action,Western,,Mickey Rourke,Dermot Mulroney,Ted Levine,0,0,0,0,93,5500000,
-2080,"Bodies, Rest & Motion",1993,5.7,,2138,R,https://imdb.com/title/tt0106447/,Drama,,,Phoebe Cates,Bridget Fonda,Tim Roth,0,0,1,1,95,2500000,764724
+2080,Bodies Rest & Motion,1993,5.7,,2138,R,https://imdb.com/title/tt0106447/,Drama,,,Phoebe Cates,Bridget Fonda,Tim Roth,0,0,1,1,95,2500000,764724
 2081,The Trial,1993,6.0,,2116,PG-13,https://imdb.com/title/tt0108388/,Drama,Thriller,,Kyle MacLachlan,Anthony Hopkins,Jason Robards,0,0,0,0,120,,119267
 2082,Calendar Girl,1993,5.1,,2094,PG-13,https://imdb.com/title/tt0106505/,Comedy,Drama,,Jason Priestley,Gabriel Olds,Jerry O'Connell,0,0,0,0,90,13000000,2570550
 2083,The Music of Chance,1993,7.1,,2064,R,https://imdb.com/title/tt0107623/,Drama,,,James Spader,Mandy Patinkin,M. Emmet Walsh,0,0,0,0,98,,313967
@@ -2117,7 +2117,7 @@
 2115,Reckless Kelly,1993,5.1,,1574,PG,https://imdb.com/title/tt0107930/,Comedy,,,Yahoo Serious,Melora Hardin,Alexei Sayle,0,0,0,0,103,,
 2116,A Dangerous Woman,1993,5.8,,1562,R,https://imdb.com/title/tt0106661/,Drama,Romance,,Debra Winger,Barbara Hershey,Gabriel Byrne,0,1,1,3,102,,1497222
 2117,Yankee Zulu,1993,6.5,,1538,PG,https://imdb.com/title/tt0111787/,Comedy,Drama,,Leon Schuster,John Matshikiza,Wilson Dunster,0,0,0,0,,,
-2118,"Metallica: Live Shit - Binge & Purge, San Diego",1993,9.0,,1530,R,https://imdb.com/title/tt0202456/,Documentary,Music,,James Hetfield,Lars Ulrich,Kirk Hammett,0,0,0,0,,,
+2118,Metallica: Live Shit - Binge & Purge San Diego,1993,9.0,,1530,R,https://imdb.com/title/tt0202456/,Documentary,Music,,James Hetfield,Lars Ulrich,Kirk Hammett,0,0,0,0,,,
 2119,Naked in New York,1993,5.6,,1513,R,https://imdb.com/title/tt0110623/,Comedy,Romance,,Eric Stoltz,Mary-Louise Parker,Ralph Macchio,0,0,1,1,95,,1038959
 2120,Hexed,1993,5.6,,1509,R,https://imdb.com/title/tt0107107/,Comedy,Crime,Horror,Arye Gross,Claudia Christian,Adrienne Shelly,0,0,0,0,,,2786807
 2121,Blind Side,1993,5.5,,1506,R,https://imdb.com/title/tt0106426/,Thriller,,,Rutger Hauer,Rebecca De Mornay,Ron Silver,0,0,0,0,98,,
@@ -2166,7 +2166,7 @@
 2164,Hard Boiled,1992,7.8,,45552,R,https://imdb.com/title/tt0104684/,Action,Crime,Thriller,Yun-Fat Chow,Tony Chiu-Wai Leung,Teresa Mo,0,0,3,4,128,4500000,
 2165,Passenger 57,1992,5.9,,43809,R,https://imdb.com/title/tt0105104/,Action,Crime,Thriller,Wesley Snipes,Bruce Payne,Tom Sizemore,0,0,0,0,84,15000000,44065653
 2166,Forever Young,1992,6.3,,43390,PG,https://imdb.com/title/tt0104291/,Drama,Romance,Sci-Fi,Mel Gibson,Jamie Lee Curtis,Elijah Wood,0,0,0,0,102,,127956187
-2167,"Honey, I Blew Up the Kid",1992,4.8,50        ,40073,PG,https://imdb.com/title/tt0104437/,Adventure,Comedy,Family,Rick Moranis,Marcia Strassman,Robert Oliveri,0,0,0,10,89,40000000,58662452
+2167,Honey I Blew Up the Kid,1992,4.8,50        ,40073,PG,https://imdb.com/title/tt0104437/,Adventure,Comedy,Family,Rick Moranis,Marcia Strassman,Robert Oliveri,0,0,0,10,89,40000000,58662452
 2168,Of Mice and Men,1992,7.5,,39307,PG-13,https://imdb.com/title/tt0105046/,Drama,Western,,John Malkovich,Gary Sinise,Ray Walston,0,0,0,1,115,,5471088
 2169,Buffy the Vampire Slayer,1992,5.7,48        ,38529,PG-13,https://imdb.com/title/tt0103893/,Action,Comedy,Fantasy,Kristy Swanson,Donald Sutherland,Paul Reubens,0,0,0,1,86,7000000,16624456
 2170,Stop! Or My Mom Will Shoot,1992,4.3,,37528,PG-13,https://imdb.com/title/tt0105477/,Action,Comedy,,Sylvester Stallone,Estelle Getty,JoBeth Williams,0,0,3,1,87,45000000,70611210
@@ -2335,7 +2335,7 @@
 2333, Seinfeld,1989–1998,8.3,,1845,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2334, Seinfeld,1989–1998,8.5,,1844,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2335, Seinfeld,1989–1998,8.3,,1842,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
-2336,"Ciao, Professore!",1992,6.9,,1831,R,https://imdb.com/title/tt0107225/,Comedy,,,Paolo Villaggio,Isa Danieli,Gigio Morra,0,0,0,1,100,,1113435
+2336,Ciao Professore!,1992,6.9,,1831,R,https://imdb.com/title/tt0107225/,Comedy,,,Paolo Villaggio,Isa Danieli,Gigio Morra,0,0,0,1,100,,1113435
 2337,Ramayana: The Legend of Prince Rama,1992,8.9,,1830,PG,https://imdb.com/title/tt0259534/,Animation,Action,Adventure,Bryan Cranston,Arun Govil,Srija,0,0,0,0,,,
 2338, Seinfeld,1989–1998,8.4,,1821,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2339, Seinfeld,1989–1998,8.2,,1802,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
@@ -2347,7 +2347,7 @@
 2345, Seinfeld,1989–1998,8.0,,1735,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2346, Seinfeld,1989–1998,8.1,,1674,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2347,L.627,1992,7.4,,1669,R,https://imdb.com/title/tt0104658/,Crime,Drama,Thriller,Didier Bezace,Jean-Paul Comart,Charlotte Kady,0,0,0,5,145,,28540
-2348,"Olivier, Olivier",1992,7.5,,1627,R,https://imdb.com/title/tt0102583/,Drama,,,Brigitte Roüan,François Cluzet,Jean-François Stévenin,0,0,2,3,110,,1154476
+2348,Olivier Olivier,1992,7.5,,1627,R,https://imdb.com/title/tt0102583/,Drama,,,Brigitte Roüan,François Cluzet,Jean-François Stévenin,0,0,2,3,110,,1154476
 2349,CrissCross,1992,5.8,,1624,R,https://imdb.com/title/tt0104027/,Crime,Drama,,Goldie Hawn,Arliss Howard,James Gammon,0,0,0,0,100,,3052738
 2350,The Efficiency Expert,1992,6.2,,1591,PG,https://imdb.com/title/tt0102969/,Comedy,Drama,,Anthony Hopkins,Ben Mendelsohn,Alwyn Kurts,0,0,3,7,,,179469
 2351,The Gun in Betty Lou's Handbag,1992,5.1,,1547,PG-13,https://imdb.com/title/tt0104376/,Comedy,Mystery,,Penelope Ann Miller,Eric Thal,Alfre Woodard,0,0,0,0,89,13000000,3721911
@@ -2496,7 +2496,7 @@
 2494,Rhapsody in August,1991,7.2,,6040,PG,https://imdb.com/title/tt0101991/,Drama,,,Sachiko Murase,Richard Gere,Hisashi Igawa,0,0,5,7,98,,516431
 2495,Proof,1991,7.2,,6038,R,https://imdb.com/title/tt0102721/,Drama,Romance,,Hugo Weaving,Geneviève Picot,Russell Crowe,0,0,12,3,86,,524668
 2496,Enchanted April,1991,7.3,78        ,5921,PG,https://imdb.com/title/tt0101811/,Drama,,,Alfred Molina,Joan Plowright,Miranda Richardson,0,3,4,6,95,,13200170
-2497,"He Said, She Said",1991,5.6,,5892,PG-13,https://imdb.com/title/tt0102011/,Comedy,Drama,Romance,Kevin Bacon,Elizabeth Perkins,Nathan Lane,0,0,0,0,115,,9804775
+2497,He Said She Said,1991,5.6,,5892,PG-13,https://imdb.com/title/tt0102011/,Comedy,Drama,Romance,Kevin Bacon,Elizabeth Perkins,Nathan Lane,0,0,0,0,115,,9804775
 2498,House Party 2,1991,5.3,,5884,R,https://imdb.com/title/tt0102065/,Comedy,Drama,Music,Christopher Reid,Christopher Martin,Martin Lawrence,0,0,0,0,,5000000,19438638
 2499,Prospero's Books,1991,6.9,,5869,R,https://imdb.com/title/tt0102722/,Drama,Fantasy,,John Gielgud,Michael Clark,Michel Blanc,0,1,3,4,124,1500000,1750301
 2500,Homicide,1991,7.0,84        ,5869,R,https://imdb.com/title/tt0102048/,Crime,Drama,Thriller,Joe Mantegna,William H. Macy,Vincent Guastaferro,0,0,3,7,102,,2971661
@@ -2611,7 +2611,7 @@
 2609,McBain,1991,4.8,,1580,R,https://imdb.com/title/tt0102422/,Action,Drama,War,Christopher Walken,Maria Conchita Alonso,Michael Joseph DeSare,0,0,0,0,107,,456127
 2610,Timebomb,1991,5.4,,1552,R,https://imdb.com/title/tt0105597/,Action,Drama,Sci-Fi,Michael Biehn,Patsy Kensit,Tracy Scoggins,0,0,0,1,96,6000000,
 2611,The Borrower,1991,5.3,,1468,R,https://imdb.com/title/tt0101502/,Comedy,Horror,Sci-Fi,Rae Dawn Chong,Don Gordon,Tom Towles,0,0,1,4,92,2000000,
-2612,"Silent Night, Deadly Night 5: The Toy Maker",1991,4.3,,1466,R,https://imdb.com/title/tt0105410/,Horror,Sci-Fi,,William Thorne,Jane Higginson,Van Quattro,0,0,0,0,90,,
+2612,Silent Night Deadly Night 5: The Toy Maker,1991,4.3,,1466,R,https://imdb.com/title/tt0105410/,Horror,Sci-Fi,,William Thorne,Jane Higginson,Van Quattro,0,0,0,0,90,,
 2613,Hear My Song,1991,7.0,,1466,R,https://imdb.com/title/tt0102014/,Comedy,Drama,Music,Ned Beatty,Adrian Dunbar,Brian Flanagan,0,1,4,3,,,4313473
 2614,976-Evil II,1991,4.3,,1462,R,https://imdb.com/title/tt0101256/,Horror,,,Debbie James,René Assa,Patrick O'Bryan,0,0,0,0,93,,
 2615,Queens Logic,1991,5.8,,1442,R,https://imdb.com/title/tt0102741/,Comedy,Drama,,Kevin Bacon,Linda Fiorentino,John Malkovich,0,0,0,1,100,,612781
@@ -2644,7 +2644,7 @@
 2642,Afraid of the Dark,1991,5.8,,1039,R,https://imdb.com/title/tt0101276/,Drama,Fantasy,Horror,James Fox,Fanny Ardant,Paul McGann,0,0,0,0,91,,53932
 2643,The Unborn,1991,4.5,,1034,R,https://imdb.com/title/tt0103157/,Drama,Horror,Sci-Fi,Brooke Adams,Jeff Hayenga,James Karen,0,0,0,4,,,1159578
 2644,Stepping Out,1991,6.4,,1020,PG,https://imdb.com/title/tt0102979/,Comedy,Drama,Musical,Liza Minnelli,Shelley Winters,Robyn Stevan,0,1,0,0,106,,246000
-2645,"The Favour, the Watch and the Very Big Fish",1991,6.3,,990,R,https://imdb.com/title/tt0101863/,Comedy,,,Bob Hoskins,Jeff Goldblum,Natasha Richardson,0,0,0,1,,,
+2645,The Favour the Watch and the Very Big Fish,1991,6.3,,990,R,https://imdb.com/title/tt0101863/,Comedy,,,Bob Hoskins,Jeff Goldblum,Natasha Richardson,0,0,0,1,,,
 2646,Goodfellas,1990,8.7,90        ,980272,R,https://imdb.com/title/tt0099685/,Biography,Crime,Drama,Robert De Niro,Ray Liotta,Joe Pesci,17,1,43,38,146,25000000,46879633
 2647,Home Alone,1990,7.6,63        ,448017,PG,https://imdb.com/title/tt0099785/,Comedy,Family,,Macaulay Culkin,Joe Pesci,Daniel Stern,0,2,11,4,103,18000000,477063114
 2648,Edward Scissorhands,1990,7.9,74        ,434180,PG-13,https://imdb.com/title/tt0099487/,Drama,Fantasy,Romance,Johnny Depp,Winona Ryder,Dianne Wiest,0,1,9,23,105,20000000,86024005
@@ -2778,7 +2778,7 @@
 2776,Q & A,1990,6.6,,5106,R,https://imdb.com/title/tt0100442/,Crime,Drama,Thriller,Nick Nolte,Timothy Hutton,Armand Assante,0,1,0,0,132,,11207891
 2777,The Guardian,1990,5.4,35        ,4873,R,https://imdb.com/title/tt0099710/,Drama,Horror,Mystery,Jenny Seagrove,Dwier Brown,Carey Lowell,0,0,0,3,92,,17037887
 2778,Flashback,1990,6.3,,4796,R,https://imdb.com/title/tt0099581/,Action,Adventure,Comedy,Dennis Hopper,Kiefer Sutherland,Carol Kane,0,0,0,0,108,,6488114
-2779,"Welcome Home, Roxy Carmichael",1990,5.9,44        ,4787,PG-13,https://imdb.com/title/tt0100911/,Comedy,Drama,,Winona Ryder,Jeff Daniels,Laila Robins,0,0,0,0,95,,3989297
+2779,Welcome Home Roxy Carmichael,1990,5.9,44        ,4787,PG-13,https://imdb.com/title/tt0100911/,Comedy,Drama,,Winona Ryder,Jeff Daniels,Laila Robins,0,0,0,0,95,,3989297
 2780,My Mother's Castle,1990,7.6,,4655,PG,https://imdb.com/title/tt0099266/,Adventure,Biography,Comedy,Julien Ciamaca,Philippe Caubère,Nathalie Roussel,0,0,1,5,98,,1477071
 2781,Moon 44,1990,5.1,39        ,4569,R,https://imdb.com/title/tt0097910/,Action,Sci-Fi,Thriller,Michael Paré,Lisa Eichhorn,Dean Devlin,0,0,0,2,98,7000000,
 2782,Puppet Master II,1990,5.5,,4452,R,https://imdb.com/title/tt0100438/,Fantasy,Horror,Sci-Fi,Elizabeth Maclellan,Collin Bernsen,Steve Welles,0,0,0,1,88,780000,
@@ -2810,7 +2810,7 @@
 2808,Heart Condition,1990,5.6,,3177,R,https://imdb.com/title/tt0099750/,Comedy,Crime,Drama,Bob Hoskins,Denzel Washington,Chloe Webb,0,0,0,0,100,,4134992
 2809,The Long Walk Home,1990,7.3,73        ,3150,PG,https://imdb.com/title/tt0100046/,Drama,History,,Sissy Spacek,Whoopi Goldberg,Dwight Schultz,0,0,1,2,97,,4873620
 2810,Ski School,1990,5.1,,3099,R,https://imdb.com/title/tt0102940/,Comedy,,,Dean Cameron,Tom Bresnahan,Patrick Labyorteaux,0,0,0,0,89,,18476
-2811,"After Dark, My Sweet",1990,6.6,78        ,3094,R,https://imdb.com/title/tt0098994/,Crime,Drama,Mystery,Jason Patric,Rachel Ward,Bruce Dern,0,0,0,1,114,,2678414
+2811,After Dark My Sweet,1990,6.6,78        ,3094,R,https://imdb.com/title/tt0098994/,Crime,Drama,Mystery,Jason Patric,Rachel Ward,Bruce Dern,0,0,0,1,114,,2678414
 2812,The Prisoner,1990,5.9,,3091,R,https://imdb.com/title/tt0099812/,Action,Crime,Drama,Jackie Chan,Andy Lau,Sammo Kam-Bo Hung,0,0,0,0,95,,
 2813,The Ambulance,1990,5.9,,2985,R,https://imdb.com/title/tt0099026/,Action,Comedy,Horror,Eric Roberts,James Earl Jones,Megan Gallagher,0,0,0,2,96,4000000,
 2814,A Cat in the Brain,1990,5.7,,2888,R,https://imdb.com/title/tt0099637/,Comedy,Horror,,Lucio Fulci,Brett Halsey,Ria De Simone,0,0,0,0,87,100000,
@@ -2825,7 +2825,7 @@
 2823,Come See the Paradise,1990,6.7,,2468,R,https://imdb.com/title/tt0099291/,Drama,Romance,War,Dennis Quaid,Tamlyn Tomita,Sab Shimono,0,0,0,3,138,17500000,947306
 2824, Seinfeld,1989–1998,7.6,,2433,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
 2825, Seinfeld,1989–1998,7.4,,2414,PG,https://imdb.com/title/tt0098904/,Comedy,,,Jerry Seinfeld,Julia Louis-Dreyfus,Michael Richards,47,3,71,185,22,,
-2826,"¡Ay, Carmela!",1990,7.2,,2399,PG-13,https://imdb.com/title/tt0101025/,Comedy,Drama,War,Carmen Maura,Andrés Pajares,Gabino Diego,0,0,22,6,102,,
+2826,¡Ay Carmela!,1990,7.2,,2399,PG-13,https://imdb.com/title/tt0101025/,Comedy,Drama,War,Carmen Maura,Andrés Pajares,Gabino Diego,0,0,22,6,102,,
 2827,Texasville,1990,6.0,,2398,R,https://imdb.com/title/tt0103069/,Drama,,,Jeff Bridges,Cybill Shepherd,Timothy Bottoms,0,0,0,0,123,,2268181
 2828,Shipwrecked,1990,6.7,,2398,PG,https://imdb.com/title/tt0099816/,Adventure,Family,,Stian Smestad,Gabriel Byrne,Louisa Milwood-Haigh,0,0,0,3,92,60000000,15104156
 2829,Mister Frost,1990,6.1,,2393,R,https://imdb.com/title/tt0100161/,Drama,Horror,Thriller,Jeff Goldblum,Kathy Baker,Alan Bates,0,0,1,1,104,,
@@ -2853,13 +2853,13 @@
 2851,Graffiti Bridge,1990,4.5,34        ,1735,PG-13,https://imdb.com/title/tt0099691/,Drama,Music,,Prince,Morris Day,Ingrid Chavez,0,0,1,6,90,,4562778
 2852,Downtown,1990,5.8,,1723,R,https://imdb.com/title/tt0099460/,Action,Comedy,Crime,Anthony Edwards,Forest Whitaker,Penelope Ann Miller,0,0,0,0,96,10000000,2346150
 2853,The Amityville Curse,1990,2.9,,1702,R,https://imdb.com/title/tt0099030/,Horror,,,Kim Coates,Dawna Wightman,Helen Hughes,0,0,0,0,91,,
-2854,"Abraxas, Guardian of the Universe",1990,2.8,,1694,R,https://imdb.com/title/tt0101264/,Action,Sci-Fi,,Jesse Ventura,Sven-Ole Thorsen,Damian Lee,0,0,0,0,90,,
+2854,Abraxas Guardian of the Universe,1990,2.8,,1694,R,https://imdb.com/title/tt0101264/,Action,Sci-Fi,,Jesse Ventura,Sven-Ole Thorsen,Damian Lee,0,0,0,0,90,,
 2855,To Sleep with Anger,1990,7.3,,1689,PG,https://imdb.com/title/tt0100791/,Drama,,,Danny Glover,Paul Butler,DeVaughn Nixon,0,0,7,10,102,,1161135
 2856,Tune in Tomorrow...,1990,6.2,,1675,PG-13,https://imdb.com/title/tt0100822/,Comedy,Romance,,Barbara Hershey,Keanu Reeves,Peter Falk,0,0,0,2,107,11000000,1794001
 2857,Solar Crisis,1990,4.0,,1660,PG-13,https://imdb.com/title/tt0100649/,Sci-Fi,Thriller,,Tim Matheson,Charlton Heston,Peter Boyle,0,0,0,1,112,55000000,
 2858,Shakma,1990,5.1,,1638,R,https://imdb.com/title/tt0100589/,Horror,Sci-Fi,Thriller,Christopher Atkins,Amanda Wyss,Ari Meyers,0,0,0,0,100,1500000,
 2859,The Rift,1990,4.7,,1584,R,https://imdb.com/title/tt0099701/,Action,Adventure,Horror,Jack Scalia,R. Lee Ermey,Ray Wise,0,0,1,1,83,1300000,
-2860,"Initiation: Silent Night, Deadly Night 4",1990,3.9,,1541,R,https://imdb.com/title/tt0100618/,Horror,,,Clint Howard,Neith Hunter,Tommy Hinkley,0,0,0,0,90,,
+2860,Initiation: Silent Night Deadly Night 4,1990,3.9,,1541,R,https://imdb.com/title/tt0100618/,Horror,,,Clint Howard,Neith Hunter,Tommy Hinkley,0,0,0,0,90,,
 2861, Mr. Bean,1990–1995,8.9,,1490,PG,https://imdb.com/title/tt0096657/,Comedy,Family,,Rowan Atkinson,Robin Driscoll,Matilda Ziegler,193,0,4,8,350,,
 2862,Where the Heart Is,1990,6.0,,1462,R,https://imdb.com/title/tt0100924/,Comedy,Drama,,Dabney Coleman,Uma Thurman,Joanna Cassidy,0,0,1,1,107,15000000,1106475
 2863,The Forbidden Dance,1990,3.9,,1462,PG-13,https://imdb.com/title/tt0099595/,Drama,Music,Romance,Laura Harring,Jeff James,Barbra Brighton,0,0,0,1,97,,1823154
@@ -2904,7 +2904,7 @@
 2902,Strangers in Good Company,1990,7.7,,904,PG,https://imdb.com/title/tt0102993/,Drama,,,Alice Diabo,Constance Garneau,Beth Webber,0,0,4,5,101,,
 2903,Watchers II,1990,4.1,,903,R,https://imdb.com/title/tt0100904/,Horror,Sci-Fi,,Marc Singer,Tracy Scoggins,Jonathan Farwell,0,0,0,0,101,,
 2904,A Cry in the Wild,1990,5.5,,901,PG,https://imdb.com/title/tt0099327/,Action,Adventure,Thriller,Jared Rushton,Ned Beatty,Pamela Sue Martin,0,0,0,1,82,,1494969
-2905,"Fire, Ice & Dynamite",1990,4.0,,897,PG,https://imdb.com/title/tt0099564/,Action,Comedy,Sport,Roger Moore,Shari Belafonte,Simon Shepherd,0,0,0,0,106,21500000,
+2905,Fire Ice & Dynamite,1990,4.0,,897,PG,https://imdb.com/title/tt0099564/,Action,Comedy,Sport,Roger Moore,Shari Belafonte,Simon Shepherd,0,0,0,0,106,21500000,
 2906,Heaven and Earth,1990,7.0,,891,PG-13,https://imdb.com/title/tt0099753/,Action,Adventure,Drama,Takaaki Enoki,Masahiko Tsugawa,Atsuko Asano,0,0,1,6,104,42000000,
 2907,Guns,1990,4.2,,890,R,https://imdb.com/title/tt0099720/,Action,,,Erik Estrada,Dona Speir,Roberta Vasquez,0,0,0,0,96,,
 2908,Grim Prairie Tales,1990,5.4,,882,R,https://imdb.com/title/tt0099704/,Horror,Western,,James Earl Jones,Brad Dourif,Will Hare,0,0,0,0,86,,
@@ -2917,7 +2917,7 @@
 2915,The Abyss,1989,7.6,62        ,158497,PG-13,https://imdb.com/title/tt0096754/,Adventure,Drama,Mystery,Ed Harris,Mary Elizabeth Mastrantonio,Michael Biehn,0,1,8,15,140,70000000,90000098
 2916,Lethal Weapon 2,1989,7.2,70        ,157468,R,https://imdb.com/title/tt0097733/,Action,Crime,Thriller,Mel Gibson,Danny Glover,Joe Pesci,0,1,1,1,114,28000000,227853986
 2917,National Lampoon's Christmas Vacation,1989,7.6,49        ,147633,PG-13,https://imdb.com/title/tt0097958/,Comedy,,,Chevy Chase,Beverly D'Angelo,Juliette Lewis,0,0,0,0,97,27000000,72705146
-2918,"Honey, I Shrunk the Kids",1989,6.3,63        ,138376,PG,https://imdb.com/title/tt0097523/,Adventure,Comedy,Family,Rick Moranis,Matt Frewer,Marcia Strassman,0,1,1,10,93,18000000,222724172
+2918,Honey I Shrunk the Kids,1989,6.3,63        ,138376,PG,https://imdb.com/title/tt0097523/,Adventure,Comedy,Family,Rick Moranis,Matt Frewer,Marcia Strassman,0,1,1,10,93,18000000,222724172
 2919,Glory,1989,7.8,78        ,117629,R,https://imdb.com/title/tt0097441/,Biography,Drama,History,Matthew Broderick,Denzel Washington,Cary Elwes,0,3,11,18,122,18000000,26979166
 2920,Bill & Ted's Excellent Adventure,1989,6.9,50        ,107048,PG,https://imdb.com/title/tt0096928/,Adventure,Comedy,Music,Keanu Reeves,Alex Winter,George Carlin,0,0,0,3,90,10000000,40485039
 2921,Field of Dreams,1989,7.5,57        ,104823,PG,https://imdb.com/title/tt0097351/,Drama,Family,Fantasy,Kevin Costner,James Earl Jones,Ray Liotta,0,3,7,10,107,,84431625
@@ -2939,10 +2939,10 @@
 2937,Star Trek V: The Final Frontier,1989,5.5,43        ,54509,PG,https://imdb.com/title/tt0098382/,Action,Adventure,Fantasy,William Shatner,Leonard Nimoy,DeForest Kelley,0,0,4,3,107,27800000,52210049
 2938,Crimes and Misdemeanors,1989,7.9,77        ,53096,PG-13,https://imdb.com/title/tt0097123/,Comedy,Drama,,Martin Landau,Woody Allen,Bill Bernstein,0,3,16,22,104,19000000,18254702
 2939,Kickboxer,1989,6.5,33        ,48355,R,https://imdb.com/title/tt0097659/,Action,Sport,Thriller,Jean-Claude Van Damme,Dennis Alexio,Dennis Chan,0,0,0,0,97,1500000,14697005
-2940,"Sex, Lies, and Videotape",1989,7.2,86        ,48165,R,https://imdb.com/title/tt0098724/,Drama,,,James Spader,Andie MacDowell,Peter Gallagher,0,1,15,22,100,1200000,24741667
+2940,Sex Lies and Videotape,1989,7.2,86        ,48165,R,https://imdb.com/title/tt0098724/,Drama,,,James Spader,Andie MacDowell,Peter Gallagher,0,1,15,22,100,1200000,24741667
 2941,Black Rain,1989,6.7,56        ,47930,R,https://imdb.com/title/tt0096933/,Action,Crime,Thriller,Michael Douglas,Andy Garcia,Ken Takakura,0,2,1,2,125,30000000,134212055
 2942,Weekend at Bernie's,1989,6.4,32        ,46979,PG-13,https://imdb.com/title/tt0098627/,Adventure,Comedy,Crime,Andrew McCarthy,Jonathan Silverman,Catherine Mary Stewart,0,0,0,1,97,,30218387
-2943,"See No Evil, Hear No Evil",1989,6.9,44        ,46963,R,https://imdb.com/title/tt0098282/,Comedy,Crime,,Richard Pryor,Gene Wilder,Joan Severance,0,0,0,0,103,18000000,46908987
+2943,See No Evil Hear No Evil,1989,6.9,44        ,46963,R,https://imdb.com/title/tt0098282/,Comedy,Crime,,Richard Pryor,Gene Wilder,Joan Severance,0,0,0,0,103,18000000,46908987
 2944,The Karate Kid Part III,1989,5.2,36        ,46881,PG,https://imdb.com/title/tt0097647/,Action,Drama,Family,Ralph Macchio,Pat Morita,Robyn Lively,0,0,0,5,112,,38956288
 2945,The War of the Roses,1989,6.8,79        ,46749,R,https://imdb.com/title/tt0098621/,Comedy,Romance,,Michael Douglas,Kathleen Turner,Danny DeVito,0,3,2,6,116,26000000,160188546
 2946,Steel Magnolias,1989,7.3,56        ,45434,PG,https://imdb.com/title/tt0098384/,Comedy,Drama,Romance,Shirley MacLaine,Olympia Dukakis,Sally Field,0,1,2,6,117,15000000,96759512
@@ -3065,7 +3065,7 @@
 3063,Around the World in 80 Days,1989,7.2,,2788,PG,https://imdb.com/title/tt0096535/,Action,Adventure,Comedy,Pierce Brosnan,Eric Idle,Julia Nickson,0,3,,,90,,
 3064,Kinjite: Forbidden Subjects,1989,5.6,,2706,R,https://imdb.com/title/tt0097670/,Action,Crime,Drama,Charles Bronson,Juan Fernández,Perry Lopez,0,0,0,0,97,,3416846
 3065,In Country,1989,5.8,,2670,R,https://imdb.com/title/tt0097570/,Drama,Romance,War,Emily Lloyd,Bruce Willis,Joan Allen,0,1,0,0,120,18000000,3531971
-3066,"I, Madman",1989,6.0,,2636,R,https://imdb.com/title/tt0097557/,Fantasy,Horror,Thriller,Jenny Wright,Clayton Rohner,Randall William Cook,0,0,1,1,89,,
+3066,I Madman,1989,6.0,,2636,R,https://imdb.com/title/tt0097557/,Fantasy,Horror,Thriller,Jenny Wright,Clayton Rohner,Randall William Cook,0,0,1,1,89,,
 3067,Eddie and the Cruisers II: Eddie Lives!,1989,6.3,,2622,PG-13,https://imdb.com/title/tt0097262/,Drama,Music,Romance,Michael Paré,Marina Orsini,Bernie Coulson,0,0,0,1,99,,536508
 3068,Farewell to the King,1989,6.3,,2560,PG-13,https://imdb.com/title/tt0097334/,Action,Adventure,Drama,Nick Nolte,Nigel Havers,Frank McRae,0,0,0,0,117,20000000,2420917
 3069,The Siege of Firebase Gloria,1989,6.9,,2543,R,https://imdb.com/title/tt0098328/,Action,Drama,War,Wings Hauser,R. Lee Ermey,Robert Arevalo,0,0,0,0,99,1600000,
@@ -3085,10 +3085,10 @@
 3083,The Dead Pit,1989,5.4,,1973,R,https://imdb.com/title/tt0122037/,Horror,,,Jeremy Slate,Cheryl Lawson,Stephen Gregory Foster,0,0,0,0,95,350000,
 3084,Death Spa,1989,5.2,,1956,R,https://imdb.com/title/tt0099384/,Horror,,,William Bumiller,Brenda Bakke,Merritt Butrick,0,0,0,0,88,,
 3085,Far from Home,1989,5.5,,1924,R,https://imdb.com/title/tt0097332/,Crime,Drama,Mystery,Matt Frewer,Drew Barrymore,Richard Masur,0,0,0,0,86,,11859
-3086,"Enemies, A Love Story",1989,6.6,,1922,R,https://imdb.com/title/tt0097276/,Comedy,Drama,Romance,Ron Silver,Anjelica Huston,Lena Olin,0,3,4,7,119,9500000,7754571
+3086,Enemies A Love Story,1989,6.6,,1922,R,https://imdb.com/title/tt0097276/,Comedy,Drama,Romance,Ron Silver,Anjelica Huston,Lena Olin,0,3,4,7,119,9500000,7754571
 3087,Miss Firecracker,1989,6.0,,1886,PG,https://imdb.com/title/tt0097892/,Comedy,,,Holly Hunter,Mary Steenburgen,Tim Robbins,0,0,0,1,102,,1852655
 3088,Twister,1989,5.2,65        ,1876,PG-13,https://imdb.com/title/tt0096321/,Comedy,Drama,,Harry Dean Stanton,Suzy Amis,Crispin Glover,0,0,0,1,93,,33455
-3089,"Silent Night, Deadly Night 3: Better Watch Out!",1989,3.5,,1858,R,https://imdb.com/title/tt0098331/,Horror,,,Samantha Scully,Bill Moseley,Richard C. Adams,0,0,0,0,90,,
+3089,Silent Night Deadly Night 3: Better Watch Out!,1989,3.5,,1858,R,https://imdb.com/title/tt0098331/,Horror,,,Samantha Scully,Bill Moseley,Richard C. Adams,0,0,0,0,90,,
 3090,The Rachel Papers,1989,6.1,56        ,1803,R,https://imdb.com/title/tt0098160/,Drama,Romance,,Dexter Fletcher,Ione Skye,Jonathan Pryce,0,0,0,1,95,,201468
 3091,Baxter,1989,6.9,,1801,R,https://imdb.com/title/tt0094713/,Comedy,Drama,Horror,Lise Delamare,Jean Mercure,Jacques Spiesser,0,0,0,1,82,,
 3092,Chattahoochee,1989,6.4,,1784,R,https://imdb.com/title/tt0099242/,Biography,Drama,,Gary Oldman,Dennis Hopper,Frances McDormand,0,0,0,0,94,,259486
@@ -3107,7 +3107,7 @@
 3105,Nightmare Beach,1989,5.3,,1512,R,https://imdb.com/title/tt0095740/,Horror,,,Nicolas De Toth,Sarah Buxton,Rawley Valverde,0,0,0,0,90,,
 3106,La vie et rien d'autre,1989,7.4,,1501,PG,https://imdb.com/title/tt0098596/,Drama,War,,Philippe Noiret,Sabine Azéma,Pascale Vignal,0,1,8,14,,,1600
 3107,Depeche Mode: 101,1989,8.3,,1488,R,https://imdb.com/title/tt0094590/,Documentary,Music,,Andrew Fletcher,David Gahan,Martin Gore,0,0,0,0,117,200000,
-3108,"Mama, There's a Man in Your Bed",1989,6.8,,1433,PG-13,https://imdb.com/title/tt0098220/,Comedy,Romance,,Daniel Auteuil,Firmine Richard,Pierre Vernier,0,1,0,0,,,
+3108,Mama There's a Man in Your Bed,1989,6.8,,1433,PG-13,https://imdb.com/title/tt0098220/,Comedy,Romance,,Daniel Auteuil,Firmine Richard,Pierre Vernier,0,1,0,0,,,
 3109,Immediate Family,1989,6.1,,1430,PG-13,https://imdb.com/title/tt0097567/,Drama,,,Glenn Close,James Woods,Mary Stuart Masterson,0,0,1,2,95,14000000,5932613
 3110,Sinbad of the Seven Seas,1989,4.4,,1411,PG-13,https://imdb.com/title/tt0098333/,Adventure,Fantasy,,Lou Ferrigno,John Steiner,Roland Wybenga,0,0,0,0,93,,
 3111,Breaking In,1989,6.0,,1382,R,https://imdb.com/title/tt0096976/,Adventure,Comedy,,Burt Reynolds,Casey Siemaszko,Sheila Kelley,0,0,0,2,94,6000000,1877618
@@ -3264,7 +3264,7 @@
 3262,Drowning by Numbers,1988,7.2,,7843,R,https://imdb.com/title/tt0092929/,Comedy,Drama,,Bernard Hill,Joan Plowright,Juliet Stevenson,0,0,3,1,118,,424773
 3263,Punchline,1988,5.9,52        ,7804,R,https://imdb.com/title/tt0095927/,Comedy,Drama,Romance,Sally Field,Tom Hanks,John Goodman,0,0,0,1,128,15000000,21042667
 3264,Bat*21,1988,6.5,58        ,7733,R,https://imdb.com/title/tt0094712/,Drama,War,,Gene Hackman,Danny Glover,Jerry Reed,0,0,0,1,105,,3966256
-3265,"Bright Lights, Big City",1988,5.7,51        ,7134,R,https://imdb.com/title/tt0094799/,Drama,,,Michael J. Fox,Kiefer Sutherland,Phoebe Cates,0,0,0,2,107,25000000,16118077
+3265,Bright Lights Big City,1988,5.7,51        ,7134,R,https://imdb.com/title/tt0094799/,Drama,,,Michael J. Fox,Kiefer Sutherland,Phoebe Cates,0,0,0,2,107,25000000,16118077
 3266,Amsterdamned,1988,6.6,,6959,R,https://imdb.com/title/tt0094651/,Action,Crime,Horror,Huub Stapel,Monique van de Ven,Serge-Henri Valcke,0,0,0,1,114,,98003
 3267,Torch Song Trilogy,1988,7.7,,6546,R,https://imdb.com/title/tt0096289/,Comedy,Drama,Romance,Anne Bancroft,Matthew Broderick,Harvey Fierstein,0,0,1,3,120,,4870903
 3268,Return of the Killer Tomatoes!,1988,5.2,,6530,PG,https://imdb.com/title/tt0095989/,Comedy,Horror,Sci-Fi,Anthony Starke,George Clooney,Karen M. Waldron,0,0,0,0,98,,
@@ -3306,7 +3306,7 @@
 3304,Appointment with Death,1988,6.2,,3656,PG,https://imdb.com/title/tt0094669/,Crime,Drama,Mystery,Peter Ustinov,Lauren Bacall,Carrie Fisher,0,0,0,0,102,6000000,960040
 3305,Casual Sex?,1988,5.0,,3645,R,https://imdb.com/title/tt0094846/,Comedy,,,Lea Thompson,Victoria Jackson,Stephen Shellen,0,0,0,0,97,,12277096
 3306,Apartment Zero,1988,7.0,,3608,R,https://imdb.com/title/tt0094667/,Drama,Thriller,,Hart Bochner,Colin Firth,Dora Bryan,0,0,5,1,124,4000000,1267578
-3307,"Distant Voices, Still Lives",1988,7.4,85        ,3537,PG-13,https://imdb.com/title/tt0095037/,Drama,Music,,Pete Postlethwaite,Freda Dowie,Angela Walsh,0,0,10,7,84,,771745
+3307,Distant Voices Still Lives,1988,7.4,85        ,3537,PG-13,https://imdb.com/title/tt0095037/,Drama,Music,,Pete Postlethwaite,Freda Dowie,Angela Walsh,0,0,10,7,84,,771745
 3308,Stormy Monday,1988,6.2,,3500,R,https://imdb.com/title/tt0096180/,Crime,Drama,Music,Melanie Griffith,Tommy Lee Jones,Sting,0,0,1,2,93,,1791328
 3309,Crossing Delancey,1988,6.9,,3497,PG,https://imdb.com/title/tt0094921/,Comedy,Romance,,Amy Irving,Peter Riegert,Reizl Bozyk,0,1,,,97,4000000,16262415
 3310,1969,1988,5.8,,3489,R,https://imdb.com/title/tt0094594/,Drama,War,,Robert Downey Jr.,Kiefer Sutherland,Bruce Dern,0,0,0,1,95,,5979011
@@ -3400,7 +3400,7 @@
 3398,Journey to the Center of the Earth,1988,2.5,,1014,PG,https://imdb.com/title/tt0097630/,Adventure,,,Nicola Cowper,Ilan Mitchell-Smith,Paul Carafotes,0,0,0,0,78,,
 3399,Last Rites,1988,5.1,,1006,R,https://imdb.com/title/tt0095496/,Action,Crime,Drama,Tom Berenger,Daphne Zuniga,Chick Vennera,0,0,0,0,103,,
 3400,Pascali's Island,1988,6.8,,994,PG-13,https://imdb.com/title/tt0095827/,Drama,,,Ben Kingsley,Charles Dance,Kevork Malikyan,0,0,0,1,104,,1451857
-3401,"Thelonious Monk: Straight, No Chaser",1988,7.6,,978,PG-13,https://imdb.com/title/tt0098465/,Documentary,Biography,Music,Thelonious Monk,John Coltrane,Jimmy Cleveland,0,0,1,1,90,,518918
+3401,Thelonious Monk: Straight No Chaser,1988,7.6,,978,PG-13,https://imdb.com/title/tt0098465/,Documentary,Biography,Music,Thelonious Monk,John Coltrane,Jimmy Cleveland,0,0,1,1,90,,518918
 3402,Kung-Fu Master!,1988,6.9,,967,R,https://imdb.com/title/tt0093371/,Drama,Romance,,Jane Birkin,Mathieu Demy,Charlotte Gainsbourg,0,0,0,1,,,
 3403,Hawks,1988,6.9,,951,R,https://imdb.com/title/tt0097487/,Comedy,Drama,,Timothy Dalton,Anthony Edwards,Janet McTeer,0,0,0,0,109,,
 3404,A Summer Story,1988,7.2,,949,PG-13,https://imdb.com/title/tt0096189/,Drama,Romance,,Imogen Stubbs,James Wilby,Susannah York,0,0,0,0,95,,
@@ -3447,9 +3447,9 @@
 3445,Wall Street,1987,7.4,56        ,139775,R,https://imdb.com/title/tt0094291/,Crime,Drama,,Charlie Sheen,Michael Douglas,Tamara Tunie,0,1,9,5,126,15000000,43848069
 3446,The Running Man,1987,6.7,45        ,137509,R,https://imdb.com/title/tt0093894/,Action,Sci-Fi,Thriller,Arnold Schwarzenegger,Maria Conchita Alonso,Yaphet Kotto,0,0,1,3,101,27000000,38122105
 3447,Raising Arizona,1987,7.3,68        ,123049,PG-13,https://imdb.com/title/tt0093822/,Comedy,Crime,,Nicolas Cage,Holly Hunter,Trey Wilson,0,0,0,4,94,6000000,29180280
-3448,"Good Morning, Vietnam",1987,7.3,67        ,122386,R,https://imdb.com/title/tt0093105/,Biography,Comedy,Drama,Robin Williams,Forest Whitaker,Tom. T. Tran,0,1,7,3,121,13000000,123922370
+3448,Good Morning Vietnam,1987,7.3,67        ,122386,R,https://imdb.com/title/tt0093105/,Biography,Comedy,Drama,Robin Williams,Forest Whitaker,Tom. T. Tran,0,1,7,3,121,13000000,123922370
 3449,The Lost Boys,1987,7.3,63        ,118630,R,https://imdb.com/title/tt0093437/,Comedy,Horror,,Jason Patric,Corey Haim,Dianne Wiest,0,0,3,5,97,,32302949
-3450,"Planes, Trains & Automobiles",1987,7.6,72        ,118064,R,https://imdb.com/title/tt0093748/,Comedy,Drama,,Steve Martin,John Candy,Laila Robins,0,0,0,1,93,30000000,49530280
+3450,Planes Trains & Automobiles,1987,7.6,72        ,118064,R,https://imdb.com/title/tt0093748/,Comedy,Drama,,Steve Martin,John Candy,Laila Robins,0,0,0,1,93,30000000,49530280
 3451,Empire of the Sun,1987,7.7,62        ,112004,PG,https://imdb.com/title/tt0092965/,Action,Drama,History,Christian Bale,John Malkovich,Miranda Richardson,0,6,13,10,153,35000000,22238696
 3452,Beverly Hills Cop II,1987,6.5,48        ,103899,R,https://imdb.com/title/tt0092644/,Action,Comedy,Crime,Eddie Murphy,Judge Reinhold,Jürgen Prochnow,0,1,6,3,100,28000000,299965036
 3453,Hellraiser,1987,7.0,57        ,99267,R,https://imdb.com/title/tt0093177/,Horror,Thriller,,Andrew Robinson,Clare Higgins,Ashley Laurence,0,0,2,6,94,1000000,14575193
@@ -3538,7 +3538,7 @@
 3536,The Pick-up Artist,1987,5.3,47        ,6272,PG-13,https://imdb.com/title/tt0093737/,Comedy,Crime,Drama,Molly Ringwald,Robert Downey Jr.,Dennis Hopper,0,0,0,0,81,15000000,13290368
 3537,The Believers,1987,6.1,40        ,5993,R,https://imdb.com/title/tt0092632/,Crime,Drama,Horror,Martin Sheen,Helen Shaver,Harley Cross,0,0,0,1,114,13000000,18753438
 3538,Extreme Prejudice,1987,6.7,51        ,5937,R,https://imdb.com/title/tt0092997/,Action,Crime,Drama,Nick Nolte,Powers Boothe,Michael Ironside,0,0,0,0,96,22000000,11307844
-3539,"Silent Night, Deadly Night Part 2",1987,3.7,,5765,R,https://imdb.com/title/tt0093974/,Horror,Thriller,,Eric Freeman,James Newman,Elizabeth Kaitan,0,0,0,0,88,100000,
+3539,Silent Night Deadly Night Part 2,1987,3.7,,5765,R,https://imdb.com/title/tt0093974/,Horror,Thriller,,Eric Freeman,James Newman,Elizabeth Kaitan,0,0,0,0,88,100000,
 3540,Nuts,1987,6.6,,5735,R,https://imdb.com/title/tt0093660/,Drama,Thriller,,Barbra Streisand,Richard Dreyfuss,Maureen Stapleton,0,3,,,116,25000000,30950002
 3541,City on Fire,1987,7.1,,5708,R,https://imdb.com/title/tt0093435/,Action,Adventure,Crime,Yun-Fat Chow,Yueh Sun,Danny Lee,0,0,2,9,105,,
 3542,Like Father Like Son,1987,5.2,,5473,PG-13,https://imdb.com/title/tt0093418/,Comedy,Fantasy,,Dudley Moore,Kirk Cameron,Margaret Colin,0,0,0,2,96,10500000,34377585
@@ -3570,7 +3570,7 @@
 3568,Hard Ticket to Hawaii,1987,4.8,,3482,R,https://imdb.com/title/tt0093146/,Action,Crime,Thriller,Ronn Moss,Dona Speir,Hope Marie Carlton,0,0,0,0,96,,
 3569,Dead of Winter,1987,6.3,,3465,R,https://imdb.com/title/tt0092842/,Drama,Horror,Thriller,Mary Steenburgen,Roddy McDowall,Jan Rubes,0,0,0,0,100,,2413427
 3570,The Barbarians,1987,5.0,,3354,R,https://imdb.com/title/tt0092615/,Action,Adventure,Fantasy,David Paul,Peter Paul,Richard Lynch,0,0,0,1,87,4000000,800000
-3571,"Rita, Sue and Bob Too",1987,6.5,,3330,R,https://imdb.com/title/tt0091859/,Comedy,Drama,,Siobhan Finneran,Michelle Holmes,George Costigan,0,0,0,0,93,,124167
+3571,Rita Sue and Bob Too,1987,6.5,,3330,R,https://imdb.com/title/tt0091859/,Comedy,Drama,,Siobhan Finneran,Michelle Holmes,George Costigan,0,0,0,0,93,,124167
 3572,Hot Pursuit,1987,5.9,29        ,3320,PG-13,https://imdb.com/title/tt0093215/,Comedy,,,John Cusack,Robert Loggia,Jerry Stiller,0,0,0,0,93,,4215849
 3573,Boyfriends and Girlfriends,1987,7.6,,3295,PG,https://imdb.com/title/tt0092550/,Comedy,Drama,Romance,Emmanuelle Chaulet,Sophie Renoir,Anne-Laure Meury,0,0,1,4,103,,824024
 3574,A Return to Salem's Lot,1987,4.4,,3289,R,https://imdb.com/title/tt0093855/,Comedy,Horror,Thriller,Michael Moriarty,Samuel Fuller,Ricky Addison Reed,0,0,0,0,101,12000000,
@@ -3635,7 +3635,7 @@
 3633,China Girl,1987,6.2,,1545,R,https://imdb.com/title/tt0092751/,Crime,Drama,Romance,James Russo,Richard Panebianco,Sari Chang,0,0,0,1,90,,1262091
 3634,The Lighthorsemen,1987,6.9,,1543,PG,https://imdb.com/title/tt0093416/,Drama,War,,Peter Phelps,Nick Waters,John Larking,0,0,2,1,131,10500000,33779
 3635,Good morning Babilonia,1987,6.8,,1484,PG-13,https://imdb.com/title/tt0093104/,Drama,Romance,War,Vincent Spano,Joaquim de Almeida,Greta Scacchi,0,0,3,1,117,,183700
-3636,"No Retreat, No Surrender 2",1987,5.1,,1483,R,https://imdb.com/title/tt0097991/,Adventure,Action,,Loren Avedon,Max Thayer,Cynthia Rothrock,0,0,0,0,104,,
+3636,No Retreat No Surrender 2,1987,5.1,,1483,R,https://imdb.com/title/tt0097991/,Adventure,Action,,Loren Avedon,Max Thayer,Cynthia Rothrock,0,0,0,0,104,,
 3637,The Secret Garden,1987,7.2,,1483,PG,https://imdb.com/title/tt0093935/,Family,Drama,,Gennie James,Barret Oliver,Jadrien Steele,0,1,0,0,100,,
 3638,Rock 'n' Roll Nightmare,1987,4.1,,1466,R,https://imdb.com/title/tt0093873/,Comedy,Horror,Music,Cindy Cirile,Jesse D'Angelo,Chris Finkel,0,0,0,0,83,53000,
 3639,The Grand Highway,1987,7.3,,1443,R,https://imdb.com/title/tt0093111/,Drama,,,Anémone,Richard Bohringer,Antoine Hubert,0,0,8,4,104,,
@@ -3689,7 +3689,7 @@
 3687,Cyclone,1987,4.6,,817,R,https://imdb.com/title/tt0092812/,Action,Drama,Sci-Fi,Heather Thomas,Jeffrey Combs,Ashley Ferrare,0,0,0,0,89,,
 3688,Surrender,1987,5.4,,811,PG,https://imdb.com/title/tt0094078/,Comedy,,,Sally Field,Michael Caine,Steve Guttenberg,0,0,0,0,105,15000000,5711976
 3689,Lionheart,1987,5.2,,786,PG,https://imdb.com/title/tt0093424/,Adventure,Drama,,Eric Stoltz,Gabriel Byrne,Nicola Cowper,0,0,0,0,104,,
-3690,"Sister, Sister",1987,5.4,,781,R,https://imdb.com/title/tt0093980/,Drama,Mystery,Romance,Eric Stoltz,Jennifer Jason Leigh,Judith Ivey,0,0,0,0,91,4000000,743445
+3690,Sister Sister,1987,5.4,,781,R,https://imdb.com/title/tt0093980/,Drama,Mystery,Romance,Eric Stoltz,Jennifer Jason Leigh,Judith Ivey,0,0,0,0,91,4000000,743445
 3691,Orphans,1987,6.7,,775,R,https://imdb.com/title/tt0093683/,Drama,,,Albert Finney,Matthew Modine,Kevin Anderson,0,0,0,0,115,15000000,252430
 3692,High Tide,1987,7.0,,773,PG-13,https://imdb.com/title/tt0095305/,Drama,,,Judy Davis,Jan Adele,Claudia Karvan,0,0,3,5,,,
 3693,Weeds,1987,6.0,,773,R,https://imdb.com/title/tt0094304/,Drama,,,Nick Nolte,Rita Taggart,Ernie Hudson,0,1,,,115,12000000,2325444
@@ -3769,7 +3769,7 @@
 3767,Something Wild,1986,6.9,73        ,15647,R,https://imdb.com/title/tt0091983/,Comedy,Crime,Romance,Jeff Daniels,Melanie Griffith,Ray Liotta,0,3,2,3,114,,8362969
 3768,River's Edge,1986,7.0,73        ,15259,R,https://imdb.com/title/tt0091860/,Crime,Drama,,Crispin Glover,Keanu Reeves,Ione Skye,0,0,4,5,99,1900000,4600000
 3769,Down and Out in Beverly Hills,1986,6.2,82        ,15146,R,https://imdb.com/title/tt0090966/,Comedy,,,Nick Nolte,Bette Midler,Richard Dreyfuss,0,2,1,3,103,14000000,62134225
-3770,"No Retreat, No Surrender",1986,5.7,30        ,15105,PG,https://imdb.com/title/tt0089695/,Action,Comedy,Crime,Kurt McKinney,Jean-Claude Van Damme,J.W. Fails,0,0,0,0,85,,4662137
+3770,No Retreat No Surrender,1986,5.7,30        ,15105,PG,https://imdb.com/title/tt0089695/,Action,Comedy,Crime,Kurt McKinney,Jean-Claude Van Damme,J.W. Fails,0,0,0,0,85,,4662137
 3771,Children of a Lesser God,1986,7.2,80        ,14509,R,https://imdb.com/title/tt0090830/,Drama,Romance,,William Hurt,Marlee Matlin,Piper Laurie,0,1,5,11,119,10500000,31853080
 3772,Lucas,1986,6.9,75        ,14205,PG-13,https://imdb.com/title/tt0091445/,Comedy,Drama,Romance,Corey Haim,Kerri Green,Charlie Sheen,0,0,0,3,100,6000000,8200000
 3773,The Wraith,1986,6.0,39        ,14135,PG-13,https://imdb.com/title/tt0092240/,Action,Horror,Romance,Charlie Sheen,Nick Cassavetes,Sherilyn Fenn,0,0,0,0,93,2700000,3500000
@@ -3866,7 +3866,7 @@
 3864,Spookies,1986,5.1,,2146,R,https://imdb.com/title/tt0090057/,Comedy,Horror,,Felix Ward,Maria Pechukas,Dan Scott,0,0,0,0,,,17785
 3865,Reform School Girls,1986,5.3,17        ,2102,R,https://imdb.com/title/tt0091836/,Crime,Drama,Thriller,Linda Carol,Wendy O. Williams,Pat Ast,0,0,0,0,94,,2510433
 3866,Hands of Steel,1986,5.4,,2097,R,https://imdb.com/title/tt0091166/,Action,Sci-Fi,,Daniel Greene,Janet Agren,Claudio Cassinelli,0,0,0,0,94,,
-3867,"'night, Mother",1986,7.6,,2069,PG-13,https://imdb.com/title/tt0090556/,Drama,,,Sissy Spacek,Anne Bancroft,Ed Berke,0,1,,,96,,441863
+3867,'night Mother,1986,7.6,,2069,PG-13,https://imdb.com/title/tt0090556/,Drama,,,Sissy Spacek,Anne Bancroft,Ed Berke,0,1,,,96,,441863
 3868,Neon Maniacs,1986,5.1,,2022,R,https://imdb.com/title/tt0127045/,Horror,Sci-Fi,Thriller,Clyde Hayes,Leilani Sarelle,Donna Locke,0,0,0,0,91,1500000,
 3869,Malcolm,1986,7.3,,1964,PG-13,https://imdb.com/title/tt0091464/,Comedy,Crime,Sci-Fi,Colin Friels,John Hargreaves,Lindy Davies,0,0,0,9,90,,
 3870,Breeders,1986,3.7,,1957,R,https://imdb.com/title/tt0090771/,Horror,Sci-Fi,,Teresa Farley,Lance Lewman,Frances Raines,0,0,0,0,77,,
@@ -3884,7 +3884,7 @@
 3882,Deadtime Stories,1986,4.8,,1594,R,https://imdb.com/title/tt0092850/,Comedy,Horror,,Scott Valentine,Nicole Picard,Matt Mitler,0,0,0,0,93,,2750741
 3883,Tai-Pan,1986,5.6,,1538,R,https://imdb.com/title/tt0092042/,Adventure,,,Bryan Brown,Joan Chen,John Stanton,0,0,0,2,127,25000000,4007250
 3884,The Quest,1986,6.2,,1493,PG,https://imdb.com/title/tt0091810/,Adventure,Drama,Family,Henry Thomas,Tony Barry,Rachel Friend,0,0,1,3,93,3880000,
-3885,"Jo Jo Dancer, Your Life Is Calling",1986,6.4,,1479,R,https://imdb.com/title/tt0091295/,Biography,Comedy,Drama,Richard Pryor,Debbie Allen,Art Evans,0,0,0,1,97,14000000,18034150
+3885,Jo Jo Dancer Your Life Is Calling,1986,6.4,,1479,R,https://imdb.com/title/tt0091295/,Biography,Comedy,Drama,Richard Pryor,Debbie Allen,Art Evans,0,0,0,1,97,14000000,18034150
 3886,Body Count,1986,4.7,,1453,R,https://imdb.com/title/tt0090788/,Horror,Mystery,,Bruce Penhall,Mimsy Farmer,David Hess,0,0,0,1,,,
 3887,Fire with Fire,1986,6.6,,1448,PG-13,https://imdb.com/title/tt0091053/,Drama,Romance,,Craig Sheffer,Virginia Madsen,Jon Polito,0,0,0,0,103,,4636169
 3888,Never Too Young to Die,1986,4.9,,1436,R,https://imdb.com/title/tt0091621/,Action,Adventure,Comedy,John Stamos,Vanity,Gene Simmons,0,0,0,0,97,3000000,
@@ -4201,7 +4201,7 @@
 4199,Dune,1984,6.5,40        ,119765,PG-13,https://imdb.com/title/tt0087182/,Action,Adventure,Sci-Fi,Kyle MacLachlan,Virginia Madsen,Francesca Annis,0,1,2,4,137,40000000,30925690
 4200,Police Academy,1984,6.7,41        ,110148,R,https://imdb.com/title/tt0087928/,Comedy,,,Steve Guttenberg,G.W. Bailey,Kim Cattrall,0,0,0,1,96,4500000,81198894
 4201,Sixteen Candles,1984,7.1,61        ,101252,PG,https://imdb.com/title/tt0088128/,Comedy,Romance,,Molly Ringwald,Anthony Michael Hall,Justin Henry,0,0,2,1,93,6500000,23686027
-4202,"Paris, Texas",1984,8.1,78        ,84449,R,https://imdb.com/title/tt0087884/,Drama,,,Harry Dean Stanton,Nastassja Kinski,Dean Stockwell,238,1,16,10,145,1162000,2206121
+4202,Paris Texas,1984,8.1,78        ,84449,R,https://imdb.com/title/tt0087884/,Drama,,,Harry Dean Stanton,Nastassja Kinski,Dean Stockwell,238,1,16,10,145,1162000,2206121
 4203,Blood Simple,1984,7.6,81        ,84412,R,https://imdb.com/title/tt0086979/,Crime,Drama,Thriller,John Getz,Frances McDormand,Dan Hedaya,0,0,5,6,99,1500000,4227849
 4204,Romancing the Stone,1984,6.9,63        ,80168,PG,https://imdb.com/title/tt0088011/,Action,Adventure,Comedy,Michael Douglas,Kathleen Turner,Danny DeVito,0,1,8,3,106,10000000,86572238
 4205,Conan the Destroyer,1984,5.9,53        ,74559,PG,https://imdb.com/title/tt0087078/,Action,Adventure,Fantasy,Arnold Schwarzenegger,Grace Jones,Olivia d'Abo,0,0,1,3,103,18000000,31042035
@@ -4244,7 +4244,7 @@
 4242,The Woman in Red,1984,6.0,55        ,13492,PG-13,https://imdb.com/title/tt0088414/,Comedy,Romance,,Gene Wilder,Kelly LeBrock,Charles Grodin,0,1,1,1,87,,25308147
 4243,Missing in Action,1984,5.5,43        ,13379,R,https://imdb.com/title/tt0087727/,Action,Adventure,Drama,Chuck Norris,M. Emmet Walsh,David Tress,0,0,0,0,101,2550000,22812411
 4244,Dreamscape,1984,6.3,63        ,13268,PG-13,https://imdb.com/title/tt0087175/,Action,Adventure,Horror,Dennis Quaid,Max von Sydow,Christopher Plummer,0,0,1,2,99,,12145169
-4245,"Silent Night, Deadly Night",1984,5.9,31        ,12984,R,https://imdb.com/title/tt0088117/,Horror,Thriller,,Lilyan Chauvin,Gilmer McCormick,Toni Nero,0,0,0,0,79,1065000,2491460
+4245,Silent Night Deadly Night,1984,5.9,31        ,12984,R,https://imdb.com/title/tt0088117/,Horror,Thriller,,Lilyan Chauvin,Gilmer McCormick,Toni Nero,0,0,0,0,79,1065000,2491460
 4246,Johnny Dangerously,1984,6.5,54        ,12927,PG-13,https://imdb.com/title/tt0087507/,Comedy,Crime,,Michael Keaton,Joe Piscopo,Marilu Henner,0,0,0,0,90,9000000,17124395
 4247,Falling in Love,1984,6.5,55        ,12211,PG-13,https://imdb.com/title/tt0087233/,Drama,Romance,,Robert De Niro,Meryl Streep,Harvey Keitel,0,0,2,1,106,12000000,11129057
 4248,A Christmas Carol,1984,7.8,,11705,PG,https://imdb.com/title/tt0087056/,Drama,Family,Fantasy,George C. Scott,Frank Finlay,Angela Pleasence,0,1,0,0,100,,
@@ -4313,13 +4313,13 @@
 4311,Combat Shock,1984,6.4,,2551,R,https://imdb.com/title/tt0090866/,Drama,Horror,Thriller,Rick Giovinazzo,Veronica Stork,Mitch Maglio,0,0,0,0,91,40000,
 4312,Angel,1984,5.7,,2543,R,https://imdb.com/title/tt0086896/,Action,Crime,Thriller,Cliff Gorman,Susan Tyrrell,Dick Shawn,0,0,0,1,94,3000000,17488564
 4313,Choose Me,1984,6.8,,2531,R,https://imdb.com/title/tt0087054/,Comedy,Drama,Romance,Geneviève Bujold,Keith Carradine,Lesley Ann Warren,0,0,2,1,106,700000,2490233
-4314,"Kaos, contes siciliens",1984,7.9,,2482,R,https://imdb.com/title/tt0087537/,Comedy,Drama,Romance,Margarita Lozano,Orazio Torrisi,Carlo Cartier,0,0,4,7,187,,
+4314,Kaos contes siciliens,1984,7.9,,2482,R,https://imdb.com/title/tt0087537/,Comedy,Drama,Romance,Margarita Lozano,Orazio Torrisi,Carlo Cartier,0,0,4,7,187,,
 4315,Gwendoline,1984,5.3,,2475,R,https://imdb.com/title/tt0087903/,Adventure,Fantasy,,Tawny Kitaen,Brent Huff,Zabou Breitman,0,0,0,0,105,,1337274
 4316,A Private Function,1984,6.5,,2437,R,https://imdb.com/title/tt0089838/,Comedy,,,Michael Palin,Maggie Smith,Denholm Elliott,0,3,3,3,92,,2527088
 4317,Unfaithfully Yours,1984,6.0,51        ,2404,PG,https://imdb.com/title/tt0088326/,Comedy,Music,Romance,Dudley Moore,Nastassja Kinski,Armand Assante,0,0,0,0,96,12000000,19928200
 4318,The Wild Life,1984,6.1,32        ,2289,R,https://imdb.com/title/tt0088402/,Comedy,Drama,,Chris Penn,Ilan Mitchell-Smith,Eric Stoltz,0,0,0,0,96,,11020375
 4319,When the Raven Flies,1984,6.7,,2270,R,https://imdb.com/title/tt0087432/,Action,Drama,,Jakob Þór Einarsson,Edda Björgvinsdóttir,Helgi Skúlason,0,0,1,1,109,,
-4320,"Oh, God! You Devil",1984,5.5,49        ,2261,PG,https://imdb.com/title/tt0087835/,Comedy,Fantasy,,George Burns,Ted Wass,Ron Silver,0,0,0,1,97,,21538850
+4320,Oh God! You Devil,1984,5.5,49        ,2261,PG,https://imdb.com/title/tt0087835/,Comedy,Fantasy,,George Burns,Ted Wass,Ron Silver,0,0,0,1,97,,21538850
 4321,Maria's Lovers,1984,6.7,,2228,R,https://imdb.com/title/tt0087682/,Drama,Romance,,Nastassja Kinski,John Savage,Keith Carradine,0,0,1,2,109,,
 4322,Meatballs Part II,1984,3.8,21        ,2201,PG,https://imdb.com/title/tt0087700/,Comedy,,,Richard Mulligan,Hamilton Camp,John Mengatti,0,0,0,0,87,,5410972
 4323,Guest from the Future,1984,8.2,,2116,PG,https://imdb.com/title/tt0086723/,Adventure,Family,Sci-Fi,Natalya Guseva,Aleksei Fomkin,Ilya Naumov,0,0,0,1,63,,
@@ -4338,7 +4338,7 @@
 4336,The Dungeonmaster,1984,4.5,,1787,PG-13,https://imdb.com/title/tt0089060/,Fantasy,Horror,Sci-Fi,Jeffrey Byron,Richard Moll,Leslie Wing,0,0,0,0,73,,
 4337,Country,1984,6.7,,1742,PG,https://imdb.com/title/tt0087091/,Drama,,,Jessica Lange,Sam Shepard,Wilford Brimley,0,1,1,2,105,,9640000
 4338,Terror in the Aisles,1984,6.5,,1714,R,https://imdb.com/title/tt0088249/,Documentary,Horror,Thriller,Donald Pleasence,Nancy Allen,Fred Asparagus,0,0,0,0,84,,10004817
-4339,"Grandview, U.S.A.",1984,5.4,55        ,1700,R,https://imdb.com/title/tt0087359/,Drama,,,Jamie Lee Curtis,C. Thomas Howell,Patrick Swayze,0,0,0,0,97,,4743119
+4339,Grandview U.S.A.,1984,5.4,55        ,1700,R,https://imdb.com/title/tt0087359/,Drama,,,Jamie Lee Curtis,C. Thomas Howell,Patrick Swayze,0,0,0,0,97,,4743119
 4340,Swann in Love,1984,6.6,,1672,R,https://imdb.com/title/tt0088315/,Drama,Romance,,Jeremy Irons,Ornella Muti,Alain Delon,0,2,,,110,,
 4341,Comfort and Joy,1984,6.7,,1649,PG,https://imdb.com/title/tt0087072/,Comedy,,,Bill Paterson,Eleanor David,Clare Grogan,0,1,,1,106,,1057368
 4342,Twist and Shout,1984,7.4,,1566,R,https://imdb.com/title/tt0088299/,Comedy,Drama,Music,Adam Tønsberg,Lars Simonsen,Camilla Søeberg,0,0,5,1,,,
@@ -4523,7 +4523,7 @@
 4521,Screwballs,1983,4.7,34        ,2753,R,https://imdb.com/title/tt0086264/,Comedy,,,Peter Keleghan,Kent Deuters,Linda Speciale,0,0,0,0,,800000,2082215
 4522,2019: After the Fall of New York,1983,5.6,,2699,R,https://imdb.com/title/tt0085125/,Action,Horror,Sci-Fi,Michael Sopkiw,Valentine Monnier,George Eastman,0,0,0,0,96,,
 4523,Of Unknown Origin,1983,6.1,51        ,2677,R,https://imdb.com/title/tt0086036/,Horror,Thriller,,Peter Weller,Jennifer Dale,Lawrence Dane,0,0,0,2,89,4000000,1080470
-4524,"Yor, the Hunter from the Future",1983,4.5,,2668,PG,https://imdb.com/title/tt0084935/,Action,Adventure,Fantasy,Reb Brown,Corinne Cléry,John Steiner,0,0,0,3,98,,2810199
+4524,Yor the Hunter from the Future,1983,4.5,,2668,PG,https://imdb.com/title/tt0084935/,Action,Adventure,Fantasy,Reb Brown,Corinne Cléry,John Steiner,0,0,0,3,98,,2810199
 4525,Spring Break,1983,5.0,17        ,2583,R,https://imdb.com/title/tt0086352/,Comedy,Romance,,David Knell,Steve Bassett,Perry Lang,0,0,0,0,102,,24071666
 4526,Strange Invaders,1983,5.5,,2518,PG,https://imdb.com/title/tt0086374/,Horror,Mystery,Sci-Fi,Paul Le Mat,Nancy Allen,Diana Scarwid,0,0,1,6,94,,1362303
 4527,The Lords of Discipline,1983,6.6,,2465,R,https://imdb.com/title/tt0085867/,Thriller,,,David Keith,Robert Prosky,G.D. Spradlin,0,0,0,0,102,,11787127
@@ -4575,7 +4575,7 @@
 4573,Get Crazy,1983,6.8,,1047,R,https://imdb.com/title/tt0085551/,Comedy,Music,,Malcolm McDowell,Allen Garfield,Daniel Stern,0,0,0,0,92,,1645711
 4574,The Wicked Lady,1983,4.6,,1029,R,https://imdb.com/title/tt0086582/,Adventure,Drama,,Faye Dunaway,Alan Bates,John Gielgud,0,0,0,1,98,8000000,724912
 4575,Eddie Macon's Run,1983,5.7,,984,PG,https://imdb.com/title/tt0085473/,Action,Adventure,Crime,Kirk Douglas,John Schneider,Lee Purcell,0,0,0,0,95,,1262691
-4576,"Reuben, Reuben",1983,6.7,,939,R,https://imdb.com/title/tt0084591/,Comedy,Drama,Romance,Tom Conti,Kelly McGillis,Roberts Blossom,0,2,2,6,101,3500000,
+4576,Reuben Reuben,1983,6.7,,939,R,https://imdb.com/title/tt0084591/,Comedy,Drama,Romance,Tom Conti,Kelly McGillis,Roberts Blossom,0,2,2,6,101,3500000,
 4577,Gabriela,1983,6.3,,937,R,https://imdb.com/title/tt0085575/,Comedy,Drama,Romance,Sônia Braga,Marcello Mastroianni,Antonio Cantafora,0,0,0,1,99,,1318839
 4578,The Exterminators of the Year 3000,1983,5.2,,931,R,https://imdb.com/title/tt0085514/,Action,Sci-Fi,,Robert Iannucci,Alicia Moro,Luciano Pigozzi,0,0,0,0,,,
 4579,Baby Love,1983,5.5,,920,R,https://imdb.com/title/tt0086926/,Comedy,Drama,Romance,Yftach Katzur,Zachi Noy,Jonathan Sagall,0,0,0,0,85,,
@@ -4600,7 +4600,7 @@
 4598,Eyes of Fire,1983,6.3,,714,R,https://imdb.com/title/tt0085515/,Horror,Western,,Dennis Lipscomb,Guy Boyd,Rebecca Stanley,0,0,0,0,,2600000,
 4599,Hysterical,1983,5.8,,685,PG,https://imdb.com/title/tt0085704/,Comedy,Horror,,Bill Hudson,Mark Hudson,Brett Hudson,0,0,0,0,87,,
 4600,Wavelength,1983,5.7,,679,PG,https://imdb.com/title/tt0086571/,Sci-Fi,Thriller,,Robert Carradine,Cherie Currie,Keenan Wynn,0,0,0,0,87,,
-4601,"Careful, He Might Hear You",1983,6.9,,675,PG,https://imdb.com/title/tt0085295/,Drama,,,Wendy Hughes,Robyn Nevin,Nicholas Gledhill,0,0,10,6,110,,2938179
+4601,Careful He Might Hear You,1983,6.9,,675,PG,https://imdb.com/title/tt0085295/,Drama,,,Wendy Hughes,Robyn Nevin,Nicholas Gledhill,0,0,10,6,110,,2938179
 4602,The Return of Captain Invincible,1983,5.9,,647,PG,https://imdb.com/title/tt0086189/,Musical,Fantasy,Comedy,Alan Arkin,Christopher Lee,Kate Fitzpatrick,0,0,1,2,,5000000,
 4603,Table for Five,1983,6.1,,645,PG,https://imdb.com/title/tt0086405/,Drama,Romance,,Jon Voight,Richard Crenna,Marie-Christine Barrault,0,0,1,1,122,,2439705
 4604,Love Letters,1983,6.0,,640,R,https://imdb.com/title/tt0085871/,Drama,Romance,,Jamie Lee Curtis,Bonnie Bartlett,Matt Clark,0,0,0,0,88,550000,5269990
@@ -4611,7 +4611,7 @@
 4609,Stryker,1983,4.3,,569,R,https://imdb.com/title/tt0086381/,Action,Sci-Fi,,Steve Sandor,Andrea Savio,William Ostrander,0,0,0,0,,,1723487
 4610,Hearts and Armour,1983,5.9,,550,R,https://imdb.com/title/tt0086074/,Action,Adventure,Fantasy,Zeudi Araya Cristaldi,Barbara De Rossi,Rick Edwards,0,0,1,2,,,
 4611,Blood Beat,1983,4.7,,548,R,https://imdb.com/title/tt0088822/,Horror,,,Helen Benton,Terry Brown,Dana Day,0,0,0,0,87,,
-4612,"Somewhere, Tomorrow",1983,6.3,,536,PG,https://imdb.com/title/tt0086337/,Drama,Fantasy,,Sarah Jessica Parker,Nancy Addison,Tom Shea,0,0,0,0,91,,
+4612,Somewhere Tomorrow,1983,6.3,,536,PG,https://imdb.com/title/tt0086337/,Drama,Fantasy,,Sarah Jessica Parker,Nancy Addison,Tom Shea,0,0,0,0,91,,
 4613,Le triomphe d'un homme nommé Cheval,1983,5.6,,516,PG,https://imdb.com/title/tt0084826/,Western,,,Richard Harris,Michael Beck,Ana De Sade,0,0,0,0,86,,
 4614,The Man Who Wasn't There,1983,3.8,,499,R,https://imdb.com/title/tt0085892/,Action,Adventure,Comedy,Steve Guttenberg,Jeffrey Tambor,Art Hindle,0,0,0,0,111,,2443487
 4615,The Alchemist,1983,3.9,,477,R,https://imdb.com/title/tt0088691/,Horror,,,Robert Ginty,Lucinda Dooling,John Sanderford,0,0,0,0,78,,
@@ -4695,7 +4695,7 @@
 4693,Still of the Night,1982,6.1,43        ,4004,PG,https://imdb.com/title/tt0084732/,Crime,Drama,Mystery,Roy Scheider,Meryl Streep,Jessica Tandy,0,0,0,1,93,10000000,5979947
 4694,Forbidden World,1982,5.2,,4002,R,https://imdb.com/title/tt0083959/,Horror,Sci-Fi,,Jesse Vint,Dawn Dunlap,June Chadwick,0,0,0,3,77,1000000,
 4695,The Pirate Movie,1982,5.3,19        ,3928,PG,https://imdb.com/title/tt0084504/,Adventure,Comedy,Musical,Kristy McNichol,Christopher Atkins,Ted Hamilton,0,0,3,9,105,,7983086
-4696,"Come Back to the 5 & Dime Jimmy Dean, Jimmy Dean",1982,7.2,,3881,PG,https://imdb.com/title/tt0083745/,Comedy,Drama,,Cher,Karen Black,Sandy Dennis,0,1,1,3,109,850000,840958
+4696,Come Back to the 5 & Dime Jimmy Dean Jimmy Dean,1982,7.2,,3881,PG,https://imdb.com/title/tt0083745/,Comedy,Drama,,Cher,Karen Black,Sandy Dennis,0,1,1,3,109,850000,840958
 4697,The Night of the Shooting Stars,1982,7.4,,3698,R,https://imdb.com/title/tt0084422/,Drama,Fantasy,Romance,Omero Antonutti,Margarita Lozano,Claudio Bigagli,0,0,19,12,107,,2257307
 4698,Summer Lovers,1982,5.8,,3669,R,https://imdb.com/title/tt0084737/,Comedy,Drama,Romance,Peter Gallagher,Daryl Hannah,Valérie Quennessen,0,0,0,0,98,,4968000
 4699,Richard Pryor: Live on the Sunset Strip,1982,7.7,,3630,R,https://imdb.com/title/tt0084597/,Comedy,,,Richard Pryor,Gene Cross,Julie Hampton,0,0,0,0,82,,36299720
@@ -4721,7 +4721,7 @@
 4719,Personal Best,1982,6.3,71        ,2411,R,https://imdb.com/title/tt0084489/,Drama,Sport,,Mariel Hemingway,Scott Glenn,Patrice Donnelly,0,0,0,0,124,16000000,5672311
 4720,Shoot the Moon,1982,6.9,68        ,2361,R,https://imdb.com/title/tt0084675/,Drama,,,Albert Finney,Diane Keaton,Karen Allen,0,2,,,124,12000000,9217530
 4721,Making Love,1982,6.8,,2353,R,https://imdb.com/title/tt0084293/,Drama,,,Michael Ontkean,Kate Jackson,Harry Hamlin,0,1,0,0,113,,11897978
-4722,"Ladies and Gentlemen, the Fabulous Stains",1982,6.8,,2334,R,https://imdb.com/title/tt0082639/,Comedy,Drama,Music,Peter Donat,Diane Lane,Marin Kanter,0,0,0,1,87,,25728
+4722,Ladies and Gentlemen the Fabulous Stains,1982,6.8,,2334,R,https://imdb.com/title/tt0082639/,Comedy,Drama,Music,Peter Donat,Diane Lane,Marin Kanter,0,0,0,1,87,,25728
 4723,Paradise,1982,5.0,20        ,2326,R,https://imdb.com/title/tt0084469/,Adventure,Romance,,Willie Aames,Phoebe Cates,Tuvia Tavi,0,0,0,1,100,3500000,5588800
 4724,Hanky Panky,1982,5.7,,2307,PG,https://imdb.com/title/tt0084049/,Action,Comedy,Crime,Gene Wilder,Gilda Radner,Kathleen Quinlan,0,0,0,0,110,,9823934
 4725,A Good Marriage,1982,7.0,,2262,PG,https://imdb.com/title/tt0082053/,Comedy,Drama,Romance,Béatrice Romand,André Dussollier,Féodor Atkine,0,0,1,4,93,,
@@ -4732,7 +4732,7 @@
 4730,Parasite,1982,3.9,,2103,R,https://imdb.com/title/tt0084472/,Horror,Sci-Fi,,Robert Glaudini,Demi Moore,Luca Bercovici,0,0,0,0,85,800000,
 4731,Tempest,1982,6.5,,2094,PG,https://imdb.com/title/tt0084776/,Comedy,Drama,Fantasy,John Cassavetes,Gena Rowlands,Susan Sarandon,0,2,2,3,142,13000000,5005245
 4732,The Shadow Riders,1982,6.8,,2071,PG,https://imdb.com/title/tt0084666/,Romance,Western,,Tom Selleck,Sam Elliott,Dominique Dunne,0,0,0,0,100,,
-4733,"Ator, the Fighting Eagle",1982,3.2,,2028,PG,https://imdb.com/title/tt0085183/,Action,Adventure,Fantasy,Miles O'Keeffe,Sabrina Siani,Ritza Brown,0,0,0,0,,,
+4733,Ator the Fighting Eagle,1982,3.2,,2028,PG,https://imdb.com/title/tt0085183/,Action,Adventure,Fantasy,Miles O'Keeffe,Sabrina Siani,Ritza Brown,0,0,0,0,,,
 4734,The Missionary,1982,6.2,,2021,R,https://imdb.com/title/tt0083449/,Comedy,,,Michael Palin,Maggie Smith,Trevor Howard,0,0,0,0,,,7241180
 4735,That Night in Varennes,1982,7.3,,1955,R,https://imdb.com/title/tt0084423/,Drama,History,,Jean-Louis Barrault,Marcello Mastroianni,Hanna Schygulla,0,0,6,16,122,,
 4736,Timerider: The Adventure of Lyle Swann,1982,5.4,,1943,PG,https://imdb.com/title/tt0086443/,Action,Adventure,Sci-Fi,Fred Ward,Belinda Bauer,Peter Coyote,0,0,1,1,94,,
@@ -4755,7 +4755,7 @@
 4753,Time Walker,1982,3.5,,1445,PG,https://imdb.com/title/tt0084796/,Horror,Sci-Fi,,Ben Murphy,Nina Axelrod,Kevin Brophy,0,0,0,0,83,750000,
 4754,Raw Force,1982,5.4,,1434,R,https://imdb.com/title/tt0084573/,Adventure,Horror,Action,Cameron Mitchell,Geoffrey Binney,Hope Holiday,0,0,0,0,86,,
 4755,Barbarosa,1982,6.4,,1404,PG,https://imdb.com/title/tt0083619/,Western,,,Willie Nelson,Gary Busey,Isela Vega,0,0,0,0,90,11000000,1736123
-4756,"I, the Jury",1982,6.0,,1395,R,https://imdb.com/title/tt0084112/,Crime,Drama,Mystery,Armand Assante,Barbara Carrera,Laurene Landon,0,0,0,0,,,1515578
+4756,I the Jury,1982,6.0,,1395,R,https://imdb.com/title/tt0084112/,Crime,Drama,Mystery,Armand Assante,Barbara Carrera,Laurene Landon,0,0,0,0,,,1515578
 4757,They Call Me Bruce,1982,5.7,,1383,PG,https://imdb.com/title/tt0084786/,Action,Comedy,,Johnny Yune,Margaux Hemingway,Raf Mauro,0,0,0,0,87,,16894678
 4758,The Beach Girls,1982,5.0,,1345,R,https://imdb.com/title/tt0083628/,Comedy,,,Debra Blee,Val Kline,Jeana Keough,0,0,0,0,98,,
 4759,Nightbeast,1982,4.0,,1330,R,https://imdb.com/title/tt0086013/,Horror,Sci-Fi,,Tom Griffith,Jamie Zemarel,Karin Kardian,0,0,0,0,80,42000,
@@ -4803,14 +4803,14 @@
 4801,Slapstick of Another Kind,1982,2.6,,731,PG,https://imdb.com/title/tt0088134/,Comedy,Fantasy,Sci-Fi,Jerry Lewis,Madeline Kahn,Marty Feldman,0,0,0,1,,,
 4802,Angel,1982,6.4,,727,R,https://imdb.com/title/tt0083560/,Drama,Music,,Veronica Quilligan,Stephen Rea,Alan Devlin,0,0,0,0,,,
 4803,Split Image,1982,6.5,57        ,682,R,https://imdb.com/title/tt0084714/,Drama,Romance,,Michael O'Keefe,Karen Allen,Peter Fonda,0,0,0,1,,,263635
-4804,"P'tang, Yang, Kipperbang",1982,7.3,,676,PG,https://imdb.com/title/tt0084459/,Comedy,,,John Albasiny,Alison Steadman,Abigail Cruttenden,0,0,0,3,,,
+4804,P'tang Yang Kipperbang,1982,7.3,,676,PG,https://imdb.com/title/tt0084459/,Comedy,,,John Albasiny,Alison Steadman,Abigail Cruttenden,0,0,0,3,,,
 4805,Tout feu tout flamme,1982,6.2,,662,PG-13,https://imdb.com/title/tt0083219/,Action,Comedy,Drama,Yves Montand,Isabelle Adjani,Lauren Hutton,0,0,0,0,108,,
 4806,Lookin' to Get Out,1982,5.2,44        ,648,R,https://imdb.com/title/tt0084268/,Comedy,,,Jon Voight,Ann-Margret,Burt Young,0,0,0,0,105,17000000,946461
 4807,Murder by Phone,1982,5.6,,639,R,https://imdb.com/title/tt0081203/,Horror,Thriller,Mystery,Richard Chamberlain,John Houseman,Sara Botsford,0,0,0,0,79,5600000,
 4808,The Junkman,1982,5.5,,635,PG,https://imdb.com/title/tt0084184/,Action,Comedy,Crime,H.B. Halicki,Christopher Stone,Susan Shaw,0,0,0,0,96,,
 4809,Violence in a Women's Prison,1982,4.7,,628,R,https://imdb.com/title/tt0084869/,Action,Crime,Drama,Laura Gemser,Gabriele Tinti,Maria Romano,0,0,0,0,94,,
 4810,Let's Spend the Night Together,1982,6.5,51        ,626,PG,https://imdb.com/title/tt0084242/,Documentary,Music,,Mick Jagger,Keith Richards,Charlie Watts,0,0,0,1,95,,3821199
-4811,"Yes, Giorgio",1982,3.9,,624,PG,https://imdb.com/title/tt0084931/,Comedy,Musical,,Luciano Pavarotti,Kathryn Harrold,Eddie Albert,0,1,,,110,19000000,2279543
+4811,Yes Giorgio,1982,3.9,,624,PG,https://imdb.com/title/tt0084931/,Comedy,Musical,,Luciano Pavarotti,Kathryn Harrold,Eddie Albert,0,1,,,110,19000000,2279543
 4812,Boardinghouse,1982,3.9,,618,R,https://imdb.com/title/tt0083670/,Comedy,Horror,,John Wintergate,Kalassu,Lindsay Freeman,0,0,0,0,98,10000,
 4813,The Escape Artist,1982,6.2,,612,PG,https://imdb.com/title/tt0083900/,Comedy,Crime,Drama,Raul Julia,Griffin O'Neal,Desi Arnaz,0,0,0,0,94,,143369
 4814,La Truite (The Trout),1982,5.9,,594,R,https://imdb.com/title/tt0084829/,Drama,Romance,,Isabelle Huppert,Jacques Spiesser,Jeanne Moreau,0,0,1,2,103,,
@@ -4821,13 +4821,13 @@
 4819,That Championship Season,1982,6.4,,546,R,https://imdb.com/title/tt0084784/,Drama,,,Bruce Dern,Stacy Keach,Robert Mitchum,0,0,1,1,110,,
 4820,The Postman Strikes Back,1982,5.7,,539,R,https://imdb.com/title/tt0083348/,Action,Adventure,Drama,Ka-Yan Leung,Cherie Chung,Yun-Fat Chow,0,0,0,0,87,,
 4821,Death Screams,1982,4.4,,537,R,https://imdb.com/title/tt0085415/,Horror,,,Susan Kiger,Martin Tucker,William T. Hicks,0,0,0,0,88,,
-4822,"Baker County, U.S.A.",1982,5.9,,536,R,https://imdb.com/title/tt0125308/,Thriller,,,Henry Silva,Nicholas Campbell,Barbara Gordon,0,0,0,0,95,2000000,
+4822,Baker County U.S.A.,1982,5.9,,536,R,https://imdb.com/title/tt0125308/,Thriller,,,Henry Silva,Nicholas Campbell,Barbara Gordon,0,0,0,0,95,2000000,
 4823,The Concrete Jungle,1982,4.6,,523,R,https://imdb.com/title/tt0083755/,Crime,Drama,Thriller,Jill St. John,Tracey E. Bregman,BarBara Luna,0,0,0,0,,,
 4824,Penitentiary II,1982,4.1,,515,R,https://imdb.com/title/tt0084485/,Crime,Drama,Sport,Leon Isaac Kennedy,Glynn Turman,Ernie Hudson,0,0,0,0,108,,3178542
 4825,Countryman,1982,6.7,,483,R,https://imdb.com/title/tt0083762/,Drama,,,Countryman,Hiram Keller,Carl Bradshaw,0,0,0,1,102,,
 4826,A Little Sex,1982,5.0,,478,R,https://imdb.com/title/tt0084259/,Comedy,Romance,,Tim Matheson,Kate Capshaw,Edward Herrmann,0,0,0,0,95,,2370376
 4827,The Secret Policeman's Other Ball,1982,6.6,,474,R,https://imdb.com/title/tt0084648/,Comedy,Documentary,Music,Rowan Atkinson,Jeff Beck,Alan Bennett,0,0,0,0,,,
-4828,"One Down, Two to go",1982,4.7,,468,R,https://imdb.com/title/tt0086051/,Action,Drama,,Fred Williamson,Jim Brown,Jim Kelly,0,0,0,0,85,4000000,
+4828,One Down Two to go,1982,4.7,,468,R,https://imdb.com/title/tt0086051/,Action,Drama,,Fred Williamson,Jim Brown,Jim Kelly,0,0,0,0,85,4000000,
 4829,Ninja Wars,1982,5.8,,465,R,https://imdb.com/title/tt0089691/,Action,Adventure,Fantasy,Hiroyuki Sanada,Noriko Watanabe,Jun Miho,0,0,0,3,,,
 4830,I'm Dancing as Fast as I Can,1982,6.3,,451,R,https://imdb.com/title/tt0084111/,Biography,Drama,,Jill Clayburgh,Nicol Williamson,Dianne Wiest,0,0,0,0,107,,291390
 4831,The Clairvoyant,1982,5.6,,448,R,https://imdb.com/title/tt0087555/,Horror,Mystery,Thriller,Perry King,Norman Parker,Elizabeth Kemp,0,0,0,0,97,2000000,
@@ -4967,7 +4967,7 @@
 4965,Night School,1981,5.6,,2191,R,https://imdb.com/title/tt0082812/,Horror,Mystery,Thriller,Leonard Mann,Rachel Ward,Drew Snyder,0,0,0,2,88,,1169875
 4966,They All Laughed,1981,6.4,,2186,PG,https://imdb.com/title/tt0083189/,Comedy,Romance,,Audrey Hepburn,Ben Gazzara,Patti Hansen,0,0,1,1,115,8600000,
 4967,Eyes of a Stranger,1981,6.0,,2085,R,https://imdb.com/title/tt0082352/,Horror,Thriller,,Lauren Tewes,Jennifer Jason Leigh,John DiSanti,0,0,0,0,84,800000,1118634
-4968,"Butcher, Baker, Nightmare Maker",1981,6.4,,2060,R,https://imdb.com/title/tt0082813/,Horror,Mystery,Thriller,Jimmy McNichol,Susan Tyrrell,Bo Svenson,0,0,1,1,96,,
+4968,Butcher Baker Nightmare Maker,1981,6.4,,2060,R,https://imdb.com/title/tt0082813/,Horror,Mystery,Thriller,Jimmy McNichol,Susan Tyrrell,Bo Svenson,0,0,1,1,96,,
 4969,The Incubus,1981,5.5,,2018,R,https://imdb.com/title/tt0084133/,Horror,Thriller,,John Cassavetes,John Ireland,Kerrie Keane,0,0,0,0,93,5100000,
 4970,X-Ray,1981,5.1,,1938,R,https://imdb.com/title/tt0082527/,Horror,Thriller,,Barbi Benton,Charles Lucia,Jon Van Ness,0,0,0,0,89,,
 4971,The Fan,1981,5.7,,1908,R,https://imdb.com/title/tt0082362/,Drama,Horror,Thriller,Lauren Bacall,James Garner,Michael Biehn,0,0,0,1,95,,3082096

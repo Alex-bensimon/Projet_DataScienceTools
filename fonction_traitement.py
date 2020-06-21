@@ -44,9 +44,7 @@ def replace_metascore(movie_ratings):
     for note in movie_ratings.itertuples():
         test = math.isnan(float(note.metascore))
         if test is True:
-            print(movie_ratings['metascore'][i])
-            print(note.imdb_ratings)
-            movie_ratings['metascore'] = movie_ratings['metascore'].replace(movie_ratings['metascore'][i], note.n_imdb)
+            movie_ratings['metascore'] = movie_ratings['metascore'].replace(movie_ratings['metascore'][i], note.imdb_ratings)
         i += 1
     return movie_ratings
 
@@ -165,12 +163,27 @@ def clean_dataframe(movie_ratings):
     :rtype: dataframe
     '''
     
+    # Replace the object type by int or float
+    movie_ratings['movie'] = movie_ratings['movie'].replace(",","")
+    #movie_ratings['year'] = movie_ratings['year'].apply(pd.to_numeric) 
+    movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
+    movie_ratings['metascore'] = movie_ratings['metascore'].astype(float)
+    movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
+    movie_ratings['votes'] = movie_ratings['votes'].astype(int)
+    movie_ratings['runtime'] = movie_ratings['runtime'].apply(pd.to_numeric)
+    movie_ratings['nb_oscar'] = movie_ratings['nb_oscar'].astype(int)
+    movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
+    movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
+    movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
+    movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
+    
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
-    movie_ratings = movie_ratings.set_index('movie')
+    #movie_ratings = movie_ratings.set_index('movie')
     movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
     movie_ratings = delete_raws_nan(movie_ratings)
     movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
     movie_ratings = replace_metascore(movie_ratings)
 
     return movie_ratings
+

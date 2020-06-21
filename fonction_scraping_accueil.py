@@ -4,7 +4,7 @@ Created on Tue Jun 16 09:34:46 2020
 @author: Victor HENRIO
 """
 
-import fonction_film as fctmv
+import fonction_scraping_film as fctmv
 
 from IPython.core.display import clear_output
 from warnings import warn
@@ -90,7 +90,13 @@ def extraction_data(mv_containers , mv_attributs):
                 
                 print("URL:",url)
                 mv_attributs = fctmv.extraction_movie_data_from_link(url, mv_attributs)
-                         
+                
+                # Delete every "," in the titles 
+                i = 0
+                for i in range(len(mv_attributs[0])):
+                    mv_attributs[0][i] = clean_title(mv_attributs[0][i])
+                    i += 1                 
+
     return mv_attributs
 
 
@@ -163,3 +169,7 @@ def clean_chars(chain_to_clean):
      chain_to_clean = chain_to_clean.replace(f"\n","").strip()
      #chain_to_clean = int(chain_to_clean)
      return chain_to_clean
+ 
+def clean_title(title_to_clean):
+     title_to_clean = title_to_clean.replace(",","")
+     return title_to_clean

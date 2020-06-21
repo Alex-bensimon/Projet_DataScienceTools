@@ -5,9 +5,11 @@ Created on Tue Jun 16 08:19:10 2020
 """
 # %%
 
-import fonction_scraping as scrap
-import fonction_analyses as analy
+import fonction_scraping_accueil as scrap
+import fonction_traitement as trait
 import definition_tab as dftab
+
+#%%
 
 import numpy as np
 from bs4 import BeautifulSoup
@@ -61,8 +63,18 @@ for year_url in years_url:
     
 print(mv_attributs)
 
+#%%
+"""
+i=0
+for i in range(len(mv_attributs[0])):
+    mv_attributs[0][i] = scrap.clean_title(mv_attributs[0][i])
+    i += 1
+"""
+#%%
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
+
+#%%
 
 movie_ratings.to_csv('movie_ratings_1980_2000_p10.csv')
 
@@ -71,55 +83,24 @@ movie_ratings.to_excel ('movie_ratings_1980_2000_p10.xlsx', index = None, header
 
 #%%
 
-#Partie Analyse 
+#Partie Traitement 
 
 """
-Call the function which cleans the dataframe by deleting rows if rating is NaN
+Call the function which changes the type, cleans the dataframe by deleting rows if rating is NaN
 and get a metascore based on the imdb rating.
 """
-movie_ratings['movie'] = movie_ratings['movie'].astype(str)
-movie_ratings['year'] = movie_ratings['year'][4:]
-movie_ratings['year'] = movie_ratings['year'].apply(pd.to_numeric) 
-movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
-movie_ratings['metascore'] = movie_ratings['metascore'].astype(float)
-movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
-movie_ratings['votes'] = movie_ratings['votes'].astype(int)
-movie_ratings['category'] = movie_ratings['category'].astype(str)
-movie_ratings['genres1'] = movie_ratings['genres1'].astype(str)
-movie_ratings['genres2'] = movie_ratings['genres2'].astype(str)
-movie_ratings['genres3'] = movie_ratings['genres3'].astype(str)
-movie_ratings['stars1'] = movie_ratings['stars1'].astype(str)
-movie_ratings['stars2'] = movie_ratings['stars2'].astype(str)
-movie_ratings['stars3'] = movie_ratings['stars3'].astype(str)
-movie_ratings['runtime'] = movie_ratings['runtime'].apply(pd.to_numeric)
-movie_ratings['nb_oscar'] = movie_ratings['nb_oscar'].astype(int)
-movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
-movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
-movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
-movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
-
+movie_ratings = trait.clean_dataframe(movie_ratings) 
 
 #%%
-movie_ratings.iloc[:,7:9] = analy.labelisation_attributs(movie_ratings,7, 8, 9)
+movie_ratings.iloc[:,7:9] = trait.labelisation_attributs(movie_ratings,7, 8, 9)
 
 #%%
-movie_ratings.iloc[:,10:12] = analy.labelisation_attributs(movie_ratings,10, 11, 12)
+movie_ratings.iloc[:,10:12] = trait.labelisation_attributs(movie_ratings,10, 11, 12)
 
 #%%
-
-movie_ratings = analy.clean_dataframe(movie_ratings) # marche pas ...
-
-#%%
-analy.labelisation_attributs(movie_ratings,7, 8, 9)
-analy.labelisation_attributs(movie_ratings,10, 11, 12)
-
-print(movie_ratings['stars3'])
 print(movie_ratings.info())
 print(movie_ratings.describe())
 print(movie_ratings.head(20))
-
-movie_ratings.to_csv('movie_ratings.csv')
-
 
 #%%
 """
