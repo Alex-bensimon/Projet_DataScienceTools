@@ -15,7 +15,7 @@ row1 = 7
 row2 = 8
 row3 = 9
 
-df = pd.dataframe('movie_ratings.csv')
+df = pd.read_csv('movie_ratings_1980_2000_p10.csv')
 
 first_part = []
 second_part = []
@@ -34,11 +34,11 @@ tier = int(len(y)/3)
 tier2 = int((len(y)/3)*2)
 
 
-encoder = LabelBinarizer()
+encoder = LabelEncoder()
 normal_y = encoder.fit_transform(y)
-# encoder = LabelEncoder()
+# encoder = LabelBinarizer()
 # test = encoder.fit_transform(y)
-
+print(normal_y)
 i = 0
 while i < len(normal_y):
     if i <= tier:
@@ -52,11 +52,11 @@ while i < len(normal_y):
         i += 1
         
 print(row1)
-movie_ratings[row1] = first_part
-movie_ratings[row2] = second_part
-movie_ratings[row3] = third_part
+df[row1] = first_part
+df[row2] = second_part
+df[row3] = third_part
 
 print("---"*30)
-print(movie_ratings)
+print(df)
 print("---"*30)
 
