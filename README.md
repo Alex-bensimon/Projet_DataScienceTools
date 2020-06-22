@@ -27,14 +27,14 @@ After cleaning those data and place them in a pandas dataframe. And the we analy
 
 
 ## Authors
-gest 
+
 * **Alexadre Bensimon** 
 * **Jules Enguehard**
 * **Victor Henrio** 
 
 ## Getting Started
 
-//These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 You need to clone the entire project on your device by doing this command :
 ```
