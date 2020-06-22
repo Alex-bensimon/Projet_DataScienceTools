@@ -55,7 +55,7 @@ movie_ratings = movie_ratings.set_index('movie')
 #movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
 movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
 
-movie_ratings = trait.delete_raws_nan(movie_ratings)
+#movie_ratings = trait.delete_raws_nan(movie_ratings)
 #movie_ratings = trait.replace_metascore(movie_ratings)
 #movie_ratings = delete_raws_nan2(movie_ratings)
 
@@ -64,14 +64,9 @@ movie_ratings = movie_ratings.dropna()
 moy_genre = []
 genre = "Adventure"
 # making boolean series for a team name 
-filter = movie_ratings["genres1"]==genre
-  
-i = 0
-#for budget in movie_ratings['budget']:
+filter = movie_ratings["genres1"] == genre
 moy_genre = movie_ratings['budget'].where(filter, inplace = True) 
 
-print(moy_genre)
-print("---"*30)
 print(movie_ratings.info())
 print(movie_ratings['budget'].tail(5))
 
@@ -99,19 +94,27 @@ print(X.shape)
 print(y.shape)
 #%%
 
-
 model = LinearRegression()
 model.fit(X, y) # entrainement du modele
 model.score(X, y) # évaluation avec le coefficient de corrélation
-plt.scatter(X, y)
+
 plt.plot(X, model.predict(X), c='red')
 
 #%%
 model1 = LogisticRegression()
 model1.fit(X, y) # entrainement du modele
 model1.score(X, y) # évaluation avec le coefficient de corrélation
-plt.scatter(X[:,0], y)
-plt.plot(X[:,0], model1.predict(X), c='red')
+plt.plot(X, model1.predict(X), c='red')
+
+#%%
+from sklearn.neighbors import KNeighborsClassifier
+
+model = KNeighborsClassifier()
+model.fit(X, y) # entrainement du modele
+print(model.score(X, y)) # évaluation avec le coefficient de corrélation
+
+
+
 
 
 
