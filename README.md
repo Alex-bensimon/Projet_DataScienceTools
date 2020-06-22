@@ -103,7 +103,7 @@ Give an example
 
 ## Built With
 
-*Maby put the framework that we use for the FrontEnd
+*May by put the framework that we use for the FrontEnd
 
 
 ## License
