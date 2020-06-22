@@ -1,9 +1,33 @@
-# Project Title
+# Determine the differents factors of succes for a movie 
 
-Determine the differents factors of succes for a movie 
+**Overview** : We scrap the data from the wellknow website IMDB, whish is the bigest movie database from our banchmark. From IMDB we get : 21 attributes compose by : 
+```
+    names
+    years
+    imdb_ratings
+    metascores
+    votes
+    categories
+    mv_pages
+    genre1
+    genre2
+    genre3 
+    stars1
+    stars2
+    stars3
+    rank
+    nb_oscar
+    win
+    nom
+    runtime
+    budget
+    gross
+```
+After cleaning those data and place them in a pandas dataframe. And the we analyse them by using machine learning in order to find correlation betweenn attributes.
+
 
 ## Authors
-
+gest 
 * **Alexadre Bensimon** 
 * **Jules Enguehard**
 * **Victor Henrio** 
