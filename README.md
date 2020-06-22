@@ -12,14 +12,14 @@ Determine the differents factors of succes for a movie
 
 //These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-You need to clone the entire project one your device by doing this command :
-
+You need to clone the entire project on your device by doing this command :
+```
 * git clone https://github.com/Alex-bensimon/Projet_DataScienceTools.git
-
+```
 And then execute the main file by execute this command :
-
+```
 * main()
-
+```
 Those instruction should allowed you to run the project.
 
 ### Prerequisites
