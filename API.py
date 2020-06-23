@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 22 14:09:35 2020
-
 @author: Alex
 """
 import requests
@@ -26,12 +25,14 @@ url = "https://api.themoviedb.org/3/find/tt0137523?api_key=9c78e72fe9af9417e5682
 
 response = requests.get(url)
 
-print(response.text)
-print("---"*30)
+#print(response.text)
+
 binary = response.content
 output = json.loads(binary)
 
-#pprint.pprint(output)
+pprint.pprint(output)
+
+print("---"*30)
 
 film = output['movie_results']
 id_film = str(film[0]['id'])
@@ -41,20 +42,20 @@ film_credits = requests.get(credits_url)
 bina = film_credits.content
 output2 = json.loads(bina)
 
-#print(film_credits.text)
+print(film_credits.text)
 
+print("---"*30)
 
-cred = output2['cast']['department']
-print(cred)
+# cred = output2['crew'][1]['job']
+# print(cred)
+
 i=0
-for cred in id_:
-    cred = str(id_[i]['department'])
-    i += 1
-
-#test = cred['Directing']
-
-    
-
-
-
-
+test= False
+while test != True :
+    job = output2['crew'][i]['job']
+    if job == 'Director':
+        test = True
+        print(output2['crew'][i]['name'])
+    else :
+        test = False
+        i+=1
