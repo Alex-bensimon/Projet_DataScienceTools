@@ -3,26 +3,18 @@
 Created on Mon Jun 22 14:09:35 2020
 @author: Alex
 """
-import requests
-
-url = "https://movie-database-imdb-alternative.p.rapidapi.com/"
-
-querystring = {"page":"1","r":"json","s":"Avengers Endgame"}
-
-headers = {
-    'x-rapidapi-host': "movie-database-imdb-alternative.p.rapidapi.com",
-    'x-rapidapi-key': "2a8e04209dmsh59f2ba09f4a5418p1b24fejsn80a905121efb"
-    }
-
-response = requests.request("GET", url, headers=headers, params=querystring)
-
-print(response.text)
-
-#%%
+#def add_director(movie_ratings):
 
 import requests,json,pprint
-url = "https://api.themoviedb.org/3/find/tt0137523?api_key=9c78e72fe9af9417e5682302b1ed0f8a&language=en-US&external_source=imdb_id"
+import pandas as pd
 
+movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
+
+link = movie_ratings['mv_page'][1][23:][:-1]
+print(link)
+
+url = "https://api.themoviedb.org/3/find/"+link+"?api_key=9c78e72fe9af9417e5682302b1ed0f8a&language=en-US&external_source=imdb_id"
+print(url)
 response = requests.get(url)
 
 #print(response.text)
@@ -55,7 +47,16 @@ while test != True :
     job = output2['crew'][i]['job']
     if job == 'Director':
         test = True
-        print(output2['crew'][i]['name'])
+        director = output2['crew'][i]['name']
+        print(director)
     else :
         test = False
         i+=1
+        
+link = movie_ratings['mv_page'][1][23:][:-1]
+filter = movie_ratings["mv_page"][1][23:][:-11] == link
+
+#movie_ratings['director'] = director.where(filter, inplace = True) 
+movie_ratings['director'].where(filter, inplace = True) = director 
+
+    #return movie_ratings
