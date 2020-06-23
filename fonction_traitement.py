@@ -102,52 +102,6 @@ def labelisation_attributs(movie_ratings,row1,row2,row3):
     return movie_ratings
     
 
-"""
-#encoder.inverse_transform(np.array([0, 0, 2]))
-
-encoder = LabelBinarizer()
-test2 = encoder.fit_transform(y)
-
-print(test2)
-"""
-    
-
-
-"""
-def actors_to_num(movie_ratings):
-    '''
-    '''
-
-    df = movie_ratings
-    acteurs = []
-    acteurs = df['stars']
-    list_acteur = []
-    index_acteurs = []
-
-    index = 0
-    for act in acteurs:
-        if act in list_acteur:
-            index_acteurs.append(list_acteur.index(act))
-        else: 
-            list_acteur.append(act)
-            index_acteurs.append(index)
-            index += 1
-
-    #table_corres_df = np.array([index_acteurs, temp])
-    len_list_acteur = []
-    i = 0
-    for i in range(len(list_acteur)):
-        len_list_acteur.append(i)
-    #print(len_list_acteur)
-    df2 = pd.DataFrame({'Index': len_list_acteur,'Acteur': list_acteur})
-    df2 = df2.set_index('Index')
-    #print(df2)
-    df2.to_csv('table_correspondance_acteurs.csv')
-
-    
-    return index_acteurs
-"""
-
 
 def clean_dataframe(movie_ratings):
     '''
@@ -186,4 +140,23 @@ def clean_dataframe(movie_ratings):
     movie_ratings = replace_metascore(movie_ratings)
 
     return movie_ratings
+
+#%%
+
+def 
+movie_ratings = pd.read_csv('Data_csv\movie_ratings_1980_2000_p10.csv')
+
+col = ['win','nom']
+i = 0 
+for c in col:
+    for genre in movie_ratings['win']:
+        test = math.isnan(float(genre))
+        if test is True:
+            movie_ratings['win'][i] = 0
+        else:
+            pass
+        i += 1
+    
+print(movie_ratings['win'])
+print(movie_ratings['nom'])
 

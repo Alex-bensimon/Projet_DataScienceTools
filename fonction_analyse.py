@@ -112,7 +112,22 @@ plt.plot(X, model1.predict(X), c='red')
 
 #%%
 from sklearn.neighbors import KNeighborsClassifier
+import pandas as pd
 
+movie_ratings = pd.read_csv('Data_csv\movie_ratings_1980_2000_p10.csv')
+
+movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+movie_ratings = movie_ratings.drop(["year"],axis=1)
+movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+movie_ratings = movie_ratings.drop(["rank"],axis=1)
+movie_ratings = movie_ratings.drop(["category"],axis=1)
+movie_ratings = movie_ratings.set_index('movie')
+movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
+movie_ratings = trait.replace_metascore(movie_ratings)
+
+print(movie_ratings.info())
+
+#%%
 lab_enc = preprocessing.LabelEncoder()
 y_enc = lab_enc.fit_transform(y)
 
