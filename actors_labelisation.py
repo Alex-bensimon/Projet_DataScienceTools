@@ -4,15 +4,50 @@ Created on Tue Jun 23 12:21:56 2020
 
 @author: Alex
 """
+
+#%%
+import math
+import pandas as pd
+
+movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
+i = 0 
+for genre in movie_ratings['genres2']:
+    string_test = isinstance(genre, str)
+    if string_test is False:
+        test = math.isnan(float(genre))
+        if test is True:
+            movie_ratings['genres2'][i] = movie_ratings['genres1'][i]
+        else:
+            pass
+    i += 1
+
+i = 0 
+for genre in movie_ratings['genres3']:
+    string_test = isinstance(genre, str)
+    if string_test is False:
+        test = math.isnan(float(genre))
+        if test is True:
+            movie_ratings['genres3'][i] = movie_ratings['genres2'][i]
+        else:
+            pass
+    i += 1
+    
+print(movie_ratings['genres1'])
+print(movie_ratings['genres2'])
+print(movie_ratings['genres3'])
+
+#%%
 import math
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 
-movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
-
 df = movie_ratings
 df = df.dropna()
+
+print(movie_ratings.shape)
+print(df.shape)
+
 row1 = 8
 row2 = 9
 row3 = 10
@@ -50,14 +85,18 @@ while i < len(normal_y):
 
 df_test = pd.DataFrame({'new_genre1': first_part})
 
-print(movie_ratings['genres1'])
-#movie_ratings['genres1'] = movie_ratings['genres1'].replace(first_part)
-#movie_ratings.loc[:,'new_genres1'] = first_part
+#ovie_ratings['genres1'] = movie_ratings['genres1'].replace(first_part)
+movie_ratings['genres1'] = first_part
 #df.loc[['viper', 'sidewinder'], ['shield']] = 50
 #movie_ratings["new_genre2"] = second_part
 #ovie_ratings["new_genre3"] = third_part
 
 print("---"*30)
-print(df_test['new_genre1'])
+print(movie_ratings['genres1'])
 #print(movie_ratings['new_genres1'])
 print("---"*30)
+
+
+
+
+

@@ -81,7 +81,6 @@ print(movie_ratings)
 
 movie_ratings = api.API_search_director(movie_ratings)
 
-
 #%%
 
 movie_ratings.to_csv('movie_ratings_1980_2000_p10.csv')
