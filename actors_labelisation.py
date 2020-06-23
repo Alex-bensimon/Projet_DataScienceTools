@@ -69,7 +69,7 @@ def imputation_previous_value(movie_ratings):
                 pass
         i += 1
         
-    
+    return movie_ratings
 
     
 def labelisation(movie_ratings):
@@ -84,12 +84,12 @@ def labelisation(movie_ratings):
     df = movie_ratings
 
     
-    col1 = 8    #genre 1 
-    col2 = 9    #genre 2
-    col3 = 10   #genre 3 
-    col4 = 8    #stars 1
-    col5 = 9    #stars 2
-    col6 = 10   #stars 3
+    col1 = 3    #genre 1 
+    col2 = 4    #genre 2
+    col3 = 5   #genre 3 
+    col4 = 6    #stars 1
+    col5 = 7    #stars 2
+    col6 = 8   #stars 3
     
     
     ##########################################################
@@ -103,9 +103,10 @@ def labelisation(movie_ratings):
     y_genre = df.iloc[:,col1]
     y_genre = y_genre.append(df.iloc[:,col2])
     y_genre = y_genre.append(df.iloc[:,col3])
+
     
-    y_genre = y_genre.reset_index()
-    y_genre = y_genre.drop(["index"],axis=1)
+    #y_genre = y_genre.reset_index()
+    #y_genre = y_genre.drop(["index"],axis=1)
     
     tier = int(len(y_genre)/3)
     tier2 = int((len(y_genre)/3)*2)
@@ -145,33 +146,33 @@ def labelisation(movie_ratings):
     y_stars = y_stars.append(df.iloc[:,col5])
     y_stars = y_stars.append(df.iloc[:,col6])
     
-    y_stars = y_stars.reset_index()
-    y_stars = y_stars.drop(["index"],axis=1)
+    #y_stars = y_stars.reset_index()
+    #y_stars = y_stars.drop(["index"],axis=1)
     
     tier = int(len(y_stars)/3)
     tier2 = int((len(y_stars)/3)*2)
     
-    encoder = LabelEncoder()
-    normal_y = encoder.fit_transform(y_stars)
+    encoder2 = LabelEncoder()
+    normal_y2 = encoder2.fit_transform(y_stars)
     
     
     i = 0
-    while i < len(normal_y):
+    while i < len(normal_y2):
         if i < tier:
-            first_part.append(normal_y[i])
+            first_part.append(normal_y2[i])
             i += 1
         elif i >= tier and i < tier2:
-            second_part.append(normal_y[i])
+            second_part.append(normal_y2[i])
             i += 1
         elif i >= tier2:
-            third_part.append(normal_y[i])
+            third_part.append(normal_y2[i])
             i += 1
-    
     
     movie_ratings['stars1'] = first_part
     movie_ratings['stars2'] = second_part
     movie_ratings['stars3'] = third_part
     
-    
+    #test = []
+    #test = encoder.inverse_transform(normal_y)    
 
     return movie_ratings

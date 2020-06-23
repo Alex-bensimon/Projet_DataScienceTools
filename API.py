@@ -9,11 +9,6 @@ import requests,json,pprint
 import pandas as pd
 
 
-movie_ratings = pd.read_csv('movie_ratings_10val(test).csv')
-
-
-#%%
-
 def API_search_director(movie_ratings):
     '''
     Get the name of the director from the API "themoviedb.org" and create a new 
@@ -43,7 +38,6 @@ def API_search_director(movie_ratings):
         
         binary = response.content
         output = json.loads(binary)
-        
         
         film = output['movie_results']
         id_film = str(film[0]['id'])
