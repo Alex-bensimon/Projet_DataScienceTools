@@ -22,7 +22,6 @@ def extraction_data(mv_containers , mv_attributs):
     :param tupe mv_attributs : contains all the informations of a film present in the container
     :return tupe mv_attributs: tupe of all the data frome movies
     :rtype: tupe of list
-
     '''
     
     category_film = ['R','PG','PG-13']
@@ -109,6 +108,7 @@ def monitor_request(nb_requests):
     :return: void
     :rtype: None
     '''
+    
     elapsed_time = time() - start_time
     print('Request:{}; Frequency: {} requests/s'.format(nb_requests, nb_requests / elapsed_time))
     clear_output(wait=True)
@@ -121,19 +121,20 @@ def warning_request(response, nb_requests):
     :param string response:
     :return: void
     :rtype: None
-
     '''
+    
     if response.status_code != 200:
         warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
 
 def years_loop(nb_years):
-    """
+    '''
     Return the period that we want to get the films
 
     :param int nb_years:
     :return list period: the period with all years
     :rtype: list of int
-    """
+    '''
+    
     year = 2020
     i = 0
     period = []
@@ -145,13 +146,13 @@ def years_loop(nb_years):
 
 
 def nb_page(number):
-    """
+    '''
     Return the number of page.s to get
 
     :param int number:
     :return list nb_page: a list of numbers
-    :rtype: list of int
-    """
+    :rtype: list of int   
+    '''
     i = 0
     page = 0
     nb_page = []
@@ -165,11 +166,27 @@ def nb_page(number):
     return nb_page
 
 def clean_chars(chain_to_clean):
-     chain_to_clean = chain_to_clean.translate({ord(c): "" for c in r"#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
-     chain_to_clean = chain_to_clean.replace(f"\n","").strip()
-     #chain_to_clean = int(chain_to_clean)
-     return chain_to_clean
+    '''
+    Delete any other chars than numbers
+    
+    :param string chain_to_clean: The string to clean
+    :return string cleaned_chain: The cleaned string 
+    :rtype: string
+    '''
+   
+    chain_to_clean = chain_to_clean.translate({ord(c): "" for c in r"#/n:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,()[]{}\$£€& "})
+    cleaned_chain = chain_to_clean.replace(f"\n","").strip()
+    #chain_to_clean = int(chain_to_clean)
+    return cleaned_chain
  
 def clean_title(title_to_clean):
-     title_to_clean = title_to_clean.replace(",","")
-     return title_to_clean
+    '''
+    Delete coma from a string
+    
+    :param string chain_to_clean: The string to clean
+    :return string cleaned_title: The cleaned title
+    :rtype: string 
+    '''
+
+    cleaned_title = title_to_clean.replace(",","")
+    return cleaned_title
