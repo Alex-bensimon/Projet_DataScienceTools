@@ -9,7 +9,8 @@ Created on Tue Jun 23 12:21:56 2020
 import math
 import pandas as pd
 
-movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
+movie_ratings = pd.read_csv('Data_csv\movie_ratings_1980_2000_p10.csv')
+
 i = 0 
 for genre in movie_ratings['genres2']:
     string_test = isinstance(genre, str)
@@ -43,10 +44,10 @@ from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, 
 
 
 df = movie_ratings
-df = df.dropna()
+#df = df.dropna()
 
-print(movie_ratings.shape)
-print(df.shape)
+print(movie_ratings['genres1'].shape)
+print(df['genres1'].shape)
 
 row1 = 8
 row2 = 9
@@ -83,17 +84,18 @@ while i < len(normal_y):
         third_part.append(normal_y[i])
         i += 1
 
-df_test = pd.DataFrame({'new_genre1': first_part})
 
-#ovie_ratings['genres1'] = movie_ratings['genres1'].replace(first_part)
 movie_ratings['genres1'] = first_part
-#df.loc[['viper', 'sidewinder'], ['shield']] = 50
-#movie_ratings["new_genre2"] = second_part
-#ovie_ratings["new_genre3"] = third_part
+movie_ratings['genres2'] = second_part
+movie_ratings['genres3'] = third_part
+
 
 print("---"*30)
 print(movie_ratings['genres1'])
-#print(movie_ratings['new_genres1'])
+print("---"*30)
+print(movie_ratings['genres2'])
+print("---"*30)
+print(movie_ratings['genres3'])
 print("---"*30)
 
 
