@@ -11,6 +11,8 @@ import definition_tab as dftab
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from sklearn import preprocessing
+
 from sklearn.linear_model import LinearRegression,LogisticRegression
 import math
 
@@ -68,8 +70,6 @@ filter = movie_ratings["genres1"] == genre
 moy_genre = movie_ratings['budget'].where(filter, inplace = True) 
 
 print(movie_ratings.info())
-print(movie_ratings['budget'].tail(5))
-
 
 X = movie_ratings
 
@@ -87,9 +87,10 @@ X = X.dropna()
 
 
 y = movie_ratings["imdb_ratings"]
-#X = X.drop(["imdb_ratings"],axis=1)
+X = X.drop(["imdb_ratings"],axis=1)
+print("---"*25)
+print(X.info())
 
-print(X.head(93))
 print(X.shape)
 print(y.shape)
 #%%
@@ -101,22 +102,23 @@ model.score(X, y) # évaluation avec le coefficient de corrélation
 plt.plot(X, model.predict(X), c='red')
 
 #%%
+lab_enc = preprocessing.LabelEncoder()
+y_enc = lab_enc.fit_transform(y)
+
 model1 = LogisticRegression()
-model1.fit(X, y) # entrainement du modele
-model1.score(X, y) # évaluation avec le coefficient de corrélation
+model1.fit(X, y_enc) # entrainement du modele
+model1.score(X, y_enc) # évaluation avec le coefficient de corrélation
 plt.plot(X, model1.predict(X), c='red')
 
 #%%
 from sklearn.neighbors import KNeighborsClassifier
 
+lab_enc = preprocessing.LabelEncoder()
+y_enc = lab_enc.fit_transform(y)
+
 model = KNeighborsClassifier()
-model.fit(X, y) # entrainement du modele
-print(model.score(X, y)) # évaluation avec le coefficient de corrélation
-
-
-
-
-
+model.fit(X, y_enc) # entrainement du modele
+print(model.score(X, y_enc)) # évaluation avec le coefficient de corrélation
 
 #%%
 

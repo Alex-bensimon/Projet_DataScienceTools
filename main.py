@@ -92,6 +92,7 @@ and get a metascore based on the imdb rating.
 movie_ratings = trait.clean_dataframe(movie_ratings) 
 
 #%%
+movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
 movie_ratings.iloc[:,7:9] = trait.labelisation_attributs(movie_ratings,7, 8, 9)
 
 #%%

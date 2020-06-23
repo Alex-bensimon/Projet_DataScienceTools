@@ -72,9 +72,9 @@ def labelisation_attributs(movie_ratings,row1,row2,row3):
     tier2 = int((len(y)/3)*2)
     
     
-    encoder = LabelBinarizer()
+    encoder = LabelEncoder()
     normal_y = encoder.fit_transform(y)
-    # encoder = LabelEncoder()
+    # encoder = LabelBinarizer()
     # test = encoder.fit_transform(y)
     
     i = 0
