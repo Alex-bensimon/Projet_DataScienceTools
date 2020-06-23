@@ -143,20 +143,18 @@ def clean_dataframe(movie_ratings):
 
 #%%
 
-def 
-movie_ratings = pd.read_csv('Data_csv\movie_ratings_1980_2000_p10.csv')
-
-col = ['win','nom']
-i = 0 
-for c in col:
-    for genre in movie_ratings['win']:
-        test = math.isnan(float(genre))
-        if test is True:
-            movie_ratings['win'][i] = 0
-        else:
-            pass
-        i += 1
+def add_0_win_nom(movie_ratings):
     
-print(movie_ratings['win'])
-print(movie_ratings['nom'])
+    col = ['win','nom']
+    for c in col:
+        i = 0
+        for ind in movie_ratings[c]:
+            test = math.isnan(float(ind))
+            if test is True:
+                movie_ratings[c][i] = 0
+            else:
+                pass
+            i += 1
+    
+    return movie_ratings
 

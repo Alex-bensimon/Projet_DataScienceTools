@@ -124,6 +124,8 @@ movie_ratings = movie_ratings.drop(["category"],axis=1)
 movie_ratings = movie_ratings.set_index('movie')
 movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
 movie_ratings = trait.replace_metascore(movie_ratings)
+movie_ratings = trait.add_0_win_nom(movie_ratings)
+
 
 print(movie_ratings.info())
 
