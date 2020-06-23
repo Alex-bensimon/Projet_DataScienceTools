@@ -68,6 +68,7 @@ def creation_dataframe(mv_attributs):
         'runtime' : mv_attributs[17],
         'budget' : mv_attributs[18],
         'gross' : mv_attributs[19]
+
     })
         
     return movie_ratings

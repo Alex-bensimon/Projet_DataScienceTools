@@ -1,120 +1,86 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 16 08:19:10 2020
+Created on Mon Jun 22 16:21:38 2020
+
 @author: Victor HENRIO
 """
-# %%
-
-import fonction_scraping_accueil as scrap
-import fonction_traitement as trait
-import definition_tab as dftab
-import API as api
-
-
-#%%
-
-import numpy as np
-from bs4 import BeautifulSoup
-import time
-from requests import get
-from time import sleep
-from random import randint
-from warnings import warn
-from time import time
-import matplotlib.pyplot as plt
-import requests
 import pandas as pd
+import fonction_traitement as trait
+import glob
 
 
-mv_attributs = dftab.instanciation_tablist()
-    
-  
-# Preparing the monitoring of the loop
-start_time = time()
-nb_requests = 0
-years_url = scrap.years_loop(1)
-pages = scrap.nb_page(1)
-headers = {"Accept-Language": "en-US, en;q=0.5"}
-
-#SCRAPPING :
-
-# A request would go here
-#nb_requests += 1
-#sleep(randint(1,3))
-#scrap.monitor_request(nb_requests)
-
-# For every year in an interval
-for year_url in years_url:
-
-    # For every page in an interval 
-    for page in pages:
-
-        # Make a get request
-        url = 'https://www.imdb.com/search/title/?release_date='+ str(year_url) +'-01-01,'+ str(year_url) +'-12-31&sort=num_votes,desc&start='+ str(page)+'&ref_=adv_nxt'      
-        print(url)
-        response = get(url, headers = headers)
-
-        # Parse the content of the request with BeautifulSoup
-        page_html = BeautifulSoup(response.text, 'html.parser')
-
-        # Select all the 50 movie containers from a single page
-        mv_containers = page_html.find_all('div', class_ = 'lister-item mode-advanced')
-
-        #Take the information from the containers
-        mv_attributs = scrap.extraction_data(mv_containers, mv_attributs)
-    
-print(mv_attributs)
+# read_file = pd.read_excel (r'C:\Users\Victor HENRIO\Documents\ESME\Majeur_ESME_Big_data\tools_bigdata\Projet_Scrapping_Analyse\Projet_DataScienceTools\movie_ratings_1980_2000_p10.xlsx')
+# read_file.to_csv (r'C:\Users\Victor HENRIO\Documents\ESME\Majeur_ESME_Big_data\tools_bigdata\Projet_Scrapping_Analyse\Projet_DataScienceTools\movie_ratings_1980_2000_p10.csv', index = None, header=True)
 
 #%%
-"""
-i=0
-for i in range(len(mv_attributs[0])):
-    mv_attributs[0][i] = scrap.clean_title(mv_attributs[0][i])
-    i += 1
-"""
-#%%
-movie_ratings = dftab.creation_dataframe(mv_attributs)
-print(movie_ratings)
+df = pd.read_csv("movie_ratings_2020_2016_p25.csv", sep=";")
+df.to_csv('./Data_csv/movie_ratings_2020_2016_p25(v2).csv', sep =",")
 
 #%%
-#Add with an API a new column to the dataframe that contains directors for each movie :
 
-movie_ratings = api.API_search_director(movie_ratings)
+path = r'C:\Users\Victor HENRIO\Documents\ESME\Majeur_ESME_Big_data\tools_bigdata\Projet_Scrapping_Analyse\Projet_DataScienceTools\Data_csv' # use your path
+all_files = glob.glob(path + "/*.csv")
+
+li = []
+
+for filename in all_files:
+    df = pd.read_csv(filename, index_col=None, header=0)
+    li.append(df)
+
+frame = pd.concat(li, axis=0, ignore_index=True)
+
+frame.to_csv('movie_ratings_concat.csv')
+
+#%%
+
+df = pd.read_csv("movie_ratings_concat(V2_nettoye).csv", sep=";")
+df.to_csv('movie_ratings_concat(V2_nettoye).csv', sep =",")
 
 
 #%%
 
-movie_ratings.to_csv('movie_ratings_1980_2000_p10.csv')
+frame = pd.read_csv("movie_ratings_concat(V2_nettoye).csv",index_col=None, header=0)
+
+frame = trait.clean_dataframe(frame) 
+
+i = 0
+for note in frame.itertuples():
+    test = str(note.year)[:4]
+    if test is False:
+        i+=1
+
+
+#frame = trait.delete_raws_invalid(frame)
 
 #%%
-movie_ratings.to_excel ('movie_ratings_1980_2000_p10.xlsx', index = None, header=True)
+import math
+import fonction_traitement as trait
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
+
+test = frame.drop(["Unnamed: 0"],axis=1)
+test = test.drop(["Column2"],axis=1)
+test = test.drop(["Column1"],axis=1)
+test = test.drop(["Unnamed: 0.1"],axis=1)
+#test = test.drop(["mv_page"],axis=1)
+#test = test.drop(["rank"],axis=1)
+test = test.set_index(['movie'])
+# test['category'] = test['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
+# test = trait.delete_raws_nan(test)
+# test['runtime']=test['runtime'].fillna(test['runtime'].mean())
+# test = trait.replace_metascore(test)
+# test = test.set_index('movie')
 
 #%%
 
-#Partie Traitement 
+#Supprimer les années composé
 
-"""
-Call the function which changes the type, cleans the dataframe by deleting rows if rating is NaN
-and get a metascore based on the imdb rating.
-"""
-movie_ratings = trait.clean_dataframe(movie_ratings) 
+test.to_csv('vue.csv')
 
 #%%
-movie_ratings = pd.read_csv('movie_ratings_1980_2000_p10.csv')
-movie_ratings.iloc[:,7:9] = trait.labelisation_attributs(movie_ratings,7, 8, 9)
-
-#%%
-movie_ratings.iloc[:,10:12] = trait.labelisation_attributs(movie_ratings,10, 11, 12)
-
-#%%
-print(movie_ratings.info())
-print(movie_ratings.describe())
-print(movie_ratings.head(20))
-
-#%%
-"""
 #Partie Analyse 
-
+#test = test.set_index('movie')
+import numpy as np
 #scikit-learn
 import sklearn
 #classe pour standardisation
@@ -272,4 +238,3 @@ for k in range(p):
  ctrvar[:,k] = ctrvar[:,k]/eigval[k]
 #on n'affiche que pour les deux premiers axes
 print(pd.DataFrame({'id':test.columns,'CTR_1':ctrvar[:,0],'CTR_2':ctrvar[:,1]}))
-"""

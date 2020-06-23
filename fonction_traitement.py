@@ -35,8 +35,8 @@ def replace_metascore(movie_ratings):
     '''
     We replace the metascore by imdb score if the metascore does not exist
     
-    :param dataframe movie_ratings: dataframe with all the dataframe from movies
-    :return dataframe movie_ratings:dataframe with all the dataframe from movies
+    :param dataframe movie_ratings: dataframe with all the data from movies
+    :return dataframe movie_ratings: dataframe with all the data from movies
     :rtype: dataframe
     
     '''
