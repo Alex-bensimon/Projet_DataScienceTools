@@ -10,10 +10,9 @@ import pandas as pd
 import statistics 
 import API as api
 
-movie_ratings = pd.read_csv('Data_csv\movie_ratings_1980_2000_p10.csv')
+movie_ratings = pd.read_csv(r'Data_csv\test_csv.csv')
 
-
-#movie_ratings = api.API_search_director(movie_ratings)
+movie_ratings = api.API_search_director(movie_ratings)
 
 movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
 movie_ratings = movie_ratings.drop(["year"],axis=1)
@@ -30,6 +29,8 @@ movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].me
 movie_ratings = act.imputation_previous_value(movie_ratings)
 movie_ratings = movie_ratings.dropna()
 movie_ratings = act.labelisation(movie_ratings)
+
+
 
 print(movie_ratings.info())
 

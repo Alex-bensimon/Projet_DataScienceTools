@@ -6,6 +6,10 @@ Created on Tue Jun 16 11:45:39 2020
 
 import math
 import pandas as pd
+import actors_labelisation as act
+import pandas as pd
+import statistics 
+import API as api
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 def delete_raws_nan(movie_ratings):
@@ -117,27 +121,27 @@ def clean_dataframe(movie_ratings):
     :rtype: dataframe
     '''
     
-    # Replace the object type by int or float
-    movie_ratings['movie'] = movie_ratings['movie'].replace(",","")
-    #movie_ratings['year'] = movie_ratings['year'].apply(pd.to_numeric) 
-    movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
-    movie_ratings['metascore'] = movie_ratings['metascore'].astype(float)
-    movie_ratings['imdb_ratings'] = movie_ratings['imdb_ratings'].astype(float)
-    movie_ratings['votes'] = movie_ratings['votes'].astype(int)
-    movie_ratings['runtime'] = movie_ratings['runtime'].apply(pd.to_numeric)
-    movie_ratings['nb_oscar'] = movie_ratings['nb_oscar'].astype(int)
-    movie_ratings['win'] = movie_ratings['win'].apply(pd.to_numeric)
-    movie_ratings['nom'] = movie_ratings['nom'].apply(pd.to_numeric)
-    movie_ratings['budget'] = movie_ratings['budget'].apply(pd.to_numeric)
-    movie_ratings['gross'] = movie_ratings['gross'].apply(pd.to_numeric)
-    
+    #movie_ratings = api.API_search_director(movie_ratings)
+
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+    movie_ratings = movie_ratings.drop(["year"],axis=1)
+    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
-    #movie_ratings = movie_ratings.set_index('movie')
-    movie_ratings['category'] = movie_ratings['category'].replace(regex={'R': '1','PG-13': '3', 'PG': '2'})
-    movie_ratings = delete_raws_nan(movie_ratings)
-    movie_ratings['runtime']=movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
+    movie_ratings = movie_ratings.drop(["category"],axis=1)
+    movie_ratings = movie_ratings.set_index('movie')
+    movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
     movie_ratings = replace_metascore(movie_ratings)
+    movie_ratings = add_0_win_nom(movie_ratings)
+    movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
+    movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
+    
+    movie_ratings = act.imputation_previous_value(movie_ratings)
+    movie_ratings = movie_ratings.dropna()
+    movie_ratings = act.labelisation(movie_ratings)
+    
+    
+    
+    print(movie_ratings.info())
 
     return movie_ratings
 

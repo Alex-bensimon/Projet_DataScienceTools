@@ -18,21 +18,16 @@ def API_search_director(movie_ratings):
     :rtype: dataframe
 
     '''
-
     
     list_director = []
-    
+    index = 0
     for row in movie_ratings.itertuples():
         
         
-        mv_pages = row[7]         
-        print(mv_pages)
+        mv_pages = row[8]         
         link = mv_pages[23:][:-1]
-        print("title :", link)
-        
         
         url = "https://api.themoviedb.org/3/find/"+link+"?api_key=9c78e72fe9af9417e5682302b1ed0f8a&language=en-US&external_source=imdb_id"
-        #print("URL :", url)
         response = requests.get(url)
         
         
@@ -40,36 +35,42 @@ def API_search_director(movie_ratings):
         output = json.loads(binary)
         
         film = output['movie_results']
-        id_film = str(film[0]['id'])
-        
-        credits_url = "https://api.themoviedb.org/3/movie/"+id_film+"/credits?api_key=9c78e72fe9af9417e5682302b1ed0f8a"
-        film_credits = requests.get(credits_url)
-        bina = film_credits.content
-        output2 = json.loads(bina)
-        
-        
-        i=0
-        test= False
-        existing = False 
-        while test != True :
-            job = output2['crew'][i]['job']
-            if job == 'Director':
-                test = True
-                director = output2['crew'][i]['name']
-                #print("director :", director)
-                existing = True
-            else :
-                test = False
-                i+=1
-        
-        if not existing :
+        id_film = "id" in film[0]
+        if not id_film :
             director = None
-        
-        list_director.append(director)
-        
-        
-    movie_ratings["director"] = list_director
-        
-    print (len(list_director))
+            list_director.append(director)
+            print("None")
+        else : 
             
+            id_film = str(film[0]['id'])
+            
+            credits_url = "https://api.themoviedb.org/3/movie/"+id_film+"/credits?api_key=9c78e72fe9af9417e5682302b1ed0f8a"
+            film_credits = requests.get(credits_url)
+            bina = film_credits.content
+            output2 = json.loads(bina)
+            
+            
+            i=0
+            test= False
+            existing = False 
+            while test != True :
+                job = output2['crew'][i]['job']
+                if job == 'Director':
+                    test = True
+                    director = output2['crew'][i]['name']
+                    existing = True
+                else :
+                    test = False
+                    i+=1
+            
+            if not existing :
+                director = None
+            
+            list_director.append(director)
+            print(index)
+            index += 1
+            
+            
+    movie_ratings["director"] = list_director
+                    
     return movie_ratings
