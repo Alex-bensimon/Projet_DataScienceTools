@@ -181,12 +181,4 @@ def labelisation(movie_ratings):
     
     return movie_ratings
 
-#%%%
-def inverse_genre(movie_ratings):
-    
-    test = []
-    test = encoder.inverse_transform(normal_y)
-    
-    return test
-    
     

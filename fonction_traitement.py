@@ -33,8 +33,6 @@ def delete_raws_nan(movie_ratings):
 
 
 
-
-
 def replace_metascore(movie_ratings):
     '''
     We replace the metascore by imdb score if the metascore does not exist
@@ -52,58 +50,6 @@ def replace_metascore(movie_ratings):
         i += 1
     return movie_ratings
 
-
-
-
-def labelisation_attributs(movie_ratings,row1,row2,row3):
-    
-    df = movie_ratings
-    
-    first_part = []
-    second_part = []
-    third_part = []
-    
-    y = df.iloc[:,row1]
-    y = y.append(df.iloc[:,row2])
-    y = y.append(df.iloc[:,row3])
-    
-    y = y.reset_index()
-    y = y.drop(["index"],axis=1)
-    
-    print(y)
-    
-    tier = int(len(y)/3)
-    tier2 = int((len(y)/3)*2)
-    
-    
-    encoder = LabelEncoder()
-    normal_y = encoder.fit_transform(y)
-    # encoder = LabelBinarizer()
-    # test = encoder.fit_transform(y)
-    
-    i = 0
-    while i < len(normal_y):
-        if i <= tier:
-            first_part.append(normal_y[i])
-            i += 1
-        elif i >= tier and i < tier2:
-            second_part.append(normal_y[i])
-            i += 1
-        elif i >= tier2:
-            third_part.append(normal_y[i])
-            i += 1
-            
-    print(row1)
-    
-    
-    movie_ratings[row1] = first_part
-    movie_ratings[row2] = second_part
-    movie_ratings[row3] = third_part
-    
-    print("---"*30)
-    print(movie_ratings)
-    print("---"*30)
-    return movie_ratings
     
 
 
@@ -138,8 +84,6 @@ def clean_dataframe(movie_ratings):
     movie_ratings = act.imputation_previous_value(movie_ratings)
     movie_ratings = movie_ratings.dropna()
     movie_ratings = act.labelisation(movie_ratings)
-    
-    
     
     print(movie_ratings.info())
 

@@ -77,18 +77,6 @@ movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
 
 #%%
-#Add with an API a new column to the dataframe that contains directors for each movie :
-
-movie_ratings = api.API_search_director(movie_ratings)
-
-#%%
-
-movie_ratings.to_csv('movie_ratings_1980_2000_p10.csv')
-
-#%%
-movie_ratings.to_excel ('movie_ratings_1980_2000_p10.xlsx', index = None, header=True)
-
-#%%
 
 #Partie Traitement 
 
