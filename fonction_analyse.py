@@ -23,24 +23,6 @@ movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
 
 movie_ratings = trait.clean_dataframe(movie_ratings)
 
-#movie_ratings = api.API_search_director(movie_ratings)
-
-movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
-movie_ratings = movie_ratings.drop(["year"],axis=1)
-movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
-movie_ratings = movie_ratings.drop(["rank"],axis=1)
-movie_ratings = movie_ratings.drop(["category"],axis=1)
-movie_ratings = movie_ratings.set_index('movie')
-movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
-movie_ratings = trait.replace_metascore(movie_ratings)
-movie_ratings = trait.add_0_win_nom(movie_ratings)
-movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
-movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
-
-movie_ratings = act.imputation_previous_value(movie_ratings)
-movie_ratings = movie_ratings.dropna()
-movie_ratings = act.labelisation(movie_ratings)
-
 movie_ratings = movie_ratings.drop(["stars1"],axis=1)
 movie_ratings = movie_ratings.drop(["stars2"],axis=1)
 movie_ratings = movie_ratings.drop(["stars3"],axis=1)
