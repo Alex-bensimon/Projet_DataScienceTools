@@ -66,13 +66,6 @@ for year_url in years_url:
 print(mv_attributs)
 
 #%%
-"""
-i=0
-for i in range(len(mv_attributs[0])):
-    mv_attributs[0][i] = scrap.clean_title(mv_attributs[0][i])
-    i += 1
-"""
-#%%
 movie_ratings = dftab.creation_dataframe(mv_attributs)
 print(movie_ratings)
 

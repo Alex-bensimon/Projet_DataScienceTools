@@ -29,14 +29,11 @@ def extraction_movie_data_from_link(link, mv_attributs):
     nb_genre = 0
     #get the movie genres
     div = html.find('div', class_="subtext")
-    #test_genre = False
     for a in div.find_all('a'):
-        #test_genre = False
         title = a.get('title')
         #there is a balise title which we do not want
         if title is None:
             mv_attributs[7+nb_genre].append(a.text)
-            #test_genre = True
             nb_genre += 1
     if nb_genre == 1:
         mv_attributs[8].append(None)
@@ -49,7 +46,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
     #get the stars acting in the movie
     stars = []
     nb_act = 0
-    #test_stars = False
     for credit in html.find_all('div', class_='credit_summary_item'):
         #test_stars = False
         inline = credit.h4.text
@@ -58,14 +54,12 @@ def extraction_movie_data_from_link(link, mv_attributs):
                 href = a.get('href')
                 if href != "fullcredits/":
                     mv_attributs[10+nb_act].append(a.text)
-                    #test_stars = True
                     nb_act += 1
         elif inline == "Star:":
             for a in credit.find_all('a'):
                 href = a.get('href')
                 if href != "fullcredits/":
                     mv_attributs[10+nb_act].append(a.text)
-                    #test_stars = True
                     nb_act += 1
     if nb_act == 0:
         mv_attributs[10].append(None)
@@ -110,22 +104,6 @@ def extraction_movie_data_from_link(link, mv_attributs):
                     mv_attributs[14].append(nb_oscar)
                     test_nb_oscar = True
     
-                    #Encommentaire car inutile : On ne rentreras jamais dedans si on a touver un oscar avant 
-                    #                         car le span est celui d'oscar et non de win et nomination
-                    
-                    # print("new span : ", span)
-                    # length = len(span.text)
-                    # win = span.text[:length - 24]
-                    # win = scrap.clean_chars(win)
-                    # mv_attributs[15].append(win)
-                    # test_win = True              
-    
-                    # print("spantext if1 : ",span.text)
-                    # nom = span.text[35:]
-                    # nom = scrap.clean_chars(nom)
-                    # mv_attributs[16].append(nom)
-                    # test_nom = True
-                    # print ('nom :', nom)
                 
                 else:               
                     length = len(span.text)
@@ -207,16 +185,3 @@ def extraction_movie_data_from_link(link, mv_attributs):
 
     return mv_attributs
 
-
-def warning_request(response, nb_requests):
-    '''
-    Throw a warning for any status codes different than 200
-    :param string response:
-    :return: void
-    :rtype: None
-    '''
-    if response.status_code != 200:
-        warn(': {}; Status code: {}'.format(nb_requests, response.status_code))
-
-
-#extraction_movie_data_from_link(f"https://www.imdb.com/title/tt7286456/?ref_=hm_fanfav_tt_2_pd_fp1")
