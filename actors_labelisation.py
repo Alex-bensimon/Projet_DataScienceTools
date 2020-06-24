@@ -172,7 +172,21 @@ def labelisation(movie_ratings):
     movie_ratings['stars2'] = second_part
     movie_ratings['stars3'] = third_part
     
-    #test = []
-    #test = encoder.inverse_transform(normal_y)    
-
+    test = []
+    test = encoder.inverse_transform(normal_y)  
+    print("------")
+    print(normal_y)
+    print("------")
+    print(test)
+    
     return movie_ratings
+
+#%%%
+def inverse_genre(movie_ratings):
+    
+    test = []
+    test = encoder.inverse_transform(normal_y)
+    
+    return test
+    
+    
