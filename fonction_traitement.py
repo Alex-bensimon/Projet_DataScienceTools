@@ -53,7 +53,7 @@ def replace_metascore(movie_ratings):
     
 
 
-def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
+def clean_dataframe_scrapping(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     '''
     All the procedures that we need to clean the data frame: 
         drop mv_page, imdb_ratings 
@@ -66,17 +66,16 @@ def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     :return dataframe movie_ratings: clean dataframe with all the dataframe from movies 
     :rtype: dataframe
     '''
-    
-    
 
-    movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+    #movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["year"],axis=1)
-    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+    #movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
     movie_ratings = movie_ratings.drop(["category"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')    
-    
-    #movie_ratings = api.API_search_director(movie_ratings)   #Récupération du directeur avec l'API
+    print(movie_ratings.info())
+
+    movie_ratings = api.API_search_director(movie_ratings)   #Récupération du directeur avec l'API
     movie_ratings['runtime'] = pd.to_numeric(movie_ratings['runtime'])
     movie_ratings['budget'] = pd.to_numeric(movie_ratings['budget']) 
     movie_ratings['gross'] = pd.to_numeric(movie_ratings['gross'])
@@ -94,6 +93,43 @@ def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     
     return movie_ratings
 
+def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
+    '''
+    All the procedures that we need to clean the data frame: 
+        drop mv_page, imdb_ratings 
+        set on index movie
+        labelize the category
+        delete line without imdb_ratings
+        replace metascore
+    
+    :param1 movie_ratings: dataframe with all the dataframe from movies
+    :return dataframe movie_ratings: clean dataframe with all the dataframe from movies 
+    :rtype: dataframe
+    '''
+
+    movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+    movie_ratings = movie_ratings.drop(["year"],axis=1)
+    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+    movie_ratings = movie_ratings.drop(["rank"],axis=1)
+    movie_ratings = movie_ratings.drop(["category"],axis=1)
+    movie_ratings = movie_ratings.set_index('movie')    
+
+    movie_ratings['runtime'] = pd.to_numeric(movie_ratings['runtime'])
+    movie_ratings['budget'] = pd.to_numeric(movie_ratings['budget']) 
+    movie_ratings['gross'] = pd.to_numeric(movie_ratings['gross'])
+
+    movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
+    movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
+    movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
+    
+    movie_ratings = replace_metascore(movie_ratings)
+    movie_ratings = add_0_win_nom(movie_ratings)
+    
+    movie_ratings = act.imputation_previous_value(movie_ratings)
+    movie_ratings = movie_ratings.dropna()
+    movie_ratings = act.labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3)
+    
+    return movie_ratings
 
 
 def add_0_win_nom(movie_ratings):
