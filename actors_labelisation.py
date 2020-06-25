@@ -8,7 +8,7 @@ Created on Tue Jun 23 12:21:56 2020
 import math
 import pandas as pd
 import math
-import pandas as pd
+import numpy as np
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 
@@ -174,11 +174,20 @@ def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     
     test = []
     test = encoder.inverse_transform(normal_y)  
-    print("------")
-    print(normal_y)
-    print("------")
-    print(test)
+    
+    df = pd.DataFrame({'index': normal_y,'genres':test})
+    df.to_csv('correspondances.csv')
     
     return movie_ratings
+
+
+def return_genre_label(genre):
+    
+    df = pd.read_csv('correspondances.csv')
+    subset = df['index'] [ df.genres == genre].values
+    sub = subset[0]
+    
+    return sub
+
 
     
