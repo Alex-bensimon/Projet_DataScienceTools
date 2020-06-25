@@ -20,3 +20,5 @@ movie_ratings_2.info()
 #%%
 
 movie_ratings = pd.concat([movie_ratings_1,movie_ratings_2])
+#%%
+movie_ratings.to_csv("movie_ratings_1980_2020_final.csv")
