@@ -7,7 +7,7 @@ Created on Thu Jun 25 17:50:08 2020
 
 import os
 import pandas as pd
-from fonction_analyse import launch_prediction
+#from fonction_analyse import launch_prediction
 
 
 def main(): 
@@ -48,8 +48,9 @@ def main():
         acp.ACP_film()
     
     if int(choice) == 3:
+        import fonction_analyse as analy
         print("Nous allons débuter le machine learning")
-        launch_prediction()
+        analy.launch_prediction()
         
 main()
         

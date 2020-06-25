@@ -35,7 +35,7 @@ def Regression(prediction,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
         lr = LinearRegression()
     elif prediction == "2":
         print("\nGo faire un arbre de decision !!")
-        lr = DecisionTreeRegressor(max_depth=8,min_samples_leaf=0.1, random_state=2)
+        lr = DecisionTreeRegressor()
     
     X = movie_ratings.drop(["imdb_ratings"],axis=1)
     y = movie_ratings['imdb_ratings']
