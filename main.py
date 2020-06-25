@@ -25,7 +25,6 @@ def main():
         
         choice = input()
         
-        
         if int(choice) == 4:
             return None
         else :

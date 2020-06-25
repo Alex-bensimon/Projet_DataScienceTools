@@ -18,13 +18,13 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 
-def ACP_film(movie_ratings):   
+def ACP_film():   
     
     import numpy as np
     
-    #movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
+    movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_1980_2020_final.csv')
     
-    #movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
@@ -45,18 +45,11 @@ def ACP_film(movie_ratings):
     # normal_y = encoder.fit_transform(y_years)
     # movie_ratings['years'] = normal_y
     
-    print(movie_ratings.info())
-    
-
 
     movie_ratings = act.labelisation(movie_ratings,4,5,6,7,8,9)
 
     
-    #movie_ratings = trait.clean_dataframe(movie_ratings)
-    
-    
-    print(movie_ratings.info())
-    
+    #movie_ratings = trait.clean_dataframe(movie_ratings) 
 
     
     test = movie_ratings
@@ -73,8 +66,6 @@ def ACP_film(movie_ratings):
     
     #écart-type
     print (np.nanstd(Z))
-    
-
     
     #classe pour l'ACP
     from sklearn.decomposition import PCA
