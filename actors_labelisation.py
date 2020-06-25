@@ -60,7 +60,7 @@ def imputation_previous_value(movie_ratings):
         else:
             pass
         i += 1
-        
+    print(movie_ratings.info())
     return movie_ratings
 
     
@@ -74,7 +74,8 @@ def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     '''
     
     df = movie_ratings
-
+    
+    print(df.info())
     
     col1 = genres1    #genre 1 
     col2 = genres2    #genre 2
@@ -164,7 +165,7 @@ def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     movie_ratings['stars2'] = second_part
     movie_ratings['stars3'] = third_part
     
-    abel_genre = []
+    label_genre = []
     label_genre = encoder.inverse_transform(normal_y)  
 
     label_star = []

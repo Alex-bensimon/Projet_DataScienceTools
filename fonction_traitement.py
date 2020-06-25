@@ -46,7 +46,7 @@ def replace_metascore(movie_ratings):
     for note in movie_ratings.itertuples():
         test = math.isnan(float(note.metascore))
         if test is True:
-            movie_ratings['metascore'] = movie_ratings['metascore'].replace(movie_ratings['metascore'][i], note.imdb_ratings)
+            movie_ratings['metascore'] = movie_ratings['metascore'].replace(movie_ratings['metascore'][i], note.imdb_ratings*10)
         i += 1
     return movie_ratings
 
@@ -69,21 +69,18 @@ def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     
     
 
-    #movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+    movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["year"],axis=1)
-    #movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
     movie_ratings = movie_ratings.drop(["category"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')    
     
-    movie_ratings = api.API_search_director(movie_ratings)   #Récupération du directeur avec l'API
-    movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
+    #movie_ratings = api.API_search_director(movie_ratings)   #Récupération du directeur avec l'API
     movie_ratings['runtime'] = pd.to_numeric(movie_ratings['runtime'])
     movie_ratings['budget'] = pd.to_numeric(movie_ratings['budget']) 
     movie_ratings['gross'] = pd.to_numeric(movie_ratings['gross'])
-    # movie_ratings['runtime'] = movie_ratings['runtime'].fillna(value=pd.np.nan, inplace=True)
-    # movie_ratings['budget'] = movie_ratings['budget'].fillna(value=pd.np.nan, inplace=True)
-    # movie_ratings['gross'] = movie_ratings['gross'].fillna(value=pd.np.nan, inplace=True)
+
     movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
     movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
     movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
@@ -95,8 +92,6 @@ def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     movie_ratings = movie_ratings.dropna()
     movie_ratings = act.labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3)
     
-    print(movie_ratings.info())
-
     return movie_ratings
 
 
