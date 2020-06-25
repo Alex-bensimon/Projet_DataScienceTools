@@ -54,16 +54,6 @@ def ACP_film(movie_ratings):
     
     #movie_ratings = trait.clean_dataframe(movie_ratings)
     
-<<<<<<< HEAD
-    
-=======
-    movie_ratings = movie_ratings.drop(["stars1"],axis=1)
-    movie_ratings = movie_ratings.drop(["stars2"],axis=1)
-    movie_ratings = movie_ratings.drop(["stars3"],axis=1)
-    movie_ratings = movie_ratings.drop(["metascore"],axis=1)
-    movie_ratings = movie_ratings.drop(["win"],axis=1)
-    movie_ratings = movie_ratings.drop(["nom"],axis=1)
->>>>>>> 63c8a4c6176e509a9109828dc639121e27402d1d
     
     print(movie_ratings.info())
     

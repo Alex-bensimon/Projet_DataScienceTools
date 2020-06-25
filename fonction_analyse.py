@@ -68,7 +68,7 @@ def launch_prediction():
     
     corres_genres = pd.read_csv(r'correspondances_genres.csv')
     
-    movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
+    movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_1980_2020_final.csv')
 
     movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8)
     
@@ -92,11 +92,7 @@ def launch_prediction():
 
     print("Nombre de votes par le public - 54k en moyenne - : ")
     votes = int(input())
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 63c8a4c6176e509a9109828dc639121e27402d1d
     test_genre1 = False
     while test_genre1 == False:
         print("Genre du film (1/3) - en anglais - : ")
@@ -134,8 +130,6 @@ def launch_prediction():
     else:
         print("Tu forces, mets un nombre correct...")
         
-movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
-launch_prediction()
 
 
 
