@@ -46,7 +46,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import SGDRegressor
 from sklearn.datasets import make_regression
 
-def Linear_Regression(movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
+def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
 
     #ge1 = 'Action'
     #ge2 = 'Comedy'
@@ -64,8 +64,10 @@ def Linear_Regression(movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
     #s2 = act.return_star_label(st2)
     #s3 = act.return_star_label(st3)
     
-    lr = LinearRegression()
-    #lr = DecisionTreeRegressor(max_depth=8,min_samples_leaf=0.1, random_state=2)
+    if predict == "1":
+        lr = LinearRegression()
+    elif predict == "2":
+        lr = DecisionTreeRegressor(max_depth=8,min_samples_leaf=0.1, random_state=2)
     
     X = movie_ratings.drop(["imdb_ratings"],axis=1)
     y = movie_ratings['imdb_ratings']
@@ -118,25 +120,23 @@ def launch_prediction(movie_ratings):
     print("\n Maintenant, tu vas entrer les caractéristiques d'un film afin de prédire sa note sur le site IMDB :")
     #print("Note moyenne des critiques de cinéma -57/100 en moyenne- : ")
     #metascore = input()
-    print("Nombre de votes par le public -54k en moyenne- : ")
+    print("Nombre de votes par le public - 54k en moyenne - : ")
     votes = int(input())
-    print("Genre du film (1/3) -en anglais- : ")
+    print("Genre du film (1/3) - en anglais - : ")
     genre1 = input()
-    print("Genre du film (2/3) -en anglais- : ")
+    print("Genre du film (2/3) - en anglais - : ")
     genre2 = input()
-    print("Genre du film (3/3) -en anglais- : ")
+    print("Genre du film (3/3) - en anglais - : ")
     genre3 = input()
     print("Nombre d'oscars qu'il mérite de remporter -évite d'en mettre 15...-0,3 en moy- : ")
     oscars = int(input())
-    print("Durée du film -en minutes, moyenne=103min- : ")
+    print("Durée du film - en minutes, moyenne=103min - : ")
     runtime = int(input())
-    print("Budget pour ce chef d'oeuvre -44M$ en moyenne- : ")
+    print("Budget pour ce chef d'oeuvre - 44M$ en moyenne - : ")
     budget = int(input())
     
-    if algo == "1":
-        Linear_Regression(movie_ratings, votes, genre1,genre2, genre3,oscars,runtime,budget)
-    elif algo == "2":
-        pass
+    if algo == "1" or "2":
+        Regression(algo,movie_ratings, votes, genre1,genre2, genre3,oscars,runtime,budget)
     else:
         print("Tu forces, mets un nombre correct...")
         
