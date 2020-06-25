@@ -92,7 +92,11 @@ def launch_prediction():
 
     print("Nombre de votes par le public - 54k en moyenne - : ")
     votes = int(input())
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 63c8a4c6176e509a9109828dc639121e27402d1d
     test_genre1 = False
     while test_genre1 == False:
         print("Genre du film (1/3) - en anglais - : ")

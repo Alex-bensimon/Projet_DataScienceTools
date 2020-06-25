@@ -18,11 +18,13 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 
-def ACP_film():   
+def ACP_film(movie_ratings):   
     
-    movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
+    import numpy as np
     
-    movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
+    #movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
+    
+    #movie_ratings = movie_ratings.drop(["Unnamed: 0"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')
     movie_ratings = movie_ratings.drop(["mv_page"],axis=1)
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
@@ -45,28 +47,27 @@ def ACP_film():
     
     print(movie_ratings.info())
     
-    #%%
-    movie_ratings.to_csv("testyear.csv")
-    
-    #%%
-    
+
+
     movie_ratings = act.labelisation(movie_ratings,4,5,6,7,8,9)
+
     
-    #%%
+    #movie_ratings = trait.clean_dataframe(movie_ratings)
     
-    movie_ratings = trait.clean_dataframe(movie_ratings)
+<<<<<<< HEAD
     
+=======
     movie_ratings = movie_ratings.drop(["stars1"],axis=1)
     movie_ratings = movie_ratings.drop(["stars2"],axis=1)
     movie_ratings = movie_ratings.drop(["stars3"],axis=1)
     movie_ratings = movie_ratings.drop(["metascore"],axis=1)
     movie_ratings = movie_ratings.drop(["win"],axis=1)
     movie_ratings = movie_ratings.drop(["nom"],axis=1)
+>>>>>>> 63c8a4c6176e509a9109828dc639121e27402d1d
     
     print(movie_ratings.info())
     
-    
-    #%%
+
     
     test = movie_ratings
     #Partie Analyse 
@@ -83,7 +84,7 @@ def ACP_film():
     #écart-type
     print (np.nanstd(Z))
     
-    #%%
+
     
     #classe pour l'ACP
     from sklearn.decomposition import PCA
@@ -122,7 +123,7 @@ def ACP_film():
      # 15  gross         10629 non-null  float64
      # 16  years         10629 non-null  object 
     
-    #%%
+    
     n = test.shape[0] 
     p = test.shape[1] 
     
@@ -150,7 +151,7 @@ def ACP_film():
     plt.xlabel("Factor number")
     plt.show()
     
-    #%%
+    ''' Affichage des film en fonction des Axes Factoriel
     
     import matplotlib.pyplot as plt
     #positionnement des individus dans le premier plan
@@ -172,14 +173,15 @@ def ACP_film():
     #affichage
     plt.show()
     
-    #%%
+    '''
+
     import numpy as np
     
     #contribution des individus dans l'inertie totale
     di = np.sum(Z**2,axis=1)
     print(pd.DataFrame({'ID':test.index,'d_i':di}))
     
-    #%%
+
     
     #qualité de représentation des individus - COS2
     cos2 = coord**2
@@ -188,7 +190,7 @@ def ACP_film():
     print(pd.DataFrame({'id':test.index,'COS2_1':cos2[:,0],'COS2_2':cos2[:,1]}))
     
     
-    #%%
+
     
     #contributions aux axes
     ctr = coord**2
@@ -197,8 +199,7 @@ def ACP_film():
     
     print(pd.DataFrame({'id':test.index,'CTR_1':ctr[:,0],'CTR_2':ctr[:,1]}))
     
-    
-    #%%
+
     
     #racine carrée des valeurs propres
     sqrt_eigval = np.sqrt(eigval)
@@ -214,8 +215,7 @@ def ACP_film():
     #on affiche pour les deux premiers axes
     print(pd.DataFrame({'id':test.columns,'COR_1':corvar[:,0],'COR_2':corvar[:,1]}))
     
-    
-    #%%
+
     
     #cercle des corrélations
     fig, axes = plt.subplots(figsize=(8,8))
@@ -234,14 +234,13 @@ def ACP_film():
     #affichage
     plt.show()
     
-    #%%
-    
+
     #cosinus carré des variables
     cos2var = corvar**2
     print(pd.DataFrame({'id':test.columns,'COS2_1':cos2var[:,0],'COS2_2':cos2var[:,1]}))
     
     
-    #%%
+
     
     #contributions
     ctrvar = cos2var

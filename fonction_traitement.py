@@ -79,9 +79,9 @@ def clean_dataframe_scrapping(movie_ratings,genres1,genres2,genres3,stars1,stars
     movie_ratings['budget'] = pd.to_numeric(movie_ratings['budget']) 
     movie_ratings['gross'] = pd.to_numeric(movie_ratings['gross'])
 
-    movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
-    movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
-    movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
+    # movie_ratings['runtime'] = movie_ratings['runtime'].fillna(movie_ratings['runtime'].mean())
+    # movie_ratings['budget'] = movie_ratings['budget'].fillna(movie_ratings['budget'].mean())
+    # movie_ratings['gross'] = movie_ratings['gross'].fillna(movie_ratings['gross'].mean())
     
     movie_ratings = replace_metascore(movie_ratings)
     movie_ratings = add_0_win_nom(movie_ratings)
