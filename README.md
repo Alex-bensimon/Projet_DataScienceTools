@@ -23,8 +23,7 @@
     budget
     gross
 ```
-After cleaning those data and place them in a pandas dataframe. And the we analyse them by using machine learning in order to find correlation betweenn attributes.
-
+After cleaning those data and place them in a pandas dataframe. We also decided to add one other features, the director from  "Themoviedb" API which is kind of conected to IMDB (same movie id). To finish we analyse the entire data by using machine learning in order to find correlation betweenn attributes. The 2 different machine learning algothme that we use are, Linear Regression and Decision Tree Regressor from SKlearn.
 
 ## Authors
 
@@ -44,7 +43,7 @@ And then execute the main file by execute this command :
 ```
 * main()
 ```
-Those instruction should allowed you to run the project.
+A menu should appear on your consol. You can now follow the instructions to discover all the functionalities implemented.
 
 ### Prerequisites
 
@@ -103,7 +102,7 @@ Give an example
 
 ## Built With
 
-*May by put the framework that we use for the FrontEnd
+Python 3.7.6
 
 
 ## License
