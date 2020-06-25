@@ -20,7 +20,7 @@ import statistics
 from sklearn.linear_model import LinearRegression,LogisticRegression
 
 
-def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
+def Regression(prediction,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
 
     g1 = act.return_genre_label(ge1)
     g2 = act.return_genre_label(ge2)
@@ -30,10 +30,10 @@ def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
     #s2 = act.return_star_label(st2)
     #s3 = act.return_star_label(st3)
     
-    if predict == "1":
+    if prediction == "1":
         print("\nGo faire une bonne regression lineaire !!")
         lr = LinearRegression()
-    elif predict == "2":
+    elif prediction == "2":
         print("\nGo faire un arbre de decision !!")
         lr = DecisionTreeRegressor(max_depth=8,min_samples_leaf=0.1, random_state=2)
     
@@ -67,6 +67,7 @@ def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
 def launch_prediction():
     
     corres_genres = pd.read_csv(r'correspondances_genres.csv')
+    
     movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
 
     movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8)
@@ -90,8 +91,8 @@ def launch_prediction():
     #metascore = input()
 
     print("Nombre de votes par le public - 54k en moyenne - : ")
-    votes = input()
-
+    votes = int(input())
+    
     test_genre1 = False
     while test_genre1 == False:
         print("Genre du film (1/3) - en anglais - : ")
@@ -99,7 +100,7 @@ def launch_prediction():
         test = corres_genres['index'] [ corres_genres.genres == genre1].values
         if len(test)!=0:
             test_genre1 = True
-            
+
     test_genre2 = False
     while test_genre2 == False:
         print("Genre du film (2/3) - en anglais - : ")
@@ -115,8 +116,8 @@ def launch_prediction():
         test = corres_genres['index'] [ corres_genres.genres == genre3].values
         if len(test)!=0:
             test_genre3 = True
-
-    print("Nombre d'oscars qu'il mérite de remporter - évite d'en mettre 15... - 0,3 en moy - : ")
+    
+    print("Nombre d'oscars qu'il mérite de remporter - évite d'en mettre 15... il y en a 0,3 en moy - : ")
     oscars = int(input())
     print("Durée du film - en minutes, moyenne = 103min - : ")
     runtime = int(input())
@@ -129,8 +130,8 @@ def launch_prediction():
     else:
         print("Tu forces, mets un nombre correct...")
         
-#movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
-#launch_prediction(movie_ratings)
+movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
+launch_prediction()
 
 
 

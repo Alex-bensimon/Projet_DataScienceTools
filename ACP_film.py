@@ -56,7 +56,6 @@ def ACP_film():
     
     movie_ratings = trait.clean_dataframe(movie_ratings)
     
-    
     movie_ratings = movie_ratings.drop(["stars1"],axis=1)
     movie_ratings = movie_ratings.drop(["stars2"],axis=1)
     movie_ratings = movie_ratings.drop(["stars3"],axis=1)

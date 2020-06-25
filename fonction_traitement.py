@@ -73,7 +73,6 @@ def clean_dataframe_scrapping(movie_ratings,genres1,genres2,genres3,stars1,stars
     movie_ratings = movie_ratings.drop(["rank"],axis=1)
     movie_ratings = movie_ratings.drop(["category"],axis=1)
     movie_ratings = movie_ratings.set_index('movie')    
-    print(movie_ratings.info())
 
     movie_ratings = api.API_search_director(movie_ratings)   #Récupération du directeur avec l'API
     movie_ratings['runtime'] = pd.to_numeric(movie_ratings['runtime'])
