@@ -80,8 +80,8 @@ def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
                oscars=osc,runtime=rt,budget=budg):
       x = np.array([votes, genre1, genre2,genre3,oscars,
                     runtime,budget]).reshape(1, 7)
-      print("Prédiction : ")
-      print(lr.predict(x))
+      print("\nPrédiction : ")
+      print("Note IMDB : "+lr.predict(x))
       #print(model.predict_proba(x))
     
     deter(lr)
@@ -92,8 +92,8 @@ def Regression(predict,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
     
     rmse_lr = mse_lr**(1/2)
     
-    print('MSE lr : {:.2f}'.format(mse_lr))
-    print('RMSE lr : {:.2f}'.format(rmse_lr))
+    print('MSE : {:.2f}'.format(mse_lr))
+    print('RMSE : {:.2f}'.format(rmse_lr))
     
     
     
@@ -128,9 +128,9 @@ def launch_prediction(movie_ratings):
     genre2 = input()
     print("Genre du film (3/3) - en anglais - : ")
     genre3 = input()
-    print("Nombre d'oscars qu'il mérite de remporter -évite d'en mettre 15...-0,3 en moy- : ")
+    print("Nombre d'oscars qu'il mérite de remporter -évite d'en mettre 15... - 0,3 en moy - : ")
     oscars = int(input())
-    print("Durée du film - en minutes, moyenne=103min - : ")
+    print("Durée du film - en minutes, moyenne = 103min - : ")
     runtime = int(input())
     print("Budget pour ce chef d'oeuvre - 44M$ en moyenne - : ")
     budget = int(input())
