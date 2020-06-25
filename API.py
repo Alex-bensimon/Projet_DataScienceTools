@@ -24,7 +24,8 @@ def API_search_director(movie_ratings):
     for row in movie_ratings.itertuples():
         
         
-        mv_pages = row[8]         
+        mv_pages = row[4]      
+        print(mv_pages)
         link = mv_pages[23:][:-1]
         
         url = "https://api.themoviedb.org/3/find/"+link+"?api_key=9c78e72fe9af9417e5682302b1ed0f8a&language=en-US&external_source=imdb_id"
@@ -33,14 +34,17 @@ def API_search_director(movie_ratings):
         
         binary = response.content
         output = json.loads(binary)
-        
+            
         film = output['movie_results']
-        id_film = "id" in film[0]
-        if not id_film :
+        # id_film = "id" in film[0]
+        
+        if not 'movie_results' in output or len(output['movie_results']) == 0:
+            print("il y a r")
             director = None
             list_director.append(director)
-            print("None")
-        else : 
+            pass
+        else:
+            print("il y a un bail")
             
             id_film = str(film[0]['id'])
             
@@ -68,6 +72,7 @@ def API_search_director(movie_ratings):
             
             list_director.append(director)
             print(index)
+            print(director)
             index += 1
             
             

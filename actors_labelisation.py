@@ -8,7 +8,7 @@ Created on Tue Jun 23 12:21:56 2020
 import math
 import pandas as pd
 import math
-import numpy as np
+import pandas as pd
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer, OrdinalEncoder, OneHotEncoder
 
 
@@ -26,23 +26,19 @@ def imputation_previous_value(movie_ratings):
     i = 0 
     for genre in movie_ratings['genres2']:
         string_test = isinstance(genre, str)  
-        if string_test is False:
-            test = math.isnan(float(genre)) #On converti en float pour pouvoir tester si c'est un nan
-            if test is True:
-                movie_ratings['genres2'][i] = movie_ratings['genres1'][i]
-            else:
-                pass
+        if genre != genre :
+            movie_ratings['genres2'][i] = movie_ratings['genres1'][i]
+        else:
+            pass
         i += 1
     
     i = 0 
     for genre in movie_ratings['genres3']:
         string_test = isinstance(genre, str)
-        if string_test is False:
-            test = math.isnan(float(genre))
-            if test is True:
-                movie_ratings['genres3'][i] = movie_ratings['genres2'][i]
-            else:
-                pass
+        if genre != genre :
+            movie_ratings['genres3'][i] = movie_ratings['genres2'][i]
+        else:
+            pass
         i += 1
         
         # Same proccess for stars : We copy the last stars to avoid Nan cells
@@ -50,23 +46,19 @@ def imputation_previous_value(movie_ratings):
     i = 0 
     for genre in movie_ratings['stars2']:
         string_test = isinstance(genre, str)  
-        if string_test is False:
-            test = math.isnan(float(genre)) #On converti en float pour pouvoir tester si c'est un nan
-            if test is True:
-                movie_ratings['stars2'][i] = movie_ratings['stars1'][i]
-            else:
-                pass
+        if genre != genre :
+            movie_ratings['stars2'][i] = movie_ratings['stars1'][i]
+        else:
+            pass
         i += 1
     
     i = 0 
     for genre in movie_ratings['stars3']:
         string_test = isinstance(genre, str)
-        if string_test is False:
-            test = math.isnan(float(genre))
-            if test is True:
-                movie_ratings['stars3'][i] = movie_ratings['stars2'][i]
-            else:
-                pass
+        if genre != genre :
+            movie_ratings['stars3'][i] = movie_ratings['stars2'][i]
+        else:
+            pass
         i += 1
         
     return movie_ratings
@@ -172,22 +164,35 @@ def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     movie_ratings['stars2'] = second_part
     movie_ratings['stars3'] = third_part
     
-    test = []
-    test = encoder.inverse_transform(normal_y)  
+    abel_genre = []
+    label_genre = encoder.inverse_transform(normal_y)  
+
+    label_star = []
+    label_star = encoder2.inverse_transform(normal_y2) 
     
-    df = pd.DataFrame({'index': normal_y,'genres':test})
-    df.to_csv('correspondances.csv')
+    df = pd.DataFrame({'index': normal_y,'genres':label_genre})
+    df.to_csv('correspondances_genres.csv')
+    
+    df2 = pd.DataFrame({'index': normal_y2,'stars':label_star})
+    df2.to_csv('correspondances_stars.csv')
     
     return movie_ratings
 
 
 def return_genre_label(genre):
     
-    df = pd.read_csv('correspondances.csv')
+    df = pd.read_csv('correspondances_genres.csv')
     subset = df['index'] [ df.genres == genre].values
     sub = subset[0]
     
     return sub
 
+def return_star_label(stars):
+    
+    df = pd.read_csv('correspondances_stars.csv')
+    subset = df['index'] [ df.stars == stars].values
+    sub = subset[0]
+    
+    return sub
 
     
