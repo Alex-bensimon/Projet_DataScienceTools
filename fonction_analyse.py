@@ -5,7 +5,6 @@ Created on Tue Jun 23 15:51:11 2020
 @author: Alex le BOSS du Game
 """
 
-
 import fonction_traitement as trait
 import actors_labelisation as act
 import pandas as pd
@@ -59,7 +58,6 @@ def deter(model,votes=305000, genre1=0,genre2=1,genre3=2,
   print("Prédiction : ")
   print(model.predict(x))
   #print(model.predict_proba(x))
-
 
 deter(model)
 

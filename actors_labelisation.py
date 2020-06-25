@@ -72,7 +72,7 @@ def imputation_previous_value(movie_ratings):
     return movie_ratings
 
     
-def labelisation(movie_ratings):
+def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     '''
     Labelisation of genre2, genre3, stars2 and stars3 in order to analyse the data.
     
@@ -84,12 +84,12 @@ def labelisation(movie_ratings):
     df = movie_ratings
 
     
-    col1 = 3    #genre 1 
-    col2 = 4    #genre 2
-    col3 = 5   #genre 3 
-    col4 = 6    #stars 1
-    col5 = 7    #stars 2
-    col6 = 8   #stars 3
+    col1 = genres1    #genre 1 
+    col2 = genres2    #genre 2
+    col3 = genres3   #genre 3 
+    col4 = stars1    #stars 1
+    col5 = stars2    #stars 2
+    col6 = stars3   #stars 3
     
     
     ##########################################################

@@ -53,7 +53,7 @@ def replace_metascore(movie_ratings):
     
 
 
-def clean_dataframe(movie_ratings):
+def clean_dataframe(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
     '''
     All the procedures that we need to clean the data frame: 
         drop mv_page, imdb_ratings 
@@ -83,7 +83,7 @@ def clean_dataframe(movie_ratings):
     
     movie_ratings = act.imputation_previous_value(movie_ratings)
     movie_ratings = movie_ratings.dropna()
-    movie_ratings = act.labelisation(movie_ratings)
+    movie_ratings = act.labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3)
     
     print(movie_ratings.info())
 

@@ -49,9 +49,7 @@ movie_ratings.to_csv("testyear.csv")
 
 #%%
 
-
-movie_ratings = act.labelisation(movie_ratings)
-
+movie_ratings = act.labelisation(movie_ratings,4,5,6,7,8,9)
 
 #%%
 
@@ -81,11 +79,6 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()   
 #transformation – centrage-réduction
 Z = sc.fit_transform(test)
-print(Z)
-
-
-#moyenne (pour chaque colonne, aucun sens pour toute la data frame)
-print(np.mean(Z, axis=0))
 
 #écart-type
 print (np.nanstd(Z))
@@ -102,13 +95,13 @@ acp.fit(Z)
 
 print("Pourcentage de variance expliquée : ") 
 print(acp.explained_variance_ratio_) 
-print("Composantes principales : ") 
-print(acp.components_) 
+#print("Composantes principales : ") 
+#print(acp.components_) 
 
 #calculs
 coord = acp.fit_transform(Z)
 #nombre de composantes calculées
-print(acp.n_components_) 
+#print(acp.n_components_) 
 
 
  # 0   imdb_ratings  10629 non-null  float64
