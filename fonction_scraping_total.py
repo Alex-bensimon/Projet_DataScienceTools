@@ -4,7 +4,7 @@ Created on Thu Jun 25 17:30:48 2020
 
 @author: Victor HENRIO
 """
-# %%
+
 
 import fonction_scraping_accueil as scrap
 import fonction_traitement as trait
@@ -50,7 +50,10 @@ def scraping_total(nb_years,nb_pages):
         
     movie_ratings = dftab.creation_dataframe(mv_attributs)
     
-    movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8) 
+    print(movie_ratings.info())
+    movie_ratings = trait.clean_dataframe_scrapping(movie_ratings,4,5,6,7,8,9) 
     
+    movie_ratings.to_csv("Nouveau_scraping.csv")
+
     return movie_ratings
 

@@ -39,13 +39,10 @@ def API_search_director(movie_ratings):
         # id_film = "id" in film[0]
         
         if not 'movie_results' in output or len(output['movie_results']) == 0:
-            print("il y a r")
             director = None
             list_director.append(director)
             pass
-        else:
-            print("il y a un bail")
-            
+        else:            
             id_film = str(film[0]['id'])
             
             credits_url = "https://api.themoviedb.org/3/movie/"+id_film+"/credits?api_key=9c78e72fe9af9417e5682302b1ed0f8a"
@@ -71,7 +68,6 @@ def API_search_director(movie_ratings):
                 director = None
             
             list_director.append(director)
-            print(index)
             print(director)
             index += 1
             
