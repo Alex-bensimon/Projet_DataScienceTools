@@ -1,6 +1,6 @@
 # Determine the differents factors of succes for a movie 
 
-**Overview** : We scrap the data from the wellknow website IMDB, whish is the bigest movie database from our banchmark. From IMDB we get : 21 attributes compose by : 
+**Description** : We scrap the data from the wellknow website IMDB, whish is the bigest movie database from our banchmark. From IMDB we get : 21 attributes compose by : 
 ```
     names
     years
