@@ -6,7 +6,7 @@ from numpy import nan as Nan
 import numpy as np
 #dataframes building for tests
 movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
-movie_ratings = trait.clean_dataframe(movie_ratings)
+movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8)
 
 movie_ratings = movie_ratings[:3]
 list_nan = []
@@ -38,14 +38,3 @@ class Test_actors_labelisation(unittest.TestCase):
         self.assertEqual(expected_output1, output1)
         self.assertEqual(expected_output2, output2)
 
-    """
-    JE NE SAIS PAS COMMENT TESTER CETTE FONCTION
-    def test_labelisation(self):
-        # Given
-        n = movie_ratings
-        expected_output = movie_ratings
-        # When
-        output = labelisation(n)
-        # Then
-        self.assertEqual(expected_output, output)
-        """

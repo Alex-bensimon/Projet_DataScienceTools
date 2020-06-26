@@ -1,5 +1,6 @@
 import unittest
-from definition_tab import instanciation_tablist,creation_dataframe
+from definition_tab import instanciation_tablist, creation_dataframe
+
 """
     JE NE SAIS PAS COMMENT TESTER CES FONCTIONS
 class Test_definition_tab(unittest.TestCase):
@@ -12,7 +13,7 @@ class Test_definition_tab(unittest.TestCase):
 
         # Then
         self.assertEqual(expected_output, output)
-    
+
     def test_creation_dataframe(self):
        # Given
         n = 0 

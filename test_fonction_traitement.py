@@ -4,7 +4,7 @@ import fonction_traitement as trait
 import pandas as pd
 from numpy import nan as Nan
 movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_full.csv')
-movie_ratings = trait.clean_dataframe(movie_ratings)
+movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8)
 
 movie_ratings = movie_ratings[:3]
 list_nan = []
@@ -47,27 +47,13 @@ class Test_fonction_traitement(unittest.TestCase):
     def test_replace_metascore(self):
         # Given
         n = movie_ratings_imdb_rating
-        expected_output = 5
+        expected_output = 50.0
         # When
         output = replace_metascore(n)['metascore'][3]
 
         # Then
         #Est ce que la valeur de la colonne metascore a bien ete modifiée
         self.assertEqual(expected_output, output)
-
-    """ 
-    JE NE SAIS PAS QUOI FAIRE POUR TESTER CETTE FONCTION
-    def test_clean_dataframe(self):
-        # Given
-        n = movie_ratings_nan
-        expected_output = 3
-        # When
-        output = len(delete_raws_nan(n).index)
-        # Then
-        #On test ici uniquement que la ligne a bien ete supprimée, donc test sur nombre de row
-        self.assertEqual(expected_output, output)
-    """
-
 
     def test_add_0_win_nom(self):
         # Given
