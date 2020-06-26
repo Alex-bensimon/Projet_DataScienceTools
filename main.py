@@ -8,7 +8,6 @@ Created on Thu Jun 25 17:50:08 2020
 import os
 import pandas as pd
 
-
 def main(): 
     
     choice = 0
