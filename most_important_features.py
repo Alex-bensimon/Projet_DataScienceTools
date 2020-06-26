@@ -14,12 +14,13 @@ import actors_labelisation as act
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error as MSE
+from sklearn.linear_model import LinearRegression
 
 movie_ratings = pd.read_csv(r'Data_csv\movie_ratings_1980_2020_final.csv')
 
 movie_ratings = trait.clean_dataframe(movie_ratings,3,4,5,6,7,8)
 
-#movie_ratings = movie_ratings.drop(["win"],axis=1)
+movie_ratings = movie_ratings.drop(["win"],axis=1)
 movie_ratings = movie_ratings.drop(["nom"],axis=1)
 movie_ratings = movie_ratings.drop(["runtime"],axis=1)
 movie_ratings = movie_ratings.drop(["metascore"],axis=1)
@@ -32,13 +33,11 @@ y = movie_ratings['imdb_ratings']
 SEED = 1
 # Split dataset into 70% train and 30% test
 X_train, X_test, y_train, y_test = train_test_split(X, y,
-test_size=0.3,
-random_state=SEED)
+test_size=0.3,random_state=SEED)
 
 # Instantiate a random forests regressor 'rf' 400 estimators
 rf = RandomForestRegressor(n_estimators=400,
-min_samples_leaf=0.12,
-random_state=SEED)
+min_samples_leaf=0.12,random_state=SEED)
 # Fit 'rf' to the training set
 rf.fit(X_train, y_train)
 # Predict the test set labels 'y_pred'

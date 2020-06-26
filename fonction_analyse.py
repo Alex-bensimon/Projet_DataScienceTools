@@ -21,14 +21,25 @@ from sklearn.linear_model import LinearRegression,LogisticRegression
 
 
 def Regression(prediction,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
+    '''
+    Regression code which launch LinearRegression or DecisionTreeRegressor depending
+    of the parameter prediction. It will return an IMDB rating, MSE and RMSE score. 
+    
+    :param1 int prediction: variable used to choose between LinearRegression and DecisionTreeRegressor
+    :param2 dataframe movie_ratings: dataframe with all the dataframe from movies
+    :param3 int v: number of votes entered in launch_prediction
+    :param4 String ge1: fist genre entered in launch_prediction
+    :param5 String ge2: second genre entered in launch_prediction
+    :param6 String ge3: third genre entered in launch_prediction
+    :param7 int osc: number of oscars entered in launch_prediction
+    :param8 int rt: runtime of the movie entered in launch_prediction
+    :param9 int budg: budget of the movie entered in launch_prediction
+    :return void:
+    '''
 
     g1 = act.return_genre_label(ge1)
     g2 = act.return_genre_label(ge2)
     g3 = act.return_genre_label(ge3)
-    
-    #s1 = act.return_star_label(st1)
-    #s2 = act.return_star_label(st2)
-    #s3 = act.return_star_label(st3)
     
     if prediction == "1":
         print("\nGo faire une bonne regression lineaire !!")
@@ -65,6 +76,11 @@ def Regression(prediction,movie_ratings, v, ge1,ge2, ge3,osc,rt,budg):
     
     
 def launch_prediction():
+    '''
+    Script allowed to choose parameters for the Regression function as number of votes, 
+    budget, etc ... 
+    :return void:
+    '''
     
     corres_genres = pd.read_csv(r'correspondances_genres.csv')
     
@@ -134,7 +150,7 @@ def launch_prediction():
 
 
 
-
+# Permet de sélectionner les meilleures features mais ne fonctionne pas très bien
 """
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler

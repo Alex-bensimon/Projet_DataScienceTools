@@ -181,6 +181,13 @@ def labelisation(movie_ratings,genres1,genres2,genres3,stars1,stars2,stars3):
 
 
 def return_genre_label(genre):
+    '''
+    Return the label of a genre entered in the function launch_prediction 
+    
+    :param String genre: genre of the movie
+    :return sub: label of the genre
+    :rtype: int
+    '''
     
     df = pd.read_csv('correspondances_genres.csv')
     subset = df['index'] [ df.genres == genre].values
@@ -189,6 +196,13 @@ def return_genre_label(genre):
     return sub
 
 def return_star_label(stars):
+    '''
+    Return the label of a star entered in the function launch_prediction 
+    
+    :param String genre: star of the movie
+    :return sub: label of the star
+    :rtype: int
+    '''
     
     df = pd.read_csv('correspondances_stars.csv')
     subset = df['index'] [ df.stars == stars].values
